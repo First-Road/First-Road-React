@@ -83,11 +83,11 @@ function Aside () {
             <div className="menu_conteudo">
               <ul>
 
-              <li className="certi">
+              <li >
                   <a href="../pagina_home/index.html">
-                    <div>
+                    <div className="home2">
                       <img
-                        className="icon icon_certi"
+                        className="icon icon_home"
                         src={home}
                         alt="icone home"
                       />

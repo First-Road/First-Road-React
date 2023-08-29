@@ -89,6 +89,16 @@
     width: 30px;
 }
 
+#aside_colaborador .icon_home{
+    width: 28px;
+    gap: 10px;
+}
+
+#aside_colaborador .home2{
+    margin-bottom: 5px;
+}
+
+
 
 
 #aside_colaborador .menu_conteudo div{
