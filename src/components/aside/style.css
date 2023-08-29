@@ -148,3 +148,76 @@
     right: -10px;
     bottom: 0;
 }
+
+@media screen and (max-width:768px) {
+    #aside_colaborador .imagem_volks img{
+        width: 70px;
+    }
+
+    #aside_colaborador .posicao_grupo1{
+        height: 450px;
+    }
+
+   
+    #aside_colaborador .moldura_config{
+        width: 70px;
+       
+        
+    }
+
+    #aside_colaborador .config{
+        width: 20px;
+    }
+
+
+    #aside_colaborador .menu_conteudo span{
+        font-size: 13px;
+
+    }
+
+    #aside_colaborador .menu_barras{
+        display: flex;
+        background-color:  var(--principal-cor-2);
+        padding: 7px;
+        border-radius: 0 15px 15px 0 ;
+        position: absolute;
+        top: 20px;
+        right: -40px;
+        z-index: 5;
+
+    }
+
+    #aside_colaborador .menu_barras img{
+        width: 30px;
+        height: 30px;
+    }
+
+    #aside_colaborador aside{
+        position: absolute;
+        width: 150px;
+    }
+
+    #aside_colaborador .posicionamento_elementos{
+        width: 100%;
+    }
+
+   
+
+    #aside_colaborador #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+       
+    }
+
+
+
+
+
+}
