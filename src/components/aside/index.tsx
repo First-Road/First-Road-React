@@ -15,11 +15,15 @@ import certificado from "../../assets/icons/certificadoSVG.svg"
 import saida from "../../assets/icons/icon_voltar_aside.svg"
 import logo from "../../assets/icons/Logo_FirstRoad_aside.svg"
 
-//Hooks
-import { Link } from 'react-router-dom';
 
-function Aside() {
+//hooks
+import { Link } from 'react-router-dom'
 
+
+
+
+function Aside () {
+ 
   addEventListener("resize", () => {
     const aside: any = document.getElementById("aside")
     const eventoMenu: any = window.innerWidth
