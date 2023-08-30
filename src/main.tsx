@@ -1,13 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+
+//Estilizacao
 import './index.css'
 
-import AsideAdm from './components/AsideAdm'
+//
+
+
+//Pacotes Rotas
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    
-    <AsideAdm/>
+    <BrowserRouter>
+      
+      <Routes>
+        {/* <Route path='/'  element={<SuporteColaborador/>}/> */}
+      </Routes>
+    </BrowserRouter>
+
   </React.StrictMode>,
 )
-React
