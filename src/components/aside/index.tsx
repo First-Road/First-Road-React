@@ -15,6 +15,7 @@ import certificado from "../../assets/icons/certificadoSVG.svg"
 import saida from "../../assets/icons/icon_voltar_aside.svg"
 import logo from "../../assets/icons/Logo_FirstRoad_aside.svg"
 
+
 //hooks
 import { Link } from 'react-router-dom'
 
