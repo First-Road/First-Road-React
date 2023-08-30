@@ -1,0 +1,268 @@
+.certificado {
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grayscale-cor-2);
+    flex-direction: column;
+
+
+
+
+}
+
+.imagem_certificado {
+    width: 800px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.icones_certificado {
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+@media screen and (max-width:1200px) {
+    .imagem_certificado {
+        width: 750px;
+        height: 500px;
+
+
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .imagem_certificado {
+        width: 650px;
+        height: 450px;
+
+
+    }
+}
+
+
+@media screen and (max-width:850px) {
+
+    .imagem_certificado {
+        width: 550px;
+        height: 400px;
+
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .imagem_volks img{
+        width: 70px;
+    }
+
+    .posicao_grupo1{
+        height: 450px;
+    }
+
+   
+    .moldura_config{
+        width: 70px;
+       
+        
+    }
+
+    .config{
+        width: 20px;
+    }
+
+
+    .menu_conteudo span{
+        font-size: 13px;
+
+    }
+
+    .menu_barras{
+        display: flex;
+        background-color:  var(--principal-cor-2);
+        padding: 7px;
+        border-radius: 0 15px 15px 0 ;
+        position: absolute;
+        top: 20px;
+        right: -40px;
+
+    }
+
+    .menu_barras img{
+        width: 30px;
+        height: 30px;
+    }
+
+    aside{
+        position: absolute;
+        width: 150px;
+        z-index: 2;
+    }
+
+    .posicionamento_elementos{
+        width: 100%;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+        z-index: 2;
+       
+    }
+
+    .imagem_certificado {
+        width: 450px;
+        height: 300px;
+
+
+
+    }
+
+    .certificado{
+        width: 100vw;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    /* .imagem_volks img {
+        width: 50px;
+    }
+
+    .posicionamento_elementos2 {
+        margin-bottom: 150px;
+
+    }
+
+
+    .moldura_config {
+        width: 45px;
+
+
+    }
+
+    .config {
+        width: 13px;
+    }
+
+
+    .menu_conteudo img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu_conteudo span {
+        font-size: 10px;
+
+    }
+
+    .menu_conteudo a {
+        gap: 3px;
+
+
+    }
+
+    .div_logofirst img {
+        width: 80px;
+    }
+
+    .div_logofirst a .saida {
+        width: 20px;
+    } */
+
+
+
+    .imagem_certificado {
+        width: 350px;
+        height: 250px;
+
+
+
+    }
+
+    .icones_certificado img {
+        width: 40px;
+        
+    }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    /* .imagem_volks img {
+        width: 40px;
+    }
+
+    .posicionamento_elementos2 {
+        margin-bottom: 150px;
+
+    }
+
+
+    .moldura_config {
+        width: 35px;
+
+
+    }
+
+    .config {
+        width: 10px;
+    }
+
+
+    .menu_conteudo img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .menu_conteudo span {
+        font-size: 6px;
+
+    }
+
+    .menu_conteudo a {
+        gap: 0;
+
+
+    }
+
+    .div_logofirst img {
+        width: 60px;
+    }
+
+    .div_logofirst a .saida {
+        width: 20px;
+    } */
+
+    .imagem_certificado {
+        width: 300px;
+        height: 220px;
+
+
+
+    }
+
+
+}
