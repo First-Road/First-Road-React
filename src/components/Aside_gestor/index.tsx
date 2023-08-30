@@ -199,3 +199,4 @@ function AsideGestor() {
 </main> 
       )
 }
+export default AsideGestor
