@@ -1,0 +1,380 @@
+
+#ConteudoColaborador{
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+header{
+    background-color: var(--principal-cor-5);
+    display: flex;
+    width: 80vw;
+    height: 15vh;
+    border-radius: 15px;
+  
+    
+}
+
+header img{
+    
+    width: 80px;
+}
+
+
+.header_titulo{
+    width: 100%;
+    display: flex;
+    gap: 15vw;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+   font-family: var(--font-2);
+   font-size: 35px;
+   color: var(--grayscale-cor-4);
+   width: 100%;
+   /* align-items: center;
+   justify-content:center; */
+}
+
+
+
+
+.conteudos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80vw;
+    height: 85vh;
+    
+
+    
+}
+
+h2{
+    font-size: 20px;
+    font-family: var(--font-2);
+    text-align: center;
+    color: var(--grayscale-cor-3);
+    
+}
+
+.conteudos p {  
+    
+    font-size: 20px;
+    font-family: var(--font-2);
+    text-align: center;
+    width: 70vw;
+}
+
+
+
+.icones_modulo{
+    display: flex;
+    width: 70vw;
+    justify-content: space-evenly;
+}
+
+.icones_modulo a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+
+}
+
+.icones_modulo span{
+    font-family: var(--font-2);
+    color: var(--principal-cor-2);
+    font-size: 20px;
+    
+
+
+}
+
+.icones_modulo img:hover {
+    transform: scale(1.1);
+   
+    transition: 0.6ms;
+
+
+}
+
+.iconeChamado img{
+    height: 80px;
+    width: 15px;
+    gap: 10px;
+
+}
+
+.iconeChamado a{
+    gap:10px;
+}
+
+
+.icones_modulo img{
+    width: 100px;
+}
+
+.instrucoes{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--principal-cor-2);
+    width: 70vw;
+    height: 185px;
+    gap: 25px;
+    border-radius: 15px;
+    
+}
+
+.instrucoes p {  
+    color: var(--grayscale-cor-3);
+    font-size: 18px;
+    font-family: var(--font-2);
+    
+    text-align: center;
+    
+}
+
+.botao{
+    display: flex;
+    padding-right: 100px;
+    justify-content: right;
+    gap: 10px;
+    
+    
+
+}
+
+
+
+.botao_acessar{
+    display: flex;
+    background-color: var(--principal-cor-3);
+    font-size: 15px;
+    justify-content: center;
+    padding: 10px 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 13px;
+    text-decoration: none;
+    color: var(--grayscale-cor-4);
+    font-family: var(--font-2);
+    align-items: center;
+ 
+    
+    
+
+}
+.botao_acessar:hover {
+    transform: scale(1.1);
+    background-color: var(--principal-cor-4);
+    transition: 0.6ms;
+
+
+}
+
+
+
+@media screen and (max-width:1200px){
+    h1{
+        font-size: 25px;
+    }
+
+}
+
+
+
+@media screen and (max-width:768px) {
+    .imagem_volks img{
+        width: 70px;
+    }
+
+    .posicao_grupo1{
+        height: 450px;
+    }
+
+   
+    .moldura_config{
+        width: 70px;
+       
+        
+    }
+
+    .config{
+        width: 20px;
+    }
+
+
+    .menu_conteudo span{
+        font-size: 13px;
+
+    }
+
+    .menu_barras{
+        display: flex;
+        background-color:  var(--principal-cor-2);
+        padding: 7px;
+        border-radius: 0 15px 15px 0 ;
+        position: absolute;
+        top: 20px;
+        right: -40px;
+
+    }
+
+    .menu_barras img{
+        width: 30px;
+        height: 30px;
+    }
+
+    aside{
+        position: absolute;
+        width: 150px;
+        z-index: 2;
+    }
+
+    .posicionamento_elementos{
+        width: 100%;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+        z-index: 2;
+       
+    }
+
+    section{
+        width: 100vw;
+    }
+
+    header{
+        width: 100vw;
+    }
+    h1{
+        font-size: 20px;
+    }
+
+    .conteudos{
+        width: 100vw;
+    }
+
+    .icones_modulo{
+        width: 100vw;
+    }
+
+    .instrucoes{
+        width: 90vw;
+        height: 30vh;
+        
+    }
+    .instrucoes p{
+        width: 85vw;
+       
+
+    }
+
+    .botao_acessar{
+        width: 80px;
+        font-family: var(--font-2);
+        
+    }
+    .botao{
+        align-items: end;
+        padding-right: 40px;
+        padding-bottom: 10;
+    }
+
+    .icones_modulo img{
+        width: 70px;
+    }
+
+    .iconeChamado img{
+        height: 55px;
+        width: 70px;
+        gap: 10px;
+    
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    /* .imagem_volks img{
+        width: 50px;
+    }
+
+    .posicionamento_elementos2{
+        margin-bottom: 150px;
+       
+    }
+
+   
+    .moldura_config{
+        width: 45px;
+       
+        
+    }
+
+    .config{
+        width: 13px;
+    }
+
+
+    .menu_conteudo img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu_conteudo span{
+        font-size: 10px;
+
+    }
+
+    .menu_conteudo a {
+        gap: 3px;
+
+
+    }
+
+    .div_logofirst img{
+        width: 80px;
+    }
+
+    .div_logofirst a .saida{
+        width: 20px;
+    } */
+
+    .botao{
+        align-items: end;
+        padding-right: 40px;
+        padding-bottom: 50px;
+    }
+
+
+
+
+   
+        
+    
+
+
+    
+}
+

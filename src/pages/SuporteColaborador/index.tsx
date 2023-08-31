@@ -1,8 +1,11 @@
 import "./style.css";
 import React from "react";
-
+import { Link } from "react-router-dom";
 import Aside from "../../components/aside";
 
+
+//icones/images
+import iconeajuda from "../../assets/icons/iconeajuda.svg"
 
 function SuporteColaborador() {
   return (
@@ -50,7 +53,7 @@ function SuporteColaborador() {
                   </li>
                   <li>
                     <a href="">
-                      <img src="assets/icons/iconeajuda.svg" alt="icone ajuda" />
+                      <img src={iconeajuda} alt="icone ajuda" />
                       Certificados
                     </a>
                   </li>

@@ -3,31 +3,39 @@ import "./style.css";
 
 import Aside from "../../components/aside";
 
-function CertificadoColaborador(){
-    return(
+//icons/images
+import icone_compartilhar from "../../assets/icons/icone_compartilhar.png"
+import icone_instagram from "../../assets/icons/icone_instagram.png"
+import imagemCertificado from "../../assets/icons/certificado.png"
+import icone_linkedin from "../../assets/icons/icone_linkedin.png"
+import icone_whats from "../../assets/icons/icone_whats.png"
+import icone_down from "../../assets/icons/down.png"
 
-        <main id="aside_colaborador">
-        <Aside />
+function CertificadoColaborador() {
+  return (
 
-        <div className="certificado grid ">
-  <img
-    className="imagem_certificado"
-    src="assets/icons/certificado.png"
-    alt=""
-  />
-  <div className="icones_certificado">
-    <img src="assets/icons/icone_compartilhar.png" alt="" />
-    <img src="assets/icons/icone_instagram.png" alt="" />
-    <img src="assets/icons/icone_linkedin.png" alt="" />
-    <img src="assets/icons/icone_whats.png" alt="" />
-    <img src="assets/icons/down.png" alt="" />
-  </div>
-</div>
-</main>
+    <main id="aside_colaborador">
+      <Aside />
+
+      <div className="certificado grid ">
+        <img
+          className="imagem_certificado"
+          src={imagemCertificado}
+          alt=""
+        />
+        <div className="icones_certificado">
+          <img src={icone_compartilhar} alt="" />
+          <img src={icone_instagram} alt="" />
+          <img src={icone_linkedin} alt="" />
+          <img src={icone_whats} alt="" />
+          <img src={icone_down} alt="" />
+        </div>
+      </div>
+    </main>
 
 
 
-    )
+  )
 }
 
 export default CertificadoColaborador;
