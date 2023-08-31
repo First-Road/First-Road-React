@@ -1,15 +1,4 @@
 
-body {
-    /* overflow: hidden; */
-}
-
-main {
-    display: flex;
-    height: 100%;
-    background-color: var(--grayscale-cor-2);
-
-}
-
 
 /* ASIDE */
 
@@ -26,48 +15,48 @@ main {
 
 }
 
-.posicionamento_elementos {
+#asideAdm .posicionamento_elementos {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
 }
 
-.imagem_volks img {
+#asideAdm .imagem_volks img {
     height: 101px;
     width: 95px;
 }
 
-.menu_barras {
+#asideAdm .menu_barras {
     display: none;
 }
 
-.imagemfoto {
+#asideAdm .imagemfoto {
     height: 106px;
     width: 101px;
 }
 
-.config {
+#asideAdm .config {
     width: 25px;
 }
 
-.menu_conteudo img {
+#asideAdm .menu_conteudo img {
     height: 20px;
 }
 
-.menu_conteudo li {
+#asideAdm .menu_conteudo li {
     list-style: none;
 
 }
 
-.menu_conteudo {
+#asideAdm .menu_conteudo {
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
 
-.menu_conteudo a {
+#asideAdm .menu_conteudo a {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -78,20 +67,20 @@ main {
     cursor: pointer;
 }
 
-.icon {
+#asideAdm .icon {
     height: 20px;
     width: 20px;
     fill: white;
 }
 
-.menu_conteudo li :hover {
+#asideAdm .menu_conteudo li :hover {
     color: #090C40;
     transition: 0.6s;
     transform: scale(1.1);
 
 }
 
-.icon:hover {
+#asideAdm .icon:hover {
     fill: #090C40;
     transition: 0.6s;
     transform: scale(1.1);
@@ -99,7 +88,7 @@ main {
 
 
 
-.menu_conteudo div {
+#asideAdm .menu_conteudo div {
     display: flex;
     width: 35px;
     justify-content: center;
@@ -107,26 +96,26 @@ main {
 }
 
 
-.menu_conteudo ul li {
+#asideAdm .menu_conteudo ul li {
     margin-bottom: 10px;
 }
 
-.div_logofirst {
+#asideAdm .div_logofirst {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
 
-.saida {
+#asideAdm .saida {
     width: 25px;
 }
 
-.logo_first img {
+#asideAdm .logo_first img {
     width: 115px;
 }
 
-.posicionamento_elementos2 {
+#asideAdm .posicionamento_elementos2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -135,11 +124,11 @@ main {
     gap: 10px;
 }
 
-.moldura_config {
+#asideAdm .moldura_config {
     position: relative;
 }
 
-.moldura_config a {
+#asideAdm .moldura_config a {
     position: absolute;
     right: -10px;
     bottom: 0;
@@ -160,39 +149,39 @@ main {
     /*ASIDE*/
 
 
-    .imagem_volks img {
+    #asideAdm .imagem_volks img {
         height: 85px;
         width: 70px;
     }
 
-    .posicionamento_elementos2 {
+    #asideAdm .posicionamento_elementos2 {
         margin-bottom: 100px;
 
     }
 
 
-    .moldura_config {
+    #asideAdm .moldura_config {
         width: 70px;
 
 
     }
 
-    .config {
+    #asideAdm .config {
         width: 20px;
     }
 
 
-    .menu_conteudo img {
+    #asideAdm .menu_conteudo img {
         width: 20px;
 
     }
 
-    .menu_conteudo span {
+    #asideAdm .menu_conteudo span {
         font-size: 13px;
 
     }
 
-    .menu_barras {
+    #asideAdm .menu_barras {
         display: flex;
         background-color: var(--principal-cor-2);
         padding: 7px;
@@ -203,7 +192,7 @@ main {
 
     }
 
-    .menu_barras img {
+    #asideAdm .menu_barras img {
         width: 30px;
         height: 30px;
     }
@@ -214,25 +203,11 @@ main {
 
     }
 
-    .posicionamento_elementos {
+    #asideAdm .posicionamento_elementos {
         width: 100%;
     }
 
-    body {
-        height: 100vh;
-    }
-
-    #sombra {
-        height: 100vh;
-        width: 100vw;
-        background-color: #0000004f;
-        position: fixed;
-        top: 0;
-        right: 110vw;
-        overflow: hidden;
-        transition: .5s;
-        backdrop-filter: blur(10px);
-    }
+   
 
 }
 
