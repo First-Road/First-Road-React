@@ -3,6 +3,9 @@ import "./style.css";
 import { Link } from 'react-router-dom'
 import AsideGestor from "../../../components/Aside_gestor";
 
+import user from "../../../assets/icons/Group 41.png"
+import lapis from "../../../assets/icons/icon_lapis_main.svg"
+
 
 
 
@@ -23,12 +26,12 @@ function CadastroColaborador() {
             <div className="user_config">
               <img
                 className="foto_padrao"
-                src="../cadastro_colaborador_gestor/assets/icons/Group 41.png"
+                src={user}
                 alt=""
               />
               <img
                 className="config config1"
-                src="../cadastro_colaborador_gestor/assets/icons/icon_lapis_main.svg"
+                src={lapis}
                 alt=""
               />
             </div>
