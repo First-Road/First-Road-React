@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
+import PerfilConectado from './pages/PerfilConectadoStatic';
 //Estilizacao
 import './index.css'
 
@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <BrowserRouter>
       
       <Routes>
-        {/* <Route path='/'  element={<SuporteColaborador/>}/> */}
+        <Route path='/perfil'  element={<PerfilConectado/>}/>
       </Routes>
     </BrowserRouter>
 
