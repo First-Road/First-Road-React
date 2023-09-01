@@ -25,7 +25,7 @@ function Dashboard() {
                   src="./assets/icons/Clock.svg"
                   alt=""
                 />
-                <p>60h logado</p>
+                
               </div>
             </div>
             <div className="dashboard_two">

@@ -38,20 +38,12 @@ function CadastroColaborador() {
             <form className="centralizar">
               <div className="texto_perfil">
                 <h1>CADASTRO DE COLABORADOR INGRESSANTE</h1>
-                <p>
-                  O tamanho da imagem deve ter pelo menos 500px de tamanho e menos de
-                  300kb. Arquivos permitidos são .png e .jpg
-                </p>
               </div>
               <div className="posicao_linha">
                 <div className="primeira_linha">
                   <div className="input input1">
                     <label htmlFor="Nome completo">Nome Completo</label>
                     <input className="input_caixa" type="text" />
-                  </div>
-                  <div className="input input2">
-                    <label htmlFor="Cpf">Cpf</label>
-                    <input className="input_caixa" type="number" />
                   </div>
                 </div>
                 <div className="segunda_linha">
@@ -86,22 +78,6 @@ function CadastroColaborador() {
                   <div className="input input8">
                     <label htmlFor="email">E-mail</label>
                     <input className="input_caixa" type="email" />
-                  </div>
-                  <div className="button_salvar">
-                    <button>Salvar</button>
-                  </div>
-                </div>
-                <div className="alterar_gestor">
-                  <div className="terceira_linha terceira">
-                    <h2>Adicionar ou Alterar Gestor</h2>
-                    <div className="input input6">
-                      <label htmlFor="Gestor">Gestor</label>
-                      <input className="input_caixa" type="text" />
-                    </div>
-                    <div className="input input7">
-                      <label htmlFor="Gestor">Gestor</label>
-                      <input className="input_caixa" type="text" />
-                    </div>
                   </div>
                   <div className="button_salvar">
                     <button>Salvar</button>
