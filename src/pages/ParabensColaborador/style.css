@@ -28,11 +28,13 @@ header{
     width: 50vw;
 }
 
-h1{
+#tituloParabens{
     font-size: 45px;
     font-family: var(--font-2);
     font-weight: bold;
     color: var(--principal-cor-2);
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -152,7 +154,7 @@ visibility: hidden;
 
     visibility: visible;
 }
-.btn{
+#botaoComemore{
     display: flex;
     width: 150px;
     background-color: var(--principal-cor-2);
@@ -161,7 +163,7 @@ visibility: hidden;
     border-radius: 20px;
     border: none;
 }
-.btn:hover{
+#botaoComemore:hover{
     background-color: var(--principal-cor-4);
     transition: 0.6ms;
     transform: scale(1.1);
@@ -349,7 +351,7 @@ visibility: hidden;
         width: 300px;
     }
 
-    h1{
+    #tituloParabens{
         font-size: 30px;
     }
 
