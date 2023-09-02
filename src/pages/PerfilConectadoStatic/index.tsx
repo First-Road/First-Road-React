@@ -2,6 +2,7 @@ import './style.css'
 
 import fotoPadrao from '../../assets/icons/fotopadrao_user_aside.svg'
 import AsideAdm from '../../components/AsideAdm'
+import { Link } from 'react-router-dom';
 
 function PerfilConectado() {
     return (
@@ -64,7 +65,11 @@ function PerfilConectado() {
                                 </div>
                                 <div className="quarta_linha">
                                     <div className="button_entrar">
-                                        <button>Editar Perfil</button>
+                                        <Link to={"/editar"}
+                                        >Editar Perfil</Link>
+
+
+                                        {/* <button>Editar Perfil</button> */}
                                     </div>
                                     
                                 </div>

@@ -73,7 +73,7 @@ function AsideAdm() {
                         <ul>
                             <li>
 
-                                <Link to={'#'}>
+                                <Link to={'/perfil'}>
                                     <div>
                                         <img src={perfil} alt="" />
                                     </div>
@@ -83,14 +83,13 @@ function AsideAdm() {
 
 
                                 </Link>
-                                <a href="">
-                                </a>
+                                
                             </li>
 
 
                             <li>
 
-                                <Link to={"#"}>
+                                <Link to={"/cadastroGestor"}>
                                     <div>
                                         <img className="icon" src={cadastroGestor} alt="icone 3users seting" />
                                     </div>
@@ -161,7 +160,7 @@ function AsideAdm() {
 
                             <li>
 
-                                <Link to={"#"}>
+                                <Link to={"/gestaoUO"}>
                                     <div>
                                         <img className="icon" src={gestaoUO} alt="icone user3_seting" />
                                     </div>

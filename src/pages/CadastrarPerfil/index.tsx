@@ -4,13 +4,13 @@ import fotoPadrao from '../../assets/icons/fotopadrao_user_aside.svg'
 import AsideAdm from '../../components/AsideAdm'
 
 
-function EditarPerfil() {
+function CadastrarPerfil() {
   return(
-    <main id='editarPerfil'>
+    <main id='cadastrarPerfil'>
        <AsideAdm />
         <section className="adminPerfil">
   <div className="adminPerfil_Secao">
-    <h1>Editar Perfil</h1>
+    <h1>Cadastrar Perfil</h1>
     <div className="user_config">
       <img
         className="admin_FotoPadrao"
@@ -150,4 +150,4 @@ function EditarPerfil() {
     
 }
 
-export default EditarPerfil
+export default CadastrarPerfil

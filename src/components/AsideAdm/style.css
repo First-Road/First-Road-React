@@ -183,7 +183,7 @@
 
     #asideAdm .menu_barras {
         display: flex;
-        background-color: var(--principal-cor-2);
+        background-color: var(--principal-cor-3);
         padding: 7px;
         border-radius: 0 15px 15px 0;
         position: absolute;
