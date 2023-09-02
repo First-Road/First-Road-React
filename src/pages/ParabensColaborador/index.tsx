@@ -13,15 +13,15 @@ import fusca1 from "../../assets/icons/fusca1.png"
 function ParabensColaborador() {
 
   function botaoConfetti() {
-    let popup: any = document.querySelector('.popup');
+    let popup: any = document.getElementById("popup");
     popup.classList.add('active');
-    console.log("funciona");
+    
 
   }
   function botaoFechar() {
-    let popup: any = document.querySelector('.popup');
+    let popup: any = document.getElementById("popup");
     popup.classList.remove('active');
-    console.log("funciona");
+    
 
 
   }
