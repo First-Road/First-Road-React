@@ -14,6 +14,7 @@ import CadastroColaborador from './pages/Gestor/CadastroColaborador';
 import Dashboard from './pages/Gestor/Dashboard';
 import GestaoCadastro from './pages/Gestor/GestaoCadastro';
 import PerfilGestor from './pages/Gestor/PerfilGestor';
+import SuporteGestor from './pages/Gestor/SuporteGestor';
 
 
 
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/gestao/cadastro' element={<GestaoCadastro/>}/>
         <Route path='/perfil/gestor' element={<PerfilGestor/>}/>
+        <Route path='/suporte/gestor' element={<SuporteGestor/>}/>
 
       </Routes>
     </BrowserRouter>

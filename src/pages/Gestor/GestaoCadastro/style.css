@@ -392,6 +392,10 @@
 }
 #gestao_cadastro .td_tableimg{
     width: 175px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
 }
 
 #gestao_cadastro .th_table
@@ -407,7 +411,7 @@
 
 #gestao_cadastro .th_tableimg, .td_tableimg
 {
-    width: 2vw;
+    width: 1vw;
 }
 #gestao_cadastro label,select
 {

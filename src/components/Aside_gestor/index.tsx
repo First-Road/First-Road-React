@@ -14,6 +14,7 @@ import cadastro from "../../assets/icons/icon_3users_seting.svg"
 import conteudo from "../../assets/icons/cadastro_conteudo_aside.svg"
 import check from "../../assets/icons/list_check_aside.svg"
 import dashboard from "../../assets/icons/dashboard_aside.svg"
+import iconesuporte from "../../assets/icons/suporte_1.svg"
 
 
 
@@ -177,6 +178,18 @@ function AsideGestor() {
                   />
                 </div>
                 <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a href="../dashborad/dashboard.html">
+                <div>
+                  <img
+                    className="icon"
+                    src={iconesuporte}
+                    alt="icone suporte"
+                  />
+                </div>
+                <span>Suporte</span>
               </a>
             </li>
           </ul>
