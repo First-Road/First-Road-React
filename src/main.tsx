@@ -4,6 +4,10 @@ import SuporteColaborador from './pages/SuporteColaborador';
 import ConteudoColaborador from './pages/ConteudoColaborador';
 import ParabensColaborador from './pages/ParabensColaborador';
 import AvatarColaborador from './pages/AvatarColaborador';
+import PerfilColaborador from './pages/PerfilColaborador/intex';
+import PesquisaSatisfacaoColaborador from './pages/PequisaSatisfacaoColaborador';
+import HomeColaborador from './pages/HomeColaborador';
+
 
 //Estilizacao
 import './index.css'
@@ -29,6 +33,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/ConteudoColaborador'  element={<ConteudoColaborador/>}/>
         <Route path='/TrilhaColaborador'  element={<TrilhaColaborador/>}/>
         <Route path='/AvatarColaborador'  element={<AvatarColaborador/>}/>
+        <Route path='/PerfilColaborador'  element={<PerfilColaborador/>}/>
+        <Route path='/PesquisaSatisfacaoColaborador'  element={<PesquisaSatisfacaoColaborador/>}/>
+        <Route path='/HomeColaborador'  element={<HomeColaborador/>}/>
       </Routes>
     </BrowserRouter>
 

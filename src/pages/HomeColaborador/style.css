@@ -1,0 +1,186 @@
+
+
+#imagem_botoes {
+    background-image: url(../../assets/icons/painel_volks.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80vw;
+    display: block;
+
+}
+
+.posicao_icone {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 5%;
+
+}
+
+.posicao_icone ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+
+
+
+
+
+}
+
+.posicao_icone a {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: #048ABF;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+
+}
+
+.posicao_icone img {
+    width: 55px;
+    margin-top: 20px;
+}
+
+.posicao_icone a:hover {
+    background-color: var(--principal-cor-4);
+    transition: 0.6ms;
+    transform: scale(1.1);
+
+}
+
+
+.posicao_icone a span {
+    color: #ffffff;
+    font-family: var(--font-2);
+    font-size: 20px;
+    display: flex;
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .imagem_volks img{
+        width: 70px;
+    }
+
+    .posicao_grupo1{
+        height: 450px;
+    }
+
+   
+    .moldura_config{
+        width: 70px;
+       
+        
+    }
+
+    .config{
+        width: 20px;
+    }
+
+
+    .menu_conteudo span{
+        font-size: 13px;
+
+    }
+
+    .menu_barras{
+        display: flex;
+        background-color:  var(--principal-cor-2);
+        padding: 7px;
+        border-radius: 0 15px 15px 0 ;
+        position: absolute;
+        top: 20px;
+        right: -40px;
+
+    }
+
+    .menu_barras img{
+        width: 30px;
+        height: 30px;
+    }
+
+    aside{
+        position: absolute;
+        width: 150px;
+    }
+
+    .posicionamento_elementos{
+        width: 100%;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+       
+    }
+
+
+    .posicao_icone a {
+        width: 100px;
+        height: 100px;
+        gap: 5px;
+    }
+
+    .posicao_icone img {
+        width: 30px;
+    }
+
+    .posicao_icone span {
+        font-size: 8px;
+    }
+
+
+
+    .imagem_botoes{
+        width: 100vw;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .posicao_icone a {
+        width: 75px;
+        height: 75px;
+
+    }
+
+    .posicao_icone img {
+        width: 28px;
+    }
+
+    .posicao_icone a span {
+        font-size: 12px;
+    }
+
+
+}
+
