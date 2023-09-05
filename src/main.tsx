@@ -22,13 +22,13 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       
-      <Routes>
+      <Routes>              
+        <Route path='/perfil/gestor' element={<PerfilGestor/>}/>
+        <Route path='/gestao/cadastro' element={<GestaoCadastro/>}/>
         <Route path='/cadastro/colaborador' element={<CadastroColaborador/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
-        <Route path='/gestao/cadastro' element={<GestaoCadastro/>}/>
-        <Route path='/perfil/gestor' element={<PerfilGestor/>}/>
-        <Route path='/suporte/gestor' element={<SuporteGestor/>}/>
 
+        <Route path='/suporte/gestor' element={<SuporteGestor/>}/>
       </Routes>
     </BrowserRouter>
 
