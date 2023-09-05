@@ -88,7 +88,7 @@ function Aside () {
                 <ul>
 
                   <li >
-                    <a href="../pagina_home/index.html">
+                    <a><Link to={"../HomeColaborador"}>
                       <div className="home2">
                         <img
                           className="icon icon_home"
@@ -96,7 +96,7 @@ function Aside () {
                           alt="icone home"
                         />
                       </div>
-                      <span className="texto_link">Tela Inicial</span>
+                      <span className="texto_link">Tela Inicial</span></Link>
                     </a>
                   </li>
 
@@ -113,7 +113,7 @@ function Aside () {
                     </a>
                   </li>
                   <li className="listameio">
-                    <a href="../trilhacolaborador/index.html">
+                    <a><Link to={"/TrilhaColaborador"}>
                       <div>
                         <img
                           className="icon_trilha"
@@ -121,7 +121,7 @@ function Aside () {
                           alt="icone trilha"
                         />
                       </div>
-                      <span className="texto_link">Trilha</span>
+                      <span className="texto_link">Trilha</span></Link>
                     </a>
                   </li>
                   <li>
@@ -137,7 +137,7 @@ function Aside () {
                     </a>
                   </li>
                   <li className="suporte">
-                    <Link to={'/suporte/coloboradores'}>
+                    <Link to={"/SuporteColaborador"}>
                       <div>
                         <img
                           className="icon"

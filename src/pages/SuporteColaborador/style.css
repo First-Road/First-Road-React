@@ -28,7 +28,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 140px;
+    height: 100px;
     align-items: flex-end;
     font-family: var(--font-2);
     font-size: 35px;
@@ -38,12 +38,12 @@
 
 .conteudo {
     width: 60%;
-    height: 70vh;
+    height: 75vh;
     box-shadow: 2px 2px 4px #0000004f;
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 180px;
+    top: 150px;
     background-color: #F3F3F3;
     border-radius: 8px;
 }
@@ -87,7 +87,7 @@ input::placeholder {
 .navegacao {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     padding: 30px;
 }
 
@@ -115,18 +115,19 @@ input::placeholder {
 
 .navegacao4 a {
     display: flex;
-    gap: 10px;
+    gap: 8px;
     align-items: center;
     color: var(--principal-cor-2);
     font-family: var(--font-2);
     font-size: 20px;
 }
 
-h3 {
+#titulo_principaisRespostas{
     font-family: var(--font-2);
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 10px;
+    color: var(--auxiliar-cor-3);
 }
 
 .navegacao3 img {
@@ -138,6 +139,7 @@ h3 {
     display: flex;
     width: 40vw;
     justify-content: space-between;
+    gap: 20px;
 
 }
 
@@ -163,11 +165,11 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 15px;
 }
 
 .navegacao4 a {
-    gap: 30px;
+    gap: 10px;
 }
 
 

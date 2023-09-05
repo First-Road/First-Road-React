@@ -5,6 +5,7 @@ import Aside from "../../components/aside";
 
 
 
+
 import Icone1 from "../../assets/icons/Vector (4).png"
 import IconeCaminhao from "../../assets/icons/Icone_Caminhão.png"
 import IconeLocalizacao from "../../assets/icons/location (1).png"
@@ -20,11 +21,11 @@ function HomeColaborador (){
   <div className="posicao_icone">
     <ul>
       <li>
-        <a href="../tela_perfil/index.html">
+        <a><Link to={"/PerfilColaborador"}>
           <div>
             <img src={Icone1} alt="" />
           </div>
-          <span>Perfil</span>
+          <span>Perfil</span></Link>
         </a>
       </li>
       <li>
@@ -36,11 +37,12 @@ function HomeColaborador (){
         </a>
       </li>
       <li>
-        <a href="../trilhacolaborador/index.html">
+        <a><Link to = {"../TrilhaColaborador"}>
           <div>
             <img src={IconeLocalizacao} alt="" />
           </div>
           <span>Trilha</span>
+          </Link>
         </a>
       </li>
       <li>
