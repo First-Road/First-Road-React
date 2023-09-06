@@ -15,6 +15,7 @@ import Dashboard from './pages/Gestor/Dashboard';
 import GestaoCadastro from './pages/Gestor/GestaoCadastro';
 import PerfilGestor from './pages/Gestor/PerfilGestor';
 import SuporteGestor from './pages/Gestor/SuporteGestor';
+import TrilhaGestor from './pages/Gestor/TrilhaGestor';
 
 
 
@@ -28,9 +29,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/gestao/cadastro' element={<GestaoCadastro/>}/>
         <Route path='/perfil/gestor' element={<PerfilGestor/>}/>
         <Route path='/suporte/gestor' element={<SuporteGestor/>}/>
-
+        <Route path='/trilha/gestor' element={<TrilhaGestor/>}/>
       </Routes>
     </BrowserRouter>
 
   </React.StrictMode>,
-)
+) 
