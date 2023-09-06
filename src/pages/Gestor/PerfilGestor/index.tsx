@@ -1,5 +1,7 @@
+//Estilização
 import "./style.css";
 
+//Componentes
 import { Link } from "react-router-dom";
 import AsideGestor from "../../../components/Aside_gestor";
 import fotopadrao from "../../../assets/icons/fotopadrao_user_aside.svg"
