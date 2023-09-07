@@ -7,7 +7,7 @@ import AvatarColaborador from './pages/AvatarColaborador';
 import PerfilColaborador from './pages/PerfilColaborador/intex';
 import PesquisaSatisfacaoColaborador from './pages/PequisaSatisfacaoColaborador';
 import HomeColaborador from './pages/HomeColaborador';
-
+import VisualizarCertificadosColaborador from './pages/VisualizarCertificadosColaborador';
 
 //Estilizacao
 import './index.css'
@@ -36,6 +36,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/PerfilColaborador'  element={<PerfilColaborador/>}/>
         <Route path='/PesquisaSatisfacaoColaborador'  element={<PesquisaSatisfacaoColaborador/>}/>
         <Route path='/HomeColaborador'  element={<HomeColaborador/>}/>
+        <Route path='/VisualizarCertificadosColaborador'  element={<VisualizarCertificadosColaborador/>}/>
       </Routes>
     </BrowserRouter>
 

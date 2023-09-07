@@ -101,7 +101,7 @@ function Aside () {
                   </li>
 
                   <li>
-                    <a href="../tela_avatar/index.html">
+                    <a><Link to={"../AvatarColaborador"}>
                       <div>
                         <img
                           className="icon"
@@ -109,7 +109,7 @@ function Aside () {
                           alt="icone avatar"
                         />
                       </div>
-                      <span className="texto_link">Avatar</span>
+                      <span className="texto_link">Avatar</span></Link>
                     </a>
                   </li>
                   <li className="listameio">
