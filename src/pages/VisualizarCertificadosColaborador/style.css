@@ -1,5 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Titillium+Web:wght@400;600&display=swap');
+
+
+.caixa_certificado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 50px;
+}
+
+.carrousel_texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+   
+    
+}
+
+.carrousel_texto h5{
+    font-size: 3.5em;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+.carrousel_texto p{
+    font-size: 1.3em;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.tela_meuscertificados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 30px;
+    width: calc(100vw - 20vw);
+    height: 100vh;
+}
+
+
+
+
 
 .certificados{
     display: flex;
     flex-direction: column;
+    gap: 5px;
+    padding: 50px;
+}
+
+.certificados1,.certificados2{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.certificados1 img,.certificados2 img{
+    border-radius: 7px;
 }

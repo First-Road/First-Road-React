@@ -150,7 +150,7 @@ function Aside () {
 
                   </li>
                   <li className="certi">
-                    <a href="">
+                  <Link to={'/VisualizarCertificadosColaborador'}>
                       <div>
                         <img
                           className="icon icon_certi"
@@ -159,7 +159,7 @@ function Aside () {
                         />
                       </div>
                       <span className="texto_link">Certificados</span>
-                    </a>
+                    </Link>
                   </li>
 
                 </ul>

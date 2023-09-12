@@ -26,12 +26,12 @@ function VisualizarCertificadosColaborador() {
             </div> */}
 
 
-            <div className="elementos_carrousel">
+            <div className="tela_meuscertificados">
                 <div className="carrousel_texto">
-                    <h2>Certificados</h2>
-                    <p>Acesse os certificados que foi adquirindo em sua jornada:</p>
+                    <h5 className="tituloCertificados">Certificados</h5>
+                    <p className="textoCertificados">Acesse aqui os seus certificados adquiridos em sua jornada:</p>
                 </div>
-                <div className="carrousel_certificado">
+                <div className="caixa_certificado">
                     {/* <img src="assets/icons/flecha_esquerda.svg" alt="icone flecha" /> */}
                     <div className="certificados1">
                         <img src={CertificadosIcon} alt="certificado" />
