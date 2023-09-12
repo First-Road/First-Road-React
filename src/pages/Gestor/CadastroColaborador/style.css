@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Titillium+Web:wght@400;600&display=swap');
+
+
 #cadastro_colaborador .secao_perfil{
     background-color: var(--grayscale-cor-3);
     padding: 60px 30px;
@@ -35,7 +38,7 @@
 #cadastro_colaborador .config1{
     position: absolute;
     right: -8px;
-    top: 340px;
+    top: 305px;
 }
 
 #cadastro_colaborador .texto_perfil{
@@ -47,8 +50,8 @@
 }
 
 #cadastro_colaborador .texto_perfil h1{
-     font-family: var(--font-2);
-     font-size: 27px;
+     font-family: var(--font-3);
+     font-size: 42px;
      color: #737373;
 }
 
@@ -113,7 +116,8 @@
 #cadastro_colaborador .input{
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 8px;
+    
     
     
 }
@@ -151,9 +155,9 @@
 
 
 #cadastro_colaborador .input_caixa{
-    border-radius: 10px;
+    border-radius: 8px;
     height: 30px;
-    border: 2px solid var(--principal-cor-3) ;
+    border: 1px solid var(--principal-cor-3) ;
     background-color: var(--grayscale-cor-3);
 }
 
@@ -161,12 +165,13 @@
 #cadastro_colaborador .input label{
     text-transform: uppercase ;
     color: var(--principal-cor-3);
-    font-size: 10px;
+    font-size: 12px;
+    font-family: var(--font-3);
 }
 
 
 #cadastro_colaborador .button_salvar {
-    width: 30%;
+    width: 150px;
     display: flex;
     align-items: center;
     padding-top: 12px;
@@ -180,11 +185,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 29px;
-    border-radius: 20px;
+    height: 30px;
+    border-radius: 8px;
     background-color: var(--principal-cor-3);
-    font-family: var(--font-2);
-    font-size: 18px;
+    font-family: var(--font-3);
+    font-size: 20px;
     color: var(--grayscale-cor-3);
     border: none;
     box-shadow: 2px 3px 5px #888888;
@@ -206,11 +211,20 @@
     margin-top: 50px;
 }
 
-
-#cadastro_colaborador h2{
-    font-size: 15px;
-    font-family: var(--font-2);
-    color: var(--principal-cor-3);
-    margin-bottom: 15px;
-    
+#cadastro_colaborador .input input::placeholder{
+    font-family: var(--font-3);
+    font-size: 14px;
+    color: var(--grayscale-cor-1);
 }
+
+#cadastro_colaborador .input_caixa option{
+    font-family: var(--font-3);
+    font-size: 14px;
+    color: var(--grayscale-cor-1);
+}
+#cadastro_colaborador .input_caixa{
+    font-family: var(--font-3);
+    font-size: 14px;
+    color: var(--grayscale-cor-1);
+}
+

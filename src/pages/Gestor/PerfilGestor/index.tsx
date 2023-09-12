@@ -39,7 +39,7 @@ function PerfilGestor() {
                     <input
                       className="input_caixa"
                       type="text"
-                      placeholder="Nome do Usuário"
+                      placeholder="Digite seu nome completo"
                     />
                   </div>
                 </div>
@@ -49,7 +49,7 @@ function PerfilGestor() {
                     <input
                       className="input_caixa"
                       type="number"
-                      placeholder={"000000000"}
+                      placeholder="00000000"
                     />
                   </div>
                   <div className="input input4">
@@ -64,9 +64,8 @@ function PerfilGestor() {
                       className="input_caixa"
                       name="selecionar"
                       id=""
-                      placeholder="Selecione"
                     >
-                      <option value="">Selecione</option>
+                      <option value="Selecione">Selecione</option>
                       <option value="" aria-placeholder="Gol">
                         Gol
                       </option>
@@ -91,7 +90,7 @@ function PerfilGestor() {
                     <input
                       className="input_caixa"
                       type="text"
-                      placeholder="gestoristrativo"
+                      placeholder="gestor"
                     />
                   </div>
                   <div className="input input7">
@@ -99,7 +98,7 @@ function PerfilGestor() {
                     <input
                       className="input_caixa"
                       type="text"
-                      placeholder="Gerente"
+                      placeholder="Digite seu cargo aqui"
                     />
                   </div>
                 </div>
@@ -109,7 +108,7 @@ function PerfilGestor() {
                     <input
                       className="input_caixa"
                       type="email"
-                      placeholder="email@email.vw.com.br"
+                      placeholder="exemplo@email.com"
                     />
                   </div>
                   <div className="button_salvar">

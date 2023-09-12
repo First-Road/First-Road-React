@@ -32,7 +32,7 @@ function Dashboard() {
               <div className="dashboard_two_a">
                 <span>Progresso:</span>
                 <div className="dashboard_two_aa">
-                  <progress id="file" max={100} value={44}>
+                  <progress id="file" max={100} value={60}>
                     {" "}
                   </progress>
                   <p>60%</p>
