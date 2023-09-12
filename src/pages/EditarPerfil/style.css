@@ -1,21 +1,25 @@
+#editarPerfil{
+    display: flex;
+    background-color: var(--grayscale-cor-2);
 
+}
 /* SECTION */
 
-.adminPerfil_Secao {
+#editarPerfil .adminPerfil_Secao {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.adminPerfil_Secao H1 {
+#editarPerfil .adminPerfil_Secao H1 {
     font-size: 60px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
     text-transform: uppercase;
 }
 
-.adminPerfil {
+#editarPerfil .adminPerfil {
     width: 80%;
     background-color: var(--grayscale-cor-3);
     display: flex;
@@ -23,7 +27,7 @@
     align-items: center;
 }
 
-.adminPerfil_Secao {
+#editarPerfil .adminPerfil_Secao {
     background-color: var(--grayscale-cor-3);
     width: 100%;
     display: flex;
@@ -33,26 +37,26 @@
 
 }
 
-.adminPerfil_texto_imagem {
+#editarPerfil .adminPerfil_texto_imagem {
     display: flex;
     gap: 50px;
 }
 
-.user_config {
+#editarPerfil .user_config {
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
 }
 
-.admin_FotoPadrao {
+#editarPerfil .admin_FotoPadrao {
     height: 155px;
     width: 151px;
     border: 1px solid var(--principal-cor-3);
     border-radius: 100%
 }
 
-.admin_engrenagem {
+#editarPerfil .admin_engrenagem {
     position: absolute;
     right: -10px;
     bottom: 6px;
@@ -62,7 +66,7 @@
 
 }
 
-.texto_perfil {
+#editarPerfil .texto_perfil {
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -71,20 +75,20 @@
 }
 
 
-.texto_perfil p {
+#editarPerfil .texto_perfil p {
     font-size: 10px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
 
 }
 
-.primeira_linha {
+#editarPerfil .primeira_linha {
     display: flex;
     gap: 10px;
 
 }
 
-.centralizar {
+#editarPerfil .centralizar {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -92,32 +96,32 @@
 
 }
 
-.posicao_linha {
+#editarPerfil .posicao_linha {
     display: flex;
     flex-direction: column;
     gap: 25px;
     width: 100%;
 }
 
-.segunda_linha {
+#editarPerfil .segunda_linha {
     display: flex;
     gap: 10px;
 
 }
 
-.terceira_linha {
+#editarPerfil .terceira_linha {
     display: flex;
     gap: 10px;
 
 }
 
-.quarta_linha {
+#editarPerfil .quarta_linha {
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
-.input {
+#editarPerfil .input {
     display: flex;
     flex-direction: column;
     border-radius: 18px;
@@ -125,44 +129,44 @@
 
 }
 
-.input1 {
+#editarPerfil .input1 {
     flex: 2;
 
 }
 
-.input2 {
+#editarPerfil .input2 {
     flex: 1;
 }
 
-.input3,
-.input4,
-.input5 {
+#editarPerfil .input3,
+#editarPerfil .input4,
+#editarPerfil .input5 {
     flex: 1;
 }
 
-.input6,
-.input7 {
+#editarPerfil .input6,
+#editarPerfil .input7 {
     flex: 1;
 }
 
-.input8 {
+#editarPerfil .input8 {
     width: 70%;
 }
 
-.input_caixa {
+#editarPerfil .input_caixa {
     border-radius: 8px;
     height: 30px;
     border: 1px solid var(--principal-cor-3);
     background-color: var(--grayscale-cor-3);
 }
 
-.input label {
+#editarPerfil .input label {
     text-transform: uppercase;
     color: var(--principal-cor-3);
     font-size: 12px;
 }
 
-.button_salvar {
+#editarPerfil .button_salvar {
     width: 70%;
     display: flex;
     align-items: center;
@@ -170,7 +174,7 @@
 
 }
 
-.button_salvar button {
+#editarPerfil .button_salvar button {
     width: 100%;
     display: flex;
     align-items: center;
@@ -186,7 +190,7 @@
 
 }
 
-.posicionamento_alterar {
+#editarPerfil .posicionamento_alterar {
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -194,33 +198,33 @@
     align-items: center;
 }
 
-.senha {
+#editarPerfil .senha {
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
 }
 
-.senha_antiga {
+#editarPerfil .senha_antiga {
     display: flex;
     flex-direction: column;
 }
 
-.senha_nova {
+#editarPerfil .senha_nova {
     display: flex;
     flex-direction: column;
 
 }
 
-.texto_senha {
+#editarPerfil .texto_senha {
     width: 180px;
     font-family: var(--font-2);
     font-size: 7px;
     color: var(--auxiliar-cor-6);
 }
 
-.input_senha,
-.input_senha2 {
+#editarPerfil .input_senha,
+#editarPerfil .input_senha2 {
     width: 180px;
     border-radius: 8px;
     height: 30px;
@@ -228,13 +232,13 @@
     background-color: var(--grayscale-cor-3);
 }
 
-.senha label {
+#editarPerfil .senha label {
     text-transform: uppercase;
     color: var(--principal-cor-3);
     font-size: 12px;
 }
 
-.button_alterar button {
+#editarPerfil .button_alterar button {
     width: 100%;
     display: flex;
     align-items: center;
@@ -251,7 +255,7 @@
 
 }
 
-.button_alterar {
+#editarPerfil .button_alterar {
     width: 90%;
     display: flex;
     align-items: center;
@@ -259,15 +263,15 @@
 
 }
 
-h2 {
+#editarPerfil h2 {
     text-transform: uppercase;
     font-size: 20px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
 }
 
-::placeholder,
-.input_caixa {
+#editarPerfil ::placeholder,
+#editarPerfil .input_caixa {
     padding: 0 15px;
 }
 
@@ -275,7 +279,7 @@ h2 {
     
  /*SECTION*/
 
- .adminPerfil_Secao {
+ #editarPerfil .adminPerfil_Secao {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -284,31 +288,31 @@ h2 {
     min-height: 100vh;
 }
 
-.adminPerfil_Secao H1 {
+#editarPerfil .adminPerfil_Secao H1 {
     font-size: 40px;
     margin-top: 10px;
 
 }
 
-.admin_FotoPadrao {
+#editarPerfil .admin_FotoPadrao {
     height: 105px;
     width: 101px;
 }
 
-.texto_perfil {
+#editarPerfil .texto_perfil {
     display: flex;
     flex-direction: column;
     width: 38%;
     margin-top: -10px;
 }
 
-.texto_perfil p {
+#editarPerfil .texto_perfil p {
     font-size: 9px;
 }
 
 
 
-.adminPerfil_texto_imagem {
+#editarPerfil .adminPerfil_texto_imagem {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,60 +321,60 @@ h2 {
 
 }
 
-.centralizar {
+#editarPerfil .centralizar {
     gap: 20px;
 
 }
 
-.posicao_linha {
+#editarPerfil .posicao_linha {
     gap: 10px;
 }
 
-.adminPerfil_texto_imagem {
+#editarPerfil .adminPerfil_texto_imagem {
     gap: 5px;
 
 }
 
-.input_caixa {
+#editarPerfil .input_caixa {
     height: 25px;
 
 }
 
-.button_entrar {
+#editarPerfil .button_entrar {
     padding-top: 2px;
 
 }
 
-.button_sair {
+#editarPerfil .button_sair {
     padding-top: 2px;
 }
 
-.button_entrar button {
+#editarPerfil .button_entrar button {
     height: 25px;
     font-size: 16px;
 }
 
-.button_sair button {
+#editarPerfil .button_sair button {
     height: 25px;
     font-size: 16px;
 }
 
-.posicionamento_alterar {
+#editarPerfil .posicionamento_alterar {
     gap: 2px;
 
 }
 
-.input_senha,
-.input_senha2 {
+#editarPerfil .input_senha,
+#editarPerfil .input_senha2 {
     height: 25px;
 }
 
-.button_alterar {
+#editarPerfil .button_alterar {
     padding-top: none;
 
 }
 
-.button_alterar button {
+#editarPerfil .button_alterar button {
     height: 25px;
 
 }
@@ -383,7 +387,7 @@ h2 {
 
 /*SECTION*/
 
-.adminPerfil_Secao H1 {
+#editarPerfil .adminPerfil_Secao H1 {
     font-size: 35px;
     margin-top: 20px;
 
@@ -396,26 +400,26 @@ h2 {
 
      /*SECTION*/
 
-     .adminPerfil {
+     #editarPerfil .adminPerfil {
         width: 100%;
     }
 
-    .adminPerfil_Secao {
+    #editarPerfil .adminPerfil_Secao {
         gap: 5px;
     }
 
-    .adminPerfil_Secao H1 {
+    #editarPerfil .adminPerfil_Secao H1 {
         font-size: 30px;
         margin-top: 20px;
 
     }
 
-    .admin_FotoPadrao {
+    #editarPerfil .admin_FotoPadrao {
         height: 115px;
         width: 111px;
     }
 
-    .texto_perfil {
+    #editarPerfil .texto_perfil {
         width: 38%;
         margin-top: 0px;
     }
@@ -426,95 +430,95 @@ h2 {
 
     /*SECTION*/
 
-    .adminPerfil_Secao {
+    #editarPerfil .adminPerfil_Secao {
         gap: 2px;
     }
 
-    .adminPerfil_Secao H1 {
+    #editarPerfil .adminPerfil_Secao H1 {
         font-size: 28px;
         margin-top: 90px;
 
     }
 
 
-    .admin_FotoPadrao {
+    #editarPerfil .admin_FotoPadrao {
         height: 75px;
         width: 71px;
     }
 
-    .texto_perfil {
+    #editarPerfil .texto_perfil {
         width: 47%;
         margin-top: 1px;
     }
 
-    .texto_perfil p {
+    #editarPerfil .texto_perfil p {
         font-size: 7px;
 
     }
 
-    .adminPerfil_texto_imagem {
+    #editarPerfil .adminPerfil_texto_imagem {
         gap: 2px;
     }
 
-    .centralizar {
+    #editarPerfil .centralizar {
         display: flex;
         flex-direction: column;
         gap: 10px;
         width: 380px;
     }
 
-    .posicao_linha {
+    #editarPerfil .posicao_linha {
         display: flex;
         flex-direction: column;
         gap: 1px;
         width: 100%;
     }
 
-    .primeira_linha {
+    #editarPerfil .primeira_linha {
         display: flex;
         gap: 5px;
         flex-direction: column;
     }
 
-    .segunda_linha {
+    #editarPerfil .segunda_linha {
         display: flex;
         gap: 5px;
         flex-direction: column
     }
 
-    .terceira_linha {
+    #editarPerfil .terceira_linha {
         display: flex;
         gap: 5px;
         flex-direction: column;
     }
 
-    .quarta_linha {
+    #editarPerfil .quarta_linha {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 5px;
     }
 
-    .input4,
-    .input5 {
+    #editarPerfil .input4,
+    #editarPerfil .input5 {
         flex: 1;
     }
 
-    .input8 {
+    #editarPerfil .input8 {
         width: 100%;
     }
 
-    .button_salvar {
+    #editarPerfil .button_salvar {
         width: 50%;
 
     }
 
-    .button_salvar button {
+    #editarPerfil .button_salvar button {
         height: 25px;
     }
 
 
-    .posicionamento_alterar {
+    #editarPerfil .posicionamento_alterar {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -522,13 +526,17 @@ h2 {
         gap: 1px;
     }
 
-    .button_alterar {
+    #editarPerfil .button_alterar {
         width: 100%;
         padding-top: 1px
     }
 
-    .senha {
+    #editarPerfil .senha {
         gap: 5px;
+    }
+
+    #editarPerfil .input_senha, #editarPerfil .input_senha2 {
+        width: 100%;
     }
 
 
@@ -540,7 +548,7 @@ h2 {
 
     /*SECTION*/
 
-    .centralizar {
+    #editarPerfil .centralizar {
         display: flex;
         flex-direction: column;
         gap: 10px;
