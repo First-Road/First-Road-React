@@ -5,7 +5,7 @@ import "./style.css";
 import { Link } from "react-router-dom";
 import AsideGestor from "../../../components/Aside_gestor";
 import fotopadrao from "../../../assets/icons/fotopadrao_user_aside.svg"
-import React, { useState } from 'react';
+import React, { useEffect,useState } from 'react';
 /* import api from "../../../Utils/Api"; */
 
 function PerfilGestor() {
@@ -27,7 +27,7 @@ function PerfilGestor() {
 
     event.preventDefault();
 
-    const dadosColaborador = {
+    const dadosGestor = {
 
       Nome: nomeCompleto,
       Nif: nif,
@@ -64,6 +64,11 @@ function PerfilGestor() {
     cargo,
     email,
   });
+
+  useEffect(() => {
+    //executa uma ação apos o componente ser recarregado 
+    CadastrarGestor;
+}, [])
 
 
   return (
