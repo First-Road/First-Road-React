@@ -13,8 +13,8 @@
 }
 
 .tituloPesquisaSatisfacao {
-    font-family: var(--font-2);
-    font-size: 60px;
+    font-family: var(--font-3);
+    font-size: 42px;
     color: var(--auxiliar-cor-3);
     display: flex;
     justify-content: center;
@@ -37,8 +37,10 @@
 }
 h2{
     font-size: 30px;
-    font-family:var(--font-2);
+    font-family:var(--font-3);
     color: var(--auxiliar-cor-3);
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -59,7 +61,7 @@ textarea {
     text-decoration: none;
     color: #ffffff;
     background-color: #048ABF;
-    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: var(--font-3);
     padding: 15px 50px;
     border-radius: 13px;
 }
