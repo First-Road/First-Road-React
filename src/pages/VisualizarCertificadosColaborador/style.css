@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 5px;
+    gap: 20px;
     padding: 50px;
 }
 
@@ -36,7 +36,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 60px 30px;
+    padding: 90px 30px;
     width: calc(100vw - 20vw);
     height: 100vh;
 }
@@ -48,13 +48,13 @@
 .certificados{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 20px;
     padding: 50px;
 }
 
 .certificados1,.certificados2{
     display: flex;
-    gap: 5px;
+    gap: 20px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -62,3 +62,57 @@
 .certificados1 img,.certificados2 img{
     border-radius: 7px;
 }
+
+.iconecadeado{
+    display: flex;
+    width: 50px;
+    position: fixed;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+.iconecadeado img{
+    
+    color: white;
+
+}
+
+
+.certificado-container {
+    position: relative;
+    text-align: center;
+  
+}
+
+
+.icone-cadeado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 70px;
+    
+}
+.icone-cadeado svg{
+    fill: red;
+}
+.caixa_certificado2{
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+        padding: 20px;
+    }
+
+
+
+.icone-cadeado.hidden {
+    display: none;
+  }
+  .icone-cadeado.visible {
+    display: inline; /* Ou use "block", dependendo do layout desejado */
+  }

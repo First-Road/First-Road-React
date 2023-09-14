@@ -5,17 +5,24 @@ import { Link } from "react-router-dom";
 import Aside from "../../components/aside";
 import fusca1 from "../../assets/icons/fusca1.png"
 import mapa from "../../assets/icons/mapa1.png"
+import cadeadofechado from "../../assets/icons/cadeadofechado.svg";
 
+import { useCadeado } from '../../pages/VisualizarCertificadosColaborador/CadeadoContext'; // Importe o hook useCadeado
+import Context from "../../utils/Context";
 
 
 function TrilhaColaborador() {
+
     const [carroStyle, setCarroStyle] = useState({
         animation: "",
         top: "0px",
         right: "-150px",
     });
 
-    const handleAnimationClick = (animation: any, top: any, right:any) => {
+    const { cadeadoVisivel, ocultarCadeado, mostrarCadeado } = useCadeado();
+    const cadeadoClasses = cadeadoVisivel ? 'icone-cadeado' : 'icone-cadeado hidden';
+
+    const handleAnimationClick = (animation: any, top: any, right: any) => {
         setCarroStyle((prevCarroStyle) => ({
             ...prevCarroStyle,
             top,
@@ -40,12 +47,6 @@ function TrilhaColaborador() {
 
 
 
-
-
-
-
-
-
     return (
         <main id="aside_colaborador">
             <Aside />
@@ -57,6 +58,7 @@ function TrilhaColaborador() {
                     <img id="carro" src={fusca1} alt="" />
                 </div> */}
                         <div className="carrinho">
+
                             <img id="carro" style={carroStyle} src={fusca1} alt="" />
                         </div>
                     </div>
@@ -64,22 +66,24 @@ function TrilhaColaborador() {
                 <div className="botoesModulos">
 
                     <div className="botoes">
-                        <input
-                            className="botao1"
-                            onClick={() => handleAnimationClick("veic1 3s ease-in-out", "0px", "60px")}
-                            id="animar"
-                            type="button"
-                            defaultValue="Módulo - 1"
-                        // const carro = document.querySelector(".carro");
+                        <Context.Provider value={1}>
+                            <input
+                                className="botao1"
+                                onClick={() => { ocultarCadeado(); handleAnimationClick("veic1 3s ease-in-out", "0px", "60px") }}
+                                id="animar"
+                                type="button"
+                                defaultValue="Módulo - 1"
+                            // const carro = document.querySelector(".carro");
 
-                        //   botaoAnimar.addEventListener("click", ()=> {
-                        //   carro.style.animation = "";
-                        //   setTimeout(() => carro.style.animation = "veic1 3s ease-in-out");
-                        //   carro.style.top = "0px";
-                        //   carro.style.right = "60px";
-                        // });
+                            //   botaoAnimar.addEventListener("click", ()=> {
+                            //   carro.style.animation = "";
+                            //   setTimeout(() => carro.style.animation = "veic1 3s ease-in-out");
+                            //   carro.style.top = "0px";
+                            //   carro.style.right = "60px";
+                            // });
 
-                        />
+                            />
+                        </Context.Provider>
                         <input
                             className="botao2"
                             onClick={() => handleAnimationClick("veic2 3s ease-in-out", "-65px", "200px")}
@@ -167,6 +171,7 @@ function TrilhaColaborador() {
         </main>
     )
 }
+
 
 
 export default TrilhaColaborador;
