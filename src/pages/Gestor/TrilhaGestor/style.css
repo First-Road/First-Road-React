@@ -2,15 +2,19 @@
     display: flex;
     width: 80vw;
     flex-direction: column;
+    background-color: #f3f3f3;
 }
 
 #trilha_gestor .trilha_de_conteudo .titulo h1{
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size:var(--title-h1-margin-page);
     font-weight: 700;
     color: #545454;
-    font-size: 30px;
+    font-size: 42px;
     width: 1100px;
+    display: flex;
+    justify-content: center;
+    padding-right: 48px;
 }
 
 #trilha_gestor .titulo{
@@ -67,7 +71,7 @@
 }
 
 #trilha_gestor input::placeholder{
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 12px;
     color: var(--principal-cor-3);
 }
@@ -76,6 +80,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: flex-start;
+    width: 70%;
 }
 
 #trilha_gestor .add_trilha input{
@@ -87,18 +93,18 @@
 
 #trilha_gestor button{
     width: 130px;
-    height: 25px;
+    height: 35px;
     border-radius: 8px;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     background-color: var(--principal-cor-3);
     color: #fbfbfb;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     border: none;
 }
 
 #trilha_gestor h2, label{
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size:var(--title-h1-margin-page);
     font-weight: 500;
     color: #202027;
@@ -117,6 +123,41 @@
     display: flex;
     gap: 10px;
 }
+
+.trilha_cadastrada input{
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+
+.adicionar select{
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+.adicionar input{
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+.adicionar input::placeholder{
+    font-family: var(--font-3);
+    font-size: 12px;
+    color: var(--principal-cor-3);
+}
+.posicao_button{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+   
+}
+
 
 
 

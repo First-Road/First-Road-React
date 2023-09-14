@@ -29,6 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/cadastro/colaborador' element={<CadastroColaborador/>}/>
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/suporte/gestor' element={<SuporteGestor/>}/>
+        <Route path='/trilha/gestor' element={<TrilhaGestor/>}/>
 
       </Routes>
     </BrowserRouter>

@@ -2,12 +2,12 @@ import "./style.css";
 
 import { Link } from "react-router-dom";
 import AsideGestor from "../../../components/Aside_gestor";
-import iconeImagem from "../../../assets/icons/novoingressante 1 (1).svg"
+import iconeImagem from "../../../assets/icons/novoingressante 1 (1).svg";
 
 function TrilhaGestor() {
   return (
     <main id="trilha_gestor">
-      <AsideGestor/>
+      <AsideGestor />
       <div className="trilha_de_conteudo" id="teste">
         <div className="titulo">
           <h1>Trilha de Conteúdo do Colaborador</h1>
@@ -63,10 +63,12 @@ function TrilhaGestor() {
               <input type="text" placeholder=" Título" />
             </ul>
           </div>
-          <button>Adicionar</button>
+          <div className="posicao_button">
+            <button>Adicionar</button>
+          </div>
         </div>
       </div>
     </main>
   );
 }
-export default TrilhaGestor
+export default TrilhaGestor;
