@@ -5,6 +5,7 @@ import EditarPerfil from './pages/EditarPerfil';
 import CadastrarPerfil from './pages/CadastrarPerfil';
 import CadastrarGestor from './pages/CadrastrarGestor';
 import GestaoUO from './pages/GestaoUO';
+import GestaoUsuario from './pages/GestaoUsuario';
 
 //Estilizacao
 import './index.css'
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/editar'  element={<EditarPerfil/>}/>
         <Route path='/cadastrar'  element={<CadastrarPerfil/>}/>
         <Route path='/gestaoUO'  element={<GestaoUO/>}/>
+        <Route path='/gestaoUsuario'  element={<GestaoUsuario/>}/>
         <Route path='/cadastroGestor'  element={<CadastrarGestor/>}/>
 
       </Routes>

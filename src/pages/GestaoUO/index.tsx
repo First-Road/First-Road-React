@@ -53,7 +53,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div>
+                                            <div className='gestaoUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -95,7 +95,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div>
+                                            <div className='gestaoUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -137,7 +137,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div>
+                                            <div className='gestaoUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -179,7 +179,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div>
+                                            <div className='gestaoUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -221,7 +221,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div>
+                                            <div className='gestaoUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -263,7 +263,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div>
+                                            <div className='gestaoUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -305,7 +305,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div>
+                                            <div className='gestaoUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -347,7 +347,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div>
+                                            <div className='gestaoUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
