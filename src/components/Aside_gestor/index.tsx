@@ -84,18 +84,7 @@ function AsideGestor() {
                 <span>Perfil</span>
               </a>
             </li>
-            <li>
-              <a href="../editarAgendaColaboradorIngressante/index.html">
-                <div>
-                  <img
-                    className="icon1"
-                    src={agenda}
-                    alt="icone de agenda"
-                  />
-                </div>
-                <span>Gestão de Agenda</span>
-              </a>
-            </li>
+          
             <li>
               <a href="../gestaoColaboradorGestor/index.html">
                 <div>
@@ -108,18 +97,7 @@ function AsideGestor() {
                 <span>Gestao Colaborador</span>
               </a>
             </li>
-            <li>
-              <a href="../_gestaoDeConteudo/index.html">
-                <div>
-                  <img
-                    className="icon"
-                    src={livro}
-                    alt="icone agenda"
-                  />
-                </div>
-                <span>Gestao de Conteudo</span>
-              </a>
-            </li>
+            
             <li>
               <a href="../cadastro_colaborador_gestor/index.html">
                 <div>
@@ -133,30 +111,6 @@ function AsideGestor() {
               </a>
             </li>
             <li>
-              <a href="../cadastroDeConteudos/index.html">
-                <div>
-                  <img
-                    className="icon"
-                    src={conteudo}
-                    alt="icone agenda"
-                  />
-                </div>
-                <span>Cadastro Conteudo</span>
-              </a>
-            </li>
-            <li>
-              <a href="../editarAgendaColaboradorIngressante/index.html">
-                <div>
-                  <img
-                    className="icon"
-                    src={agenda}
-                    alt="icone agenda"
-                  />
-                </div>
-                <span>Agenda Colaborador</span>
-              </a>
-            </li>
-            <li>
               <a href="../trilhaDeConteudo/index.html">
                 <div>
                   <img
@@ -165,7 +119,7 @@ function AsideGestor() {
                     alt="icone agenda"
                   />
                 </div>
-                <span>Configuração de Trilha</span>
+                <span>Trilha de Conteúdo</span>
               </a>
             </li>
             <li>

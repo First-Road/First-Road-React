@@ -124,7 +124,7 @@
     gap: 10px;
 }
 
-.trilha_cadastrada input{
+#trilha_gestor .trilha_cadastrada input{
     border-radius: 8px;
     height: 30px;
     border: 1px solid var(--principal-cor-3) ;
@@ -132,26 +132,27 @@
 }
 
 
-.adicionar select{
+#trilha_gestor .adicionar select{
     border-radius: 8px;
     height: 30px;
     border: 1px solid var(--principal-cor-3) ;
     background-color: var(--grayscale-cor-3);
 }
 
-.adicionar input{
+#trilha_gestor .adicionar input{
     border-radius: 8px;
     height: 30px;
     border: 1px solid var(--principal-cor-3) ;
     background-color: var(--grayscale-cor-3);
 }
 
-.adicionar input::placeholder{
+#trilha_gestor .adicionar input::placeholder{
     font-family: var(--font-3);
     font-size: 12px;
     color: var(--principal-cor-3);
 }
-.posicao_button{
+
+#trilha_gestor .posicao_button{
     display: flex;
     justify-content: flex-start;
     width: 70%;

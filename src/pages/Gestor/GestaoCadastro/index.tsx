@@ -3,6 +3,7 @@ import "./style.css";
 import { Link } from 'react-router-dom'
 import AsideGestor from "../../../components/Aside_gestor";
 import semaforoverde from "../../../assets/icons/icon_semaforo_verde.svg"
+import pesquisa from "../../../assets/icons/lupa_pesquisa.svg"
 
 function GestaoCadastro() {
     
@@ -15,49 +16,9 @@ function GestaoCadastro() {
     <div className="adminGestao_By">
       <div className="adminGestao_Ry">
         <div className="adminGestao_Ray">
-          <div className="adminGestao_Perfil">
-            <label htmlFor="mySelect">Cargo</label>
-            <select name="" id="mySelect">
-              <option value="" disabled={true} selected={true}>
-                Selecione
-              </option>
-              <option value="">opção 1</option>
-              <option value="">opção 2</option>
-              <option value="">opção 3</option>
-              <option value="">opção 4</option>
-              <option value="">opção 5</option>
-            </select>
-          </div>
-          <div className="adminGestao_Situacao">
-            <label htmlFor="mySelect">Situação</label>
-            <select name="" id="mySelect">
-              <option value=""disabled={true} selected={true}>
-                Selecione
-              </option>
-              <option value="">opção 1</option>
-              <option value="">opção 2</option>
-              <option value="">opção 3</option>
-              <option value="">opção 4</option>
-              <option value="">opção 5</option>
-            </select>
-          </div>
-          <div className="adminGestao_Unidade">
-            <label htmlFor="mySelect">Unidade</label>
-            <select name="" id="mySelect">
-              <option value=""disabled={true} selected={true}>
-                Selecione
-              </option>
-              <option value="">opção 1</option>
-              <option value="">opção 2</option>
-              <option value="">opção 3</option>
-              <option value="">opção 4</option>
-              <option value="">opção 5</option>
-            </select>
-          </div>
-          {/*   <a class="delete_table" href="">
-                      <img src="./assets/icons/lixeira.svg" alt="">
-
-                  </a> */}
+          <input type="text" placeholder="Buscar colaborador"/>
+          <img src={pesquisa} alt="" />
+          
         </div>
       </div>
     </div>

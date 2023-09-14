@@ -196,11 +196,33 @@
 
 }
 
+#gestao_cadastro .adminGestao_Ray input{
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid var(--principal-cor-3);
+    background-color: var(--grayscale-cor-3);
+    width: 30vw;
+    margin-right: 30px;
+    
+}
+#gestao_cadastro .adminGestao_Ray img{
+    position: absolute;
+    right: 45px;
+    top: 5px;
+}
+
+#gestao_cadastro .adminGestao_Ray input::placeholder{
+    font-family: var(--font-3);
+    padding-left: 10px;
+    font-size: 14px;
+}
+
 
 #gestao_cadastro .adminGestao_Ray {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    position: relative;
 
 }
 #gestao_cadastro .adminGestao_Perfil{

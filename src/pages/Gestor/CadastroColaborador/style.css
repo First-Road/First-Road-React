@@ -14,7 +14,7 @@
 
 #cadastro_colaborador .elementos_texto_imagem{
     display: flex;
-    gap: 50px;
+    
     
     height: 100%;
     width: 100%;
@@ -23,12 +23,13 @@
 }
 
 #cadastro_colaborador .user_config{
-    height: 100%;
+    height: 45%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-items: center;
     position: relative;
+    width: 200px;
     
 
 }
@@ -40,8 +41,8 @@
 
 #cadastro_colaborador .config1{
     position: absolute;
-    right: -8px;
-    top: 305px;
+    right: 15px;
+    top: 250px;
 }
 
 #cadastro_colaborador .texto_perfil{
@@ -58,6 +59,7 @@
      color: #737373;
      display: flex;
      align-items: center;
+     
      
 }
 
@@ -80,8 +82,9 @@
     flex-direction: column;
     gap: 40px;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    margin-left: 45px;
 
     
     

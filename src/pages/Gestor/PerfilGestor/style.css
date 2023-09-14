@@ -72,7 +72,7 @@
 #perfil_gestor .centralizar {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 80px;
     width: 580px;
 
 }
@@ -80,8 +80,14 @@
 #perfil_gestor .posicao_linha {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 55px;
     width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 #perfil_gestor .segunda_linha {
