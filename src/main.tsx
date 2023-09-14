@@ -35,6 +35,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/editar' element={<EditarPerfil />} />
         <Route path='/cadastrar' element={<CadastrarPerfil />} />
         <Route path='/gestaoUO' element={<GestaoUO />} />
+        <Route path='/gestaoUsuario' element={<GestaoUsuario />} />
         <Route path='/cadastroGestor' element={<CadastrarGestor />} />
 
       </Routes>
