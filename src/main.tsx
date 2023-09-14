@@ -8,7 +8,7 @@ import PerfilColaborador from './pages/PerfilColaborador'; // Corrija o nome do 
 import PesquisaSatisfacaoColaborador from './pages/PequisaSatisfacaoColaborador';
 import HomeColaborador from './pages/HomeColaborador';
 import VisualizarCertificadosColaborador from './pages/VisualizarCertificadosColaborador';
-import { CadeadoProvider } from './pages/VisualizarCertificadosColaborador/CadeadoContext';
+
 import './index.css';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -19,14 +19,8 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/VisualizarCertificadosColaborador"
-          element={
-            <CadeadoProvider>
-              <VisualizarCertificadosColaborador />
-            </CadeadoProvider>
-          }
-        />
+       
+        
         <Route path='/CertificadoColaborador'  element={<CertificadoColaborador/>}/>
         <Route path='/ParabensColaborador'  element={<ParabensColaborador/>}/>
         <Route path='/SuporteColaborador'  element={<SuporteColaborador/>}/>

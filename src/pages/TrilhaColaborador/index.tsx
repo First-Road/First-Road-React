@@ -7,7 +7,7 @@ import fusca1 from "../../assets/icons/fusca1.png"
 import mapa from "../../assets/icons/mapa1.png"
 import cadeadofechado from "../../assets/icons/cadeadofechado.svg";
 
-import { useCadeado } from '../../pages/VisualizarCertificadosColaborador/CadeadoContext'; // Importe o hook useCadeado
+
 import Context from "../../utils/Context";
 
 
@@ -19,9 +19,8 @@ function TrilhaColaborador() {
         right: "-150px",
     });
 
-    const { cadeadoVisivel, ocultarCadeado, mostrarCadeado } = useCadeado();
-    const cadeadoClasses = cadeadoVisivel ? 'icone-cadeado' : 'icone-cadeado hidden';
-
+   
+ 
     const handleAnimationClick = (animation: any, top: any, right: any) => {
         setCarroStyle((prevCarroStyle) => ({
             ...prevCarroStyle,
@@ -69,7 +68,7 @@ function TrilhaColaborador() {
                         <Context.Provider value={1}>
                             <input
                                 className="botao1"
-                                onClick={() => { ocultarCadeado(); handleAnimationClick("veic1 3s ease-in-out", "0px", "60px") }}
+                                onClick={() => { handleAnimationClick("veic1 3s ease-in-out", "0px", "60px") }}
                                 id="animar"
                                 type="button"
                                 defaultValue="Módulo - 1"
