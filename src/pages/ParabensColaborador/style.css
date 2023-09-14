@@ -30,8 +30,8 @@ header{
 }
 
 #tituloParabens{
-    font-size: 45px;
-    font-family: var(--font-2);
+    font-size: 42px;
+    font-family: var(--font-3);
     font-weight: bold;
     color: var(--principal-cor-2);
     display: flex;
@@ -62,7 +62,9 @@ h4{
     width: 50vw;
     text-align: center;
     margin-bottom: 50px;
-    font-size:1.5rem;  
+    font-size:20px;
+    font-family: var(--font-3);
+     
     
 }
 
@@ -73,7 +75,7 @@ button{
     padding: 15px 25px;
     font-size: 20px;
     cursor: pointer;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
 }
 
 #popup{
@@ -97,7 +99,7 @@ button{
 
 }
 h3{
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 20px;
     color: var(--grayscale-cor-2);
     margin: 40px;
@@ -187,7 +189,7 @@ visibility: hidden;
     text-decoration: none;
     color: white;
     font-size: 12px;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
 }
 
 .botao_certificado, .botao_satisfacao, .botao_trilha{

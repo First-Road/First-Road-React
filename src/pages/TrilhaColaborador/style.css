@@ -425,7 +425,7 @@ section {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-weight: 700;
     border: none;
 
@@ -480,8 +480,8 @@ section {
 }
 
 .tituloModulo {
-    margin: 2px;
-    font-family: var(--font-2);
+    margin: 1px;
+    font-family: var(--font-3);
     color: var(--grayscale-cor-4);
 
 
@@ -494,8 +494,8 @@ section {
 }
 
 h3 {
-    margin: 2px;
-    font-family: var(--font-2);
+    margin: 1px;
+    font-family: var(--font-3);
     color: var(--grayscale-cor-4);
 
 
@@ -503,9 +503,9 @@ h3 {
 }
 
 p {
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 15px;
-    margin: 2px;
+    margin: 1px;
 
 
 }

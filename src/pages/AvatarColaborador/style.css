@@ -65,7 +65,7 @@
 }
 
 .texto_card {
-  font-family: var(--font-2);
+  font-family: var(--font-3);
   font-size: 25px;
 }
 
@@ -77,13 +77,13 @@
 }
 
 .texto_gol span {
-  font-family: var(--font-2);
+  font-family: var(--font-3);
   font-size: 15px;
 }
 
 
 .texto_gol p {
-  font-family: var(--font-2);
+  font-family: var(--font-3);
   font-size: 12px;
   line-height: 21px;
 }
@@ -95,7 +95,7 @@
   border: 0 solid;
   background-color: #025E73;
   color: #FFFFFF;
-  font-family: var(--font-2);
+  font-family: var(--font-3);
   font-size: 15px;
   display: flex;
   justify-content: center;
@@ -132,8 +132,8 @@
 }
 
 .titulo h2 {
-  font-size: 35px;
-  font-family: var(--font-2);
+  font-size: 42px;
+  font-family: var(--font-3);
   color: #048ABF;
   justify-content: center;
   margin-bottom: 0;
@@ -143,7 +143,7 @@
 
 .titulo p {
   font-size: 15px;
-  font-family: var(--font-2);
+  font-family: var(--font-3);
   width: 550px;
   text-align: center;
   line-height: 20px;
