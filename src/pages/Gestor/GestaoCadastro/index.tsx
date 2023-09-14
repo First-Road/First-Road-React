@@ -6,7 +6,7 @@ import semaforoverde from "../../../assets/icons/icon_semaforo_verde.svg"
 
 function GestaoCadastro() {
     
-
+  
 
     return(
         <main id="gestao_cadastro">
@@ -213,88 +213,3 @@ function GestaoCadastro() {
 }
 export default GestaoCadastro
 
-/* import React, { useState } from 'react';
-
-function GestaoCadastro() {
-  // Defina estados locais para os campos de seleção
-  const [cargo, setCargo] = useState('');
-  const [situacao, setSituacao] = useState('');
-  const [unidade, setUnidade] = useState('');
-
-  // Funções para lidar com a alteração nos campos de seleção
-  const handleCargoChange = (event) => {
-    setCargo(event.target.value);
-  };
-
-  const handleSituacaoChange = (event) => {
-    setSituacao(event.target.value);
-  };
-
-  const handleUnidadeChange = (event) => {
-    setUnidade(event.target.value);
-  };
-
-  return (
-    <main id="gestao_cadastro">
-      {/* ... (restante do seu código) }*/
-/*       <div className="adminGestao_Perfil">
-        <label htmlFor="cargoSelect">Cargo</label>
-        <select
-          name="cargo"
-          id="cargoSelect"
-          value={cargo}
-          onChange={handleCargoChange}
-        >
-          <option value="" disabled={true} selected={true}>
-            Selecione
-          </option>
-          <option value="opção 1">opção 1</option>
-          <option value="opção 2">opção 2</option>
-          <option value="opção 3">opção 3</option>
-          <option value="opção 4">opção 4</option>
-          <option value="opção 5">opção 5</option>
-        </select>
-      </div>
-      <div className="adminGestao_Situacao">
-        <label htmlFor="situacaoSelect">Situação</label>
-        <select
-          name="situacao"
-          id="situacaoSelect"
-          value={situacao}
-          onChange={handleSituacaoChange}
-        >
-          <option value="" disabled={true} selected={true}>
-            Selecione
-          </option>
-          <option value="opção 1">opção 1</option>
-          <option value="opção 2">opção 2</option>
-          <option value="opção 3">opção 3</option>
-          <option value="opção 4">opção 4</option>
-          <option value="opção 5">opção 5</option>
-        </select>
-      </div>
-      <div className="adminGestao_Unidade">
-        <label htmlFor="unidadeSelect">Unidade</label>
-        <select
-          name="unidade"
-          id="unidadeSelect"
-          value={unidade}
-          onChange={handleUnidadeChange}
-        >
-          <option value="" disabled={true} selected={true}>
-            Selecione
-          </option>
-          <option value="opção 1">opção 1</option>
-          <option value="opção 2">opção 2</option>
-          <option value="opção 3">opção 3</option>
-          <option value="opção 4">opção 4</option>
-          <option value="opção 5">opção 5</option>
-        </select>
-      </div>
-      {/* ... (restante do seu código) *//* }
-    </main>
-  );
-} */
-
-/* export default GestaoCadastro; */
- 
