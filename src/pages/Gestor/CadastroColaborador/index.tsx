@@ -72,6 +72,7 @@ function CadastroColaborador() {
               src={user}
               alt=""
             />
+            
             <img
               className="config config1"
               src={lapis}
