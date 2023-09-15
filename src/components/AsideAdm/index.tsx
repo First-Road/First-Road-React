@@ -19,43 +19,34 @@ import { Link } from "react-router-dom"
 
 function AsideAdm() {
 
-
-
-
-
-
     addEventListener("resize", () => {
-        const aside: any = document.getElementById("asideAdm")
-        const menu: any = window.innerWidth
-
-        if (menu >= 768) {
+        const aside: any = document.getElementById("aside")
+        const eventoMenu: any = window.innerWidth 
+        if (eventoMenu >= "768"){
             aside.style.left = "0px"
         }
-        else {
-            aside.style.left = "-190px"
+        else{
+            aside.style.left = "-140px"
+    
         }
-    });
-
-
-    function mostrarMenu() {
-        // debugger        
-        console.log("entrou");
-        
-        const aside: any = document.getElementById("asideAdm")
-
-        const sombra: any = document.getElementById("sombra")
-        const body: any = document.getElementById("body")
-
-        if (window.getComputedStyle(aside).left == "0px") {
-            aside.style.left = "-247px"
-            //sombra.style.right = "110vw"
-            //body.style.overflow = "auto"
-        }
-        else {
-            aside.style.left = "0"
-            // sombra.style.right = "0"
-            // body.style.overflow = "hidden"
-        }
+      }  );
+    
+      function mostrarMenu() {
+    
+      const sombra: any = document.getElementById("sombra")
+      const body: any = document.getElementById("body") 
+      const aside: any = document.getElementById("aside")
+    
+      if (window.getComputedStyle(aside).left == "0px") {
+          aside.style.left = "-140px"
+          sombra.style.right ="110vw"
+          body.style.overflow = "auto"
+      }
+      else {
+          aside.style.left = "0px"
+          sombra.style.right = "0px"
+          body.style.overflow = "hidden"
+      }
     }
 
     return (
