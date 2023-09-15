@@ -25,7 +25,7 @@ function GestaoCadastro() {
               <th className="th_table" />
               <th className="th_table">NIF</th>
               <th className="th_table">nome</th>
-              <th className="th_table">Departamento</th>
+              <th className="th_table">Situação</th>
               <th className="th_table">Cargo</th>
               <th className="th_table">unidade</th>
               <th className="th_tableimg">
@@ -49,9 +49,12 @@ function GestaoCadastro() {
               <td className="nome_td" aria-placeholder="">
                 Roberto Nascimento
               </td>
-              <td className="nif_td" aria-placeholder="">
-                000000000
-              </td>
+              <select className="nif_td" aria-placeholder="">
+                <option value="Selecione">Selecione</option>
+                <option value="Concluido">Concluido</option>
+                <option value="Em andamento">Em andamento</option>
+                <option value="Em atrasado">Em atrasado</option>
+              </select>
               <td className="perfil_td" aria-placeholder="">
                 Gestor
               </td>
@@ -105,9 +108,12 @@ function GestaoCadastro() {
               <td className="nome_td" aria-placeholder="">
                 Roberto Nascimento
               </td>
-              <td className="nif_td" aria-placeholder="">
-                000000000
-              </td>
+              <select className="nif_td" aria-placeholder="">
+                <option value="Selecione">Selecione</option>
+                <option value="Concluido">Concluido</option>
+                <option value="Em andamento">Em andamento</option>
+                <option value="Em atrasado">Em atrasado</option>
+              </select>
               <td className="perfil_td" aria-placeholder="">
                 Gestor
               </td>
