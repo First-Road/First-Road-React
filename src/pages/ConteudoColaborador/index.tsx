@@ -2,6 +2,7 @@
 import "./style.css";
 
 import Aside from "../../components/aside";
+import React, { useEffect, useState } from "react";
 
 //icons/images
 import icone_Intranet from "../../assets/icons/Intranet.png"
@@ -12,16 +13,41 @@ import icone_Suporte from "../../assets/icons/suporte-tecnico 1.png"
 
 function ConteudoColaborador (){
 
+  const [totalTimeInseconds, setTotalTimeInSecons] = useState(8*60)
+
+  const minutos = Math.round(totalTimeInseconds / 60);
+  const segundos = totalTimeInseconds % 60;
+
+  useEffect(() => {
+      if(totalTimeInseconds === 0){
+          alert("O tempo acabou!")
+          return
+      }else{
+      setTimeout(() =>{
+          setTotalTimeInSecons(totalTimeInseconds -1)
+      }, 1000)
+  }
+      
+  }, [totalTimeInseconds])
+
+
+
     return(
 
 
         <main id="aside_colaborador">
       <Aside />
-        <section id="ConteudoColaborador">
+        <div id="ConteudoColaborador">
   <header>
     <div className="header_titulo">
-      <img src="assets/icons/iconeFistRoadHeader.png" alt="" />
+      
       <h1>Módulo 1 - Instruções de Acesso </h1>
+      <div className="cronometroColaborador">
+                        <span>{minutos.toString().padStart(2, "0")}</span>
+                        <span>:</span>
+                        <span>{segundos.toString().padStart(2, "0")}</span>
+
+                    </div>
     </div>
   </header>
   <div className="conteudos grid">
@@ -66,7 +92,7 @@ function ConteudoColaborador (){
       </div>
     </div>
   </div>
-</section>
+</div>
 </main>
 
     )

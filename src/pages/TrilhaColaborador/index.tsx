@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 
 import { Link } from "react-router-dom";
@@ -19,8 +19,6 @@ function TrilhaColaborador() {
         right: "-150px",
     });
 
-   
- 
     const handleAnimationClick = (animation: any, top: any, right: any) => {
         setCarroStyle((prevCarroStyle) => ({
             ...prevCarroStyle,
@@ -29,6 +27,11 @@ function TrilhaColaborador() {
             animation,
         }));
     };
+
+    
+
+
+    const [moduloAtual, setModuloAtual] = useState<string>("0")
 
 
     // const botaoAnimar = document.getElementById("animar");
@@ -51,6 +54,9 @@ function TrilhaColaborador() {
             <Aside />
             <section>
                 <div className="tela">
+
+
+                   
                     <img src={mapa} alt="" />
                     <div className="car">
                         {/* <div className="carrinho">
@@ -65,23 +71,23 @@ function TrilhaColaborador() {
                 <div className="botoesModulos">
 
                     <div className="botoes">
-                        <Context.Provider value={1}>
-                            <input
-                                className="botao1"
-                                onClick={() => { handleAnimationClick("veic1 3s ease-in-out", "0px", "60px") }}
-                                id="animar"
-                                type="button"
-                                defaultValue="Módulo - 1"
-                            // const carro = document.querySelector(".carro");
+                        <Context.Provider value={{ moduloAtual, setModuloAtual }}>
+                        <input
+                            className="botao1"
+                            onClick={() => {setModuloAtual("1"); handleAnimationClick("veic1 3s ease-in-out", "0px", "60px") }}
+                            id="animar"
+                            type="button"
+                            defaultValue="Módulo - 1"
+                        // const carro = document.querySelector(".carro");
 
-                            //   botaoAnimar.addEventListener("click", ()=> {
-                            //   carro.style.animation = "";
-                            //   setTimeout(() => carro.style.animation = "veic1 3s ease-in-out");
-                            //   carro.style.top = "0px";
-                            //   carro.style.right = "60px";
-                            // });
+                        //   botaoAnimar.addEventListener("click", ()=> {
+                        //   carro.style.animation = "";
+                        //   setTimeout(() => carro.style.animation = "veic1 3s ease-in-out");
+                        //   carro.style.top = "0px";
+                        //   carro.style.right = "60px";
+                        // });
 
-                            />
+                        />
                         </Context.Provider>
                         <input
                             className="botao2"

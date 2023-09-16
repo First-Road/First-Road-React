@@ -13,51 +13,55 @@ import Context from '../../utils/Context';
 
 function VisualizarCertificadosColaborador() {
 
+    // const { moduloAtual, setModuloAtual } = useContext(Context);
+    // console.log(moduloAtual);
+
     return (
-        <main id="aside_colaborador">
-            <Aside />
-            
-            <div className="tela_meuscertificados">
-                <div className="carrousel_texto">
-                    <h5 className="tituloCertificados">Certificados</h5>
-                    <p className="textoCertificados">Acesse aqui os seus certificados adquiridos em sua jornada:</p>
-                </div>
-                <div className="caixa_certificado">
-                    <div className="certificados1">
-                        <div className="certificado-container">
-                            <img src={CertificadosIcon} alt="certificado" />
-                       
-                               
-                               
-                           
+        <Context.Consumer>
+            {
+                value => (<main id="aside_colaborador">
+                    <Aside />
+
+                    <div className="tela_meuscertificados">
+                        <div className="carrousel_texto">
+                            <h5 className="tituloCertificados">Certificados</h5>
+                            <p className="textoCertificados">Acesse aqui os seus certificados adquiridos em sua jornada:</p>
                         </div>
-                        <div className="certificado-container">
-                            <img src={CertificadosIcon} alt="certificado" />
-                            <img className="icone-cadeado" src={cadeadofechado} alt="certificado" />
-                        </div>
-                        <div className="certificado-container">
-                            <img src={CertificadosIcon} alt="certificado" />
-                            <img className="icone-cadeado" src={cadeadofechado} alt="certificado" />
+                        <div className="caixa_certificado">
+                            <div className="certificados1">
+                                <div className="certificado-container">
+                                    <img src={CertificadosIcon} alt="certificado" />
+                                </div>
+                                <div className="certificado-container">
+                                    <img src={CertificadosIcon} alt="certificado" />
+                                    <img className="icone-cadeado" src={cadeadofechado} alt="certificado" />
+                                </div>
+                                <div className="certificado-container">
+                                    <img src={CertificadosIcon} alt="certificado" />
+                                    <img className="icone-cadeado" src={cadeadofechado} alt="certificado" />
+                                </div>
+                            </div>
+                            <div className="caixa_certificado2">
+                                <div className="certificado-container">
+                                    <img src={CertificadosIcon} alt="certificado" />
+                                    <img className="icone-cadeado" src={cadeadofechado} alt="certificado" />
+                                </div>
+                                <div className="certificado-container">
+                                    <img src={CertificadosIcon} alt="certificado" />
+                                    <img className="icone-cadeado" src={cadeadofechado} alt="certificado" />
+                                </div>
+                                <div className="certificado-container">
+                                    <img src={CertificadosIcon} alt="certificado" />
+                                    <img className="icone-cadeado" src={cadeadofechado} alt="certificado" />
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <div className="caixa_certificado2">
-                        <div className="certificado-container">
-                            <img src={CertificadosIcon} alt="certificado" />
-                            <img className="icone-cadeado" src={cadeadofechado} alt="certificado" />
-                        </div>
-                        <div className="certificado-container">
-                            <img src={CertificadosIcon} alt="certificado" />
-                            <img className="icone-cadeado" src={cadeadofechado} alt="certificado" />
-                        </div>
-                        <div className="certificado-container">
-                            <img src={CertificadosIcon} alt="certificado" />
-                            <img className="icone-cadeado" src={cadeadofechado} alt="certificado" />
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </main>
+                </main>)
+            }
+        </Context.Consumer>
+
     );
 }
 
