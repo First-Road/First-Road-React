@@ -1,7 +1,10 @@
+
+
 import "./style.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import Aside from "../../components/aside";
+
 
 
 //icones/images
