@@ -207,6 +207,20 @@
         width: 100%;
     }
 
+    #asideAdm #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+        z-index: 1;
+       
+    }
+
    
 
 }
