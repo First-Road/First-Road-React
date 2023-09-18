@@ -10,7 +10,7 @@ function CadastrarGestor() {
             <AsideAdm/>
             <section className="adminCadastroGestor">
                 <div className="adminCadastroGestor_Secao">
-                    <h1>Cadastro do Gestor</h1>
+                    <h1>Cadastro Gestor</h1>
                     <div className="user_config">
                         <img
                             className="admin_FotoPadrao"
