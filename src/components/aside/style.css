@@ -223,7 +223,7 @@
         overflow: hidden;
         transition: .5s;
         backdrop-filter: blur(10px);
-       
+        z-index: 1;
     }
 
 

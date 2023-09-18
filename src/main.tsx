@@ -9,6 +9,9 @@ import GestaoUsuario from './pages/GestaoUsuario';
 import Login from './pages/Login';
 import Termos from './pages/Termos';
 import ResetaSenha from './pages/ResetaSenha';
+import CadastroConteudo from './pages/CadastroConteudo';
+
+
 
 
 //Estilizacao
@@ -19,6 +22,7 @@ import './index.css'
 
 //Pacotes Rotas
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 
 
@@ -37,6 +41,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/gestaoUO' element={<GestaoUO />} />
         <Route path='/gestaoUsuario' element={<GestaoUsuario />} />
         <Route path='/cadastroGestor' element={<CadastrarGestor />} />
+        <Route path='/cadastroConteudo' element={<CadastroConteudo/>} />
 
       </Routes>
     </BrowserRouter>

@@ -22,7 +22,7 @@ function AsideAdm() {
     if (eventoMenu >= "768") {
       aside.style.left = "0px";
     } else {
-      aside.style.left = "-140px";
+      aside.style.left = "-247px";
     }
   });
 
@@ -33,7 +33,7 @@ function AsideAdm() {
     const aside: any = document.getElementById("asideAdm");
 
     if (window.getComputedStyle(aside).left == "0px") {
-      aside.style.left = "-140px";
+      aside.style.left = "-247px";
       sombra.style.right = "110vw";
       body.style.overflow = "auto";
     } else {
@@ -144,7 +144,7 @@ function AsideAdm() {
                 <a href=""></a>
               </li>
               <li>
-                <Link to={"#"}>
+                <Link to={"/cadastroConteudo"}>
                   <div>
                     <img
                       className="icon"
