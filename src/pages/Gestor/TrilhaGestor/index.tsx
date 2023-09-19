@@ -3,6 +3,7 @@ import "./style.css";
 import { Link } from "react-router-dom";
 import AsideGestor from "../../../components/Aside_gestor";
 import iconeImagem from "../../../assets/icons/novoingressante 1 (1).svg";
+import user from "../../../assets/icons/Group 41.png"
 
 function TrilhaGestor() {
   return (

@@ -196,7 +196,7 @@ function PerfilGestor() {
                       />
                     </div>
                     <div className="button_salvar">
-                      <button type="submit">Salvar</button>
+                      <button type="submit">Alterar</button>
                     </div>
 
                   </div>

@@ -360,6 +360,14 @@
 
 
 }
+.btn_cadastrar a{
+    background-color:var(--principal-cor-3);
+    color: var(--grayscale-cor-4);
+    font-family: var(--font2);
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
 
 #gestao_cadastro .tr_one
 {

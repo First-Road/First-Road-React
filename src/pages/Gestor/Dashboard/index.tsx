@@ -17,7 +17,7 @@ function Dashboard() {
             <div className="dashboard_one">
               <div className="dashboard_one_a">
                 <span>Nome</span>
-                <p>Maria de Lurdes Nascimento</p>
+                <p>Roberto Nascimento</p>
               </div>
               <div className="dashboard_one_b">
                 <img

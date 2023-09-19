@@ -15,6 +15,12 @@ import conteudo from "../../assets/icons/cadastro_conteudo_aside.svg"
 import check from "../../assets/icons/list_check_aside.svg"
 import dashboard from "../../assets/icons/dashboard_aside.svg"
 import iconesuporte from "../../assets/icons/suporte_1.svg"
+import PerfilGestor from "../../pages/Gestor/PerfilGestor";
+import GestaoCadastro from "../../pages/Gestor/GestaoCadastro";
+import CadastroColaborador from "../../pages/Gestor/CadastroColaborador1";
+import TrilhaGestor from "../../pages/Gestor/TrilhaGestor";
+import SuporteGestor from "../../pages/Gestor/SuporteGestor";
+import { Link } from "react-router-dom";
 
 
 
@@ -73,20 +79,21 @@ function AsideGestor() {
         <div className="menu_conteudo">
           <ul>
             <li>
-              <a href="../gestaoDashiboard/index.html">
+              <a><Link to={"../Perfil/Gestor"}>
                 <div>
                   <img
                     className="icon"
                     src={usuario}
                     alt="icone de usuario"
+                    
                   />
                 </div>
-                <span>Perfil</span>
+                <span>Perfil</span></Link>
               </a>
             </li>
           
             <li>
-              <a href="../gestaoColaboradorGestor/index.html">
+              <a> <Link to={"../gestao/cadastro"}>
                 <div>
                   <img
                     className="icon"
@@ -94,12 +101,12 @@ function AsideGestor() {
                     alt="icone agenda"
                   />
                 </div>
-                <span>Gestao Colaborador</span>
+                <span>Gestao Colaborador</span></Link>
               </a>
             </li>
             
             <li>
-              <a href="../cadastro_colaborador_gestor/index.html">
+              <a> <Link to={"../cadastro/colaborador"}>
                 <div>
                   <img
                     className="icon"
@@ -107,11 +114,11 @@ function AsideGestor() {
                     alt="icone agenda"
                   />
                 </div>
-                <span>Cadastro Colaborador</span>
+                <span>Cadastro Colaborador</span></Link>
               </a>
             </li>
             <li>
-              <a href="../trilhaDeConteudo/index.html">
+              <a> <Link to={"../trilha/gestor"}>
                 <div>
                   <img
                     className="icon"
@@ -119,11 +126,11 @@ function AsideGestor() {
                     alt="icone agenda"
                   />
                 </div>
-                <span>Trilha de Conteúdo</span>
+                <span>Trilha de Conteúdo</span></Link>
               </a>
             </li>
             <li>
-              <a href="../dashborad/dashboard.html">
+              <a href="../dashborad/dashboard.html" >
                 <div>
                   <img
                     className="icon"
@@ -135,7 +142,7 @@ function AsideGestor() {
               </a>
             </li>
             <li>
-              <a href="../dashborad/dashboard.html">
+              <a><Link to={"../suporte/gestor"}>
                 <div>
                   <img
                     className="icon"
@@ -143,7 +150,7 @@ function AsideGestor() {
                     alt="icone suporte"
                   />
                 </div>
-                <span>Suporte</span>
+                <span>Suporte</span></Link>
               </a>
             </li>
           </ul>

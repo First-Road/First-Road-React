@@ -65,7 +65,7 @@ function SuporteGestor() {
                       Perfis de acesso
                     </a>
                   </li>
-                  <li>
+                 {/*  <li>
                     <a href="">
                       <img
                         src={iconeajuda}
@@ -73,7 +73,7 @@ function SuporteGestor() {
                       />
                       Certificados
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </nav>
               <div className="navegacao4">
