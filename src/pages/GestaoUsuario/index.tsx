@@ -10,7 +10,7 @@ function GestaoUsuario() {
             <AsideAdm />
             <section className="adminGestaoUsuario">
                 <div className="adminGestao_By">
-                    <h1>Gestão de Usuario</h1>
+                    <h1>Gestão Usuario</h1>
                     <div className="adminGestao_Ry">
                         <div className="adminGestao_Ray">
                             <div className="posicao_linha">

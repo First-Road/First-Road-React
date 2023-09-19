@@ -10,6 +10,8 @@ import Login from './pages/Login';
 import Termos from './pages/Termos';
 import ResetaSenha from './pages/ResetaSenha';
 import CadastroConteudo from './pages/CadastroConteudo';
+import CadastroUNidade from './pages/CadastroUnidade';
+
 
 
 
@@ -42,6 +44,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/gestaoUsuario' element={<GestaoUsuario />} />
         <Route path='/cadastroGestor' element={<CadastrarGestor />} />
         <Route path='/cadastroConteudo' element={<CadastroConteudo/>} />
+        <Route path='/cadastroUnidade' element={<CadastroUNidade/>} />
 
       </Routes>
     </BrowserRouter>

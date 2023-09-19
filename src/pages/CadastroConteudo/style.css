@@ -328,10 +328,6 @@
 
     }
 
-    #admCadastroContuedo #sombra{
-        z-index: 1;
-    }
-
 
 }
 
@@ -361,9 +357,11 @@
 
     #admCadastroConteudo .adminCadastroConteudoSecao H1 {
         font-size: 25px;
-        margin-top: 10px;
+        margin-top: 30px;
 
     }
+
+    
 
     #admCadastroConteudo .conteudoCadastro h2 {
         font-size: 23px;

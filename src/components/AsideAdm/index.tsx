@@ -95,7 +95,7 @@ function AsideAdm() {
               </li>
 
               <li>
-                <Link to={"#"}>
+                <Link to={"/cadastroUnidade"}>
                   <div>
                     <img
                       className="icon"

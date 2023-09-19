@@ -382,23 +382,6 @@ select {
 
 @media screen and (max-width:768px) {
 
-    body {
-        /* overflow: scroll; */
-        height: 100vh;
-    }
-
-    #sombra {
-        height: 100vh;
-        width: 100vw;
-        background-color: #0000004f;
-        position: fixed;
-        top: 0;
-        right: 110vw;
-        overflow: hidden;
-        transition: .5s;
-        backdrop-filter: blur(10px);
-    }
-
     #gestaoUsuario .adminGestaoUsuario {
         width: 100%;
         background-color: var(--grayscale-cor-3);
@@ -408,9 +391,6 @@ select {
     
     
     }
-
-
-
 
 }
 
@@ -424,8 +404,8 @@ select {
 @media screen and (max-width: 500px) {
 
     #gestaoUsuario .adminGestao_By h1 {
-        font-size: 24px;
-        margin-top: 2px;
+        font-size: 28px;
+        margin-top: 60px;
     }
 
 #gestaoUsuario .input1 select,#gestaoUsuario .input2 select, #gestaoUsuario .input3 select {
@@ -438,8 +418,5 @@ select {
 
 @media screen and (max-width: 400px) {
 
-    #gestaoUsuario .adminGestao_By h1 {
-        font-size: 20px;
-        margin-top: 2px;
-    }
+  
 }

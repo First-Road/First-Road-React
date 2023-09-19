@@ -1,22 +1,25 @@
-import './style.css'
+import './style.css';
+import AsideAdm from '../../components/AsideAdm';
 
-import fotoPadrao from '../../assets/icons/fotopadrao_user_aside.svg'
-import AsideAdm from '../../components/AsideAdm'
 
-function CadastrarGestor() {
+function CadastroUNidade() {
 
     return (
-        <main id='cadastrarGestor'>
+        <main id='cadastroUnidade'>
             <AsideAdm/>
-            <section className="adminCadastroGestor">
-                <div className="adminCadastroGestor_Secao">
-                    <h1>Cadastro Gestor</h1>
+            <section className="adminCadastroUnidade">
+                <div className="adminCadastroUnidade_Secao">
+                    <h1>Cadastro de Unidade</h1>
                     <div className="user_config">
-                        <img
-                            className="admin_FotoPadrao"
-                            src={fotoPadrao}
-                            alt=""
-                        />
+
+                    <svg 
+                    className="adminFotoPadraoUnidade"
+                    xmlns="http://www.w3.org/2000/svg" 
+                    height="1em" 
+                    viewBox="0 0 576 512">
+                        {/*<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->*/}
+                        <path d="M64 32C46.3 32 32 46.3 32 64V304v48 80c0 26.5 21.5 48 48 48H496c26.5 0 48-21.5 48-48V304 152.2c0-18.2-19.4-29.7-35.4-21.1L352 215.4V152.2c0-18.2-19.4-29.7-35.4-21.1L160 215.4V64c0-17.7-14.3-32-32-32H64z"/></svg>
+                        
                         {/* <img class="admin_engrenagem" src="./assets/icons/engrenagem_aside.svg" alt=""> */}
                         <svg
                             className="admin_engrenagem"
@@ -34,39 +37,39 @@ function CadastrarGestor() {
                             300kb. Arquivos permitidos são .png e .jpg
                         </p>
                     </div>
-                    <div className="adminCadastroGestor_texto_imagem">
-                        <div className="centralizar">
+                    <div className="adminPerfil_texto_imagem">
+                        <div className="cadastroUnidade_Centralizar">
                             <div className="posicao_linha">
                                 <div className="primeira_linha">
                                     <div className="input input1">
-                                        <label htmlFor="Nome completo">Nome Completo</label>
+                                        <label htmlFor="Razao Social">Razâo Social</label>
                                         <input
                                             className="input_caixa"
                                             type="text"
-                                            placeholder="Nome do Usuário"
+                                            placeholder="Insira a razão social aqui"
                                         />
                                     </div>
                                     <div className="input input2">
-                                        <label htmlFor="Cpf">Cpf</label>
+                                        <label htmlFor="CNPJ">CNPJ</label>
                                         <input
                                             className="input_caixa"
                                             type="text"
-                                            placeholder="000.000.000-00"
+                                            placeholder="000.000.000/0000-00"
                                         />
                                     </div>
                                 </div>
                                 <div className="segunda_linha">
                                     <div className="input input3">
-                                        <label htmlFor="NIF">NIF</label>
+                                        <label htmlFor="CEP">CEP</label>
                                         <input
                                             className="input_caixa"
                                             type="number"
-                                            placeholder="000000000"
+                                            placeholder="00000-000"
                                         />
                                     </div>
                                     <div className="input input4">
-                                        <label htmlFor="Data de Nascimento">Data de Nascimento</label>
-                                        <input className="input_caixa" type="date" />
+                                        <label htmlFor="Estado">UF</label>
+                                        <input className="input_caixa" type="text" placeholder="Estado" />
                                     </div>
                                     <div className="input input5">
                                         <label htmlFor="Unidade">Unidade</label>
@@ -97,29 +100,35 @@ function CadastrarGestor() {
                                 </div>
                                 <div className="terceira_linha">
                                     <div className="input input6">
-                                        <label htmlFor="Perfil">Perfil</label>
-                                        <input
-                                            className="input_caixa"
-                                            type="text"
-                                            placeholder="Administrativo"
-                                        />
+                                        <label htmlFor="Cidade">Cidade</label>
+                                        <input className="input_caixa" type="text" placeholder="Cidade" />
                                     </div>
                                     <div className="input input7">
-                                        <label htmlFor="Cargo">Cargo</label>
-                                        <input
-                                            className="input_caixa"
-                                            type="text"
-                                            placeholder="Gerente"
-                                        />
+                                        <label htmlFor="Bairro">Bairro</label>
+                                        <input className="input_caixa" type="text" placeholder="Bairro" />
                                     </div>
                                 </div>
                                 <div className="quarta_linha">
                                     <div className="input input8">
-                                        <label htmlFor="email">E-mail</label>
+                                        <label htmlFor="Logradouro">Logradouro</label>
                                         <input
                                             className="input_caixa"
-                                            type="email"
-                                            placeholder="email@email.vw.com.br"
+                                            type="text"
+                                            placeholder="Endereço"
+                                        />
+                                    </div>
+                                    <div className="input input9">
+                                        <label htmlFor="Numero">Nº</label>
+                                        <input className="input_caixa" type="text" placeholder="000" />
+                                    </div>
+                                </div>
+                                <div className="quinta_linha">
+                                    <div className="input input10">
+                                        <label htmlFor="">Complemento</label>
+                                        <input
+                                            className="input_caixa"
+                                            type="text"
+                                            placeholder="Endereço"
                                         />
                                     </div>
                                     <div className="button_salvar">
@@ -128,38 +137,14 @@ function CadastrarGestor() {
                                 </div>
                             </div>
                         </div>
-                        <hr />
-                        <div className="adminCadastroGestorPosicionamento_Agendar">
-                            <h2>ENVIAR SENHA</h2>
-                            <div className='adminCadastroGestor_Paragrafo'>
-                            <p>
-                                Programação para enviar e-mail de boas-vindas com dados de acesso ou
-                                reset de senha:
-                            </p>
-
-                            </div>
-                            
-                            <div className="agendar">
-                                <div className="data_enviarSenha">
-                                    <label htmlFor="">Data</label>
-                                    <input className="input_caixas2" type="date" />
-                                </div>
-                                <div className="horario_enviarSenha">
-                                    <label htmlFor="">Horario</label>
-                                    <input className="input_caixass2" type="time" />
-                                </div>
-                            </div>
-                            <div className="button_agendar">
-                                <button>Agendar</button>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
         </main>
 
-    );
+
+    )
 
 }
 
-export default CadastrarGestor
+export default CadastroUNidade

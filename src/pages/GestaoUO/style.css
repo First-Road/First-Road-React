@@ -215,9 +215,6 @@
 
 @media screen and (max-width:768px) {
 
-
-    /* SECTION */
-
     #gestaoUO .adminGestaoUO {
         width: 100vw;
     }
@@ -228,8 +225,7 @@
 
     #gestaoUO .adminGestaoUO_Secao H1 {
         font-size: 30px;
-        /* margin-top: 20px; */
-
+      
     }
 
 
@@ -313,7 +309,7 @@
 
     #gestaoUO .adminGestaoUO_Secao H1 {
         font-size: 28px;
-        margin-top: 10px;
+        margin-top: 60px;
 
     }
 
