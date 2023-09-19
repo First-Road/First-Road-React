@@ -26,11 +26,12 @@ function HomeColaborador() {
               </a>
             </li>
             <li>
-              <a href="../tela_avatar/index.html">
+              <a><Link to={"/AvatarColaborador"}>
                 <div>
                   <img src={IconeCaminhao} alt="" />
                 </div>
                 <span>Avatar</span>
+                </Link>
               </a>
             </li>
             <li>

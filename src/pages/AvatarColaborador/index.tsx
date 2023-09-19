@@ -13,6 +13,7 @@ import "./style.css";
 import Fusca from "../../assets/img/fusca.png";
 import Gol from "../../assets/img/gol.png";
 import Bugatti from "../../assets/img/bugatti.png";
+import { Link } from "react-router-dom";
 
 function AvatarColaborador() {
   //state
@@ -71,7 +72,7 @@ function AvatarColaborador() {
                     </p>
                   </div>
                   <div className="botao_selecionar">
-                    <button>Selecionar</button>
+                    <button><Link to = {"../TrilhaColaborador"}>Selecionar</Link></button>
                   </div>
                 </div>
               </SwiperSlide>

@@ -6,7 +6,7 @@ import cadeadoaberto from '../../assets/icons/cadeadoaberto.svg';
 import cadeadofechado from '../../assets/icons/cadeadofechado.svg';
 import './style.css';
 
-
+import { Link } from "react-router-dom";
 import Context from '../../utils/Context';
 
 
@@ -29,8 +29,8 @@ function VisualizarCertificadosColaborador() {
                         </div>
                         <div className="caixa_certificado">
                             <div className="certificados1">
-                                <div className="certificado-container">
-                                    <img src={CertificadosIcon} alt="certificado" />
+                                <div className="certificado-container"><Link to={"../CertificadoColaborador"}>
+                                    <img src={CertificadosIcon} alt="certificado"/></Link>
                                 </div>
                                 <div className="certificado-container">
                                     <img src={CertificadosIcon} alt="certificado" />

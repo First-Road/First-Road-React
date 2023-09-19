@@ -168,7 +168,8 @@ function TrilhaColaborador() {
                         </div>
                         <p>Primeiro Módulo! Bora lá?</p>
                         <div className="botao_entrar">
-                            <a href="../tela_conteudo/index.html">Entrar</a>
+                    
+                          <a><Link to ={"../ConteudoColaborador"}>Entrar</Link></a> 
                         </div>
                     </div>
                 </div>

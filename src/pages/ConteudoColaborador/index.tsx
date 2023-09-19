@@ -9,11 +9,12 @@ import icone_Intranet from "../../assets/icons/Intranet.png"
 import icone_PortalRH from "../../assets/icons/portalRH.png"
 import icone_Chamado from "../../assets/icons/chamado.png"
 import icone_Suporte from "../../assets/icons/suporte-tecnico 1.png"
+import { Link } from "react-router-dom";
 
 
 function ConteudoColaborador (){
 
-  const [totalTimeInseconds, setTotalTimeInSecons] = useState(8*60)
+  const [totalTimeInseconds, setTotalTimeInSecons] = useState(60*60)
 
   const minutos = Math.round(totalTimeInseconds / 60);
   const segundos = totalTimeInseconds % 60;
@@ -71,23 +72,26 @@ function ConteudoColaborador (){
           <span>Quiz</span>
         </a>
       </div>
-      <a href="">
+      <a><Link to={"../SuporteColaborador"}>
         <img src={icone_Suporte} alt="" />
-        <span>Suporte</span>
+        <span>Suporte</span></Link>
       </a>
     </div>
+    
     <div className="instrucoes">
-      <h2>Intranet</h2>
+    <div className="itensCaixa">
+      <h2 className="tituloConteudo1">Intranet</h2>
       <p>
         Onde todos os funcionários encontram documentos, procedimentos, links
         para portais importantes como o PORTAL RH, Central de TI e Chamados.
       </p>
+      </div>
       <div className="botao">
         <a className="botao_acessar" href="">
           Acessar
         </a>
-        <a className="botao_acessar" href="../telaParabens/Tela_Parabéns.html">
-          Finalizar
+        <a className="botao_acessar"><Link to ={"/ParabensColaborador"}>
+          Finalizar</Link>
         </a>
       </div>
     </div>
