@@ -1,0 +1,376 @@
+
+#loginAdm{
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#loginAdm .login_login{
+    height: 100%;
+    width: 60%;
+    background-image: url(../../assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#loginAdm .login_login h1{
+    font-family: var(--font-1);
+    font-size: 60px;
+    color: var(--principal-cor-1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+#loginAdm .login_tree{
+    font-size: 25px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#loginAdm .login_direcional{
+    background-color:  var(--grayscale-cor-3);
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginAdm .login_comandos{
+    height: 500px;
+    max-width: 400px;
+    width: 100%;
+    background-color: var(--grayscale-cor-3);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid var(--principal-cor-3);
+}
+
+#loginAdm .login_comandos h2{
+    font-family: var(--font-2);
+    font-size: 40px;
+    color: var(--principal-cor-3);
+
+}
+
+#loginAdm .login_comandos label{
+    font-family: var(--font-2);
+    font-size: 20px;
+    color: var(--principal-cor-3);
+    margin-bottom: 10px;
+
+}
+
+#loginAdm .login_comandos input{
+    height: 40px;
+    width: 100%;
+      min-width: 245px;
+    border: 3px solid var(--principal-cor-3);
+    border-radius: 10px;
+    margin-top: 5px;
+   
+}
+#loginAdm .login_comandos a{
+    font-family: var(--font-2);
+    font-size: 20px;
+    color: var(--principal-cor-3);
+    text-decoration: none;
+    margin: 5px;
+}
+
+
+#loginAdm .login_comandos button{
+    height: 40px;
+    width: 250px;
+    color: var(--grayscale-cor-4);
+    border-radius: 25px;
+    border: none;
+    font-family: var(--font-2);
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: var(--principal-cor-3);
+
+}
+
+#loginAdm .tipo_login{
+    display: flex;
+    gap: 30px; 
+    margin-top: 50px;
+    align-items: center;
+    
+
+}
+
+#loginAdm .tipo_login a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background-color: var(--principal-cor-3);
+    border-radius: 25px;
+    font-family: var(--font-2);
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--grayscale-cor-4);
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 1200px){
+    #loginAdm .login_login {
+        height: 100%;
+        width: 60%;
+    }
+
+    #loginAdm .login_login h1 {
+        font-size: 50px;
+
+    }
+
+    #loginAdm .login_tree {
+        font-size: 22px;
+    }
+
+    #loginAdm .login_comandos{
+        max-width: 380px;
+        width: 100%;
+    }
+
+    #loginAdm .login_comandos h2{
+        font-size: 36px;
+    }
+
+    #loginAdm .login_comandos label{
+        font-size: 18px;
+    }
+
+    #loginAdm .login_comandos input{
+        height: 40px;
+        width: 100%;
+          min-width: 240px;
+    }
+
+    #loginAdm .login_comandos a {
+        font-size: 18px;
+    }
+    
+    #loginAdm .login_comandos button{
+        height: 35px;
+        width: 240px;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 1067px){
+    #loginAdm .login_login {
+        height: 100%;
+        /* width: 60%; */
+    }
+
+    #loginAdm .login_login h1 {
+        font-size: 46px;
+
+    }
+
+    #loginAdm .login_tree {
+        font-size: 18px;
+    }
+
+    #loginAdm .login_comandos{
+        max-width: 340px;
+        width: 100%;
+    }
+
+    #loginAdm .login_comandos h2{
+        font-size: 32px;
+    }
+
+    #loginAdm .login_comandos label{
+        font-size: 16px;
+    }
+
+    #loginAdm .login_comandos input{
+        height: 35px;
+        width: 100%;
+          min-width: 235px;
+    }
+
+    #loginAdm .login_comandos a {
+        font-size: 16px;
+    }
+    
+    #loginAdm .login_comandos button{
+        height: 35px;
+        width: 220px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 970px){
+   
+    #loginAdm .login_tree {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 900px){
+   
+    #loginAdm .login_login h1 {
+        font-size: 45px;
+
+    }
+
+    #loginAdm .login_tree {
+        font-size: 16px;
+    }
+
+    #loginAdm .login_comandos{
+        max-width: 350px;
+        width: 100%;
+    }
+
+    #loginAdm .login_comandos h2{
+        font-size: 28px;
+    }
+
+    #loginAdm .login_comandos label{
+        font-size: 14px;
+    }
+
+    #loginAdm .login_comandos input{
+        height: 35px;
+        width: 100%;
+        min-width: 230px;
+    }
+
+    #loginAdm .login_comandos a {
+        font-size: 14px;
+    }
+    
+    #loginAdm .login_comandos input {
+        height: 35px;
+        width: 270px;
+    }
+}
+
+@media screen and (max-width: 899px){
+    #loginAdm .login_login h1 {
+        font-size: 40px;
+
+    }
+    #loginAdm .login_tree {
+        font-size: 15px;
+    }
+    #loginAdm .login_comandos{
+        max-width: 340px;
+        width: 100%
+    }
+   
+    #loginAdm .login_comandos input {
+        height: 35px;
+        width: 100%;
+        min-width: 220px;
+        font-size: 12px;
+    }
+    #loginAdm .login_comandos button{
+        height: 30px;
+        width: 200px;
+        font-size: 16px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+        background-size: cover;
+        background-image: url(../../assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
+        background-repeat: no-repeat;
+
+    }
+
+    #loginAdm .login_login{
+        background-image: none;
+    }
+
+    #loginAdm .login_direcional{
+        width: 40%;
+        background-color: #f3f3f300;
+        backdrop-filter: blur(1px);
+
+    }
+
+    #loginAdm .login_comandos{
+        height: 500px;
+        max-width: 360px;
+        min-width: 300px;
+        width: 100%;
+        margin-right: 30px;
+        border-radius: 5px;
+    }
+
+    #loginAdm .login_comandos div h2{
+        width: 302px;
+        font-size: 14px;
+        text-align: none;
+    }
+    
+    img {
+        height: 110px;
+        width: 150px;
+
+    }
+
+    #loginAdm .login_login h1{
+        font-size: 35px;
+    }
+
+
+
+}
+@media screen and (max-width: 767px){
+    main {
+        flex-direction: column;
+    }
+
+    #loginAdm .login_login{
+        height: 300px;
+        min-width: 300px;
+        max-width: 320px;
+    }
+
+    #loginAdm .login_tree{
+        display: none;
+    }
+    #loginAdm .login_comandos{
+        height: 420px;
+        max-width: 320px;
+        min-width: 300px;
+        width: 100%;
+        margin-left: 30px;
+    }
+
+
+
+
+}
+
+

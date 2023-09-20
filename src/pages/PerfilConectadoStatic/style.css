@@ -1,0 +1,592 @@
+#perfilConectado {
+    display: flex;
+    /* height: 100%; */
+    background-color: var(--grayscale-cor-2);
+
+}
+
+/* SECTION */
+
+#perfilConectado .adminPerfil_Secao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#perfilConectado .adminPerfil_Secao H1 {
+    font-size: 60px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    text-transform: uppercase;
+}
+
+#perfilConectado .adminPerfil {
+    width: 80%;
+    background-color: var(--grayscale-cor-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#perfilConectado .adminPerfil_Secao {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+#perfilConectado .adminPerfil_texto_imagem {
+    display: flex;
+    gap: 50px;
+}
+
+#perfilConectado .user_config {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#perfilConectado .admin_FotoPadrao {
+    height: 155px;
+    width: 151px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 100%
+}
+
+#perfilConectado .admin_engrenagem {
+    position: absolute;
+    right: -10px;
+    bottom: 6px;
+    fill: var(--principal-cor-3);
+    width: 25px;
+    height: 25px;
+
+}
+
+#perfilConectado .texto_perfil {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#perfilConectado .texto_perfil p {
+    font-size: 30px;
+    font-family: var(--font-2);
+    font-weight: 600;
+    color: var(--principal-cor-3);
+
+}
+
+
+#perfilConectado .centralizar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 580px;
+
+}
+
+#perfilConectado .centralizar span {
+    font-size: 20px;
+    color: var(--grayscale-cor-2);
+}
+
+#perfilConectado .posicao_linha {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    width: 100%;
+}
+
+#perfilConectado .primeira_linha {
+    display: flex;
+    gap: 10px;
+
+}
+
+#perfilConectado .segunda_linha {
+    display: flex;
+    gap: 10px;
+
+}
+
+#perfilConectado .terceira_linha {
+    display: flex;
+    gap: 10px;
+
+}
+
+#perfilConectado .quarta_linha {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+#perfilConectado .input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+
+
+}
+
+#perfilConectado .input1 {
+    flex: 1;
+
+}
+
+#perfilConectado .input2 {
+    flex: 1;
+}
+
+#perfilConectado .input3,
+#perfilConectado .input4,
+#perfilConectado .input5 {
+    flex: 1;
+}
+
+#perfilConectado .input6,
+#perfilConectado .input7 {
+    flex: 1;
+}
+
+#perfilConectado .input8 {
+    width: 70%;
+}
+
+#perfilConectado .input_caixa {
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid var(--principal-cor-3);
+    background-color: var(--grayscale-cor-3);
+}
+
+#perfilConectado .input label {
+    text-transform: uppercase;
+    color: var(--principal-cor-3);
+    font-size: 12px;
+}
+
+#perfilConectado .button_entrar {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+
+}
+
+#perfilConectado .button_entrar a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+    text-decoration: none;
+
+}
+
+#perfilConectado .button_sair {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+
+}
+
+#perfilConectado .button_sair button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+
+}
+
+#perfilConectado .posicionamento_alterar {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+}
+
+#perfilConectado .senha {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#perfilConectado .senha_antiga {
+    display: flex;
+    flex-direction: column;
+}
+
+#perfilConectado .senha_nova {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#perfilConectado .texto_senha {
+    width: 180px;
+    font-family: var(--font-2);
+    font-size: 7px;
+    color: var(--auxiliar-cor-6);
+}
+
+#perfilConectado .input_senha,
+#perfilConectado .input_senha2 {
+    width: 180px;
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid var(--principal-cor-3);
+    background-color: var(--grayscale-cor-3);
+}
+
+#perfilConectado .senha label {
+    text-transform: uppercase;
+    color: var(--principal-cor-3);
+    font-size: 12px;
+}
+
+#perfilConectado .button_alterar button {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+
+
+}
+
+#perfilConectado .button_alterar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+
+}
+
+#perfilConectado h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+#perfilConectado ::placeholder,
+#perfilConectado .input_caixa {
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    /*SECTION*/
+
+    #perfilConectado .adminPerfil_Secao {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #perfilConectado .adminPerfil_Secao H1 {
+        font-size: 40px;
+        margin-top: 10px;
+
+    }
+
+    #perfilConectado .admin_FotoPadrao {
+        height: 105px;
+        width: 101px;
+    }
+
+    #perfilConectado .texto_perfil p {
+        font-size: 25px;
+    }
+
+    #perfilConectado .adminPerfil_texto_imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+
+    }
+
+    #perfilConectado .centralizar {
+        gap: 20px;
+
+    }
+
+    #perfilConectado .posicao_linha {
+        gap: 10px;
+    }
+
+    #perfilConectado .adminPerfil_texto_imagem {
+        gap: 5px;
+
+    }
+
+    #perfilConectado .input_caixa {
+        height: 25px;
+
+    }
+
+    #perfilConectado .button_entrar {
+        padding-top: 2px;
+
+    }
+
+    #perfilConectado .button_sair {
+        padding-top: 2px;
+    }
+
+    #perfilConectado .button_entrar button {
+        height: 25px;
+        font-size: 16px;
+    }
+
+    #perfilConectado .button_sair button {
+        height: 25px;
+        font-size: 16px;
+    }
+
+    #perfilConectado .posicionamento_alterar {
+        gap: 2px;
+
+    }
+
+    #perfilConectado .input_senha,
+    #perfilConectado .input_senha2 {
+        height: 25px;
+    }
+
+    #perfilConectado .button_alterar {
+        padding-top: none;
+
+    }
+
+    #perfilConectado .button_alterar button {
+        height: 25px;
+
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    /*SECTION*/
+
+    #perfilConectado .adminPerfil_Secao H1 {
+        font-size: 35px;
+        margin-top: 20px;
+
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    /*SECTION*/
+
+    #perfilConectado .adminPerfil {
+        width: 100%;
+    }
+
+    #perfilConectado .adminPerfil_Secao {
+        gap: 5px;
+    }
+
+    #perfilConectado .adminPerfil_Secao H1 {
+        font-size: 30px;
+        margin-top: 20px;
+
+    }
+
+    #perfilConectado .admin_FotoPadrao {
+        height: 115px;
+        width: 111px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    /*SECTION*/
+
+    #perfilConectado .adminPerfil_Secao H1 {
+        font-size: 28px;
+        margin-top: 2px;
+
+    }
+
+
+
+    #perfilConectado .admin_FotoPadrao {
+        height: 105px;
+        width: 101px;
+    }
+
+    #perfilConectado .texto_perfil p {
+        font-size: 7px;
+
+    }
+
+    #perfilConectado .centralizar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 480px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    /*SECTION*/
+
+    #perfilConectado .adminPerfil_Secao {
+        gap: 2px;
+    }
+
+    #perfilConectado .adminPerfil_Secao H1 {
+        font-size: 25px;
+        margin-top: 10px;
+
+    }
+
+
+    #perfilConectado .admin_FotoPadrao {
+        height: 75px;
+        width: 71px;
+    }
+
+    #perfilConectado .texto_perfil {
+        width: 60%;
+        margin-top: 1px;
+    }
+
+    #perfilConectado .texto_perfil p {
+        font-size: 20px;
+
+    }
+
+    #perfilConectado .adminPerfil_texto_imagem {
+        gap: 2px;
+    }
+
+    #perfilConectado .centralizar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 380px;
+    }
+
+    #perfilConectado .posicao_linha {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    #perfilConectado .primeira_linha {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    #perfilConectado .segunda_linha {
+        display: flex;
+        gap: 5px;
+        flex-direction: column
+    }
+
+    #perfilConectado .terceira_linha {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    #perfilConectado .quarta_linha {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    #perfilConectado .input8 {
+        width: 100%;
+    }
+
+    #perfilConectado .button_salvar {
+        width: 50%;
+
+    }
+
+    #perfilConectado .posicionamento_alterar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+    }
+
+    #perfilConectado .button_alterar {
+        width: 100%;
+        padding-top: 1px
+    }
+
+    #perfilConectado .senha {
+        gap: 5px;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+    /*SECTION*/
+
+    #perfilConectado .centralizar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 300px;
+    }
+
+
+
+}

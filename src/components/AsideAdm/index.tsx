@@ -14,219 +14,217 @@ import voltar from '../../assets/icons/icon_voltar_aside.svg'
 import logoFirst from '../../assets/icons/Logo_FirstRoad_aside.svg'
 
 
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 function AsideAdm() {
 
-    let menu:any = document.getElementById("menu")
-   
+
+
 
 
 
     addEventListener("resize", () => {
-        let aside:any = document.getElementById("asideAdm")
+        const aside: any = document.getElementById("asideAdm")
+        const menu: any = window.innerWidth
 
-        if (window.innerWidth >= 768) {
+        if (menu >= 768) {
             aside.style.left = "0px"
         }
         else {
-            aside.style.left = "-247px"
-
+            aside.style.left = "-190px"
         }
     });
 
 
     function mostrarMenu() {
-        let aside:any = document.getElementById("asideAdm")
+        // debugger        
+        console.log("entrou");
+        
+        const aside: any = document.getElementById("asideAdm")
 
-        let sombra:any = document.getElementById("sombra")
-        let body:any = document.getElementById("body")
+        const sombra: any = document.getElementById("sombra")
+        const body: any = document.getElementById("body")
 
         if (window.getComputedStyle(aside).left == "0px") {
             aside.style.left = "-247px"
-            sombra.style.right = "110vw"
-            body.style.overflow = "auto"
+            //sombra.style.right = "110vw"
+            //body.style.overflow = "auto"
         }
         else {
-            aside.style.left = "0px"
-            sombra.style.right = "0px"
-            body.style.overflow = "hidden"
+            aside.style.left = "0"
+            // sombra.style.right = "0"
+            // body.style.overflow = "hidden"
         }
     }
 
     return (
+        <aside id="asideAdm">
+            <div className="posicionamento_elementos" id="posicao">
 
+                <div className="imagem_volks">
+                    <img src={logoVW} alt="logo da volks" />
+                </div>
 
-
-
-    <aside id="asideAdm">
-        <div className="posicionamento_elementos" id="posicao">
-
-            <div className="imagem_volks">
-                <img src={logoVW} alt="logo da volks" />
-            </div>
-
-            <Link className="menu_barras" id="menu" to={"#"}onClick={mostrarMenu}><img src={cardapio} alt="menu"/></Link>
+                <Link className="menu_barras" id="menu" to={"#"} onClick={mostrarMenu}><img src={cardapio} alt="menu" /></Link>
             
-            <div className="posicionamento_elementos2">
-                <div className="menu_conteudo">
-                    <ul>
-                        <li>
+                <div className="posicionamento_elementos2">
+                    <div className="menu_conteudo">
+                        <ul>
+                            <li>
 
-                            <Link to={'#'}>
-                                <div>
-                                    <img src={perfil} alt="" />
-                                </div>
-                                <span>
-                                    Perfil
-                                </span>
-
-
-                            </Link>
-                            <a href="">
-                            </a>
-                        </li>
+                                <Link to={'/perfil'}>
+                                    <div>
+                                        <img src={perfil} alt="" />
+                                    </div>
+                                    <span>
+                                        Perfil
+                                    </span>
 
 
-                        <li>
-
-                            <Link to={"#"}>
-                            <div>
-                                    <img className="icon" src={cadastroGestor} alt="icone 3users seting" />
-                                </div>
-                                <span>
-                                    Cadastro Gestor
-                                </span>
-
-
-                            </Link>
-                            
-                        </li>
-                        <li>
-                            <Link to={"#"}>
-                            <div>
-                                    <img className="icon" src={gestaoUsuario} alt="icone user3" />
-                                </div>
-                                <span>
-                                    Gestão Usuario
-                                </span>
-
-                            </Link>
-                            
-                            
-                        </li>
-
-
-
-                        <li>
-
-                            <Link to={"#"}>
-                                <div>
-                                    <img className="icon" src={cadastroUnidade} alt="icone user3_seting" />
-                                </div>
-                                <span>
-                                    Cadastro Unidade
-                                </span>
-
-                            </Link>
-                            <a href="">
-                            </a>
-                        </li>
-
-                        <li>
-                            <Link to={"#"}>
-                            <div>
-                                    <img className="icon" src={gestaoUnidade} alt="icone user3_seting" />
-                                </div>
-                                <span>
-                                    Gestão Unidade
-                                </span>
-                            </Link>
-
-                       </li>
-
-                        <li>
-                            <Link to={"#"}>
-                            <div>
-                                    <img className="icon" src={cadastroUO} alt="icone carro" />
-                                </div>
-                                <span>
-                                    Cadastro U.O.
-                                </span>
-
-                            </Link>
-
-                            
-                        </li>
-
-                        <li>
-
-                            <Link to={"#"}>
-                            <div>
-                                    <img className="icon" src={gestaoUO} alt="icone user3_seting" />
-                                </div>
-                                <span>
-                                    Gestão U.O.
-                                </span>
-
-                            </Link>
-                            <a href="">
+                                </Link>
                                 
-                            </a>
-                        </li>
-                        <li>
+                            </li>
 
-                            <Link to={"#"}>
-                            <div>
-                                    <img className="icon" src={cadastroConteudo} alt="icone lista_conteudo" />
-                                </div>
-                                <span>
-                                    Cadastro Conteúdo
-                                </span>
-                            
-                            </Link>
-                           
-                        </li>
-                        <li>
-                            <Link to={"#"}>
-                            <div>
-                                    <img className="icon" src={casdastroTrilha} alt="icone user3_seting" />
-                                </div>
-                                <span>
-                                    Cadastro Trilha
-                                </span>
-                            </Link>
-                            
-                        </li>
-                    </ul>
+
+                            <li>
+
+                                <Link to={'/cadastroGestor'}>
+                                    <div>
+                                        <img className="icon" src={cadastroGestor} alt="icone 3users seting" />
+                                    </div>
+                                    <span>
+                                        Cadastro Gestor
+                                    </span>
+
+
+                                </Link>
+
+                            </li>
+                            <li>
+                                <Link to={'/gestaoUsuario'}>
+                                    <div>
+                                        <img className="icon" src={gestaoUsuario} alt="icone user3" />
+                                    </div>
+                                    <span>
+                                        Gestão Usuario
+                                    </span>
+
+                                </Link>
+
+
+                            </li>
+
+
+
+                            <li>
+
+                                <Link to={"#"}>
+                                    <div>
+                                        <img className="icon" src={cadastroUnidade} alt="icone user3_seting" />
+                                    </div>
+                                    <span>
+                                        Cadastro Unidade
+                                    </span>
+
+                                </Link>
+                                <a href="">
+                                </a>
+                            </li>
+
+                            <li>
+                                <Link to={"#"}>
+                                    <div>
+                                        <img className="icon" src={gestaoUnidade} alt="icone user3_seting" />
+                                    </div>
+                                    <span>
+                                        Gestão Unidade
+                                    </span>
+                                </Link>
+
+                            </li>
+
+                            <li>
+                                <Link to={"#"}>
+                                    <div>
+                                        <img className="icon" src={cadastroUO} alt="icone carro" />
+                                    </div>
+                                    <span>
+                                        Cadastro U.O.
+                                    </span>
+
+                                </Link>
+
+
+                            </li>
+
+                            <li>
+
+                                <Link to={"/gestaoUO"}>
+                                    <div>
+                                        <img className="icon" src={gestaoUO} alt="icone user3_seting" />
+                                    </div>
+                                    <span>
+                                        Gestão U.O.
+                                    </span>
+
+                                </Link>
+                                <a href="">
+
+                                </a>
+                            </li>
+                            <li>
+
+                                <Link to={"#"}>
+                                    <div>
+                                        <img className="icon" src={cadastroConteudo} alt="icone lista_conteudo" />
+                                    </div>
+                                    <span>
+                                        Cadastro Conteúdo
+                                    </span>
+
+                                </Link>
+
+                            </li>
+                            <li>
+                                <Link to={"#"}>
+                                    <div>
+                                        <img className="icon" src={casdastroTrilha} alt="icone user3_seting" />
+                                    </div>
+                                    <span>
+                                        Cadastro Trilha
+                                    </span>
+                                </Link>
+
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+
+
+
+                <div className="div_logofirst">
+
+                    <Link to={"#"}>
+                        <img className="saida" src={voltar} alt="icone saida" />
+
+                    </Link>
+
+                    <Link to={"#"}>
+
+                        <div className="logo_first">
+                            <img src={logoFirst} alt="logo" />
+                        </div>
+
+                    </Link>
+
+                </div>
+
             </div>
 
 
 
-            <div className="div_logofirst">
-
-                <Link to={"#"}>
-                <img className="saida" src={voltar} alt="icone saida" />
-
-                </Link>
-
-                <Link to={"#"}>
-
-                <div className="logo_first">
-                    <img src={logoFirst}alt="logo" />
-                </div>
-
-                </Link>
-                   
-            </div>
-
-        </div>
-
-
-
-    </aside>
+        </aside>
 
     );
 }

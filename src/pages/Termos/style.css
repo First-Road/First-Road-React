@@ -1,0 +1,503 @@
+
+#admTermos {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#admTermos  .termos_termos {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 20px; */
+    background-image: url(  ./assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#admTermos  .termos_termos h1 {
+    font-family: var(--font-1);
+    font-size: 60px;
+    color: var(--principal-cor-1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+#admTermos  .termos_tree {
+    font-size: 25px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#admTermos  .termos_direcional {
+    background-color: var(--grayscale-cor-3);
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#admTermos  .termos_comandos {
+    /* height: 80%; */
+    max-width: 480px;
+    width: 90%;
+    background-color: var(--grayscale-cor-3);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid var(--principal-cor-3);
+    text-align: justify;
+
+}
+
+#admTermos  .termos_comandos div h2 {
+    width: 100%;
+    font-family: var(--font-2);
+    font-size: 21px;
+    color: #000000;
+    text-align: center;
+
+}
+
+#admTermos  .termos_comandos div h2 #admTermos  .termos_h2 {
+    width: 100%;
+    max-width: 320px;
+    min-width: 300px;
+}
+
+#admTermos  .termos_h2 {
+    font-family: var(--font-2);
+    max-width: 510px;
+    margin-top: 20px;
+
+}
+
+#admTermos  .termos_span {
+
+    width: 370px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#admTermos  .termos_span span {
+    font-family: var(--font-2);
+    font-size: 16px;
+    color: #000000;
+    margin-top: 15px;
+
+
+}
+
+#admTermos  .termos_span p {
+    font-family: var(--font-2);
+    font-size: 16px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+#admTermos  .termos_checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+
+}
+
+#admTermos  .termos_checkbox input {
+    height: 20px;
+    width: 20px;
+    align-items: center;
+
+}
+
+#admTermos  .termos_checkbox label {
+    font-family: var(--font-2);
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+
+}
+
+#admTermos  .tipo_login{
+    margin-bottom: 10px;
+}
+
+
+#admTermos  .tipo_login a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    background-color: var(--principal-cor-3);
+    border-radius: 25px;
+    font-family: var(--font-2);
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--grayscale-cor-4);
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    #admTermos  .termos_termos {
+        height: 100%;
+        width: 60%;
+    }
+
+    #admTermos  .termos_termos h1 {
+        font-size: 50px;
+
+    }
+
+    #admTermos  .termos_tree {
+        font-size: 22px;
+    }
+
+    #admTermos  .termos_comandos {
+        max-width: 350px;
+        width: 100%;
+    }
+
+    /* #admTermos  .termos_h2{
+        max-width: 300px;
+        width: 100%;
+    } */
+
+    #admTermos  .termos_comandos div h2 {
+        font-size: 15px;
+    }
+
+    #admTermos  .termos_span span {
+        font-size: 14px;
+    }
+
+    #admTermos  .termos_span p {
+        font-size: 12px;
+    }
+
+    #admTermos  .termos_checkbox label {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    #admTermos  .termos_comandos button {
+        height: 25px;
+        width: 180px;
+        color: var(--grayscale-cor-4);
+        border-radius: 25px;
+        border: none;
+        font-family: var(--font-2);
+        font-size: 14px;
+        text-transform: uppercase;
+        background-color: var(--principal-cor-3);
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1067px) {
+    #admTermos  .termos_termos {
+        height: 100%;
+        width: 60%;
+    }
+
+    #admTermos  .termos_termos h1 {
+        font-size: 46px;
+
+    }
+
+    #admTermos  .termos_tree {
+        font-size: 18px;
+    }
+
+    #admTermos  .termos_comandos {
+        max-width: 340px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 970) {
+    #admTermos  .termos_tree {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    #admTermos  .termos_termos {
+        height: 100%;
+        width: 55%;
+    }
+
+    #admTermos  .termos_direcional {
+        width: 45%;
+    }
+
+
+    #admTermos  .termos_termos h1 {
+        font-size: 45px;
+
+    }
+
+    #admTermos  .termos_tree {
+        font-size: 16px;
+    }
+
+    #admTermos  .termos_comandos {
+        max-width: 360px;
+        width: 100%
+    }
+
+    #admTermos  .termos_comandos div h2 {
+        font-size: 16px;
+    }
+
+    #admTermos  .termos_span {
+        width: 290px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #admTermos  .termos_span span {
+        font-size: 12px;
+    }
+
+    #admTermos  .termos_span p {
+        font-size: 10px;
+    }
+
+    #admTermos  .termos_span label {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+
+}
+
+@media screen and (max-width: 899px) {
+
+    #admTermos  .termos_termos {
+        height: 100%;
+        width: 55%;
+    }
+
+    #admTermos  .termos_direcional {
+        width: 45%;
+    }
+
+    #admTermos  .termos_termos h1 {
+        font-size: 40px;
+
+    }
+
+    #admTermos  .termos_tree {
+        font-size: 14px;
+    }
+
+    #admTermos  .termos_comandos {
+        max-width: 330px;
+        width: 100%
+    }
+
+    #admTermos  .termos_comandos div h2 {
+        font-size: 14px;
+    }
+
+
+    #admTermos  .termos_span {
+        width: 290px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #admTermos  .termos_checkbox label {
+        font-size: 14px;
+        font-weight: 500;
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+        background-size: cover;
+        background-image: url(./assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
+        background-repeat: no-repeat;
+
+    }
+
+    #admTermos  .termos_termos {
+        /* width: 50%; */
+        /* display: none; */
+        /* padding: 2px; */
+        background-image: none;
+
+    }
+
+    #admTermos  .termos_direcional {
+        width: 45%;
+        background-color: #f3f3f300;
+        backdrop-filter: blur(1px);
+
+
+    }
+
+    #admTermos  .termos_comandos {
+        height: 500px;
+        max-width: 360px;
+        min-width: 300px;
+        width: 100%;
+        /* padding: 20px; */
+        margin-right: 30px;
+
+    }
+
+    #admTermos  .termos_comandos div h2 {
+        width: 302px;
+        font-size: 14px;
+        text-align: none;
+    }
+
+    #admTermos  .termos_h2 {
+        font-family: var(--font-2);
+        height: 30px;
+        max-width: 340px;
+        width: 100%;
+        padding: 0 5px;
+
+    }
+
+    #admTermos  .termos_one {
+        width: 10%;
+
+    }
+
+    #admTermos  .termos_one {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    img {
+        height: 110px;
+        ;
+        width: 150px;
+
+    }
+
+    #admTermos  .termos_termos h1 {
+        font-size: 35px;
+    }
+
+    #admTermos  .termos_tree {
+        width: 100%;
+    }
+
+    #admTermos  .termos_tree span {
+        font-size: 12px;
+    }
+
+    #admTermos  .termos_span {
+        height: 80%;
+        width: 280px;
+        max-width: 100%
+    }
+
+    #admTermos  .termos_span span {
+        font-size: 14px;
+    }
+
+    #admTermos  .termos_span p {
+        font-size: 10px;
+    }
+
+    #admTermos  .termos_checkbox label {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    #admTermos  .termos_checkbox input {
+        height: 15px;
+        width: 15px;
+    }
+
+    #admTermos  .termos_comandos button {
+        height: 25px;
+        width: 180px;
+        border-radius: 25px;
+        border: none;
+        font-family: var(--font-2);
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    main {
+        flex-direction: column;
+    }
+
+    #admTermos  .termos_termos {
+        height: 300px;
+        min-width: 300px;
+        max-width: 320px;
+
+    }
+
+    #admTermos  .termos_tree {
+        display: none;
+    }
+
+    #admTermos  .termos_comandos {
+        height: 420px;
+        max-width: 320px;
+        min-width: 300px;
+        width: 100%;
+        margin-left: 30px;
+        /* padding: 20px; */
+        /* margin-right: 30px; */
+
+    }
+
+    #admTermos  .termos_comandos div h2 {
+        width: 285px;
+        font-size: 13px;
+        font-weight: 700;
+    }
+
+    #admTermos  .termos_checkbox {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+}
