@@ -1,12 +1,4 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import SuporteColaborador from './pages/SuporteColaborador';
-import ConteudoColaborador from './pages/ConteudoColaborador';
-import ParabensColaborador from './pages/ParabensColaborador';
-import AvatarColaborador from './pages/AvatarColaborador';
-import PerfilColaborador from './pages/PerfilColaborador/intex';
-import PesquisaSatisfacaoColaborador from './pages/PequisaSatisfacaoColaborador';
-import HomeColaborador from './pages/HomeColaborador';
+
 
 
 
@@ -18,11 +10,18 @@ import './index.css'
 
 
 //Pacotes Rotas
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import SuporteColaborador from './pages/SuporteColaborador';
+import ConteudoColaborador from './pages/ConteudoColaborador';
+import ParabensColaborador from './pages/ParabensColaborador';
+import AvatarColaborador from './pages/AvatarColaborador';
+import PerfilColaborador from './pages/PerfilColaborador/intex';
+import PesquisaSatisfacaoColaborador from './pages/PequisaSatisfacaoColaborador';
+import HomeColaborador from './pages/HomeColaborador';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-<<<<<<< HEAD
 import CertificadoColaborador from './pages/CertificadoColaborador';
 import TrilhaColaborador from './pages/TrilhaColaborador';
-=======
 import CadastroColaborador from './pages/Gestor/CadastroColaborador1';
 import GestaoDashboard from './pages/Gestor/GestaoDashboard';
 import GestaoCadastro from './pages/Gestor/GestaoCadastro';
@@ -32,14 +31,12 @@ import TrilhaGestor from './pages/Gestor/TrilhaGestor';
 import EditarColaborador from './pages/Gestor/EditarColaborador';
 import Dashboard from './pages/Gestor/Dashboard';
 
->>>>>>> gestor
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       
-<<<<<<< HEAD
       <Routes>
       <Route path='/CertificadoColaborador'  element={<CertificadoColaborador/>}/>
         <Route path='/ParabensColaborador'  element={<ParabensColaborador/>}/>
@@ -49,13 +46,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/AvatarColaborador'  element={<AvatarColaborador/>}/>
         <Route path='/PerfilColaborador'  element={<PerfilColaborador/>}/>
         <Route path='/PesquisaSatisfacaoColaborador'  element={<PesquisaSatisfacaoColaborador/>}/>
-        <Route path='/HomeColaborador'  element={<HomeColaborador/>}/>
-      </Routes>
-    </BrowserRouter>
-
-  </React.StrictMode>)
-=======
-      <Routes>              
+        <Route path='/HomeColaborador'  element={<HomeColaborador/>}/>  
         <Route path='/perfil/gestor' element={<PerfilGestor/>}/>
         <Route path='/gestao/cadastro' element={<GestaoCadastro/>}/>
         <Route path='/cadastro/colaborador' element={<CadastroColaborador/>}/>
@@ -70,4 +61,3 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 
   </React.StrictMode>,
 ) 
->>>>>>> gestor
