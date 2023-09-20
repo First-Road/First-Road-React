@@ -1,6 +1,7 @@
 import "../Aside_gestor/style.css"
 
 
+
 //imagens
 import logovw from "../../assets/icons/logo_vw_aside.svg";
 import menubarras from "../../assets/icons/icons8-cardápio.svg"
@@ -14,6 +15,13 @@ import cadastro from "../../assets/icons/icon_3users_seting.svg"
 import conteudo from "../../assets/icons/cadastro_conteudo_aside.svg"
 import check from "../../assets/icons/list_check_aside.svg"
 import dashboard from "../../assets/icons/dashboard_aside.svg"
+import iconesuporte from "../../assets/icons/suporte_1.svg"
+import PerfilGestor from "../../pages/Gestor/PerfilGestor";
+import GestaoCadastro from "../../pages/Gestor/GestaoCadastro";
+import CadastroColaborador from "../../pages/Gestor/CadastroColaborador1";
+import TrilhaGestor from "../../pages/Gestor/TrilhaGestor";
+import SuporteGestor from "../../pages/Gestor/SuporteGestor";
+import { Link } from "react-router-dom";
 
 
 
@@ -72,31 +80,21 @@ function AsideGestor() {
         <div className="menu_conteudo">
           <ul>
             <li>
-              <a href="../gestaoDashiboard/index.html">
+              <a><Link to={"../Perfil/Gestor"}>
                 <div>
                   <img
                     className="icon"
                     src={usuario}
                     alt="icone de usuario"
+                    
                   />
                 </div>
-                <span>Perfil</span>
+                <span>Perfil</span></Link>
               </a>
             </li>
+          
             <li>
-              <a href="../editarAgendaColaboradorIngressante/index.html">
-                <div>
-                  <img
-                    className="icon1"
-                    src={agenda}
-                    alt="icone de agenda"
-                  />
-                </div>
-                <span>Gestão de Agenda</span>
-              </a>
-            </li>
-            <li>
-              <a href="../gestaoColaboradorGestor/index.html">
+              <a> <Link to={"../gestao/cadastro"}>
                 <div>
                   <img
                     className="icon"
@@ -104,23 +102,12 @@ function AsideGestor() {
                     alt="icone agenda"
                   />
                 </div>
-                <span>Gestao Colaborador</span>
+                <span>Gestao Colaborador</span></Link>
               </a>
             </li>
+            
             <li>
-              <a href="../_gestaoDeConteudo/index.html">
-                <div>
-                  <img
-                    className="icon"
-                    src={livro}
-                    alt="icone agenda"
-                  />
-                </div>
-                <span>Gestao de Conteudo</span>
-              </a>
-            </li>
-            <li>
-              <a href="../cadastro_colaborador_gestor/index.html">
+              <a> <Link to={"../cadastro/colaborador"}>
                 <div>
                   <img
                     className="icon"
@@ -128,35 +115,11 @@ function AsideGestor() {
                     alt="icone agenda"
                   />
                 </div>
-                <span>Cadastro Colaborador</span>
+                <span>Cadastro Colaborador</span></Link>
               </a>
             </li>
             <li>
-              <a href="../cadastroDeConteudos/index.html">
-                <div>
-                  <img
-                    className="icon"
-                    src={conteudo}
-                    alt="icone agenda"
-                  />
-                </div>
-                <span>Cadastro Conteudo</span>
-              </a>
-            </li>
-            <li>
-              <a href="../editarAgendaColaboradorIngressante/index.html">
-                <div>
-                  <img
-                    className="icon"
-                    src={agenda}
-                    alt="icone agenda"
-                  />
-                </div>
-                <span>Agenda Colaborador</span>
-              </a>
-            </li>
-            <li>
-              <a href="../trilhaDeConteudo/index.html">
+              <a> <Link to={"../trilha/gestor"}>
                 <div>
                   <img
                     className="icon"
@@ -164,11 +127,11 @@ function AsideGestor() {
                     alt="icone agenda"
                   />
                 </div>
-                <span>Configuração de Trilha</span>
+                <span>Trilha de Conteúdo</span></Link>
               </a>
             </li>
             <li>
-              <a href="../dashborad/dashboard.html">
+              <a> <Link to={"../dashboard"} >
                 <div>
                   <img
                     className="icon"
@@ -176,7 +139,19 @@ function AsideGestor() {
                     alt="icone agenda"
                   />
                 </div>
-                <span>Dashboard</span>
+                <span>Dashboard</span></Link>
+              </a>
+            </li>
+            <li>
+              <a><Link to={"../suporte/gestor"}>
+                <div>
+                  <img
+                    className="icon"
+                    src={iconesuporte}
+                    alt="icone suporte"
+                  />
+                </div>
+                <span>Suporte</span></Link>
               </a>
             </li>
           </ul>
@@ -199,3 +174,4 @@ function AsideGestor() {
 </main> 
       )
 }
+export default AsideGestor

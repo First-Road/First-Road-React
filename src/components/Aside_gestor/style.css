@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+#aside_gestor aside{
+    display: flex;
+    height: 100vh;
+    width: 300px;
+    background-color: var(--auxiliar-cor-7);
+    left: 0px;
+    position: relative;
+    transition: all 0.5s ease;
+    z-index: 2;
+    
+    
+}
+
+#aside_gestor .posicionamento_elementos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aside_gestor .imagem_volks img{
+    width: 100px;
+}
+
+#aside_gestor .menu_barras{
+       display: none; 
+}
+
+#aside_gestor .imagemfoto{
+    width: 100%;
+}
+
+#aside_gestor .config{
+    width: 25px;
+}
+
+#aside_gestor .menu_conteudo img{
+    height: 20px;
+}
+
+#aside_gestor .menu_conteudo li{
+    list-style: none;
+    
+}
+
+#aside_gestor .menu_conteudo{
+    display: flex;
+    flex-direction: column;
+    /* gap: 50px; */
+}
+
+
+#aside_gestor .menu_conteudo a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-3);
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+#aside_gestor .menu_conteudo li :hover{
+    color: #090C40;
+    transition: 0.6s;
+    transform: scale(1.1);
+
+}
+
+#aside_gestor .menu_conteudo ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#aside_gestor .icon:hover{
+    fill: #090C40;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+#aside_gestor .menu_conteudo div{
+  display: flex;
+  width: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+#aside_gestor .listameio .icon1{
+    font-size: 10px;
+}
+
+#aside_gestor .div_logofirst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#aside_gestor .saida{
+    width: 25px;
+}
+
+#aside_gestor .logo_first img{
+    width: 85px;
+}
+
+#aside_gestor .posicionamento_elementos2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+#aside_gestor .moldura_config{
+    position: relative;
+}
+
+#aside_gestor .moldura_config a{
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+}
+
+@media screen and (max-width:1200px){
+    #aside_gestor aside{
+        width: 250px;
+        position: absolute;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+        #aside_gestor .imagem_volks img{
+            width: 70px;
+        }
+
+        #aside_gestor .posicao_grupo1{
+            height: 450px;
+        }
+
+    
+        #aside_gestor .moldura_config{
+            width: 70px;
+        
+            
+        }
+
+        #aside_gestor .config{
+            width: 20px;
+        }
+
+
+        #aside_gestor .menu_conteudo span{
+            font-size: 13px;
+
+        }
+
+        #aside_gestor .menu_barras{
+            display: flex;
+            background-color: var(--auxiliar-cor-7);
+            padding: 7px;
+            border-radius: 0 15px 15px 0 ;
+            position: absolute;
+            top: 20px;
+            right: -40px;
+        }    
+
+
+    
+
+
+        #aside_gestor .menu_barras img{
+            width: 30px;
+            height: 30px;
+        }
+
+        #aside_gestor aside{
+            position: absolute;
+            width: 200px;
+        }
+
+        #aside_gestor .posicionamento_elementos{
+            width: 100%;
+        }
+
+   
+
+        #aside_gestor #sombra{
+            height: 100vh;
+            width: 100vw;
+            background-color: #0000004f;
+            position: fixed;
+            top: 0;
+            right: 110vw;
+            overflow: hidden;
+            transition: .5s;
+            backdrop-filter: blur(10px);
+        
+        }
+
+
+        #aside_gestor.menu_conteudo a{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            font-family: var(--font-3);
+            font-size: 13px;
+            cursor: pointer;
+            
+        }
+
+}

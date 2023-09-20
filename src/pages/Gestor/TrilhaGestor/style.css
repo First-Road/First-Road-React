@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#trilha_gestor .trilha_de_conteudo{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    background-color: #f3f3f3;
+}
+
+#trilha_gestor .trilha_de_conteudo .titulo h1{
+    font-family: var(--font-3);
+    font-size:var(--title-h1-margin-page);
+    font-weight: 700;
+    color: #545454;
+    font-size: 42px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    padding-right: 48px;
+}
+
+#trilha_gestor .titulo{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+}
+
+#trilha_gestor .dados_usuario{
+    display: flex;
+    align-items: center;
+}
+
+#trilha_gestor .modulo_1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#trilha_gestor .trilha_de_conteudo .dados_usuario .id{
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid var(--principal-cor-3);
+}
+
+#trilha_gestor .trilha_cadastrada{
+    display: flex;
+    gap: 10px;
+}
+
+#trilha_gestor .trilha_cadastrada input{
+    width: 35vw;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--principal-cor-3);
+
+}
+
+#trilha_gestor .trilha_cadastrada :nth-child(2){
+    width: 150px;
+}
+#trilha_gestor .trilha_cadastrada :nth-child(3){
+    width: 150px;
+}
+
+#trilha_gestor .cadastrada{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#trilha_gestor input::placeholder{
+    font-family: var(--font-3);
+    font-size: 12px;
+    color: var(--principal-cor-3);
+}
+
+#trilha_gestor .adicionar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+#trilha_gestor .add_trilha input{
+    width: 35vw;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--principal-cor-3);
+}
+
+#trilha_gestor button{
+    width: 130px;
+    height: 35px;
+    border-radius: 8px;
+    font-family: var(--font-3);
+    background-color: var(--principal-cor-3);
+    color: #fbfbfb;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+
+#trilha_gestor h2, label{
+    font-family: var(--font-3);
+    font-size:var(--title-h1-margin-page);
+    font-weight: 500;
+    color: #202027;
+    font-size: 20px;
+}
+
+#trilha_gestor #escolher_trilhas{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--principal-cor-3);
+
+}
+
+#trilha_gestor .posicao_select{
+    display: flex;
+    gap: 10px;
+}
+
+#trilha_gestor .trilha_cadastrada input{
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+
+#trilha_gestor .adicionar select{
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+#trilha_gestor .adicionar input{
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+#trilha_gestor .adicionar input::placeholder{
+    font-family: var(--font-3);
+    font-size: 12px;
+    color: var(--principal-cor-3);
+}
+
+#trilha_gestor .posicao_button{
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+   
+}
+
+
+
+
+
+@media screen and (max-width:1100px) {
+    #trilha_gestor .trilha_de_conteudo .titulo h1{
+        font-size: 25px;
+        width: 500px;
+    }
+}
