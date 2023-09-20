@@ -1,13 +1,6 @@
 
-
-
-
 //Estilizacao
 import './index.css'
-
-
-
-
 
 //Pacotes Rotas
 import React from 'react'
