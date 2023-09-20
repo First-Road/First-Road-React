@@ -16,6 +16,7 @@ import saida from "../../assets/icons/icon_voltar_aside.svg"
 import logo from "../../assets/icons/Logo_FirstRoad_aside.svg"
 
 
+
 //hooks
 import { Link } from 'react-router-dom'
 
@@ -76,19 +77,19 @@ function Aside () {
                   src={user}
                   alt="foto Perfil"
                 />
-                <a href="">
+                <a><Link to={"../PerfilColaborador"}>
                   <img
                     className="config"
                     src={engrenagem}
                     alt="config"
-                  />
+                  /></Link>
                 </a>
               </div>
               <div className="menu_conteudo">
                 <ul>
 
                   <li >
-                    <a href="../pagina_home/index.html">
+                    <a><Link to={"../HomeColaborador"}>
                       <div className="home2">
                         <img
                           className="icon icon_home"
@@ -96,12 +97,12 @@ function Aside () {
                           alt="icone home"
                         />
                       </div>
-                      <span className="texto_link">Tela Inicial</span>
+                      <span className="texto_link">Tela Inicial</span></Link>
                     </a>
                   </li>
 
                   <li>
-                    <a href="../tela_avatar/index.html">
+                    <a><Link to={"../AvatarColaborador"}>
                       <div>
                         <img
                           className="icon"
@@ -109,11 +110,11 @@ function Aside () {
                           alt="icone avatar"
                         />
                       </div>
-                      <span className="texto_link">Avatar</span>
+                      <span className="texto_link">Avatar</span></Link>
                     </a>
                   </li>
                   <li className="listameio">
-                    <a href="../trilhacolaborador/index.html">
+                    <a><Link to={"/TrilhaColaborador"}>
                       <div>
                         <img
                           className="icon_trilha"
@@ -121,7 +122,7 @@ function Aside () {
                           alt="icone trilha"
                         />
                       </div>
-                      <span className="texto_link">Trilha</span>
+                      <span className="texto_link">Trilha</span></Link>
                     </a>
                   </li>
                   <li>
@@ -137,7 +138,7 @@ function Aside () {
                     </a>
                   </li>
                   <li className="suporte">
-                    <Link to={'/suporte/coloboradores'}>
+                    <Link to={"/SuporteColaborador"}>
                       <div>
                         <img
                           className="icon"
@@ -150,7 +151,7 @@ function Aside () {
 
                   </li>
                   <li className="certi">
-                    <a href="">
+                  <Link to={'/VisualizarCertificadosColaborador'}>
                       <div>
                         <img
                           className="icon icon_certi"
@@ -159,7 +160,7 @@ function Aside () {
                         />
                       </div>
                       <span className="texto_link">Certificados</span>
-                    </a>
+                    </Link>
                   </li>
 
                 </ul>
