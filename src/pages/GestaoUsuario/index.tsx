@@ -64,9 +64,7 @@ function GestaoUsuario() {
                                         <th className="th_table">perfil</th>
                                         <th className="th_table">unidade</th>
                                         <th className="th_tableimg">
-                                            {/* <a className="btn_cadastrar" href="">
-                                                Cadastrar
-                                            </a> */}
+                                        
                                         </th>
                                     </tr>
                                 </thead>

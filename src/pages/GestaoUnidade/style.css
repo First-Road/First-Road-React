@@ -169,11 +169,11 @@
 
 
 #gestaoUnidade table th {
-    border-bottom: 3px solid red;
-    text-transform: capitalize;
+    border-bottom: 1px solid;
+    text-transform: uppercase;
     font-family: var(--font2);
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 12px;
+    font-weight: 600;
     border-color: var(--grayscale-cor-4);
 
 }
@@ -358,6 +358,10 @@ select {
     #gestaoUnidade .td_tableimg,
     #gestaoUnidade .th_table {
         width: auto;
+    }
+
+    #corpo-tabela-uindade {
+        display: block;
     }
 
 
