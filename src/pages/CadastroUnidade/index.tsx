@@ -9,7 +9,7 @@ function CadastroUNidade() {
             <AsideAdm/>
             <section className="adminCadastroUnidade">
                 <div className="adminCadastroUnidade_Secao">
-                    <h1>Cadastro de Unidade</h1>
+                    <h1>Cadastro Unidade</h1>
                     <div className="user_config">
 
                     <svg 

@@ -1,0 +1,418 @@
+#cadastro_UO {
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--grayscale-cor-2);
+}
+
+
+
+
+#cadastro_UO .adminCadastroUO {
+    width: 80%;
+    background-color: var(--grayscale-cor-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadastro_UO .adminCadastroUO_Secao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cadastro_UO .adminCadastroUO_Secao H1 {
+    font-size: 60px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+
+#cadastro_UO .adminCadastroUO_Secao {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#cadastro_UO .adminCadastroUO_texto_imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 950px;
+    gap: 50px;
+}
+
+#cadastro_UO .user_config {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+#cadastro_UO .CadastroUO_Centralizar {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+
+}
+
+#cadastro_UO .posicao_linha {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+#cadastro_UO .primeira_linha {
+    display: flex;
+    gap: 10px;
+
+}
+#cadastro_UO .segunda_linha {
+    display: flex;
+    gap: 10px;
+
+}
+
+#cadastro_UO .button_cadastrar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+#cadastro_UO .button_editar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+#cadastro_UO .button_salvar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+
+#cadastro_UO .button_cadastrar button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+}
+#cadastro_UO .button_editar button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+}
+#cadastro_UO .button_salvar button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+}
+
+
+#cadastro_UO .input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+
+
+}
+
+#cadastro_UO .input1 {
+    flex: 2;
+
+}
+
+#cadastro_UO .input2 {
+    flex: 1;
+}
+
+
+
+#cadastro_UO .input_caixa {
+    border-radius: 8px;
+    height:25px;
+    border: 1px solid var(--principal-cor-3);
+    background-color: var(--grayscale-cor-3);
+}
+
+#cadastro_UO .input label {
+    text-transform: uppercase;
+    color: var(--principal-cor-3);
+    font-size: 12px;
+}
+
+#cadastro_UO .icon {
+    height: 25px;
+    width: 25px;
+    fill: var(--principal-cor-3)
+}
+
+
+
+
+
+#cadastro_UO table {
+    background-color: var(--grayscale-cor-3);
+    color: var(--principal-cor-3);
+    display: table-cell;
+
+
+}
+
+
+
+
+
+
+#cadastro_UO table th {
+    border-bottom: 3px solid;
+    text-transform: capitalize;
+    font-family: var(--font-2);
+    font-size: 12px;
+    font-weight: 500;
+    border-color: var(--grayscale-cor-4);
+
+
+
+}
+
+#cadastro_UO table td {
+    border: 1px solid var(--grayscale-cor-4);
+    border-collapse: collapse;
+
+
+
+}
+
+#cadastro_UO .tr_one {
+    border-bottom: 1px solid var(--grayscale-cor-2);
+}
+
+
+#cadastro_UO th {
+    text-align: left;
+    padding-right: 10px;
+    height: 40px;
+
+}
+
+
+
+#cadastro_UO td {
+    padding-left: 4px;
+
+
+
+}
+
+#cadastro_UO .td_one {
+     width: 200px;
+}
+
+#cadastro_UO .td_two {
+     width: 400px; 
+
+}
+
+#cadastro_UO .td_tableimg {
+    width: 120px;
+    gap: 10px;
+} 
+
+#cadastro_UO .CadastroUOIcons{
+    display: flex;
+    gap: 10px;
+
+}
+
+#cadastro_UO .icon {
+    align-items: right;
+}
+
+
+#cadastro_UO ::placeholder,
+#cadastro_UO .input_caixa {
+    padding: 0 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    #cadastro_UO .adminCadastroUO_Secao H1 {
+        font-size: 40px;
+        margin-top: 10px;
+
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    #cadastro_UO .adminCadastroUO {
+        width: 100vw;
+    }
+
+    #cadastro_UO .adminCadastroUO_Secao {
+        gap: 5px;
+    }
+
+    #cadastro_UO .adminCadastroUO_Secao H1 {
+        font-size: 30px;
+      
+    }
+
+
+    #cadastro_UO thead {
+        display: none;
+
+    }
+
+    #cadastro_UO table {
+        display: block;
+        width: 100%;
+    }
+
+    #corpo-tabelaUO {
+        display: block;
+    }
+
+    #cadastro_UO table td {
+        border: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #cadastro_UO td>div {
+        display: flex;
+        gap: 10px
+    }
+
+    #cadastro_UO tr {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #e1e1e1;
+        border-radius: 8px;
+        margin: 10px 0;
+        height: auto;
+        padding: 10px;
+    }
+
+    #cadastro_UO td::before {
+        content: attr(data-cell)": ";
+    }
+
+    #cadastro_UO .td_tableimg,
+    #cadastro_UO .td_one,
+    #cadastro_UO .td_two {
+        width: auto;
+    }
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    #cadastro_UO .adminCadastroUO_Secao H1 {
+        font-size: 28px;
+        margin-top: 2px;
+
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    #cadastro_UO .primeira_linha {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cadastro_UO .input_caixa {
+        width: 100%;
+       
+    }
+
+
+    #cadastro_UO .adminCadastroUO_Secao H1 {
+        font-size: 28px;
+        margin-top: 60px;
+
+    }
+
+    #cadastro_UO .button_cadastrar {
+        width: 100%;
+        
+    }
+
+    #cadastro_UO .button_editar {
+        width: 100%;
+        
+    }
+
+    #cadastro_UO .button_salvar {
+        width: 100%;
+        
+    }
+    
+    
+   
+
+
+}
+
+@media screen and (max-width: 400px) {
+
+    #cadastro_UO .input_caixa {
+        width: 100%;
+      
+    }
+
+    #cadastro_UO tbody {
+        width: 100%;
+      
+    }
+
+  
+}

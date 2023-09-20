@@ -109,7 +109,7 @@ function AsideAdm() {
               </li>
 
               <li>
-                <Link to={"#"}>
+                <Link to={"/gestaoUnidade"}>
                   <div>
                     <img
                       className="icon"
@@ -122,7 +122,7 @@ function AsideAdm() {
               </li>
 
               <li>
-                <Link to={"#"}>
+                <Link to={"/cadastroUO"}>
                   <div>
                     <img className="icon" src={cadastroUO} alt="icone carro" />
                   </div>
@@ -156,7 +156,7 @@ function AsideAdm() {
                 </Link>
               </li>
               <li>
-                <Link to={"#"}>
+                <Link to={"/cadastroTrilha"}>
                   <div>
                     <img
                       className="icon"

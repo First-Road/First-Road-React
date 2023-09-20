@@ -6,11 +6,14 @@ import CadastrarPerfil from './pages/CadastrarPerfil';
 import CadastrarGestor from './pages/CadrastrarGestor';
 import GestaoUO from './pages/GestaoUO';
 import GestaoUsuario from './pages/GestaoUsuario';
+import GestaoUnidade from './pages/GestaoUnidade';
 import Login from './pages/Login';
 import Termos from './pages/Termos';
 import ResetaSenha from './pages/ResetaSenha';
 import CadastroConteudo from './pages/CadastroConteudo';
 import CadastroUNidade from './pages/CadastroUnidade';
+import CadastroUO from './pages/CadastroUO';
+import CadastroTrilha from './pages/CadastroTrilha';
 
 
 
@@ -42,9 +45,12 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/cadastrar' element={<CadastrarPerfil />} />
         <Route path='/gestaoUO' element={<GestaoUO />} />
         <Route path='/gestaoUsuario' element={<GestaoUsuario />} />
+        <Route path='/gestaoUnidade' element={<GestaoUnidade />} />
         <Route path='/cadastroGestor' element={<CadastrarGestor />} />
         <Route path='/cadastroConteudo' element={<CadastroConteudo/>} />
         <Route path='/cadastroUnidade' element={<CadastroUNidade/>} />
+        <Route path='/cadastroUO' element={<CadastroUO/>} />
+        <Route path='/cadastroTrilha' element={<CadastroTrilha/>} />
 
       </Routes>
     </BrowserRouter>
