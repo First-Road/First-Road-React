@@ -2,12 +2,21 @@ import './style.css'
 import { Link } from "react-router-dom"
 import LogoColorido from "../../assets/img/Logo_FirstRoad_Vertical_Colorido.png"
 
-
+import { useState} from 'react'
+import { useNavigate } from "react-router-dom";
 
 
 
 function Login() {
 
+    const navigate = useNavigate();
+
+    const [email, setEmail] = useState<string>("");
+    const [senha, setSenha] = useState<string>("");
+
+    function ONomeDaSuaFuncao( event: any) {
+
+    }
     return (
 
         <main id='loginAdm'>
@@ -28,28 +37,29 @@ function Login() {
                 </div>
             </div>
             <div className="login_direcional">
-                <div className="login_comandos">
+                <form className="login_comandos" onSubmit={ONomeDaSuaFuncao}>
                     <h2>Acesse sua conta</h2>
                     <div>
                         <label htmlFor="">E-mail</label>
-                        <input type="email" 
-                        placeholder="            exemplo@vwb.com  " 
-                        required
+                        <input type="email"
+                            placeholder="exemplo@vwb.com"
+                            onChange={(e) => setEmail(e.target.value)}
+                            required
                         />
                     </div>
                     <div>
                         <label htmlFor="">Senha</label>
-                        <input type="password" 
-                        placeholder="           ******  " 
-                        required
+                        <input type="password"
+                            placeholder="******"
+                            onChange={(e) => setSenha(e.target.value)}
+                            required
                         />
                     </div>
                     <div className="login_ancora">
                         <Link to={"#"}>Esqueceu sua senha?</Link>
-
                     </div>
                     <button>Entrar</button>
-                </div>
+                </form>
             </div>
         </main>
     )

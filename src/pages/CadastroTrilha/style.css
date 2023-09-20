@@ -455,6 +455,26 @@
         left: 520px;
     }
 
+    #cadastroTrilha table {
+        display: block;
+        width: 100%;
+    }
+
+    #cadastroTrilha thead{
+        display: none;
+    }
+
+
+
+    #corpo-tabela-trilha-alfa {
+        display: block;
+    }
+
+    #corpo-tabela-trilha-beta {
+        display: block;
+
+    }
+
 }
 
 @media screen and (max-width:768px) {
@@ -501,7 +521,7 @@
         margin-top: 60px;
     }
 
-    
+
     #cadastroTrilha .conteudoTrilha h2 {
         font-size: 18px;
     }
