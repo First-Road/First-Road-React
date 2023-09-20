@@ -168,7 +168,7 @@ function PerfilGestor() {
                       <input
                         className="input_caixa"
                         type="text"
-                        placeholder="Tipo de Usuario"
+                        placeholder="Digite seu perfil"
                         onChange={(e) => { setPerfil(e.target.value) }}
                         required
                       />
@@ -178,7 +178,7 @@ function PerfilGestor() {
                       <input
                         className="input_caixa"
                         type="text"
-                        placeholder="Gerente"
+                        placeholder="Digite o seu cargo"
                         onChange={(e) => { setCargo(e.target.value) }}
                         required
                       />

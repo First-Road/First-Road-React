@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 #suporte .cabecalho {
     width: 80vw;
     height: 100vh;
@@ -19,7 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: end;
-    font-family: 'poppins', sans-serif;
+    font-family:  var(--font-3);
     font-size: 30px;
 }
 
@@ -29,7 +32,7 @@
     justify-content: center;
     height: 140px;
     align-items: flex-end;
-    font-family: 'poppins', sans-serif;
+    font-family:  var(--font-3);
     font-size: 42px;
     font-weight: 600;
     color: #F3F3F3;
@@ -68,7 +71,7 @@
 }
 
 #suporte input::placeholder {
-    font-family: 'poppins', sans-serif;
+    font-family:  var(--font-3);
     font-size: 14px;
     color: var(--auxiliar-cor-7);
     display: flex;
@@ -103,7 +106,7 @@
     gap: 15px;
     text-decoration: none;
     color: var(--auxiliar-cor-7);
-    font-family: 'poppins', sans-serif;
+    font-family:  var(--font-3);
     font-size: 20px;
 }
 
@@ -116,12 +119,12 @@
     gap: 10px;
     align-items: center;
     color: var(--auxiliar-cor-7);
-    font-family: 'poppins', sans-serif;
+    font-family:  var(--font-3);
     font-size: 20px;
 }
 
 #suporte h3 {
-    font-family: 'poppins', sans-serif;
+    font-family: var(--font-3);
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;

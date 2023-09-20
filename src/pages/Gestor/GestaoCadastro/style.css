@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 #gestao_cadastro #teste{
     width: calc(100vw - 20vw);
     margin-left: 100px;
 }
 
 #gestao_cadastro .trilha_de_conteudo .titulo{
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size:var(--title-h1-margin-page);
     font-weight: 700;
     color: #545454;
@@ -27,7 +28,7 @@
 
 #gestao_cadastro .trilha_de_conteudo .modulo_1 .titulo_2{
     color: #000;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 27px;
     margin-bottom: 23px;
    
@@ -48,7 +49,7 @@
     height: 95px;  
     margin-right: 11px;
     width: 233px;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 16px;
     font-weight: 400;
 } 
@@ -86,7 +87,7 @@
 
 #gestao_cadastro .trilha_de_conteudo .modulo_2 .titulo_3{
     color: #000;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 27px;
     margin-bottom: 23px;  
 }
@@ -104,7 +105,7 @@
     height: 95px;  
     margin-right: 11px;
     width: 233px;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 16px;
     font-weight: 400;
     
@@ -139,7 +140,7 @@
     height: 42.857px;
     border-radius: 40px;
     background: #A6A6A6;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 27px;
     font-weight: 400;
     
@@ -155,7 +156,7 @@
 }
 
 #gestao_cadastro .gestao_colaborador .titulo_gestao{
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-weight: 400;
     color: #737373;
     
@@ -184,7 +185,7 @@
     justify-content: flex-end;
     background: var(--grayscale-cor-3);
     padding-right: 10px;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 20px;
 
 }
@@ -230,7 +231,7 @@
     justify-content: center;
     flex-direction: column;
     width: 180px;
-    font-family: var(--font2);
+    font-family: var(--font-3);
     font-size: 20px;
     margin-right: 10px;
      
@@ -257,7 +258,7 @@
     display: flex;
     flex-direction: column;
     width: 180px;
-    font-family: var(--font2);
+    font-family: var(--font-3);
     font-size: 20px;
     margin-right: 10px;
 
@@ -283,7 +284,7 @@
     display: flex;
     flex-direction: column;
     width: 180px;
-    font-family: var(--font2);
+    font-family: var(--font-3);
     font-size: 20px;
     margin-right: 10px;
 
@@ -327,7 +328,7 @@
 {
     border-bottom: 3px solid var(--principal-cor-5);
     text-transform: uppercase;
-    font-family: var(--font2);
+    font-family: var(--font-3);
     font-size: 16px;
     font-weight: normal;
     border-color: var(--grayscale-cor-4);
@@ -350,7 +351,7 @@
     background-color:var(--principal-cor-3);
     color: var(--grayscale-cor-4);
     border: none;
-    font-family: var(--font2);
+    font-family: var(--font-3);
     font-size: 18px;
     font-weight: normal;
     cursor: pointer;
@@ -363,7 +364,7 @@
 .btn_cadastrar a{
     background-color:var(--principal-cor-3);
     color: var(--grayscale-cor-4);
-    font-family: var(--font2);
+    font-family: var(--font-3);
     font-size: 18px;
     font-weight: normal;
     text-decoration: none;

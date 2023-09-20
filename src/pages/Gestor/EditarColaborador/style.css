@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Titillium+Web:wght@400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 #cadastro_colaborador .secao_perfil{
     background-color: var(--grayscale-cor-3);
@@ -65,7 +64,7 @@
 
 #cadastro_colaborador .texto_perfil p{
     font-size: 18px;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     color: var(--principal-cor-3);
 
 

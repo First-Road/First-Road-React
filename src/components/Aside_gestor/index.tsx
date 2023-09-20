@@ -1,6 +1,7 @@
 import "../Aside_gestor/style.css"
 
 
+
 //imagens
 import logovw from "../../assets/icons/logo_vw_aside.svg";
 import menubarras from "../../assets/icons/icons8-cardápio.svg"
@@ -130,7 +131,7 @@ function AsideGestor() {
               </a>
             </li>
             <li>
-              <a href="../dashborad/dashboard.html" >
+              <a> <Link to={"../dashboard"} >
                 <div>
                   <img
                     className="icon"
@@ -138,7 +139,7 @@ function AsideGestor() {
                     alt="icone agenda"
                   />
                 </div>
-                <span>Dashboard</span>
+                <span>Dashboard</span></Link>
               </a>
             </li>
             <li>

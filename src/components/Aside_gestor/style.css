@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 #aside_gestor aside{
     display: flex;
     height: 100vh;
@@ -211,7 +212,7 @@
             align-items: center;
             text-decoration: none;
             color: white;
-            font-family: var(--font-2);
+            font-family: var(--font-3);
             font-size: 13px;
             cursor: pointer;
             
