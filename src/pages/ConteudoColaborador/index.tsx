@@ -11,46 +11,43 @@ import icone_Chamado from "../../assets/icons/chamado.png"
 import icone_Suporte from "../../assets/icons/suporte-tecnico 1.png"
 import { Link } from "react-router-dom";
 
+function ConteudoColaborador () {
+  const [totalTimeInSeconds, setTotalTimeInSeconds] = useState(600*60);
 
-function ConteudoColaborador (){
-
-  const [totalTimeInseconds, setTotalTimeInSecons] = useState(60*60)
-
-  const minutos = Math.round(totalTimeInseconds / 60);
-  const segundos = totalTimeInseconds % 60;
+  const horas = Math.floor(totalTimeInSeconds / 3600);
+  const minutos = Math.floor((totalTimeInSeconds % 3600) / 60);
+  const segundos = totalTimeInSeconds % 60;
 
   useEffect(() => {
-      if(totalTimeInseconds === 0){
-          alert("O tempo acabou!")
-          return
-      }else{
-      setTimeout(() =>{
-          setTotalTimeInSecons(totalTimeInseconds -1)
-      }, 1000)
-  }
-      
-  }, [totalTimeInseconds])
+    if (totalTimeInSeconds === 0) {
+      alert("O tempo acabou!");
+      return;
+    } else {
+      const timer = setTimeout(() => {
+        setTotalTimeInSeconds(totalTimeInSeconds - 1);
+      }, 1000);
 
+      return () => clearTimeout(timer);
+    }
+  }, [totalTimeInSeconds]);
 
-
-    return(
-
-
-        <main id="aside_colaborador">
+  return (
+    <main id="aside_colaborador">
       <Aside />
-        <div id="ConteudoColaborador">
-  <header>
-    <div className="header_titulo">
-      
-      <h1>Módulo 1 - Instruções de Acesso </h1>
-      <div className="cronometroColaborador">
-                        <span>{minutos.toString().padStart(2, "0")}</span>
-                        <span>:</span>
-                        <span>{segundos.toString().padStart(2, "0")}</span>
+      <div id="ConteudoColaborador">
+        <header>
+          <div className="header_titulo">
+            <h1>Módulo 1 - Instruções de Acesso </h1>
+            <div className="cronometroColaborador">
+              <span>{horas.toString().padStart(2, "0")}</span>
+              <span>:</span>
+              <span>{minutos.toString().padStart(2, "0")}</span>
+              <span>:</span>
+              <span>{segundos.toString().padStart(2, "0")}</span>
+            </div>
+          </div>
+        </header>
 
-                    </div>
-    </div>
-  </header>
   <div className="conteudos grid">
     <p>
       Neste módulo você irá conhecer os sistemas que deverá acessar e como

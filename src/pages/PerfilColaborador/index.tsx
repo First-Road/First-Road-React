@@ -105,7 +105,7 @@ function PerfilColaborador() {
                       <input
                         className="input_caixa"
                         type="text"
-                        placeholder="Nome do Usuário"
+                        placeholder="Digite seu nome"
                         onChange={(e) => { setNomeCompleto(e.target.value) }}
                         required
                       />
@@ -168,7 +168,7 @@ function PerfilColaborador() {
                       <input
                         className="input_caixa"
                         type="text"
-                        placeholder="Tipo de Usuario"
+                        placeholder="Digite o tipo de usuário"
                         onChange={(e) => { setPerfil(e.target.value) }}
                         required
                       />
@@ -178,7 +178,7 @@ function PerfilColaborador() {
                       <input
                         className="input_caixa"
                         type="text"
-                        placeholder="Gerente"
+                        placeholder="Digite seu cargo"
                         onChange={(e) => { setCargo(e.target.value) }}
                         required
                       />
@@ -190,7 +190,7 @@ function PerfilColaborador() {
                       <input
                         className="input_caixa"
                         type="email"
-                        placeholder="email@email.vw.com.br"
+                        placeholder="Digite seu email"
                         onChange={(e) => { setEmail(e.target.value) }}
                         required
                       />

@@ -44,9 +44,9 @@ h1{
 .cronometroColaborador{
     display: flex;
     justify-content: center;
-    width: 150px;
+    width: 265px;
     height: 55px;
-    background-color: var(--principal-cor-2);
+    background-color: #007aff;
     border-radius: 8px;
 }
 
@@ -174,7 +174,7 @@ h1{
 .instrucoes{
     display: flex;
     flex-direction: column;
-    background-color: var(--principal-cor-2);
+    background-color: #007aff;
     width: 70vw;
     height: 28vh;
     gap: 5px;

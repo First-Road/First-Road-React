@@ -175,6 +175,11 @@ form{
     padding-top: 12px;
 
 }
+.button_salvar button:hover{
+    background-color: var(--principal-cor-4);
+    transition: 0.6ms;
+    transform: scale(1.1);
+}
 
  .button_salvar button {
     width: 100%;
