@@ -1,4 +1,4 @@
-#gestaoUindade {
+#gestaoUnidade {
     display: flex;
     height: 100%;
     background-color: var(--grayscale-cor-2);
@@ -6,7 +6,7 @@
 }
 
 
-#gestaoUsuario .adminGestaoUsuario {
+#gestaoUnidade .adminGestaoUnidade {
     width: 80%;
     background-color: var(--grayscale-cor-3);
     display: flex;
@@ -16,7 +16,7 @@
 
 }
 
-#gestaoUsuario .adminGestao_By {
+#gestaoUnidade .adminGestao_By {
     background-color: var(--grayscale-cor-3);
     width: 100%;
     display: flex;
@@ -28,7 +28,7 @@
 
 }
 
-#gestaoUsuario .adminGestao_By h1 {
+#gestaoUnidade .adminGestao_By h1 {
     font-size: 60px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
@@ -37,7 +37,7 @@
 
 
 
-#gestaoUsuario .adminGestao_Ry {
+#gestaoUnidade .adminGestao_Ry {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@
 }
 
 
-#gestaoUsuario .adminGestao_Ray {
+#gestaoUnidade .adminGestao_Ray {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -56,13 +56,13 @@
 
 
 
-#gestaoUsuario .input1 label {
+#gestaoUnidade .input1 label {
     font-family: var(--font2);
     font-size: 12px;
     color: var(--principal-cor-3);
 }
 
-#gestaoUsuario .input1 select {
+#gestaoUnidade .input1 select {
     height: 30px;
     width: 100%;
     max-width: 250px;
@@ -76,13 +76,13 @@
 }
 
 
-#gestaoUsuario .input2 label {
+#gestaoUnidade .input2 label {
     font-family: var(--font2);
     font-size: 12px;
     color: var(--principal-cor-3);
 }
 
-#gestaoUsuario .input2 select {
+#gestaoUnidade .input2 select {
     height: 30px;
     width: 100%;
     max-width: 250px;
@@ -95,13 +95,13 @@
     color: var(--principal-cor-3);
 }
 
-#gestaoUsuario .input3 label {
+#gestaoUnidade .input3 label {
     font-family: var(--font2);
     font-size: 12px;
     color: var(--principal-cor-3);
 }
 
-#gestaoUsuario .input3 select {
+#gestaoUnidade .input3 select {
     height: 30px;
     width: 100%;
     max-width: 250px;
@@ -117,20 +117,20 @@
 
 
 
-#gestaoUsuario .posicao_linha {
+#gestaoUnidade .posicao_linha {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 100%;
 }
 
-#gestaoUsuario .primeira_linha {
+#gestaoUnidade .primeira_linha {
     display: flex;
     gap: 10px;
 
 }
 
-#gestaoUsuario .input {
+#gestaoUnidade .input {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
@@ -138,29 +138,29 @@
 
 }
 
-#gestaoUsuario .input1 {
+#gestaoUnidade .input1 {
     flex: 1;
 
 }
 
-#gestaoUsuario .input2 {
+#gestaoUnidade .input2 {
     flex: 1;
 }
 
-#gestaoUsuario .input3 {
+#gestaoUnidade .input3 {
     flex: 1;
 }
 
 
-#gestaoUsuario .delete_table img,
-#gestaoUsuario .delete_table {
+#gestaoUnidade .delete_table img,
+#gestaoUnidade .delete_table {
     height: 50px;
     width: 50px;
     margin-left: -6px;
 
 }
 
-#gestaoUsuario table {
+#gestaoUnidade table {
     width: 100%;
     background-color: var(--grayscale-cor-3);
     color: var(--principal-cor-3);
@@ -168,7 +168,7 @@
 
 
 
-#gestaoUsuario table th {
+#gestaoUnidade table th {
     border-bottom: 3px solid red;
     text-transform: capitalize;
     font-family: var(--font2);
@@ -178,7 +178,7 @@
 
 }
 
-#gestaoUsuario table td {
+#gestaoUnidade table td {
     border: 1px solid var(--grayscale-cor-4);
     border-collapse: collapse;
 
@@ -186,29 +186,13 @@
 
 }
 
-#gestaoUsuario .btn_cadastrar {
-    width: 200px;
-    padding: 6px 25px;
-    background-color: var(--principal-cor-3);
-    color: var(--grayscale-cor-4);
-    border: none;
-    font-family: var(--font2);
-    font-size: 18px;
-    font-weight: normal;
-    cursor: pointer;
-    list-style: none;
-    text-decoration: none;
-    border-radius: 8px;
 
-
-}
-
-#gestaoUsuario .tr_one {
+#gestaoUnidade .tr_one {
     border-bottom: 1px solid var(--grayscale-cor-2);
 }
 
 
-#gestaoUsuario th {
+#gestaoUnidade th {
     text-align: left;
     padding-right: 10px;
     height: 40px;
@@ -217,78 +201,79 @@
 
 
 
-#gestaoUsuario td {
+#gestaoUnidade td {
     padding-left: 4px;
 
 
 
 }
 
-#gestaoUsuario table tr {
+#gestaoUnidade table tr {
     height: 45px;
 }
 
-#gestaoUsuario .nif_td {
-    width: 100px;
+#gestaoUnidade .cnpj_td{
+    width: 150px; 
 }
 
-#gestaoUsuario .perfil_td {
-    width: 120px;
+#gestaoUnidade .razaosocial_td {
+    width: 300px;
 }
 
-#gestaoUsuario .unidade_td {
+
+#gestaoUnidade .unidade_td {
     width: 180px;
 
 }
 
-#gestaoUsuario .td_tableimg {
+#gestaoUnidade .td_tableimg {
     width: 175px;
 }
 
-#gestaoUsuario .tableIcons {
+#gestaoUnidade .tableIcons {
     display: flex;
     gap: 10px;
 }
 
-#gestaoUsuario .th_table {
+#gestaoUnidade .th_table {
     align-items: right;
 
 }
 
-#gestaoUsuario .delete_table {
+#gestaoUnidade .delete_table {
     align-items: right;
 
 }
 
-#gestaoUsuario .th_tableimg,
+#gestaoUnidade .th_tableimg,
 .td_tableimg {
     width: 2vw;
 }
 
-#gestaoUsuario label,
+#gestaoUnidade label,
 select {
     vertical-align: middle;
 }
 
-#gestaoUsuario .chart_img {
+#gestaoUnidade .chart_img {
     height: 28px;
     width: 28px;
     fill: #025E73;
 }
 
-#gestaoUsuario .icon {
+#gestaoUnidade .icon {
     height: 25px;
     width: 25px;
     fill: var(--principal-cor-3);
 }
 
-#gestaoUsuario .calender_img {
+#gestaoUnidade .calender_img {
     height: 28px;
     width: 28px;
     fill: #025E73;
 }
 
-#gestaoUsuario .ban_img {
+#gestaoUnidade .ban_img {
     height: 28px;
     width: 28px;
     fill: #025E73;
@@ -297,7 +282,7 @@ select {
 
 @media screen and (max-width:1200px) {
 
-    #gestaoUsuario .adminGestao_By h1 {
+    #gestaoUnidade .adminGestao_By h1 {
         font-size: 40px;
         margin-top: 10px;
     }
@@ -307,24 +292,24 @@ select {
 @media screen and (max-width:1024px) {
 
 
-    #gestaoUsuario .adminGestao_Ry {
+    #gestaoUnidade .adminGestao_Ry {
 
         width: 80%;
 
     }
 
 
-    #gestaoUsuario .adminGestao_Ray {
+    #gestaoUnidade .adminGestao_Ray {
        width: 100%;
     }
 
 
-    #gestaoUsuario thead {
+    #gestaoUnidade thead {
         display: none;
 
     }
 
-    #gestaoUsuario table {
+    #gestaoUnidade table {
         display: block;
         width: 100%;
     }
@@ -333,28 +318,29 @@ select {
         display: block;
     }
 
-    #gestaoUsuario table td {
+    #gestaoUnidade table td {
         border: none;
         display: flex;
         justify-content: space-between;
+    
     }
 
-    #gestaoUsuario td>div {
+    #gestaoUnidade td>div {
         display: flex;
         gap: 10px
     }
 
-    #gestaoUsuario .nif_td,
-    #gestaoUsuario .perfil_td,
-    #gestaoUsuario .unidade_td {
+    #gestaoUnidade .cnpj_td,
+    #gestaoUnidade .razaosocial_td,
+    #gestaoUnidade .unidade_td {
         width: 100%;
     }
 
-    #gestaoUsuario table tr {
+    #gestaoUnidade table tr {
         height: auto;
     }
 
-    #gestaoUsuario tr {
+    #gestaoUnidade tr {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -365,12 +351,12 @@ select {
         padding: 10px;
     }
 
-    #gestaoUsuario td::before {
+    #gestaoUnidade td::before {
         content: attr(data-cell)": ";
     }
 
-    #gestaoUsuario .td_tableimg,
-    #gestaoUsuario .th_table {
+    #gestaoUnidade .td_tableimg,
+    #gestaoUnidade .th_table {
         width: auto;
     }
 
@@ -382,12 +368,13 @@ select {
 
 @media screen and (max-width:768px) {
 
-    #gestaoUsuario .adminGestaoUsuario {
+    #gestaoUnidade .adminGestaoUnidade {
         width: 100%;
         background-color: var(--grayscale-cor-3);
         display: flex;
         justify-content: center;
         align-items: center;
+        
     
     
     }
@@ -395,7 +382,7 @@ select {
 }
 
 @media screen and (max-width: 600px) {
-    #gestaoUsuario .adminGestao_By h1 {
+    #gestaoUnidade .adminGestao_By h1 {
         font-size: 28px;
         margin-top: 2px;
     }
@@ -403,12 +390,12 @@ select {
 
 @media screen and (max-width: 500px) {
 
-    #gestaoUsuario .adminGestao_By h1 {
+    #gestaoUnidade .adminGestao_By h1 {
         font-size: 28px;
         margin-top: 60px;
     }
 
-#gestaoUsuario .input1 select,#gestaoUsuario .input2 select, #gestaoUsuario .input3 select {
+#gestaoUnidade .input1 select,#gestaoUnidade .input2 select, #gestaoUnidade .input3 select {
     height: 30px;
     width: 100%;
     max-width: 400px;

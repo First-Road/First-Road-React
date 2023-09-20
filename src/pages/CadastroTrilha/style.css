@@ -1,0 +1,415 @@
+#cadastroTrilha {
+    display: flex;
+    height: 100%;
+    background-color: var(--grayscale-cor-2);
+
+}
+
+
+.trilhaAdmin {
+    width: 80%;
+    background-color: var(--grayscale-cor-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trilhaConteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    text-align: initial;
+    gap: 5px;
+}
+
+.trilhaConteudo H1 {
+    font-size: 60px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    text-transform: uppercase;
+}
+
+.trilhaInputBtn {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+
+}
+
+.trilhaInputBtn label{
+    color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 16px;
+}
+.trilhaInputBtn select{
+    color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 16px;
+}
+
+
+.trilhaOne {
+    width: 100%;
+    max-width: 550px;
+}
+
+.trilhaOne select {
+    height: 30px;
+    width: 100%;
+    max-width: 550px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+}
+
+.trilhaTwo {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.inserir {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: end;
+}
+
+.inserir_btnX {
+    height: 30px;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--principal-cor-3);
+    color: var(--grayscale-cor-4);
+    font-family: var(--font-2);
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.trilhaTextarea{
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content:center;
+    align-items: initial;
+}
+
+textarea{
+    height: 30px;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+    color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 16px;
+}
+
+.trilhaTextarea label{
+    color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 16px;
+}
+.trilhaInputBtn select{
+    color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 16px;
+}
+.trilhaSelect {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+
+}
+.trilhaTree {
+    width: 100%;
+    max-width: 375px;
+}
+
+.trilhaTree select {
+    height: 30px;
+    width: 100%;
+    max-width: 375px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+}
+
+.trilhaFour {
+    width: 100%;
+    max-width: 375px;
+}
+
+.trilhaFour select {
+    height: 30px;
+    width: 100%;
+    max-width: 375px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 10px;
+}
+
+.trilhaTable{
+    background-color: var(--grayscale-cor-2);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    text-align: initial;
+    margin-top: 10px;
+}
+
+table{
+    border: 1px solid var(--grayscale-cor-4);
+}
+table tr{
+    background-color: var(--grayscale-cor-4);
+    border: 1px solid var(--grayscale-cor-2);
+    text-align: initial;
+}
+
+th{
+    text-align: initial;
+}
+
+.tableEx{
+    width: 25px;
+}
+
+
+.trilhaSelectBtn {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+
+}
+
+.trilhaFive {
+    width: 100%;
+    max-width: 550px;
+}
+
+.trilhaFive select {
+    height: 30px;
+    width: 100%;
+    max-width: 550px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 10px;
+}
+
+.trilhaSix {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.inserir {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: end;
+}
+
+.inserir_btnXX {
+    height: 30px;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--principal-cor-3);
+    color: var(--grayscale-cor-4);
+    font-family: var(--font-2);
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+
+}
+
+
+
+.trilhaTextarea {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    flex-direction: column;
+}
+
+.trilhaSelect {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    font-size: 16px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+
+}
+.trilhaSelect select{
+    font-size: 16px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+.trilhaTable {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    flex-direction: column;
+}
+
+.trilhaSelectBtn {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+
+}
+
+.trilhaFive{
+    font-size: 16px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+.trilhaFive select{
+    font-size: 16px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+.conteudoTrilha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.conteudoTrilha h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+   
+}
+
+
+.conteudoPesquisa {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+.inputPesquisa {
+    height: 30px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+    background-color: var(--grayscale-cor-4);
+}
+
+::placeholder{
+    padding: 0px 20px;
+    color: var(--principal-cor-3);
+}
+
+
+.iconLupa {
+    height: 18px;
+    width: 18px;
+    fill: var(--principal-cor-3);
+    position: absolute;
+    top: 6px;
+    left: 600px;
+}
+
+.conteudoArmazen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+}
+
+.conteudoArmazen {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+table{
+    border: 1px solid var(--grayscale-cor-4);
+    font-size: 12px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    /* border-collapse: collapse; */
+}
+table tr{
+    background-color: var(--grayscale-cor-4);
+    border: 1px solid var(--grayscale-cor-2);
+    text-align: initial;
+}
+
+.tableBiXX{
+    width: 50px;
+}
+
+
+
+.icon {
+    height: 20px;
+    width: 20px;
+    fill: var(--principal-cor-3);
+}
