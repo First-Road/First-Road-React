@@ -1,0 +1,413 @@
+#gestaoUnidade {
+    display: flex;
+    height: 100%;
+    background-color: var(--grayscale-cor-2);
+
+}
+
+
+#gestaoUnidade .adminGestaoUnidade {
+    width: 80%;
+    background-color: var(--grayscale-cor-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#gestaoUnidade .adminGestao_By {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+
+#gestaoUnidade .adminGestao_By h1 {
+    font-size: 60px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    text-transform: uppercase;
+}
+
+
+
+#gestaoUnidade .adminGestao_Ry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+#gestaoUnidade .adminGestao_Ray {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+
+
+#gestaoUnidade .input1 label {
+    font-family: var(--font2);
+    font-size: 12px;
+    color: var(--principal-cor-3);
+}
+
+#gestaoUnidade .input1 select {
+    height: 30px;
+    width: 100%;
+    max-width: 250px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+
+
+#gestaoUnidade .input2 label {
+    font-family: var(--font2);
+    font-size: 12px;
+    color: var(--principal-cor-3);
+}
+
+#gestaoUnidade .input2 select {
+    height: 30px;
+    width: 100%;
+    max-width: 250px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+
+#gestaoUnidade .input3 label {
+    font-family: var(--font2);
+    font-size: 12px;
+    color: var(--principal-cor-3);
+}
+
+#gestaoUnidade .input3 select {
+    height: 30px;
+    width: 100%;
+    max-width: 250px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+
+
+
+
+#gestaoUnidade .posicao_linha {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+#gestaoUnidade .primeira_linha {
+    display: flex;
+    gap: 10px;
+
+}
+
+#gestaoUnidade .input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+
+
+}
+
+#gestaoUnidade .input1 {
+    flex: 1;
+
+}
+
+#gestaoUnidade .input2 {
+    flex: 1;
+}
+
+#gestaoUnidade .input3 {
+    flex: 1;
+}
+
+
+#gestaoUnidade .delete_table img,
+#gestaoUnidade .delete_table {
+    height: 50px;
+    width: 50px;
+    margin-left: -6px;
+
+}
+
+#gestaoUnidade table {
+    width: 100%;
+    background-color: var(--grayscale-cor-3);
+    color: var(--principal-cor-3);
+}
+
+
+
+#gestaoUnidade table th {
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    font-family: var(--font2);
+    font-size: 12px;
+    font-weight: 600;
+    border-color: var(--grayscale-cor-4);
+
+}
+
+#gestaoUnidade table td {
+    border: 1px solid var(--grayscale-cor-4);
+    border-collapse: collapse;
+
+
+
+}
+
+
+#gestaoUnidade .tr_one {
+    border-bottom: 1px solid var(--grayscale-cor-2);
+}
+
+
+#gestaoUnidade th {
+    text-align: left;
+    padding-right: 10px;
+    height: 40px;
+
+}
+
+
+
+#gestaoUnidade td {
+    padding-left: 4px;
+
+
+
+}
+
+#gestaoUnidade table tr {
+    height: 45px;
+}
+
+#gestaoUnidade .cnpj_td{
+    width: 150px; 
+}
+
+#gestaoUnidade .razaosocial_td {
+    width: 300px;
+}
+
+
+#gestaoUnidade .unidade_td {
+    width: 180px;
+
+}
+
+#gestaoUnidade .td_tableimg {
+    width: 175px;
+}
+
+#gestaoUnidade .tableIcons {
+    display: flex;
+    gap: 10px;
+}
+
+#gestaoUnidade .th_table {
+    align-items: right;
+
+}
+
+#gestaoUnidade .delete_table {
+    align-items: right;
+
+}
+
+#gestaoUnidade .th_tableimg,
+.td_tableimg {
+    width: 2vw;
+}
+
+#gestaoUnidade label,
+select {
+    vertical-align: middle;
+}
+
+#gestaoUnidade .chart_img {
+    height: 28px;
+    width: 28px;
+    fill: #025E73;
+}
+
+#gestaoUnidade .icon {
+    height: 25px;
+    width: 25px;
+    fill: var(--principal-cor-3);
+}
+
+#gestaoUnidade .calender_img {
+    height: 28px;
+    width: 28px;
+    fill: #025E73;
+}
+
+#gestaoUnidade .ban_img {
+    height: 28px;
+    width: 28px;
+    fill: #025E73;
+
+}
+
+@media screen and (max-width:1200px) {
+
+    #gestaoUnidade .adminGestao_By h1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+
+
+    #gestaoUnidade .adminGestao_Ry {
+
+        width: 80%;
+
+    }
+
+
+    #gestaoUnidade .adminGestao_Ray {
+       width: 100%;
+    }
+
+
+    #gestaoUnidade thead {
+        display: none;
+
+    }
+
+    #gestaoUnidade table {
+        display: block;
+        width: 100%;
+    }
+
+    #corpo-tabela-usuario {
+        display: block;
+    }
+
+    #gestaoUnidade table td {
+        border: none;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+
+    #gestaoUnidade td>div {
+        display: flex;
+        gap: 10px
+    }
+
+    #gestaoUnidade .cnpj_td,
+    #gestaoUnidade .razaosocial_td,
+    #gestaoUnidade .unidade_td {
+        width: 100%;
+    }
+
+    #gestaoUnidade table tr {
+        height: auto;
+    }
+
+    #gestaoUnidade tr {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #e1e1e1;
+        border-radius: 8px;
+        margin: 10px 0;
+        height: auto;
+        padding: 10px;
+    }
+
+    #gestaoUnidade td::before {
+        content: attr(data-cell)": ";
+    }
+
+    #gestaoUnidade .td_tableimg,
+    #gestaoUnidade .th_table {
+        width: auto;
+    }
+
+    #corpo-tabela-uindade {
+        display: block;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    #gestaoUnidade .adminGestaoUnidade {
+        width: 100%;
+        background-color: var(--grayscale-cor-3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+    
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    #gestaoUnidade .adminGestao_By h1 {
+        font-size: 28px;
+        margin-top: 2px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #gestaoUnidade .adminGestao_By h1 {
+        font-size: 28px;
+        margin-top: 60px;
+    }
+
+#gestaoUnidade .input1 select,#gestaoUnidade .input2 select, #gestaoUnidade .input3 select {
+    height: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+}
+
+
+@media screen and (max-width: 400px) {
+
+  
+}

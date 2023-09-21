@@ -1,0 +1,404 @@
+#admCadastroConteudo {
+    display: flex;
+    height: 100vh;
+    background-color: var(--grayscale-cor-2);
+
+}
+
+
+#admCadastroConteudo .adminCadastroConteudo {
+    width: 80%;
+    background-color: var(--grayscale-cor-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#admCadastroConteudo .adminCadastroConteudoSecao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#admCadastroConteudo .adminCadastroConteudoSecao H1 {
+    font-size: 60px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    text-transform: uppercase;
+}
+
+
+#admCadastroConteudo .adminInput {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    flex-direction: column;
+
+}
+
+#admCadastroConteudo .adminInput label {
+    font-family: var(--font-2);
+    font-size: 12px;
+    color: var(--principal-cor-3);
+    display: flex;
+}
+
+#admCadastroConteudo .inputCC {
+    height: 30px;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+}
+
+#admCadastroConteudo .inputLinksOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#admCadastroConteudo .oneLink {
+    width: 100%;
+    max-width: 550px;
+}
+
+#admCadastroConteudo .inputCA {
+    height: 30px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+}
+
+#admCadastroConteudo .twoLink {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+
+
+}
+
+#admCadastroConteudo .inserir_btn {
+    height: 30px;
+    width: 100%;
+    max-width: 250px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--principal-cor-3);
+    color: var(--grayscale-cor-4);
+    font-family: var(--font-2);
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 8px;
+
+
+}
+
+#admCadastroConteudo .inputLinksTwo {
+    height: 60px;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grayscale-cor-4);
+}
+
+#admCadastroConteudo .inputLinksTwo a {
+    color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 12px;
+    text-decoration: none;
+    padding: 2px 20px;
+
+
+}
+
+#admCadastroConteudo .btn_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#admCadastroConteudo .salvar_btn {
+    height: 30px;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--principal-cor-3);
+    color: var(--grayscale-cor-4);
+    font-family: var(--font-2);
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 8px;
+}
+
+
+#admCadastroConteudo .conteudoCadastro {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    gap: 5px;
+
+}
+
+#admCadastroConteudo .conteudoCadastro h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    margin-top: 15px;
+
+}
+
+#admCadastroConteudo .conteudoPesquisa {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+
+#admCadastroConteudo .pesquisa_input {
+    height: 30px;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+
+}
+
+#admCadastroConteudo .iconConteudo {
+    height: 20px;
+    width: 20px;
+    fill: var(--principal-cor-3);
+    position: absolute;
+    top: 5px;
+    left: 600px;
+}
+
+#admCadastroConteudo .iconConteudoText {
+    height: 20px;
+    width: 20px;
+    fill: var(--principal-cor-3);
+}
+
+#admCadastroConteudo .conteudoLista {
+    height: 30px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+    font-family: var(--font-2);
+    font-size: 12px;
+    background-color: var(--grayscale-cor-4);
+    color: var(--principal-cor-3);
+    padding: 0 20px;
+    margin-bottom: 5px;
+
+
+
+}
+
+#admCadastroConteudo .conteudoIcon {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    #admCadastroConteudo .adminCadastroConteudoSecao H1 {
+        font-size: 40px;
+        margin-top: 10px;
+
+    }
+
+
+    #admCadastroConteudo .conteudoCadastro h2 {
+        font-size: 30px;
+    }
+
+    #admCadastroConteudo .iconConteudo {
+        left: 440px;
+    }
+
+    #admCadastroConteudo .inputCC,
+    #admCadastroConteudo .inputCA {
+        height: 25px;
+    }
+
+    #admCadastroConteudo .inserir_btn {
+        height: 25px;
+    }
+
+    #admCadastroConteudo .salvar_btn {
+        height: 25px;
+        width: 80%;
+        max-width: 400px;
+
+
+    }
+
+    #admCadastroConteudo .pesquisa_input {
+        height: 25px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+
+
+    #admCadastroConteudo .adminCadastroConteudoSecao H1 {
+        font-size: 35px;
+        margin-top: 20px;
+
+    }
+
+    #admCadastroConteudo .conteudoCadastro h2 {
+        font-size: 28px;
+    }
+
+    #admCadastroConteudo .inputLinksOne {
+        gap: 10px;
+    }
+
+    #admCadastroConteudo .pesquisa_input {
+        height: 25px;
+        width: 90%;
+    }
+
+    #admCadastroConteudo .iconConteudo {
+        top: 3px;
+        left: 375px;
+        height: 19px;
+        width: 19px;
+    }
+
+    #admCadastroConteudo .conteudoLista {
+        height: 25px;
+    }
+
+    #admCadastroConteudo .iconConteudoText {
+        height: 19px;
+        width: 19px;
+
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    #admCadastroConteudo .adminCadastroConteudo {
+        height: 100%;
+        width: 100%;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #admCadastroConteudo .adminCadastroConteudoSecao H1 {
+        font-size: 28px;
+        margin-top: 10px;
+
+    }
+
+    #admCadastroConteudo .conteudoCadastro h2 {
+        font-size: 26px;
+    }
+
+
+    #admCadastroConteudo .iconConteudo {
+        top: 3px;
+        left: 340px;
+
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+
+    #admCadastroConteudo .adminCadastroConteudoSecao H1 {
+        font-size: 25px;
+        margin-top: 30px;
+
+    }
+
+    
+
+    #admCadastroConteudo .conteudoCadastro h2 {
+        font-size: 23px;
+    }
+
+    #admCadastroConteudo .iconConteudo {
+        top: 3px;
+        left: 290px;
+
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    #admCadastroConteudo .adminCadastroConteudoSecao H1 {
+        font-size: 23px;
+        margin-top: 10px;
+
+    }
+
+    #admCadastroConteudo .adminInput{
+        gap: 3px;
+    }
+
+    #admCadastroConteudo .conteudoCadastro h2 {
+        font-size: 19px;
+    }
+
+    #admCadastroConteudo .iconConteudo {
+        top: 3px;
+        left: 230px;
+
+    }
+
+    #admCadastroConteudo .conteudoCadastro {
+        gap: 10px;
+        
+    }
+
+}

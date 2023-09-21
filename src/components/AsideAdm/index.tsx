@@ -119,7 +119,7 @@ function AsideAdm() {
 
                             <li>
 
-                                <Link to={"#"}>
+                                <Link to={"/cadastroUnidade"}>
                                     <div>
                                         <img className="icon" src={cadastroUnidade} alt="icone user3_seting" />
                                     </div>
@@ -133,7 +133,7 @@ function AsideAdm() {
                             </li>
 
                             <li>
-                                <Link to={"#"}>
+                                <Link to={"/gestaoUnidade"}>
                                     <div>
                                         <img className="icon" src={gestaoUnidade} alt="icone user3_seting" />
                                     </div>
@@ -145,7 +145,7 @@ function AsideAdm() {
                             </li>
 
                             <li>
-                                <Link to={"#"}>
+                                <Link to={"/cadastroUO"}>
                                     <div>
                                         <img className="icon" src={cadastroUO} alt="icone carro" />
                                     </div>
@@ -175,7 +175,7 @@ function AsideAdm() {
                             </li>
                             <li>
 
-                                <Link to={"#"}>
+                                <Link to={"/cadastroConteudo"}>
                                     <div>
                                         <img className="icon" src={cadastroConteudo} alt="icone lista_conteudo" />
                                     </div>
@@ -187,7 +187,7 @@ function AsideAdm() {
 
                             </li>
                             <li>
-                                <Link to={"#"}>
+                                <Link to={"/cadastroTrilha"}>
                                     <div>
                                         <img className="icon" src={casdastroTrilha} alt="icone user3_seting" />
                                     </div>

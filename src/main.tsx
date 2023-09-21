@@ -35,6 +35,11 @@ import TrilhaGestor from './pages/Gestor/TrilhaGestor';
 import EditarColaborador from './pages/Gestor/EditarColaborador';
 import Dashboard from './pages/Gestor/Dashboard';
 import VisualizarCertificadosColaborador from './pages/VisializarCertificadosColaborador/Index';
+import CadastroUNidade from './pages/CadastroUnidade';
+import GestaoUnidade from './pages/GestaoUnidade';
+import CadastroUO from './pages/CadastroUO';
+ import CadastroConteudo from './pages/CadastroConteudo';
+ import CadastroTrilha from './pages/CadastroTrilha';
 
 
 
@@ -72,6 +77,13 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/cadastroGestor' element={<CadastrarGestor />} />
         <Route path='/VisualizarCertificadosColaborador' element={<VisualizarCertificadosColaborador />} />
         <Route path='/gestaoUsuario' element={<GestaoUsuario />} />
+        <Route path='/cadastroUnidade' element={<CadastroUNidade/>} />
+        <Route path='/gestaoUnidade' element={<GestaoUnidade />} />
+        <Route path='/cadastroUO' element={<CadastroUO/>} />
+        <Route path='/cadastroConteudo' element={<CadastroConteudo/>} />
+        <Route path='/cadastroTrilha' element={<CadastroTrilha/>} />
+
+
       </Routes>
     </BrowserRouter>
 

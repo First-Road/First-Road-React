@@ -1,19 +1,16 @@
-import './style.css'
+import './style.css';
+import AsideAdm from '../../components/AsideAdm';
 
-import AsideAdm from '../../components/AsideAdm'
-
-
-function GestaoUO() {
+function CadastroUO() {
 
     return (
-
-        <main id='gestaoUO'>
+        <main id='cadastro_UO'>
             <AsideAdm />
-            <section className="adminGestaoUO">
-                <div className="adminGestaoUO_Secao">
-                    <h1>Gestão U.O.</h1>
-                    <div className="adminGestaoUO_texto_imagem">
-                        <div className="GestaoUO_Centralizar">
+            <section className="adminCadastroUO">
+                <div className="adminCadastroUO_Secao">
+                    <h1>Cadastro U.O.</h1>
+                    <div className="adminCadastroUO_texto_imagem">
+                        <div className="CadastroUO_Centralizar">
                             <div className="posicao_linha">
                                 <div className="primeira_linha">
                                     <div className="input input1">
@@ -35,6 +32,21 @@ function GestaoUO() {
                                         />
                                     </div>
                                 </div>
+
+                                <div className="segunda_linha">
+
+                                    <div className="button_cadastrar">
+                                        <button>Cadastrar</button>
+                                    </div>
+                                    <div className="button_editar">
+                                        <button>Editar</button>
+                                    </div>
+                                    <div className="button_salvar">
+                                        <button>Salvar</button>
+                                    </div>
+
+                                </div>
+
                             </div>
                             <table>
                                 <thead>
@@ -44,7 +56,7 @@ function GestaoUO() {
                                         <th />
                                     </tr>
                                 </thead>
-                                <tbody id="corpo-tabela">
+                                <tbody id="corpo-tabelaUO">
                                     <tr>
                                         <td className="td_one" data-cell="Departamento">
                                             Administrativo
@@ -53,7 +65,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div className='gestaoUOIcons'>
+                                            <div className='CadastroUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -95,7 +107,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div className='gestaoUOIcons'>
+                                            <div className='CadastroUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -137,7 +149,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div className='gestaoUOIcons'>
+                                            <div className='CadastroUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -179,7 +191,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div className='gestaoUOIcons'>
+                                            <div className='CadastroUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -221,7 +233,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div className='gestaoUOIcons'>
+                                            <div className='CadastroUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -263,7 +275,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div className='gestaoUOIcons'>
+                                            <div className='CadastroUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -305,7 +317,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div className='gestaoUOIcons'>
+                                            <div className='CadastroUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -347,7 +359,7 @@ function GestaoUO() {
                                             Oliver Blume
                                         </td>
                                         <td className="td_tableimg" data-cell="Opções">
-                                            <div className='gestaoUOIcons'>
+                                            <div className='CadastroUOIcons'>
                                                 <a href="">
                                                     <svg
                                                         className="icon"
@@ -391,8 +403,8 @@ function GestaoUO() {
         </main>
 
 
-    );
+    )
 
 }
 
-export default GestaoUO
+export default CadastroUO

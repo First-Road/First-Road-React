@@ -1,0 +1,526 @@
+#cadastroTrilha {
+    display: flex;
+    height: 100%;
+    background-color: var(--grayscale-cor-2);
+
+}
+
+
+#cadastroTrilha .trilhaAdmin {
+    width: 80%;
+    background-color: var(--grayscale-cor-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cadastroTrilha .trilhaConteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    text-align: initial;
+    gap: 5px;
+}
+
+#cadastroTrilha .trilhaConteudo H1 {
+    font-size: 60px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    text-transform: uppercase;
+}
+
+#cadastroTrilha .trilhaInputBtn {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+
+}
+
+#cadastroTrilha .trilhaInputBtn label {
+    color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 12px;
+}
+
+#cadastroTrilha .trilhaInputBtn select {
+    color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 12px;
+}
+
+
+#cadastroTrilha .trilhaOne {
+    width: 100%;
+    max-width: 550px;
+}
+
+#cadastroTrilha .trilhaOne select {
+    height: 30px;
+    width: 100%;
+    max-width: 550px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+}
+
+#cadastroTrilha .trilhaTwo {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#cadastroTrilha .inserir {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: end;
+}
+
+#cadastroTrilha .inserir_btnX {
+    height: 30px;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--principal-cor-3);
+    color: var(--grayscale-cor-4);
+    font-family: var(--font-2);
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 8px;
+
+}
+
+#cadastroTrilha .trilhaTextarea {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+}
+
+#cadastroTrilha textarea {
+    height: 30px;
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+    color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 12px;
+}
+
+#cadastroTrilha .trilhaTextarea label {
+    color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 12px;
+}
+
+#cadastroTrilha .trilhaInputBtn select {
+    color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 12px;
+}
+
+#cadastroTrilha .trilhaSelect {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+
+}
+
+#cadastroTrilha .trilhaTree {
+    width: 100%;
+    max-width: 375px;
+}
+
+#cadastroTrilha .trilhaTree select {
+    height: 30px;
+    width: 100%;
+    max-width: 375px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+}
+
+#cadastroTrilha .trilhaFour {
+    width: 100%;
+    max-width: 375px;
+}
+
+#cadastroTrilha .trilhaFour select {
+    height: 30px;
+    width: 100%;
+    max-width: 375px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+}
+
+#cadastroTrilha .trilhaTable {
+    background-color: var(--grayscale-cor-2);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    text-align: initial;
+    margin-top: 10px;
+}
+
+#cadastroTrilha table {
+    border: 1px solid var(--grayscale-cor-4);
+}
+
+#cadastroTrilha table tr {
+    background-color: var(--grayscale-cor-4);
+    border: 1px solid var(--grayscale-cor-2);
+    text-align: initial;
+}
+
+#cadastroTrilha th {
+    text-align: initial;
+    height: 30px;
+}
+
+#cadastroTrilha .tableEx {
+    width: 25px;
+}
+
+
+#cadastroTrilha .trilhaSelectBtn {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+
+}
+
+#cadastroTrilha .trilhaFive {
+    width: 100%;
+    max-width: 550px;
+}
+
+#cadastroTrilha .trilhaFive select {
+    height: 30px;
+    width: 100%;
+    max-width: 550px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+}
+
+#cadastroTrilha .trilhaSix {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#cadastroTrilha .inserir {
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: end;
+}
+
+#cadastroTrilha .inserir_btnXX {
+    height: 30px;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--principal-cor-3);
+    color: var(--grayscale-cor-4);
+    font-family: var(--font-2);
+    font-size: 18px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 8px;
+
+}
+
+
+
+#cadastroTrilha .trilhaTextarea {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    flex-direction: column;
+}
+
+#cadastroTrilha .trilhaSelect {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    font-size: 12px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    gap: 40px;
+
+}
+
+#cadastroTrilha .trilhaSelect select {
+    font-size: 12px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+#cadastroTrilha .trilhaTable {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    flex-direction: column;
+}
+
+#cadastroTrilha .trilhaSelectBtn {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+
+}
+
+#cadastroTrilha .trilhaFive {
+    font-size: 12px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+#cadastroTrilha .trilhaFive select {
+    font-size: 12px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+}
+
+#cadastroTrilha .conteudoTrilha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+#cadastroTrilha .conteudoTrilha h2 {
+    text-transform: uppercase;
+    font-size: 34px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+
+}
+
+
+#cadastroTrilha .conteudoPesquisa {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+#cadastroTrilha .inputPesquisa {
+    height: 30px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 8px;
+    background-color: var(--grayscale-cor-4);
+}
+
+#cadastroTrilha ::placeholder {
+    padding: 0px 15px;
+    color: var(--principal-cor-3);
+}
+
+
+#cadastroTrilha .iconLupa {
+    height: 18px;
+    width: 18px;
+    fill: var(--principal-cor-3);
+    position: absolute;
+    top: 6px;
+    left: 600px;
+}
+
+#cadastroTrilha .conteudoArmazen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+}
+
+#cadastroTrilha .conteudoArmazen {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: initial;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#cadastroTrilha table {
+    border: 1px solid var(--grayscale-cor-4);
+    font-size: 12px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+
+}
+
+#cadastroTrilha table tr {
+    background-color: var(--grayscale-cor-4);
+    border: 1px solid var(--grayscale-cor-2);
+    text-align: initial;
+}
+
+#cadastroTrilha .tableBiXX {
+    width: 50px;
+}
+
+#cadastroTrilha .icon {
+    height: 20px;
+    width: 20px;
+    fill: var(--principal-cor-3);
+}
+
+@media screen and (max-width:1200px) {
+
+    #cadastroTrilha .trilhaAdmin {
+        padding: 0 20px;
+    }
+
+    #cadastroTrilha .trilhaConteudo H1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+    #cadastroTrilha .conteudoTrilha h2 {
+        font-size: 30px;
+    }
+
+    #cadastroTrilha .iconLupa {
+        top: 6px;
+        left: 580px;
+    }
+
+
+}
+
+@media screen and (max-width:1024px) {
+
+    #cadastroTrilha .conteudoTrilha h2 {
+        font-size: 28px;
+    }
+
+    #cadastroTrilha .iconLupa {
+        top: 6px;
+        left: 520px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    #cadastroTrilha .trilhaAdmin {
+        width: 100%;
+        background-color: var(--grayscale-cor-3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+    }
+
+    #cadastroTrilha .conteudoTrilha h2 {
+        font-size: 25px;
+    }
+
+    #cadastroTrilha .iconLupa {
+        top: 6px;
+        left: 480px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    #cadastroTrilha .trilhaConteudo H1 {
+        font-size: 28px;
+        margin-top: 2px;
+    }
+
+    #cadastroTrilha .conteudoTrilha h2 {
+        font-size: 20px;
+    }
+
+    #cadastroTrilha .iconLupa {
+        top: 6px;
+        left: 440px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #cadastroTrilha .trilhaConteudo H1 {
+        font-size: 28px;
+        margin-top: 60px;
+    }
+
+    
+    #cadastroTrilha .conteudoTrilha h2 {
+        font-size: 18px;
+    }
+
+    #cadastroTrilha .iconLupa {
+        top: 6px;
+        left: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #cadastroTrilha .conteudoTrilha h2 {
+        font-size: 12px;
+    }
+
+    #cadastroTrilha .iconLupa {
+        top: 6px;
+        left: 280px;
+    }
+
+
+}

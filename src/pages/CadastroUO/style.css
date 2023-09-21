@@ -1,13 +1,13 @@
-#gestaoUO {
+#cadastro_UO {
     display: flex;
     min-height: 100vh;
     background-color: var(--grayscale-cor-2);
 }
 
 
-/* SECTION */
 
-#gestaoUO .adminGestaoUO {
+
+#cadastro_UO .adminCadastroUO {
     width: 80%;
     background-color: var(--grayscale-cor-3);
     display: flex;
@@ -15,14 +15,14 @@
     align-items: center;
 }
 
-#gestaoUO .adminGestaoUO_Secao {
+#cadastro_UO .adminCadastroUO_Secao {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#gestaoUO .adminGestaoUO_Secao H1 {
+#cadastro_UO .adminCadastroUO_Secao H1 {
     font-size: 60px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
@@ -31,7 +31,7 @@
 }
 
 
-#gestaoUO .adminGestaoUO_Secao {
+#cadastro_UO .adminCadastroUO_Secao {
     background-color: var(--grayscale-cor-3);
     width: 100%;
     display: flex;
@@ -41,7 +41,7 @@
 
 }
 
-#gestaoUO .adminGestaoUO_texto_imagem {
+#cadastro_UO .adminCadastroUO_texto_imagem {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,14 +50,14 @@
     gap: 50px;
 }
 
-#gestaoUO .user_config {
+#cadastro_UO .user_config {
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
 }
 
-#gestaoUO .GestaoUO_Centralizar {
+#cadastro_UO .CadastroUO_Centralizar {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -65,20 +65,88 @@
 
 }
 
-#gestaoUO .posicao_linha {
+#cadastro_UO .posicao_linha {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 100%;
 }
 
-#gestaoUO .primeira_linha {
+#cadastro_UO .primeira_linha {
+    display: flex;
+    gap: 10px;
+
+}
+#cadastro_UO .segunda_linha {
     display: flex;
     gap: 10px;
 
 }
 
-#gestaoUO .input {
+#cadastro_UO .button_cadastrar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+#cadastro_UO .button_editar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+#cadastro_UO .button_salvar {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+
+#cadastro_UO .button_cadastrar button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+}
+#cadastro_UO .button_editar button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+}
+#cadastro_UO .button_salvar button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-2);
+    font-size: 18px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+}
+
+
+#cadastro_UO .input {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
@@ -86,31 +154,31 @@
 
 }
 
-#gestaoUO .input1 {
+#cadastro_UO .input1 {
     flex: 2;
 
 }
 
-#gestaoUO .input2 {
+#cadastro_UO .input2 {
     flex: 1;
 }
 
 
 
-#gestaoUO .input_caixa {
+#cadastro_UO .input_caixa {
     border-radius: 8px;
-    height: 30px;
+    height:25px;
     border: 1px solid var(--principal-cor-3);
     background-color: var(--grayscale-cor-3);
 }
 
-#gestaoUO .input label {
+#cadastro_UO .input label {
     text-transform: uppercase;
     color: var(--principal-cor-3);
     font-size: 12px;
 }
 
-#gestaoUO .icon {
+#cadastro_UO .icon {
     height: 25px;
     width: 25px;
     fill: var(--principal-cor-3)
@@ -120,7 +188,7 @@
 
 
 
-#gestaoUO table {
+#cadastro_UO table {
     background-color: var(--grayscale-cor-3);
     color: var(--principal-cor-3);
     display: table-cell;
@@ -133,19 +201,19 @@
 
 
 
-#gestaoUO table th {
-    border-bottom: 1px solid;
-    text-transform: uppercase;
+#cadastro_UO table th {
+    border-bottom: 3px solid;
+    text-transform: capitalize;
     font-family: var(--font-2);
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     border-color: var(--grayscale-cor-4);
 
 
 
 }
 
-#gestaoUO table td {
+#cadastro_UO table td {
     border: 1px solid var(--grayscale-cor-4);
     border-collapse: collapse;
 
@@ -153,12 +221,12 @@
 
 }
 
-#gestaoUO .tr_one {
+#cadastro_UO .tr_one {
     border-bottom: 1px solid var(--grayscale-cor-2);
 }
 
 
-#gestaoUO th {
+#cadastro_UO th {
     text-align: left;
     padding-right: 10px;
     height: 40px;
@@ -167,46 +235,45 @@
 
 
 
-#gestaoUO td {
+#cadastro_UO td {
     padding-left: 4px;
 
 
 
 }
 
-#gestaoUO .td_one {
+#cadastro_UO .td_one {
      width: 200px;
 }
 
-#gestaoUO .td_two {
+#cadastro_UO .td_two {
      width: 400px; 
 
 }
 
-#gestaoUO .td_tableimg {
-    width: 150px;
+#cadastro_UO .td_tableimg {
+    width: 120px;
     gap: 10px;
 } 
 
-#gestaoUO .gestaoUOIcons{
+#cadastro_UO .CadastroUOIcons{
     display: flex;
-    justify-content: flex-end;
     gap: 10px;
 
 }
 
-#gestaoUO .icon {
+#cadastro_UO .icon {
     align-items: right;
 }
 
 
-#gestaoUO ::placeholder,
-#gestaoUO .input_caixa {
+#cadastro_UO ::placeholder,
+#cadastro_UO .input_caixa {
     padding: 0 15px;
 }
 
 @media screen and (max-width: 1200px) {
-    #gestaoUO .adminGestaoUO_Secao H1 {
+    #cadastro_UO .adminCadastroUO_Secao H1 {
         font-size: 40px;
         margin-top: 10px;
 
@@ -216,46 +283,46 @@
 
 @media screen and (max-width:768px) {
 
-    #gestaoUO .adminGestaoUO {
+    #cadastro_UO .adminCadastroUO {
         width: 100vw;
     }
 
-    #gestaoUO .adminGestaoUO_Secao {
+    #cadastro_UO .adminCadastroUO_Secao {
         gap: 5px;
     }
 
-    #gestaoUO .adminGestaoUO_Secao H1 {
+    #cadastro_UO .adminCadastroUO_Secao H1 {
         font-size: 30px;
       
     }
 
 
-    #gestaoUO thead {
+    #cadastro_UO thead {
         display: none;
 
     }
 
-    #gestaoUO table {
+    #cadastro_UO table {
         display: block;
         width: 100%;
     }
 
-    #corpo-tabela {
+    #corpo-tabelaUO {
         display: block;
     }
 
-    #gestaoUO table td {
+    #cadastro_UO table td {
         border: none;
         display: flex;
         justify-content: space-between;
     }
 
-    #gestaoUO td>div {
+    #cadastro_UO td>div {
         display: flex;
         gap: 10px
     }
 
-    #gestaoUO tr {
+    #cadastro_UO tr {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -266,13 +333,13 @@
         padding: 10px;
     }
 
-    #gestaoUO td::before {
+    #cadastro_UO td::before {
         content: attr(data-cell)": ";
     }
 
-    #gestaoUO .td_tableimg,
-    #gestaoUO .td_one,
-    #gestaoUO .td_two {
+    #cadastro_UO .td_tableimg,
+    #cadastro_UO .td_one,
+    #cadastro_UO .td_two {
         width: auto;
     }
 
@@ -283,7 +350,7 @@
 @media screen and (max-width: 600px) {
 
 
-    #gestaoUO .adminGestaoUO_Secao H1 {
+    #cadastro_UO .adminCadastroUO_Secao H1 {
         font-size: 28px;
         margin-top: 2px;
 
@@ -297,23 +364,39 @@
 
 @media screen and (max-width: 500px) {
 
-    #gestaoUO .primeira_linha {
+    #cadastro_UO .primeira_linha {
         display: flex;
         flex-direction: column;
     }
 
-    #gestaoUO .input_caixa {
+    #cadastro_UO .input_caixa {
         width: 100%;
        
     }
 
 
-    #gestaoUO .adminGestaoUO_Secao H1 {
+    #cadastro_UO .adminCadastroUO_Secao H1 {
         font-size: 28px;
         margin-top: 60px;
 
     }
 
+    #cadastro_UO .button_cadastrar {
+        width: 100%;
+        
+    }
+
+    #cadastro_UO .button_editar {
+        width: 100%;
+        
+    }
+
+    #cadastro_UO .button_salvar {
+        width: 100%;
+        
+    }
+    
+    
    
 
 
@@ -321,12 +404,12 @@
 
 @media screen and (max-width: 400px) {
 
-    #gestaoUO .input_caixa {
+    #cadastro_UO .input_caixa {
         width: 100%;
       
     }
 
-    #gestaoUO tbody {
+    #cadastro_UO tbody {
         width: 100%;
       
     }
