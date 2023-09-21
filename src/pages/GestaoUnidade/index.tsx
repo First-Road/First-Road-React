@@ -5,7 +5,7 @@ function GestaoUnidade() {
     return (
         <main id='gestaoUnidade'>
             <AsideAdm />
-            <section className="adminGestaoUnidade">
+            <div className="adminGestaoUnidade">
                 <div className="adminGestao_By">
                     <h1>Gestão Unidade</h1>
                     <div className="adminGestao_Ry">
@@ -621,7 +621,7 @@ function GestaoUnidade() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
         </main>
     )

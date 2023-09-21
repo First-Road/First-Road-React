@@ -23,11 +23,12 @@
 }
 
 #cadastro_UO .adminCadastroUO_Secao H1 {
-    font-size: 60px;
+    font-size: 40px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
     text-transform: uppercase;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 
@@ -74,29 +75,31 @@
 
 #cadastro_UO .primeira_linha {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 
 }
 #cadastro_UO .segunda_linha {
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 
 }
 
 #cadastro_UO .button_cadastrar {
-    width: 30%;
+    width: 20%;
     display: flex;
     align-items: center;
     padding-top: 12px;
 }
 #cadastro_UO .button_editar {
-    width: 30%;
+    width: 20%;
     display: flex;
     align-items: center;
     padding-top: 12px;
 }
 #cadastro_UO .button_salvar {
-    width: 30%;
+    width: 20%;
     display: flex;
     align-items: center;
     padding-top: 12px;

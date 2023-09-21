@@ -8,7 +8,7 @@ function PerfilConectado() {
     return (
         <main id='perfilConectado'>
             <AsideAdm />
-            <section className="adminPerfil">
+            <div className="adminPerfil">
                 <div className="adminPerfil_Secao">
                     <h1>Perfil Conectado</h1>
                     <div className="user_config">
@@ -78,7 +78,7 @@ function PerfilConectado() {
                         
                     </div>
                 </div>
-            </section>
+            </div>
 
         </main>
 

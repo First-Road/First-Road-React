@@ -8,7 +8,7 @@ function CadastrarGestor() {
     return (
         <main id='cadastrarGestor'>
             <AsideAdm/>
-            <section className="adminCadastroGestor">
+            <div className="adminCadastroGestor">
                 <div className="adminCadastroGestor_Secao">
                     <h1>Cadastro Gestor</h1>
                     <div className="user_config">
@@ -155,7 +155,7 @@ function CadastrarGestor() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </main>
 
     );

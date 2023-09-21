@@ -5,7 +5,7 @@ function CadastroTrilha() {
     return (
         <main id="cadastroTrilha">
             <AsideAdm />
-            <section className="trilhaAdmin">
+            <div className="trilhaAdmin">
                 <div className="trilhaConteudo">
                     <h1>Cadastrar Trilha</h1>
                     <div className="trilhaInputBtn">
@@ -291,7 +291,7 @@ function CadastroTrilha() {
                         </table>
                     </div>
                 </div>
-            </section>
+            </div>
 
         </main>
     )

@@ -6,7 +6,7 @@ function CadastroUO() {
     return (
         <main id='cadastro_UO'>
             <AsideAdm />
-            <section className="adminCadastroUO">
+            <div className="adminCadastroUO">
                 <div className="adminCadastroUO_Secao">
                     <h1>Cadastro U.O.</h1>
                     <div className="adminCadastroUO_texto_imagem">
@@ -398,7 +398,7 @@ function CadastroUO() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
         </main>
 

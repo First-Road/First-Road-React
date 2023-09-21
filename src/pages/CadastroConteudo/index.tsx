@@ -7,7 +7,7 @@ function CadastroConteudo() {
 
     <main id='admCadastroConteudo'>
       <AsideAdm />
-      <section className="adminCadastroConteudo">
+      <div className="adminCadastroConteudo">
         <div className="adminCadastroConteudoSecao">
           <h1>Cadastro Conteúdo</h1>
           <div className="adminInput">
@@ -201,7 +201,7 @@ function CadastroConteudo() {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </main>
 
   )

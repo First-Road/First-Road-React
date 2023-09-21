@@ -8,7 +8,7 @@ function GestaoUsuario() {
         
         <main id='gestaoUsuario'>
             <AsideAdm />
-            <section className="adminGestaoUsuario">
+            <div className="adminGestaoUsuario">
                 <div className="adminGestao_By">
                     <h1>Gestão de Usuario</h1>
                     <div className="adminGestao_Ry">
@@ -621,7 +621,7 @@ function GestaoUsuario() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
         </main>
 

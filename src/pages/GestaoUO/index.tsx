@@ -9,7 +9,7 @@ function GestaoUO() {
 
         <main id='gestaoUO'>
             <AsideAdm />
-            <section className="adminGestaoUO">
+            <div className="adminGestaoUO">
                 <div className="adminGestaoUO_Secao">
                     <h1>Gestão U.O.</h1>
                     <div className="adminGestaoUO_texto_imagem">
@@ -386,7 +386,7 @@ function GestaoUO() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
 
         </main>
 

@@ -7,7 +7,7 @@ function CadastroUNidade() {
     return (
         <main id='cadastroUnidade'>
             <AsideAdm/>
-            <section className="adminCadastroUnidade">
+            <div className="adminCadastroUnidade">
                 <div className="adminCadastroUnidade_Secao">
                     <h1>Cadastro Unidade</h1>
                     <div className="user_config">
@@ -139,7 +139,7 @@ function CadastroUNidade() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </main>
 
 

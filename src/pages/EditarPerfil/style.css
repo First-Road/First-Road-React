@@ -7,11 +7,12 @@
     flex-direction: column;
 }
 
-.adminPerfil_Secao H1 {
-    font-size: 60px;
+.adminPerfil_Secao h3 {
+    font-size: 40px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
     text-transform: uppercase;
+    text-align: center;
 }
 
 .adminPerfil {
@@ -161,15 +162,16 @@
     font-size: 12px;
 }
 
-.button_salvar {
+.button_salvar_adm {
     width: 70%;
     display: flex;
     align-items: center;
     padding-top: 12px;
+    border-radius: 8px;
 
 }
 
-.button_salvar button {
+.button_salvar_adm button {
     width: 100%;
     display: flex;
     align-items: center;
@@ -283,9 +285,10 @@ h2 {
     min-height: 100vh;
 }
 
-.adminPerfil_Secao H1 {
-    font-size: 40px;
+.adminPerfil_Secao h3 {
+    font-size: 30px;
     margin-top: 10px;
+    text-align: center;
 
 }
 

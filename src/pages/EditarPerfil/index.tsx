@@ -8,9 +8,9 @@ function EditarPerfil() {
   return(
     <main id='editarPerfil'>
        <AsideAdm />
-        <section className="adminPerfil">
+        <div className="adminPerfil">
   <div className="adminPerfil_Secao">
-    <h1>Editar Perfil</h1>
+    <h3>Editar Perfil</h3>
     <div className="user_config">
       <img
         className="admin_FotoPadrao"
@@ -135,7 +135,7 @@ function EditarPerfil() {
                 />
               </div>
             </div>
-            <div className="button_salvar">
+            <div className="button_salvar_adm">
               <button>Salvar</button>
             </div>
           </div>
@@ -143,7 +143,7 @@ function EditarPerfil() {
       </div>
     </div>
   </div>
-</section>
+</div>
 
     </main>
   )

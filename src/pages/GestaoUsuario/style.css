@@ -29,10 +29,11 @@
 }
 
 #gestaoUsuario .adminGestao_By h1 {
-    font-size: 60px;
+    font-size: 40px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
     text-transform: uppercase;
+    text-align: center;
 }
 
 

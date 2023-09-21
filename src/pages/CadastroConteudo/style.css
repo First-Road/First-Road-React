@@ -21,11 +21,12 @@
     flex-direction: column;
 }
 
-#admCadastroConteudo .adminCadastroConteudoSecao H1 {
-    font-size: 60px;
+ .adminCadastroConteudoSecao H1 {
+    font-size: 27px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
     text-transform: uppercase;
+    text-align: center;
 }
 
 
@@ -86,7 +87,7 @@
 
 #admCadastroConteudo .inserir_btn {
     height: 30px;
-    width: 100%;
+    width: 40%;
     max-width: 250px;
     margin-top: 14px;
     display: flex;
@@ -134,7 +135,7 @@
 
 #admCadastroConteudo .salvar_btn {
     height: 30px;
-    width: 100%;
+    width: 28%;
     max-width: 400px;
     display: flex;
     justify-content: center;
@@ -161,12 +162,16 @@
 
 }
 
-#admCadastroConteudo .conteudoCadastro h2 {
+.conteudoCadastro h2 {
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 27px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
     margin-top: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 5px;
 
 }
 

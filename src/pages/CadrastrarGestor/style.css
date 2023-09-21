@@ -7,18 +7,19 @@
 
 
 
-#cadastrarGestor .adminCadastroGestor_Secao {
+ .adminCadastroGestor_Secao {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#cadastrarGestor .adminCadastroGestor_Secao H1 {
-    font-size: 60px;
+ .adminCadastroGestor_Secao H1 {
+    font-size: 40px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
     text-transform: uppercase;
+    text-align: center;
 }
 
 #cadastrarGestor .adminCadastroGestor {
@@ -35,25 +36,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 17px;
 
 }
 
 #cadastrarGestor .adminCadastroGestor_texto_imagem {
     display: flex;
-    gap: 50px;
+    gap: 20px;
 }
 
-#cadastrarGestor .user_config {
+ .user_config {
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
+    
 }
 
 #cadastrarGestor .admin_FotoPadrao {
-    height: 175px;
-    width: 171px;
+    height: 140px;
+    width: 142px;
     border: 3px solid var(--principal-cor-3);
     border-radius: 100%
 }
@@ -66,6 +68,11 @@
     width: 25px;
     height: 25px;
 
+}
+
+.adminCadastroGestorPosicionamento_Agendar h2{
+    width: 10vw;
+    font-size: 17px;
 }
 
 #cadastrarGestor .texto_perfil {
@@ -169,7 +176,7 @@
 }
 
 #cadastrarGestor .button_salvar {
-    width: 70%;
+    width: 30%;
     display: flex;
     align-items: center;
     padding-top: 12px;
@@ -216,7 +223,7 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    margin-top: 10px;
+   
 }
 
 #cadastrarGestor .data_enviarSenha {
@@ -273,7 +280,7 @@
 }
 
 #cadastrarGestor .button_agendar {
-    width: 100%;
+    width: 75%;
     display: flex;
     align-items: center;
     padding-top: 12px;
@@ -281,7 +288,7 @@
 }
 
 #cadastrarGestor h2 {
-    font-size: 20px;
+    font-size: 17px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
 }
