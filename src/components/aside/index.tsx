@@ -168,13 +168,13 @@ function Aside () {
             </div>
           </div>
           <div className="div_logofirst">
-            <a href="">
+            <Link to = {'/login'}>
               <img
                 className="saida"
                 src={saida}
                 alt="icone saida"
               />
-            </a>
+            </Link>
             <div className="logo_first">
               <img src={logo} alt="logo" />
             </div>

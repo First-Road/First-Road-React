@@ -40,7 +40,7 @@ function AsideAdm() {
     function mostrarMenu() {
         // debugger        
         console.log("entrou");
-        
+
         const aside: any = document.getElementById("asideAdm")
 
         const sombra: any = document.getElementById("sombra")
@@ -67,7 +67,7 @@ function AsideAdm() {
                 </div>
 
                 <Link className="menu_barras" id="menu" to={"#"} onClick={mostrarMenu}><img src={cardapio} alt="menu" /></Link>
-            
+
                 <div className="posicionamento_elementos2">
                     <div className="menu_conteudo">
                         <ul>
@@ -83,7 +83,7 @@ function AsideAdm() {
 
 
                                 </Link>
-                                
+
                             </li>
 
 
@@ -205,7 +205,7 @@ function AsideAdm() {
 
                 <div className="div_logofirst">
 
-                    <Link to={"#"}>
+                    <Link to={'/login'}>
                         <img className="saida" src={voltar} alt="icone saida" />
 
                     </Link>
