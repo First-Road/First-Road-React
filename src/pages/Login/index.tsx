@@ -45,7 +45,7 @@ function Login() {
                         />
                     </div>
                     <div className="login_ancora">
-                        <Link to={"#"}>Esqueceu sua senha?</Link>
+                        <Link to={"/resetaSenha"}>Esqueceu sua senha?</Link>
 
                     </div>
                     <button>Entrar</button>
