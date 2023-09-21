@@ -8,6 +8,7 @@ import Iconesatisfacao from "../../assets/icons/satisfacao.png"
 import IconeTrilha from "../../assets/icons/trilha.png"
 import confetti from "../../assets/icons/confetti.gif"
 import fusca1 from "../../assets/icons/fusca1.png"
+import { Link } from "react-router-dom";
 
 
 function ParabensColaborador() {
@@ -30,7 +31,7 @@ function ParabensColaborador() {
   return (
     <main id="aside_colaborador">
       <Aside />
-      <section id="ParabensColaborador">
+      <div id="ParabensColaborador">
         <header>
           <div className="cabecalho_parabens ">
             <img className="ganhador" src={win} alt="" />
@@ -65,33 +66,33 @@ function ParabensColaborador() {
       
         <div id="botoes_footer">
           <div id="botao">
-            <a className="botao_certificado" href="../telaCertificado/index.html">
+            <a className="botao_certificado"><Link to ={"../VisualizarCertificadosColaborador"}>
               <img
                 className="icone_certificado"
                 src={certificado2}
                 alt=""
               />
-              certificado
+              certificado</Link>
             </a>
           </div>
           <div id="botao">
-            <a className="botao_satisfacao" href="../PesquisaSatisfação/index.html">
+            <a className="botao_satisfacao"><Link to ={"../PesquisaSatisfacaoColaborador"}>
               <img
                 className="icone_satisfacao"
                 src={Iconesatisfacao}
                 alt=""
               />
-              pesquisa de satisfacao
+              pesquisa de satisfacao</Link>
             </a>
           </div>
           <div id="botao">
-            <a className="botao_trilha" href="../trilhacolaborador/index.html">
+            <a className="botao_trilha"><Link to ={"../TrilhaColaborador"}>
               <img className="icone_trilha" src={IconeTrilha} alt="" />
-              trilha
+              trilha</Link>
             </a>
           </div>
         </div>
-      </section>
+      </div>
     </main>
 
 

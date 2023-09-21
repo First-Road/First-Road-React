@@ -1,4 +1,3 @@
-
 section {
     width: 80vw;
     margin-top: 10px;
@@ -18,7 +17,6 @@ section {
     align-items: center;
     position: relative;
 }
-
 
 
 
@@ -425,7 +423,7 @@ section {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-weight: 700;
     border: none;
 
@@ -469,7 +467,7 @@ section {
     flex-direction: column;
 
     width: 500px;
-    height: 120px;
+    height: 160px;
     background-color: #FEBE15;
     border-radius: 10px;
     align-items: center;
@@ -480,13 +478,16 @@ section {
 }
 
 .tituloModulo {
-    margin: 2px;
-    font-family: var(--font-2);
+    margin: 1px;
+    font-family: var(--font-3);
     color: var(--grayscale-cor-4);
+    font-size: 18px;
 
 
 }
-
+.tituloModulo h3{
+    font-size: 15px;
+}
 .texto1 {
     display: flex;
     color: var(--grayscale-cor-4);
@@ -494,18 +495,19 @@ section {
 }
 
 h3 {
-    margin: 2px;
-    font-family: var(--font-2);
+    margin: 1px;
+    font-family: var(--font-3);
     color: var(--grayscale-cor-4);
+    font-size: 18px;
 
 
 
 }
 
 p {
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 15px;
-    margin: 2px;
+    margin: 1px;
 
 
 }

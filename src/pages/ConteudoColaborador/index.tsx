@@ -2,28 +2,52 @@
 import "./style.css";
 
 import Aside from "../../components/aside";
+import React, { useEffect, useState } from "react";
 
 //icons/images
 import icone_Intranet from "../../assets/icons/Intranet.png"
 import icone_PortalRH from "../../assets/icons/portalRH.png"
 import icone_Chamado from "../../assets/icons/chamado.png"
 import icone_Suporte from "../../assets/icons/suporte-tecnico 1.png"
+import { Link } from "react-router-dom";
 
+function ConteudoColaborador () {
+  const [totalTimeInSeconds, setTotalTimeInSeconds] = useState(600*60);
 
-function ConteudoColaborador (){
+  const horas = Math.floor(totalTimeInSeconds / 3600);
+  const minutos = Math.floor((totalTimeInSeconds % 3600) / 60);
+  const segundos = totalTimeInSeconds % 60;
 
-    return(
+  useEffect(() => {
+    if (totalTimeInSeconds === 0) {
+      alert("O tempo acabou!");
+      return;
+    } else {
+      const timer = setTimeout(() => {
+        setTotalTimeInSeconds(totalTimeInSeconds - 1);
+      }, 1000);
 
+      return () => clearTimeout(timer);
+    }
+  }, [totalTimeInSeconds]);
 
-        <main id="aside_colaborador">
+  return (
+    <main id="aside_colaborador">
       <Aside />
-        <section id="ConteudoColaborador">
-  <header>
-    <div className="header_titulo">
-      <img src="assets/icons/iconeFistRoadHeader.png" alt="" />
-      <h1>Módulo 1 - Instruções de Acesso </h1>
-    </div>
-  </header>
+      <div id="ConteudoColaborador">
+        <header>
+          <div className="header_titulo">
+            <h1>Módulo 1 - Instruções de Acesso </h1>
+            <div className="cronometroColaborador">
+              <span>{horas.toString().padStart(2, "0")}</span>
+              <span>:</span>
+              <span>{minutos.toString().padStart(2, "0")}</span>
+              <span>:</span>
+              <span>{segundos.toString().padStart(2, "0")}</span>
+            </div>
+          </div>
+        </header>
+
   <div className="conteudos grid">
     <p>
       Neste módulo você irá conhecer os sistemas que deverá acessar e como
@@ -45,28 +69,31 @@ function ConteudoColaborador (){
           <span>Quiz</span>
         </a>
       </div>
-      <a href="">
+      <a><Link to={"../SuporteColaborador"}>
         <img src={icone_Suporte} alt="" />
-        <span>Suporte</span>
+        <span>Suporte</span></Link>
       </a>
     </div>
+    
     <div className="instrucoes">
-      <h2>Intranet</h2>
+    <div className="itensCaixa">
+      <h2 className="tituloConteudo1">Intranet</h2>
       <p>
         Onde todos os funcionários encontram documentos, procedimentos, links
         para portais importantes como o PORTAL RH, Central de TI e Chamados.
       </p>
+      </div>
       <div className="botao">
         <a className="botao_acessar" href="">
           Acessar
         </a>
-        <a className="botao_acessar" href="../telaParabens/Tela_Parabéns.html">
-          Finalizar
+        <a className="botao_acessar"><Link to ={"/ParabensColaborador"}>
+          Finalizar</Link>
         </a>
       </div>
     </div>
   </div>
-</section>
+</div>
 </main>
 
     )

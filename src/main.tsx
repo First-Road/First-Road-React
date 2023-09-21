@@ -34,6 +34,7 @@ import SuporteGestor from './pages/Gestor/SuporteGestor';
 import TrilhaGestor from './pages/Gestor/TrilhaGestor';
 import EditarColaborador from './pages/Gestor/EditarColaborador';
 import Dashboard from './pages/Gestor/Dashboard';
+import VisualizarCertificadosColaborador from './pages/VisializarCertificadosColaborador/Index';
 
 
 
@@ -69,7 +70,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/cadastrar' element={<CadastrarPerfil />} />
         <Route path='/gestaoUO' element={<GestaoUO />} />
         <Route path='/cadastroGestor' element={<CadastrarGestor />} />
-
+        <Route path='/VisualizarCertificadosColaborador' element={<VisualizarCertificadosColaborador />} />
       </Routes>
     </BrowserRouter>
 

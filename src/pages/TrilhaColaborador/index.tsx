@@ -1,21 +1,25 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 
 import { Link } from "react-router-dom";
 import Aside from "../../components/aside";
 import fusca1 from "../../assets/icons/fusca1.png"
 import mapa from "../../assets/icons/mapa1.png"
+import cadeadofechado from "../../assets/icons/cadeadofechado.svg";
+
+
 
 
 
 function TrilhaColaborador() {
+
     const [carroStyle, setCarroStyle] = useState({
         animation: "",
         top: "0px",
         right: "-150px",
     });
 
-    const handleAnimationClick = (animation: any, top: any, right:any) => {
+    const handleAnimationClick = (animation: any, top: any, right: any) => {
         setCarroStyle((prevCarroStyle) => ({
             ...prevCarroStyle,
             top,
@@ -23,6 +27,11 @@ function TrilhaColaborador() {
             animation,
         }));
     };
+
+    
+
+
+    const [moduloAtual, setModuloAtual] = useState<string>("0")
 
 
     // const botaoAnimar = document.getElementById("animar");
@@ -40,23 +49,21 @@ function TrilhaColaborador() {
 
 
 
-
-
-
-
-
-
     return (
         <main id="aside_colaborador">
             <Aside />
             <section>
                 <div className="tela">
+
+
+                   
                     <img src={mapa} alt="" />
                     <div className="car">
                         {/* <div className="carrinho">
                     <img id="carro" src={fusca1} alt="" />
                 </div> */}
                         <div className="carrinho">
+
                             <img id="carro" style={carroStyle} src={fusca1} alt="" />
                         </div>
                     </div>
@@ -64,9 +71,10 @@ function TrilhaColaborador() {
                 <div className="botoesModulos">
 
                     <div className="botoes">
+                        
                         <input
                             className="botao1"
-                            onClick={() => handleAnimationClick("veic1 3s ease-in-out", "0px", "60px")}
+                            onClick={() => {setModuloAtual("1"); handleAnimationClick("veic1 3s ease-in-out", "0px", "60px") }}
                             id="animar"
                             type="button"
                             defaultValue="Módulo - 1"
@@ -80,6 +88,7 @@ function TrilhaColaborador() {
                         // });
 
                         />
+                       
                         <input
                             className="botao2"
                             onClick={() => handleAnimationClick("veic2 3s ease-in-out", "-65px", "200px")}
@@ -159,7 +168,8 @@ function TrilhaColaborador() {
                         </div>
                         <p>Primeiro Módulo! Bora lá?</p>
                         <div className="botao_entrar">
-                            <a href="../tela_conteudo/index.html">Entrar</a>
+                    
+                          <a><Link to ={"../ConteudoColaborador"}>Entrar</Link></a> 
                         </div>
                     </div>
                 </div>
@@ -167,6 +177,7 @@ function TrilhaColaborador() {
         </main>
     )
 }
+
 
 
 export default TrilhaColaborador;

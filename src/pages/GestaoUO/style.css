@@ -1,13 +1,4 @@
-#gestaoUO {
-    display: flex;
-    min-height: 100vh;
-    background-color: var(--grayscale-cor-2);
-}
-
-
-/* SECTION */
-
-#gestaoUO .adminGestaoUO {
+.adminGestaoUO {
     width: 80%;
     background-color: var(--grayscale-cor-3);
     display: flex;
@@ -15,23 +6,23 @@
     align-items: center;
 }
 
-#gestaoUO .adminGestaoUO_Secao {
+.adminGestaoUO_Secao{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#gestaoUO .adminGestaoUO_Secao H1 {
+.adminGestaoUO_Secao H1{
     font-size: 60px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
-    text-transform: uppercase;
+    text-transform:uppercase ;
     margin-bottom: 40px;
 }
 
 
-#gestaoUO .adminGestaoUO_Secao {
+.adminGestaoUO_Secao {
     background-color: var(--grayscale-cor-3);
     width: 100%;
     display: flex;
@@ -41,7 +32,7 @@
 
 }
 
-#gestaoUO .adminGestaoUO_texto_imagem {
+.adminPerfil_texto_imagem {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,67 +41,66 @@
     gap: 50px;
 }
 
-#gestaoUO .user_config {
+.user_config {
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
 }
 
-#gestaoUO .GestaoUO_Centralizar {
+.GestaoUO_Centralizar{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    width: 80%;
-
+   
+    
 }
 
-#gestaoUO .posicao_linha {
+.posicao_linha{
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 100%;
 }
 
-#gestaoUO .primeira_linha {
+.primeira_linha {
     display: flex;
     gap: 10px;
 
 }
 
-#gestaoUO .input {
+.input{
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-
-
+    
+    
 }
 
-#gestaoUO .input1 {
+.input1{
     flex: 2;
-
+    
 }
 
-#gestaoUO .input2 {
+.input2{
     flex: 1;
 }
 
 
 
-#gestaoUO .input_caixa {
-    border-radius: 8px;
+.input_caixa{
+    border-radius: 10px;
     height: 30px;
-    border: 2px solid var(--principal-cor-3);
+    border: 2px solid var(--principal-cor-3) ;
     background-color: var(--grayscale-cor-3);
 }
 
-#gestaoUO .input label {
-    text-transform: uppercase;
+.input label{
+    text-transform: uppercase ;
     color: var(--principal-cor-3);
     font-size: 12px;
 }
-
-#gestaoUO .icon {
+.icon{
     height: 25px;
     width: 25px;
     fill: var(--principal-cor-3)
@@ -120,7 +110,7 @@
 
 
 
-#gestaoUO table {
+table{
     background-color: var(--grayscale-cor-3);
     color: var(--principal-cor-3);
     display: table-cell;
@@ -128,37 +118,39 @@
 
 }
 
+   
 
 
 
 
-
-#gestaoUO table th {
+table th 
+{
     border-bottom: 3px solid;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-family: var(--font-2);
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     border-color: var(--grayscale-cor-4);
-
-
-
+   
+    
+    
 }
-
-#gestaoUO table td {
+table td
+{
     border: 1px solid var(--grayscale-cor-4);
     border-collapse: collapse;
-
-
+   
+    
 
 }
-
-#gestaoUO .tr_one {
+.tr_one
+{
     border-bottom: 1px solid var(--grayscale-cor-2);
 }
 
 
-#gestaoUO th {
+th
+{
     text-align: left;
     padding-right: 10px;
     height: 40px;
@@ -167,141 +159,78 @@
 
 
 
-#gestaoUO td {
+td
+{
     padding-left: 4px;
-
+   
 
 
 }
 
-#gestaoUO .td_one {
-     width: 200px;
+.td_one{
+    width: 200px;
 }
 
-#gestaoUO .td_two {
-     width: 400px; 
-
-}
-
-#gestaoUO .td_tableimg {
-    width: 120px;
-    gap: 10px;
-} 
-
-#gestaoUO .gestaoUOIcons{
-    display: flex;
-    gap: 10px;
+.td_two{
+    width: 400px;
 
 }
 
-#gestaoUO .icon {
+.td_tableimg{
+    width: 100px;
+}
+
+.icon{
     align-items: right;
 }
 
 
-#gestaoUO ::placeholder,
-#gestaoUO .input_caixa {
+::placeholder,
+.input_caixa {
     padding: 0 15px;
 }
 
-@media screen and (max-width: 1200px) {
-    #gestaoUO .adminGestaoUO_Secao H1 {
-        font-size: 40px;
-        margin-top: 10px;
+@media screen and (max-width:768px){
+    
+#sombra {
+    height: 100vh;
+    width: 100vw;
+    background-color: #0000004f;
+    position: fixed;
+    top: 0;
+    right: 110vw;
+    overflow: hidden;
+    transition: .5s;
+    backdrop-filter: blur(10px);
+}
 
-    }
+.adminPerfil{
+    width: 100%;
+}
+
+.adminPerfil_Secao{
+    gap: 5px;
+}
+
+.adminPerfil_Secao H1{
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+.admin_FotoPadrao {
+    height: 115px;
+    width: 111px;
+}
+
 }
 
 
-@media screen and (max-width:768px) {
-
-    body {
-        height: 100vh;
-    }
-
-    #sombra {
-        height: 100vh;
-        width: 100vw;
-        background-color: #0000004f;
-        position: fixed;
-        top: 0;
-        right: 110vw;
-        overflow: hidden;
-        transition: .5s;
-        backdrop-filter: blur(10px);
-    }
-
-    /* SECTION */
-
-    #gestaoUO .adminGestaoUO {
-        width: 100vw;
-    }
-
-    #gestaoUO .adminGestaoUO_Secao {
-        gap: 5px;
-    }
-
-    #gestaoUO .adminGestaoUO_Secao H1 {
-        font-size: 30px;
-        /* margin-top: 20px; */
-
-    }
-
-
-    #gestaoUO thead {
-        display: none;
-
-    }
-
-    #gestaoUO table {
-        display: block;
-        width: 100%;
-    }
-
-    #corpo-tabela {
-        display: block;
-    }
-
-    #gestaoUO table td {
-        border: none;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    #gestaoUO td>div {
-        display: flex;
-        gap: 10px
-    }
-
-    #gestaoUO tr {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        background-color: #e1e1e1;
-        border-radius: 8px;
-        margin: 10px 0;
-        height: auto;
-        padding: 10px;
-    }
-
-    #gestaoUO td::before {
-        content: attr(data-cell)": ";
-    }
-
-    #gestaoUO .td_tableimg,
-    #gestaoUO .td_one,
-    #gestaoUO .td_two {
-        width: auto;
-    }
-
-
-
-}
 
 @media screen and (max-width: 600px) {
 
 
-    #gestaoUO .adminGestaoUO_Secao H1 {
+    .adminPerfil_Secao H1{
         font-size: 28px;
         margin-top: 2px;
 
@@ -309,45 +238,133 @@
 
 
 
+    .admin_FotoPadrao {
+        height: 105px;
+        width: 101px;
+    }
+
+    .texto_perfil p {
+        font-size: 7px;
+
+    }
+
+    .centralizar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 480px;
+    }
+
 
 
 }
 
 @media screen and (max-width: 500px) {
 
-    #gestaoUO .primeira_linha {
-        display: flex;
-        flex-direction: column;
+    .adminPerfil_Secao{
+        gap: 2px;
     }
-
-    #gestaoUO .input_caixa {
-        width: 100%;
-       
-    }
-
-
-    #gestaoUO .adminGestaoUO_Secao H1 {
+    .adminPerfil_Secao H1{
         font-size: 28px;
         margin-top: 10px;
 
     }
 
-   
+
+    .admin_FotoPadrao {
+        height: 105px;
+        width: 101px;
+    }
+
+    .texto_perfil {
+        width: 60%;
+        margin-top: 1px;
+    }
+
+    .texto_perfil p {
+        font-size: 7px;
+
+    }
+
+    .adminPerfil_texto_imagem{
+        gap: 2px;
+    }
+
+    .centralizar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 380px;
+    }
+
+    .posicao_linha {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .primeira_linha {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .segunda_linha {
+        display: flex;
+        gap: 5px;
+        flex-direction: column
+    }
+
+    .terceira_linha {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .quarta_linha {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .input8 {
+        width: 100%;
+    }
+
+    .button_salvar {
+        width: 50%;
+
+    }
+
+    .posicionamento_alterar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+    }
+
+    .button_alterar {
+        width: 100%;
+        padding-top: 1px
+    }
+
 
 
 }
 
+
+
 @media screen and (max-width: 400px) {
-
-    #gestaoUO .input_caixa {
-        width: 100%;
-      
+    .centralizar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 300px;
     }
 
-    #gestaoUO tbody {
-        width: 100%;
-      
-    }
 
-  
+
 }
