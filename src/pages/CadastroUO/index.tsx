@@ -32,7 +32,7 @@ function CadastroUO() {
                                         />
                                     </div>
                                 </div>
-
+{/* 
                                 <div className="segunda_linha">
 
                                     <div className="button_cadastrar">
@@ -45,7 +45,7 @@ function CadastroUO() {
                                         <button>Salvar</button>
                                     </div>
 
-                                </div>
+                                </div> */}
 
                             </div>
                             <table>
