@@ -1,31 +1,21 @@
-
-#loginAdm{
-
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 #loginAdm .login_login{
     height: 100%;
     width: 60%;
-    background-image: url('../../assets/img/bg_login.png');
+    background-image: url(../login/assets/img/pexels-gordon-plant-14744195.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 #loginAdm .login_login h1{
     font-family: var(--font-1);
     font-size: 60px;
     color: var(--principal-cor-1);
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 
 }
@@ -33,7 +23,7 @@
 #loginAdm .login_tree{
     font-size: 25px;
     font-family: var(--font-2);
-    color: var(--principal-cor-1);
+    color: var(--grayscale-cor-3);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -299,10 +289,10 @@
 }
 
 @media screen and (max-width: 768px) {
-    main {
+    #loginAdm {
         width: 100%;
         background-size: cover;
-        background-image: url('../../assets/img/bg_login.png');
+        background-image: url(./assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
         background-repeat: no-repeat;
 
     }
@@ -332,8 +322,10 @@
         font-size: 14px;
         text-align: none;
     }
-    
-    img {
+    #loginAdm .login_comandos{
+
+    }
+    #loginAdm img {
         height: 110px;
         width: 150px;
 
@@ -347,7 +339,7 @@
 
 }
 @media screen and (max-width: 767px){
-    main {
+    #loginAdm  {
         flex-direction: column;
     }
 
@@ -372,5 +364,3 @@
 
 
 }
-
-

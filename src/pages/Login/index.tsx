@@ -1,4 +1,4 @@
-import './style.css'
+import './log.css'
 import { Link } from 'react-router-dom';
 import LogoColorido from "../../assets/img/Logo_FirstRoad_Vertical_Colorido.png"
 import React, { useState } from 'react';

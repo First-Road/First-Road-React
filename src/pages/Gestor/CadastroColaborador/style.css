@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Titillium+Web:wght@400;600&display=swap');
+
+
+#cadastro_colaborador .secao_perfil{
+    background-color: var(--grayscale-cor-3);
+    padding: 60px 30px;
+    width: calc(100vw - 20vw);
+    height: 100vh;
+    background-color: #F3F3F3;
+    align-items: center;
+    justify-content: center
+}    
+
+
+#cadastro_colaborador .elementos_texto_imagem{
+    display: flex;
+    gap: 50px;
+    
+    height: 100%;
+    width: 100%;
+    
+}
+
+#cadastro_colaborador .user_config{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+#cadastro_colaborador .foto_padrao{
+    width: 120px;
+    height: 120px;
+}
+
+#cadastro_colaborador .config1{
+    position: absolute;
+    right: -8px;
+    top: 305px;
+}
+
+#cadastro_colaborador .texto_perfil{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    
+}
+
+#cadastro_colaborador .texto_perfil h1{
+     font-family: var(--font-3);
+     font-size: 42px;
+     color: #737373;
+}
+
+#cadastro_colaborador .texto_perfil p{
+    font-size: 18px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+
+
+}
+
+#cadastro_colaborador .primeira_linha{
+    display: flex;
+    gap: 10px;
+    
+}
+
+#cadastro_colaborador .centralizar{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+     
+ 
+    
+}
+
+#cadastro_colaborador .posicao_linha{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+
+#cadastro_colaborador .segunda_linha{
+    display: flex;
+    gap: 10px;
+
+}
+
+
+#cadastro_colaborador .terceira_linha{
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+#cadastro_colaborador .quarta_linha{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+
+#cadastro_colaborador .input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    
+    
+    
+}
+
+
+#cadastro_colaborador .input1{
+    flex: 2;
+    
+}
+
+
+#cadastro_colaborador .input2{
+    flex: 1;
+}
+
+
+#cadastro_colaborador .input3, .input4, .input5{
+    flex: 1;
+}
+
+
+#cadastro_colaborador .input6, .input7{
+    flex: 1;
+}
+
+
+#cadastro_colaborador .input8{
+    width: 70%;
+}
+
+
+#cadastro_colaborador .data{
+    font-size: 1px;
+}
+
+
+#cadastro_colaborador .input_caixa{
+    border-radius: 8px;
+    height: 30px;
+    border: 1px solid var(--principal-cor-3) ;
+    background-color: var(--grayscale-cor-3);
+}
+
+
+#cadastro_colaborador .input label{
+    text-transform: uppercase ;
+    color: var(--principal-cor-3);
+    font-size: 12px;
+    font-family: var(--font-3);
+}
+
+
+#cadastro_colaborador .button_salvar {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    
+    
+}
+
+
+#cadastro_colaborador .button_salvar button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-3);
+    font-size: 20px;
+    color: var(--grayscale-cor-3);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+    
+}
+
+
+#cadastro_colaborador .alterar_gestor{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+
+#cadastro_colaborador .terceira{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#cadastro_colaborador .input input::placeholder{
+    font-family: var(--font-3);
+    font-size: 14px;
+    color: var(--grayscale-cor-1);
+}
+
+#cadastro_colaborador .input_caixa option{
+    font-family: var(--font-3);
+    font-size: 14px;
+    color: var(--grayscale-cor-1);
+}
+#cadastro_colaborador .input_caixa{
+    font-family: var(--font-3);
+    font-size: 14px;
+    color: var(--grayscale-cor-1);
+}
+
