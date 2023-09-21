@@ -71,6 +71,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/gestaoUO' element={<GestaoUO />} />
         <Route path='/cadastroGestor' element={<CadastrarGestor />} />
         <Route path='/VisualizarCertificadosColaborador' element={<VisualizarCertificadosColaborador />} />
+        <Route path='/gestaoUsuario' element={<GestaoUsuario />} />
       </Routes>
     </BrowserRouter>
 

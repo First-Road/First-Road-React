@@ -1,5 +1,9 @@
 
-/* SECTION */
+#cadastrarPerfil{
+    display: flex;
+    height: 100vh;
+    background-color: var(--grayscale-cor-2);
+}
 
 .adminPerfil_Secao {
     display: flex;
@@ -424,130 +428,130 @@ h2 {
 
 @media screen and (max-width: 500px) {
 
-    /*SECTION*/
 
-    .adminPerfil_Secao {
-        gap: 2px;
+    
+        .adminPerfil_Secao {
+            gap: 10px;
+        }
+        .adminPerfil_Secao H1 {
+            font-size: 28px;
+           
+        }
+    
+    
+        .admin_FotoPadrao {
+            height: 75px;
+            width: 71px;
+        }
+    
+        .texto_perfil {
+            width: 75%;
+            margin-top: 5px;
+        }
+    
+        .texto_perfil p {
+            font-size: 7px;
+    
+        }
+    
+        .adminPerfil_texto_imagem {
+            gap: 2px;
+        }
+    
+        .centralizar {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 380px;
+        }
+    
+        .posicao_linha {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            width: 100%;
+        }
+    
+        .primeira_linha {
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+        }
+    
+        .segunda_linha {
+            display: flex;
+            gap: 5px;
+            flex-direction: column
+        }
+    
+        .terceira_linha {
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+        }
+    
+        .quarta_linha {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+    
+        .input4,
+        .input5 {
+            flex: 1;
+        }
+    
+        .input8 {
+            width: 100%;
+        }
+    
+        .button_salvar {
+            width: 50%;
+    
+        }
+    
+        .button_salvar button {
+            height: 25px;
+        }
+    
+    
+        .posicionamento_alterar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1px;
+        }
+    
+        .button_alterar {
+            width: 100%;
+            padding-top: 1px
+        }
+    
+        .senha {
+            gap: 5px;
+        }
+    
+        .input_senha, .input_senha2 {
+            width: 100%;
+    
+    
     }
-
-    .adminPerfil_Secao H1 {
-        font-size: 28px;
-        margin-top: 90px;
-
-    }
-
-
-    .admin_FotoPadrao {
-        height: 75px;
-        width: 71px;
-    }
-
-    .texto_perfil {
-        width: 47%;
-        margin-top: 1px;
-    }
-
-    .texto_perfil p {
-        font-size: 7px;
-
-    }
-
-    .adminPerfil_texto_imagem {
-        gap: 2px;
-    }
-
-    .centralizar {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        width: 380px;
-    }
-
-    .posicao_linha {
-        display: flex;
-        flex-direction: column;
-        gap: 1px;
-        width: 100%;
-    }
-
-    .primeira_linha {
-        display: flex;
-        gap: 5px;
-        flex-direction: column;
-    }
-
-    .segunda_linha {
-        display: flex;
-        gap: 5px;
-        flex-direction: column
-    }
-
-    .terceira_linha {
-        display: flex;
-        gap: 5px;
-        flex-direction: column;
-    }
-
-    .quarta_linha {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
-    }
-
-    .input4,
-    .input5 {
-        flex: 1;
-    }
-
-    .input8 {
-        width: 100%;
-    }
-
-    .button_salvar {
-        width: 50%;
-
-    }
-
-    .button_salvar button {
-        height: 25px;
-    }
-
-
-    .posicionamento_alterar {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1px;
-    }
-
-    .button_alterar {
-        width: 100%;
-        padding-top: 1px
-    }
-
-    .senha {
-        gap: 5px;
-    }
-
-
 }
+
+    /*SECTION*/
 
 
 
 @media screen and (max-width: 400px) {
 
-    /*SECTION*/
-
+    
     .centralizar {
         display: flex;
         flex-direction: column;
         gap: 10px;
         width: 300px;
     }
-
-
-
 
 }
