@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Aside from '../../components/aside'; // Certifique-se de fornecer o caminho correto para o componente Aside
-import './style.css';
+import '..AvatarColaborador/style.css';
 
 class AgendaColaborador extends Component {
   constructor(props) {
