@@ -29,10 +29,10 @@ function EditarPerfil() {
       </svg>
     </div>
     <div className="texto_perfil">
-      <p>
+      {/* <p>
         O tamanho da imagem deve ter pelo menos 500px de tamanho e menos de
         300kb. Arquivos permitidos são .png e .jpg
-      </p>
+      </p> */}
     </div>
     <div className="adminPerfil_texto_imagem">
       <div className="centralizar">

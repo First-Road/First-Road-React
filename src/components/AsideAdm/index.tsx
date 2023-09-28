@@ -81,7 +81,7 @@ function AsideAdm() {
                   <span>Cadastro Gestor</span>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to={"/gestaoUsuario"}>
                   <div>
                     <img
@@ -92,7 +92,7 @@ function AsideAdm() {
                   </div>
                   <span>Gestão Usuario</span>
                 </Link>
-              </li>
+              </li> */}
 
               <li>
                 <Link to={"/cadastroUnidade"}>
