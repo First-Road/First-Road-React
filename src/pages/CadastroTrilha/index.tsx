@@ -167,9 +167,9 @@ function CadastroTrilha() {
                             </select>
                         </div>
                         <div className="trilhaSix">
-                            <div className="inserir">
+                            {/* <div className="inserir">
                                 <button className="inserir_btnXX">Inserir</button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

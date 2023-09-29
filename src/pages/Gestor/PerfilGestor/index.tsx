@@ -10,7 +10,7 @@ import React, { useEffect,useState } from 'react';
 
 function PerfilGestor() {
 
-
+  
 
   // Defina estados para cada campo de entrada
   const [nomeCompleto, setNomeCompleto] = useState<string>("");
@@ -105,7 +105,7 @@ function PerfilGestor() {
                       <input
                         className="input_caixa"
                         type="text"
-                        placeholder="Nome do Usuário"
+                        placeholder="Digite seu nome completo"
                         onChange={(e) => { setNomeCompleto(e.target.value) }}
                         required
                       />

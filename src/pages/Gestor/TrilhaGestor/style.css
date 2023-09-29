@@ -7,43 +7,44 @@
     background-color: #f3f3f3;
 }
 
-#trilha_gestor .trilha_de_conteudo .titulo h1{
+#trilha_gestor .trilha_de_conteudo .titulo_trilha h1{
     font-family: var(--font-3);
-    font-size:var(--title-h1-margin-page);
-    font-weight: 700;
-    color: #545454;
     font-size: 42px;
-    width: 1100px;
+    font-weight: bold;
+    color: #545454;
+    width: 100vw;
     display: flex;
     justify-content: center;
-    padding-right: 48px;
+    padding-left: 75px;
+    
 }
 
-#trilha_gestor .titulo{
+#trilha_gestor .titulo_trilha{
+    padding-top: 30px;
     display: flex;
     align-items: center;
-    padding: 30px;
-
 }
 
 #trilha_gestor .dados_usuario{
     display: flex;
     align-items: center;
+    padding-right: 20px;
 }
 
 #trilha_gestor .modulo_1{
     display: flex;
+    width: 100%;
     align-items: center;
     flex-direction: column;
     gap: 40px;
 }
 
 #trilha_gestor .trilha_de_conteudo .dados_usuario .id{
-    width: 90px;
-    height: 35px;
+    width: 105px;
+    height: 30px;
     text-align: center;
     border-radius: 8px;
-    border: 1px solid var(--principal-cor-3);
+    border: 2px solid var(--black-input);
 }
 
 #trilha_gestor .trilha_cadastrada{
@@ -166,7 +167,7 @@
 
 
 @media screen and (max-width:1100px) {
-    #trilha_gestor .trilha_de_conteudo .titulo h1{
+    #trilha_gestor .trilha_de_conteudo .titulo_trilha h1{
         font-size: 25px;
         width: 500px;
     }

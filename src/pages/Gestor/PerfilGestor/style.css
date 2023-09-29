@@ -14,29 +14,33 @@
     color: var(--principal-cor-3);
     text-transform: uppercase;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 #perfil_gestor .gestorPerfil {
     width: 80%;
-    background-color: var(--grayscale-cor-3);
+    background-color: var(--grayscale-cor-4);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #perfil_gestor .gestorPerfil_Secao {
-    background-color: var(--grayscale-cor-3);
+    background-color: var(--grayscale-cor-4);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 35px;
+    width: 50vw;
 
 }
 
 #perfil_gestor .gestorPerfil_texto_imagem {
     display: flex;
     gap: 50px;
+    width: 50vw;
 }
 
 #perfil_gestor .user_config {
@@ -84,7 +88,7 @@
     display: flex;
     flex-direction: column;
     gap: 55px;
-    width: 100%;
+    width: 50vw;
 }
 
 form{
@@ -95,7 +99,7 @@ form{
 
 #perfil_gestor .segunda_linha {
     display: flex;
-    gap: 10px;
+    gap: 6px;
 
 }
 
@@ -115,12 +119,14 @@ form{
     display: flex;
     flex-direction: column;
     border-radius: 18px;
+    
 
 
 }
 
 #perfil_gestor .input1 {
-    flex: 2;
+    flex: 1;
+    
 
 }
 
@@ -142,21 +148,24 @@ form{
 }
 
 #perfil_gestor .input_caixa {
+    display: flex;
     border-radius: 8px;
     height: 30px;
-    border: 1px solid var(--principal-cor-3);
-    background-color: var(--grayscale-cor-3);
+    border: 2px solid var(--black-input);
+    background-color: var(--grayscale-cor-4);
+    
 }
 
 #perfil_gestor .input label {
     text-transform: uppercase;
-    color: var(--principal-cor-3);
+    color: #000000;
     font-size: 12px;
     font-family: var(--font-3);
+    font-weight: bold;
 }
 
 #perfil_gestor .button_salvar {
-    width: 30%;
+    width: 25%;
     display: flex;
     align-items: center;
     padding-top: 12px;
@@ -173,7 +182,7 @@ form{
     background-color: var(--principal-cor-3);
     font-family: var(--font-3);
     font-size: 18px;
-    color: var(--grayscale-cor-3);
+    color: var(--grayscale-cor-4);
     border: none;
     box-shadow: 2px 3px 5px #888888;
 
@@ -192,6 +201,7 @@ form{
     font-family: var(--font-3);
     font-size: 14px;
     color: var(--grayscale-cor-1);
+    
 
 }
 

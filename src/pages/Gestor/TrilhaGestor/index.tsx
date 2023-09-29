@@ -1,4 +1,4 @@
-import "./style.css";
+import "../TrilhaGestor/style.css";
 
 import { Link } from "react-router-dom";
 import AsideGestor from "../../../components/Aside_gestor";
@@ -10,7 +10,7 @@ function TrilhaGestor() {
     <main id="trilha_gestor">
       <AsideGestor />
       <div className="trilha_de_conteudo" id="teste">
-        <div className="titulo">
+        <div className="titulo_trilha">
           <h1>Trilha de Conteúdo do Colaborador</h1>
           <div className="dados_usuario">
             <input className="id" type="text" placeholder="Colaborador" />

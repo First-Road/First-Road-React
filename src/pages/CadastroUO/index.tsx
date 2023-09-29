@@ -24,7 +24,7 @@ function CadastroUO() {
                                         />
                                     </div>
                                     <div className="input input2">
-                                        <label htmlFor=" ID Organizacional">ID Organizacional</label>
+                                        <label htmlFor=" ID Organizacional">Codigo do Departamento</label>
                                         <input
                                             className="input_caixa"
                                             type="text"
@@ -38,12 +38,12 @@ function CadastroUO() {
                                     <div className="button_cadastrar">
                                         <button>Cadastrar</button>
                                     </div>
-                                    <div className="button_editar">
+                                    {/* <div className="button_editar">
                                         <button>Editar</button>
                                     </div>
                                     <div className="button_salvar">
                                         <button>Salvar</button>
-                                    </div>
+                                    </div> */}
 
                                 </div>
 
