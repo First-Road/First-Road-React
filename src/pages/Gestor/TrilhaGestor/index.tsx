@@ -3,7 +3,7 @@ import "../TrilhaGestor/style.css";
 import { Link } from "react-router-dom";
 import AsideGestor from "../../../components/Aside_gestor";
 import iconeImagem from "../../../assets/icons/novoingressante 1 (1).svg";
-import user from "../../../assets/icons/Group 41.png"
+import user from "../../../assets/icons/Group 41.png";
 
 function TrilhaGestor() {
   return (
@@ -22,22 +22,38 @@ function TrilhaGestor() {
             <h2>Trilhas cadastradas:</h2>
             <ul className="trilha_cadastrada">
               <input type="text" placeholder=" Título" />
-              <input type="text" placeholder=" Situação atual" />
+              <select name="Situação Atual">
+                <option value="Concluido">Concluido</option>
+                <option value="Em Andamento">Em Andamento</option>
+                <option value="Atrasado">Atrasado</option>
+              </select>
               <input type="text" placeholder=" Tempo para conclusão" />
             </ul>
             <ul className="trilha_cadastrada">
               <input type="text" placeholder=" Título" />
-              <input type="text" placeholder=" Situação atual" />
+              <select name="Situação Atual">
+                <option value="Concluido">Concluido</option>
+                <option value="Em Andamento">Em Andamento</option>
+                <option value="Atrasado">Atrasado</option>
+              </select>
               <input type="text" placeholder=" Tempo para conclusão" />
             </ul>
             <ul className="trilha_cadastrada">
               <input type="text" placeholder=" Título" />
-              <input type="text" placeholder=" Situação atual" />
+              <select name="Situação Atual">
+                <option value="Concluido">Concluido</option>
+                <option value="Em Andamento">Em Andamento</option>
+                <option value="Atrasado">Atrasado</option>
+              </select>
               <input type="text" placeholder=" Tempo para conclusão" />
             </ul>
             <ul className="trilha_cadastrada">
               <input type="text" placeholder=" Título" />
-              <input type="text" placeholder=" Situação atual" />
+              <select name="Situação Atual">
+                <option value="Concluido">Concluido</option>
+                <option value="Em Andamento">Em Andamento</option>
+                <option value="Atrasado">Atrasado</option>
+              </select>
               <input type="text" placeholder=" Tempo para conclusão" />
             </ul>
           </div>
