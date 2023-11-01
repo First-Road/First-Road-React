@@ -1,4 +1,4 @@
-import "../TrilhaGestor/style.css";
+import "../TrilhaGestor/trilhaGestor.css";
 
 import { Link } from "react-router-dom";
 import AsideGestor from "../../../components/Aside_gestor";
@@ -21,63 +21,62 @@ function TrilhaGestor() {
           <div className="cadastrada">
             <h2>Trilhas cadastradas:</h2>
             <ul className="trilha_cadastrada">
-              <input type="text" placeholder=" Título" />
-              <select name="Situação Atual">
+              <input type="text" placeholder=" Título" required/>
+              <select name="Situação Atual" >
+                <option selected disabled>Situação Atual</option>
                 <option value="Concluido">Concluido</option>
                 <option value="Em Andamento">Em Andamento</option>
                 <option value="Atrasado">Atrasado</option>
               </select>
-              <input type="text" placeholder=" Tempo para conclusão" />
+              <input className="input_tempo" type="text" placeholder=" Tempo para conclusão" required/>
             </ul>
             <ul className="trilha_cadastrada">
-              <input type="text" placeholder=" Título" />
+              <input type="text" placeholder=" Título" required/>
               <select name="Situação Atual">
+                 <option selected disabled>Situação Atual</option>
                 <option value="Concluido">Concluido</option>
                 <option value="Em Andamento">Em Andamento</option>
                 <option value="Atrasado">Atrasado</option>
               </select>
-              <input type="text" placeholder=" Tempo para conclusão" />
+              <input className="input_tempo" type="text" placeholder=" Tempo para conclusão" required/>
             </ul>
             <ul className="trilha_cadastrada">
-              <input type="text" placeholder=" Título" />
+              <input type="text" placeholder=" Título"required />
               <select name="Situação Atual">
+                <option selected disabled>Situação Atual</option>
                 <option value="Concluido">Concluido</option>
                 <option value="Em Andamento">Em Andamento</option>
                 <option value="Atrasado">Atrasado</option>
               </select>
-              <input type="text" placeholder=" Tempo para conclusão" />
+              <input className="input_tempo" type="text" placeholder=" Tempo para conclusão" required/>
             </ul>
             <ul className="trilha_cadastrada">
-              <input type="text" placeholder=" Título" />
+              <input className="input_adi" type="text" placeholder=" Título" required/>
               <select name="Situação Atual">
+                <option selected disabled>Situação Atual</option>
                 <option value="Concluido">Concluido</option>
                 <option value="Em Andamento">Em Andamento</option>
                 <option value="Atrasado">Atrasado</option>
               </select>
-              <input type="text" placeholder=" Tempo para conclusão" />
+              <input className="input_tempo" type="text" placeholder=" Tempo para conclusão" required/>
             </ul>
           </div>
           <div className="adicionar">
             <div className="posicao_select">
               <label htmlFor="">Adicionar Trilhas:</label>
-              <select name="escolher_trilhas" id="escolher_trilhas">
-                <option value="">título 1</option>
-                <option value="">título 2</option>
-                <option value="">título 3</option>
-                <option value="">título 4</option>
-              </select>
+              <input id="input_adi" type="text" placeholder="Digite a trilha que deseja buscar" required/>
             </div>
             <ul className="add_trilha">
-              <input type="text" placeholder=" Título" />
+              <input type="text" placeholder=" Título" disabled/>
             </ul>
             <ul className="add_trilha">
-              <input type="text" placeholder=" Título" />
+              <input type="text" placeholder=" Título" disabled/>
             </ul>
             <ul className="add_trilha">
-              <input type="text" placeholder=" Título" />
+              <input type="text" placeholder=" Título" disabled/>
             </ul>
             <ul className="add_trilha">
-              <input type="text" placeholder=" Título" />
+              <input type="text" placeholder=" Título" disabled/>
             </ul>
           </div>
           <div className="posicao_button">
