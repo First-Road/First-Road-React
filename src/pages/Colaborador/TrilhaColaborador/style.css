@@ -1,0 +1,614 @@
+.trilha_cola {
+    width: 80vw;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tela img {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    /* background-image: url(/assets/images/Group\ 30.png); */
+    /* background-size: 795px 529px; */
+    background-repeat: no-repeat;
+    background-position: top;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+
+
+.car {
+    position: absolute;
+    top: 381px;
+    right: 660px;
+}
+
+.carrinho img {
+    display: flex;
+    width: 153px;
+    height: 90px;
+    position: absolute;
+}
+
+
+#carro {
+    display: flex;
+    animation: veic 5s ease-in-out;
+    animation-delay: 1000ms;
+    justify-content: center;
+    animation-fill-mode: forwards;
+    /* transform: scaleX(1); */
+}
+
+@keyframes veic1 {
+    0% {
+        position: absolute;
+        top: 0px;
+        right: -153px;
+    }
+
+    100% {
+        position: absolute;
+        top: 0px;
+        right: 60px;
+    }
+}
+
+@keyframes veic2 {
+    0% {
+        position: absolute;
+        top: 0px;
+        right: 90px;
+    }
+
+    50%{
+        position: absolute;
+        top: -40px;
+        right: 180px;
+    }
+
+    100% {
+        position: absolute;
+        top: -65px;
+        right: 200px;
+    }
+}
+
+@keyframes veic3 {
+    0% {
+        position: absolute;
+        top: -65px;
+        right: 200px;
+    }
+
+    26% {
+        position: absolute;
+        top: -105px;
+        right: 200px;
+    }
+
+    100% {
+        position: absolute;
+        top: -170px;
+        right: 80px;
+        /* transform: scaleX(-1); */
+    }
+}
+
+@keyframes veic4 {
+    0% {
+        position: absolute;
+        top: -170px;
+        right: 80px;
+        /* transform: scaleX(-1); */
+    }
+
+
+
+    100% {
+
+        position: absolute;
+        top: -160px;
+        right: -90px;
+    }
+
+}
+
+@keyframes veic5 {
+    0% {
+        position: absolute;
+        top: -160px;
+        right: -90px;
+    }
+
+50%{
+    position: absolute;
+    top: -215px;
+    right: -150px;
+
+}
+
+    100% {
+
+        position: absolute;
+        top: -300px;
+        right: -150px;
+    }
+}
+
+@keyframes veic6 {
+    0% {
+
+        position: absolute;
+        top: -300px;
+        right: -150px;
+    }
+
+    50% {
+        position: absolute;
+        top: -320px;
+        right: -85px;
+
+
+    }
+
+
+
+    100% {
+        position: absolute;
+        top: -300px;
+        right: 65px;
+
+
+    }
+
+/* 
+
+}
+
+@keyframes veic7 {
+    0% {
+
+        position: absolute;
+        top: -250px;
+        right: -150px;
+    }
+
+
+
+
+
+
+
+    100% {
+        position: absolute;
+        top: -300px;
+        right: 80px;
+
+
+    }
+
+
+
+
+}
+
+@keyframes veic8 {
+    0% {
+
+        position: absolute;
+        top: -300px;
+        right: 80px;
+    }
+
+
+
+
+
+
+
+    100% {
+        position: absolute;
+        top: -300px;
+        right: 250px;
+
+
+    }
+
+
+}
+
+@keyframes veic9 {
+    0% {
+
+        position: absolute;
+        top: -300px;
+        right: 250px;
+    }
+
+
+    100% {
+        position: absolute;
+        top: -250px;
+        right: 413px;
+
+
+    }
+
+
+}
+
+ */
+
+
+
+
+
+/* @keyframes veic10{
+    0% {
+       
+        position: absolute;
+        top: -300px;
+        right: 80px;
+    }
+
+   
+
+    100%{
+        position: absolute;
+        top: -250px;
+        right: 413px;
+
+
+    }
+
+
+} */
+
+
+
+
+
+
+
+
+/* @keyframes veic {
+    0% {
+        position: absolute;
+        top: 0px;
+        right: -153px;
+    }
+
+    10% {
+        position: absolute;
+        top: 0px;
+        right: 90px;
+    }
+
+    20% {
+        position: absolute;
+        top: 0px;
+        right: 300px;
+    }
+
+    23% {
+        position: absolute;
+        top: 0px;
+        right: 350px;
+    }
+
+    26% {
+        position: absolute;
+        top: -50px;
+        right: 400px;
+    }
+
+    30% {
+        position: absolute;
+        top: -120px;
+        right: 400px;
+    }
+    
+    40% {
+        position: absolute;
+        top: -130px;
+        right: 155px;
+    }
+
+
+    50%{
+
+        position: absolute;
+        top: -130px;
+        right: -5px;
+
+
+    }
+
+
+    60%{
+        position: absolute;
+        top: -150px;
+        right: -150px;
+
+
+    }
+
+     63%{
+        position: absolute;
+        top: -150px;
+        right: -150px;
+
+    }
+    
+
+    66%{
+        position: absolute;
+        top: -200px;
+        right: -150px;
+
+
+    } 
+
+
+
+    70%{
+        position: absolute;
+        top: -250px;
+        right: -160px;
+
+    }
+
+80%{
+    position: absolute;
+    top: -300px;
+    right: 80px;
+
+}
+
+90%{
+    position: absolute;
+    top: -300px;
+    right: 250px;
+
+}
+
+
+
+
+    100% {
+        position: absolute;
+        top: -265px;
+        right: 413px;
+        /* transform: scaleX(-1); }*/
+    }
+.botoes {
+    display: flex;
+    margin: 3px 0;
+
+}
+
+.botao1,
+.botao2,
+.botao3,
+.botao4,
+.botao5,
+.final
+
+ {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--principal-cor-2);
+
+    border-radius: 0.6em;
+    color:var(--grayscale-cor-3);
+    cursor: pointer;
+    
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 5px;
+    padding: 1.2em 0.3em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-3);
+    font-weight: 700;
+    border: none;
+
+
+}
+
+.final {
+    padding: 1.2em 1.8em;
+
+}
+
+.botao1:hover,
+.botao2:hover,
+.botao3:hover,
+.botao4:hover,
+.botao5:hover,
+.botao6:hover,
+.botao7:hover,
+.botao8:hover,
+.final:hover  {
+    
+    outline: 0;
+    box-shadow: 1px 1px 2px 2px #888888;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+
+.posicionamento_footer {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.elementos {
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    height: 160px;
+    background-color: #FEBE15;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.tituloModulo {
+    margin: 1px;
+    font-family: var(--font-3);
+    color: var(--grayscale-cor-4);
+    font-size: 18px;
+
+
+}
+.tituloModulo h3{
+    font-size: 15px;
+}
+.texto1 {
+    display: flex;
+    color: var(--grayscale-cor-4);
+
+}
+
+h3 {
+    margin: 1px;
+    font-family: var(--font-3);
+    color: var(--grayscale-cor-4);
+    font-size: 18px;
+
+
+
+}
+
+p {
+    font-family: var(--font-3);
+    font-size: 15px;
+    margin: 1px;
+
+
+}
+
+
+.botao_entrar {
+    display: flex;
+    width: 80px;
+    height: 30px;
+    background-color: var(--principal-cor-3);
+    justify-content: center;
+    margin: 5px;
+    border-radius: 8px;
+
+}
+
+
+.botao_entrar:hover {
+    transform: scale(1.1);
+    background-color: var(--principal-cor-4);
+    transition: 0.6ms;
+
+
+}
+
+.botao_entrar a {
+    text-decoration: none;
+    color: var(--grayscale-cor-4);
+    padding: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .imagem_volks img{
+        width: 70px;
+    }
+
+    .posicao_grupo1{
+        height: 450px;
+    }
+
+   
+    .moldura_config{
+        width: 70px;
+       
+        
+    }
+
+    .config{
+        width: 20px;
+    }
+
+
+    .menu_conteudo span{
+        font-size: 13px;
+
+    }
+
+    .menu_barras{
+        display: flex;
+        background-color:  var(--principal-cor-2);
+        padding: 7px;
+        border-radius: 0 15px 15px 0 ;
+        position: absolute;
+        top: 20px;
+        right: -40px;
+
+    }
+
+    .menu_barras img{
+        width: 30px;
+        height: 30px;
+    }
+
+    aside{
+        position: absolute;
+        width: 150px;
+        z-index: 2;
+    }
+
+    .posicionamento_elementos{
+        width: 100%;
+    }
+
+    body{
+        height: 100vh;
+    }
+
+    #sombra{
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+        z-index: 2;
+       
+    }
+
+
+
+}

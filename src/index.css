@@ -37,12 +37,9 @@
 
 body{
   overflow: hidden;
- 
 }
 
 main{
   display: flex;
-  
   height: 100%;
-
 }
