@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import AsideGestor from "../../../components/Aside_gestor";
 import semaforoverde from "../../../assets/icons/icon_semaforo_verde.svg";
 import pesquisa from "../../../assets/icons/lupa_pesquisa.svg";
-import CadastroColaborador from "../CadastroColaborador1";
+import CadastroColaborador from "../CadastroColaborador";
 import EditarColaborador from "../EditarColaborador";
 
 function GestaoCadastro() {

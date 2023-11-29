@@ -11,7 +11,7 @@ function CadastrarGestor() {
             <div className="adminCadastroGestor">
                 <div className="adminCadastroGestor_Secao">
                     <h1>Cadastro Gestor</h1>
-                    <div className="user_config">
+                    <div className="user_cadastrogestoradm">
                         <img
                             className="admin_FotoPadrao"
                             src={fotoPadrao}

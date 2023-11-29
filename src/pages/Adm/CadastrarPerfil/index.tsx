@@ -11,7 +11,7 @@ function CadastrarPerfil() {
         <section className="adminPerfil">
   <div className="adminPerfil_Secao">
     <h1>Cadastrar Perfil</h1>
-    <div className="user_config">
+    <div className="user_cadastroadm">
       <img
         className="admin_FotoPadrao"
         src={fotoPadrao}

@@ -1,34 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
-#perfil_gestor .gestorPerfil_Secao {
+#Editar_colaboradorGestor .gestorPerfil_Secao {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#perfil_gestor .gestorPerfil_Secao H1 {
+#Editar_colaboradorGestor .titulocadastro{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 100px;
+    align-items: end;
+}
+
+#Editar_colaboradorGestor .titulo1 {
     font-size: 42px;
     font-family: var(--font-3);
     color: var(--principal-cor-3);
     text-transform: uppercase;
     font-weight: bold;
-    display: flex;
-    justify-content: center;
+    
+    
 }
 
-#perfil_gestor .gestorPerfil {
-    width: 80%;
+#Editar_colaboradorGestor .gestorPerfil {
+    width: 100%;
     background-color: var(--grayscale-cor-4);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#perfil_gestor .gestorPerfil_Secao {
+#Editar_colaboradorGestor .gestorPerfil_Secao {
     background-color: var(--grayscale-cor-4);
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,46 +43,34 @@
 
 }
 
-#perfil_gestor .gestorPerfil_texto_imagem {
+#Editar_colaboradorGestor .gestorPerfil_texto_imagem {
     display: flex;
     gap: 50px;
     width: 50vw;
 }
 
-#perfil_gestor .user_config {
+#Editar_colaboradorGestor .user_configgestor {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    position: relative;
+    justify-content: end;
+    height: 150px;
 }
 
-#perfil_gestor .gestor_FotoPadrao {
+#Editar_colaboradorGestor .gestor_FotoPadrao {
     height: 155px;
     width: 151px;
     border: 1px solid var(--principal-cor-3);
     border-radius: 100%
 }
 
-#perfil_gestor .gestor_engrenagem {
-    position: absolute;
-    right: -10px;
-    bottom: 6px;
-    fill: var(--principal-cor-3);
-    width: 25px;
-    height: 25px;
 
-}
-
-
-
-#perfil_gestor .primeira_linha {
+#Editar_colaboradorGestor .primeira_linha {
     display: flex;
     gap: 10px;
 
 }
 
-#perfil_gestor .centralizar {
+#Editar_colaboradorGestor .centralizar {
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -84,7 +78,7 @@
 
 }
 
-#perfil_gestor .posicao_linha {
+#Editar_colaboradorGestor .posicao_linha {
     display: flex;
     flex-direction: column;
     gap: 55px;
@@ -97,25 +91,25 @@ form{
     gap: 30px;
 }
 
-#perfil_gestor .segunda_linha {
+#Editar_colaboradorGestor .segunda_linha {
     display: flex;
     gap: 6px;
 
 }
 
-#perfil_gestor .terceira_linha {
+#Editar_colaboradorGestor .terceira_linha {
     display: flex;
     gap: 10px;
 
 }
 
-#perfil_gestor .quarta_linha {
+#Editar_colaboradorGestor .quarta_linha {
     display: flex;
     gap: 60px;
     align-items: center;
 }
 
-#perfil_gestor .input {
+#Editar_colaboradorGestor .input {
     display: flex;
     flex-direction: column;
     border-radius: 18px;
@@ -124,7 +118,7 @@ form{
 
 }
 
-#perfil_gestor .input1 {
+#Editar_colaboradorGestor .input1 {
     flex: 1;
     
 
@@ -132,22 +126,22 @@ form{
 
 
 
-#perfil_gestor .input3,
+#Editar_colaboradorGestor .input3,
 .input4,
 .input5 {
     flex: 1;
 }
 
-#perfil_gestor .input6,
+#Editar_colaboradorGestor .input6,
 .input7 {
     flex: 1;
 }
 
-#perfil_gestor .input8 {
+#Editar_colaboradorGestor .input8 {
     width: 70%;
 }
 
-#perfil_gestor .input_caixa {
+#Editar_colaboradorGestor .input_caixa, .select_perfil {
     display: flex;
     border-radius: 8px;
     height: 30px;
@@ -156,7 +150,7 @@ form{
     
 }
 
-#perfil_gestor .input label {
+#Editar_colaboradorGestor .input label {
     text-transform: uppercase;
     color: #000000;
     font-size: 12px;
@@ -164,7 +158,7 @@ form{
     font-weight: bold;
 }
 
-#perfil_gestor .button_salvar {
+#Editar_colaboradorGestor .button_salvar {
     width: 25%;
     display: flex;
     align-items: center;
@@ -172,7 +166,7 @@ form{
 
 }
 
-#perfil_gestor .button_salvar button {
+#Editar_colaboradorGestor .button_salvar button {
     width: 100%;
     display: flex;
     align-items: center;
@@ -188,15 +182,15 @@ form{
 
 }
 
-#perfil_gestor h2 {
+#Editar_colaboradorGestor h2 {
     text-transform: uppercase;
     font-size: 20px;
     font-family: var(--font-3);
     color: var(--principal-cor-3);
 }
 
-#perfil_gestor ::placeholder,
-.input_caixa {
+#Editar_colaboradorGestor ::placeholder,
+.input_caixa, .select_perfil {
     padding: 0 10px;
     font-family: var(--font-3);
     font-size: 14px;
@@ -213,7 +207,7 @@ form{
 
     /*SECTION*/
 
-    #perfil_gestor .gestorPerfil_Secao {
+    #Editar_colaboradorGestor .gestorPerfil_Secao {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -221,31 +215,31 @@ form{
         gap: 10px;
     }
 
-    #perfil_gestor .gestorPerfil_Secao H1 {
+    #Editar_colaboradorGestor .gestorPerfil_Secao  {
         font-size: 40px;
         margin-top: 10px;
 
     }
 
-    #perfil_gestor .gestor_FotoPadrao {
+    #Editar_colaboradorGestor .gestor_FotoPadrao {
         height: 105px;
         width: 101px;
     }
 
-    #perfil_gestor .texto_perfil {
+    #Editar_colaboradorGestor .texto_perfil {
         display: flex;
         flex-direction: column;
         width: 38%;
         margin-top: -10px;
     }
 
-    #perfil_gestor .texto_perfil p {
+    #Editar_colaboradorGestor .texto_perfil p {
         font-size: 9px;
     }
 
 
 
-    #perfil_gestor .gestorPerfil_texto_imagem {
+    #Editar_colaboradorGestor .gestorPerfil_texto_imagem {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -254,40 +248,40 @@ form{
 
     }
 
-    #perfil_gestor .centralizar {
+    #Editar_colaboradorGestor .centralizar {
         gap: 20px;
 
     }
 
-    #perfil_gestor .posicao_linha {
+    #Editar_colaboradorGestor .posicao_linha {
         gap: 10px;
     }
 
-    #perfil_gestor .gestorPerfil_texto_imagem {
+    #Editar_colaboradorGestor .gestorPerfil_texto_imagem {
         gap: 5px;
 
     }
 
-    #perfil_gestor .input_caixa {
+    #Editar_colaboradorGestor .input_caixa {
         height: 25px;
 
     }
 
-    #perfil_gestor .button_entrar {
+    #Editar_colaboradorGestor .button_entrar {
         padding-top: 2px;
 
     }
 
-    #perfil_gestor .button_sair {
+    #Editar_colaboradorGestor .button_sair {
         padding-top: 2px;
     }
 
-    #perfil_gestor .button_entrar button {
+    #Editar_colaboradorGestor .button_entrar button {
         height: 25px;
         font-size: 16px;
     }
 
-    #perfil_gestor .button_sair button {
+    #Editar_colaboradorGestor .button_sair button {
         height: 25px;
         font-size: 16px;
     }
@@ -298,8 +292,8 @@ form{
 
     /*SECTION*/
 
-    #perfil_gestor .gestorPerfil_Secao H1 {
-        font-size: 35px;
+    #Editar_colaboradorGestor .gestorPerfil_Secao .titulo1 {
+        /* font-size: 35px; */
         margin-top: 20px;
 
     }
@@ -313,26 +307,26 @@ form{
    
     /*SECTION*/
 
-    #perfil_gestor .gestorPerfil {
+    #Editar_colaboradorGestor .gestorPerfil {
         width: 100%;
     }
 
-    #perfil_gestor .gestorPerfil_Secao {
+    #Editar_colaboradorGestor .gestorPerfil_Secao {
         gap: 5px;
     }
 
-    #perfil_gestor .gestorPerfil_Secao H1 {
-        font-size: 30px;
+    #Editar_colaboradorGestor .gestorPerfil_Secao .titulo1 {
+        /* font-size: 30px; */
         margin-top: 20px;
 
     }
 
-    #perfil_gestor .gestor_FotoPadrao {
+    #Editar_colaboradorGestor .gestor_FotoPadrao {
         height: 115px;
         width: 111px;
     }
 
-    #perfil_gestor .texto_perfil {
+    #Editar_colaboradorGestor .texto_perfil {
         width: 38%;
         margin-top: 0px;
     }
@@ -344,23 +338,23 @@ form{
 
     /*SECTION*/
 
-    #perfil_gestor .gestorPerfil_Secao H1 {
-        font-size: 28px;
+    #Editar_colaboradorGestor .gestorPerfil_Secao .titulo1 {
+        /* font-size: 28px; */
         margin-top: 2px;
 
     }
 
-    #perfil_gestor .gestor_FotoPadrao {
+    #Editar_colaboradorGestor .gestor_FotoPadrao {
         height: 105px;
         width: 101px;
     }
 
-    #perfil_gestor .texto_perfil p {
+    #Editar_colaboradorGestor .texto_perfil p {
         font-size: 7px;
 
     }
 
-    #perfil_gestor .centralizar {
+    #Editar_colaboradorGestor .centralizar {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -375,115 +369,102 @@ form{
 
     /*SECTION*/
 
-    #perfil_gestor .gestorPerfil_Secao {
+    #Editar_colaboradorGestor .gestorPerfil_Secao {
         gap: 2px;
     }
 
-    #perfil_gestor .gestorPerfil_Secao H1 {
-        font-size: 28px;
+    #Editar_colaboradorGestor .gestorPerfil_Secao .titulo1 {
+        /* font-size: 28px; */
         margin-top: 90px;
 
     }
 
 
-    #perfil_gestor .gestor_FotoPadrao {
+    #Editar_colaboradorGestor .gestor_FotoPadrao {
         height: 75px;
         width: 71px;
     }
 
-    #perfil_gestor .texto_perfil {
+    #Editar_colaboradorGestor .texto_perfil {
         width: 47%;
         margin-top: 1px;
     }
 
-    #perfil_gestor .texto_perfil p {
+    #Editar_colaboradorGestor .texto_perfil p {
         font-size: 7px;
 
     }
 
-    #perfil_gestor .gestorPerfil_texto_imagem {
+    #Editar_colaboradorGestor .gestorPerfil_texto_imagem {
         gap: 2px;
     }
 
-    #perfil_gestor .centralizar {
+    #Editar_colaboradorGestor .centralizar {
         display: flex;
         flex-direction: column;
         gap: 10px;
         width: 380px;
     }
 
-    #perfil_gestor .posicao_linha {
+    #Editar_colaboradorGestor .posicao_linha {
         display: flex;
         flex-direction: column;
         gap: 1px;
         width: 100%;
     }
 
-    #perfil_gestor .primeira_linha {
+    #Editar_colaboradorGestor .primeira_linha {
         display: flex;
         gap: 5px;
         flex-direction: column;
     }
 
-    #perfil_gestor .segunda_linha {
+    #Editar_colaboradorGestor .segunda_linha {
         display: flex;
         gap: 5px;
         flex-direction: column
     }
 
-    #perfil_gestor .terceira_linha {
+    #Editar_colaboradorGestor .terceira_linha {
         display: flex;
         gap: 5px;
         flex-direction: column;
     }
 
-    #perfil_gestor .quarta_linha {
+    #Editar_colaboradorGestor .quarta_linha {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 5px;
     }
 
-    #perfil_gestor .input4,
+    #Editar_colaboradorGestor .input4,
     .input5 {
         flex: 1;
     }
 
-    #perfil_gestor .input8 {
+    #Editar_colaboradorGestor .input8 {
         width: 100%;
     }
 
-    #perfil_gestor .button_salvar {
+    #Editar_colaboradorGestor .button_salvar {
         width: 50%;
 
     }
 
-    #perfil_gestor .button_salvar button {
+    #Editar_colaboradorGestor .button_salvar button {
         height: 25px;
     }
-
-
-  
-
-    
-
-
 }
-
-
 
 @media screen and (max-width: 400px) {
 
     /*SECTION*/
 
-    #perfil_gestor .centralizar {
+    #Editar_colaboradorGestor .centralizar {
         display: flex;
         flex-direction: column;
         gap: 10px;
         width: 300px;
     }
-
-
-
-
 }

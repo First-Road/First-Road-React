@@ -39,7 +39,7 @@ import VisualizarCertificadosColaborador from './pages/Colaborador/VisualizarCer
 import TrilhaColaborador from './pages/Colaborador/TrilhaColaborador';
 
 //import telas Gestor
-import CadastroColaborador from './pages/Gestor/CadastroColaborador1';
+import CadastroColaborador from './pages/Gestor/CadastroColaborador';
 import GestaoDashboard from './pages/Gestor/GestaoDashboard';
 import GestaoCadastro from './pages/Gestor/GestaoCadastro';
 import PerfilGestor from './pages/Gestor/PerfilGestor';

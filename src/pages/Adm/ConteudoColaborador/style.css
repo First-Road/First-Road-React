@@ -31,7 +31,7 @@ header img{
     justify-content: center;
 }
 
-h1{
+.titulo_modulo1{
    font-family: var(--font-3);
    font-size: 35px;
    color: var(--grayscale-cor-4);

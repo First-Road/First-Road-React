@@ -38,7 +38,7 @@
     gap: 50px;
 }
 
-.user_config {
+.user_editarperfiladm {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -592,7 +592,7 @@ h2 {
     gap: 50px;
 }
 
-.user_config {
+.user_editarperfiladm{
     display: flex;
     flex-direction: column;
     justify-content: center;

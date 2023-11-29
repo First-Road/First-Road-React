@@ -37,7 +37,7 @@ function ConteudoColaborador () {
       <div id="ConteudoColaborador">
         <header>
           <div className="header_titulo">
-            <h1>Módulo 1 - Instruções de Acesso </h1>
+            <h1 className="titulo_modulo1">Módulo 1 - Instruções de Acesso </h1>
             <div className="cronometroColaborador">
               <span>{horas.toString().padStart(2, "0")}</span>
               <span>:</span>

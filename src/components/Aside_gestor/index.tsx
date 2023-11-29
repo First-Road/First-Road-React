@@ -18,7 +18,7 @@ import dashboard from "../../assets/icons/dashboard_aside.svg"
 import iconesuporte from "../../assets/icons/suporte_1.svg"
 import PerfilGestor from "../../pages/Gestor/PerfilGestor";
 import GestaoCadastro from "../../pages/Gestor/GestaoCadastro";
-import CadastroColaborador from "../../pages/Gestor/CadastroColaborador1";
+import CadastroColaborador from "../../pages/Gestor/CadastroColaborador";
 import TrilhaGestor from "../../pages/Gestor/TrilhaGestor";
 import SuporteGestor from "../../pages/Gestor/SuporteGestor";
 import { Link } from "react-router-dom";

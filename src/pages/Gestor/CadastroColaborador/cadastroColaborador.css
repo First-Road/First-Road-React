@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+#Cadastro_colaboradorGestor .gestorPerfil_Secao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulocadastro{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 100px;
+    align-items: end;
+}
+
+#Cadastro_colaboradorGestor .titulo1 {
+    font-size: 42px;
+    font-family: var(--font-3);
+    color: var(--principal-cor-3);
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
+
+#Cadastro_colaboradorGestor .gestorPerfil {
+    width: 100%;
+    background-color: var(--grayscale-cor-4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Cadastro_colaboradorGestor .gestorPerfil_Secao {
+    background-color: var(--grayscale-cor-4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    width: 50vw;
+
+}
+
+#Cadastro_colaboradorGestor .gestorPerfil_texto_imagem {
+    display: flex;
+    gap: 50px;
+    width: 50vw;
+}
+
+#Cadastro_colaboradorGestor .user_configgestor {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 150px;
+}
+
+#Cadastro_colaboradorGestor .gestor_FotoPadrao {
+    height: 155px;
+    width: 151px;
+    border: 1px solid var(--principal-cor-3);
+    border-radius: 100%
+}
+
+
+#Cadastro_colaboradorGestor .primeira_linha {
+    display: flex;
+    gap: 10px;
+
+}
+
+#Cadastro_colaboradorGestor .centralizar {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 580px;
+
+}
+
+#Cadastro_colaboradorGestor .posicao_linha {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    width: 50vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#Cadastro_colaboradorGestor .segunda_linha {
+    display: flex;
+    gap: 6px;
+
+}
+
+#Cadastro_colaboradorGestor .terceira_linha {
+    display: flex;
+    gap: 10px;
+
+}
+
+#Cadastro_colaboradorGestor .quarta_linha {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+#Cadastro_colaboradorGestor .input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    
+
+
+}
+
+#Cadastro_colaboradorGestor .input1 {
+    flex: 1;
+    
+
+}
+
+
+
+#Cadastro_colaboradorGestor .input3,
+.input4,
+.input5 {
+    flex: 1;
+}
+
+#Cadastro_colaboradorGestor .input6,
+.input7 {
+    flex: 1;
+}
+
+#Cadastro_colaboradorGestor .input8 {
+    width: 70%;
+}
+
+#Cadastro_colaboradorGestor .input_caixa, .select_perfil {
+    display: flex;
+    border-radius: 8px;
+    height: 30px;
+    border: 2px solid var(--black-input);
+    background-color: var(--grayscale-cor-4);
+    
+}
+
+#Cadastro_colaboradorGestor .input label {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 12px;
+    font-family: var(--font-3);
+    font-weight: bold;
+}
+
+#Cadastro_colaboradorGestor .button_salvar {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+
+}
+
+#Cadastro_colaboradorGestor .button_salvar button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: var(--principal-cor-3);
+    font-family: var(--font-3);
+    font-size: 18px;
+    color: var(--grayscale-cor-4);
+    border: none;
+    box-shadow: 2px 3px 5px #888888;
+
+}
+
+#Cadastro_colaboradorGestor h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: var(--font-3);
+    color: var(--principal-cor-3);
+}
+
+#Cadastro_colaboradorGestor ::placeholder,
+.input_caixa, .select_perfil {
+    padding: 0 10px;
+    font-family: var(--font-3);
+    font-size: 14px;
+    color: var(--grayscale-cor-1);
+    
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    /*ASIDE*/
+
+    
+
+    /*SECTION*/
+
+    #Cadastro_colaboradorGestor .gestorPerfil_Secao {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #Cadastro_colaboradorGestor .gestorPerfil_Secao  {
+        font-size: 40px;
+        margin-top: 10px;
+
+    }
+
+    #Cadastro_colaboradorGestor .gestor_FotoPadrao {
+        height: 105px;
+        width: 101px;
+    }
+
+    #Cadastro_colaboradorGestor .texto_perfil {
+        display: flex;
+        flex-direction: column;
+        width: 38%;
+        margin-top: -10px;
+    }
+
+    #Cadastro_colaboradorGestor .texto_perfil p {
+        font-size: 9px;
+    }
+
+
+
+    #Cadastro_colaboradorGestor .gestorPerfil_texto_imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+
+    }
+
+    #Cadastro_colaboradorGestor .centralizar {
+        gap: 20px;
+
+    }
+
+    #Cadastro_colaboradorGestor .posicao_linha {
+        gap: 10px;
+    }
+
+    #Cadastro_colaboradorGestor .gestorPerfil_texto_imagem {
+        gap: 5px;
+
+    }
+
+    #Cadastro_colaboradorGestor .input_caixa {
+        height: 25px;
+
+    }
+
+    #Cadastro_colaboradorGestor .button_entrar {
+        padding-top: 2px;
+
+    }
+
+    #Cadastro_colaboradorGestor .button_sair {
+        padding-top: 2px;
+    }
+
+    #Cadastro_colaboradorGestor .button_entrar button {
+        height: 25px;
+        font-size: 16px;
+    }
+
+    #Cadastro_colaboradorGestor .button_sair button {
+        height: 25px;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+
+    /*SECTION*/
+
+    #Cadastro_colaboradorGestor .gestorPerfil_Secao .titulo1 {
+        /* font-size: 35px; */
+        margin-top: 20px;
+
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    /*ASIDE*/
+
+   
+    /*SECTION*/
+
+    #Cadastro_colaboradorGestor .gestorPerfil {
+        width: 100%;
+    }
+
+    #Cadastro_colaboradorGestor .gestorPerfil_Secao {
+        gap: 5px;
+    }
+
+    #Cadastro_colaboradorGestor .gestorPerfil_Secao .titulo1 {
+        /* font-size: 30px; */
+        margin-top: 20px;
+
+    }
+
+    #Cadastro_colaboradorGestor .gestor_FotoPadrao {
+        height: 115px;
+        width: 111px;
+    }
+
+    #Cadastro_colaboradorGestor .texto_perfil {
+        width: 38%;
+        margin-top: 0px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    /*SECTION*/
+
+    #Cadastro_colaboradorGestor .gestorPerfil_Secao .titulo1 {
+        /* font-size: 28px; */
+        margin-top: 2px;
+
+    }
+
+    #Cadastro_colaboradorGestor .gestor_FotoPadrao {
+        height: 105px;
+        width: 101px;
+    }
+
+    #Cadastro_colaboradorGestor .texto_perfil p {
+        font-size: 7px;
+
+    }
+
+    #Cadastro_colaboradorGestor .centralizar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 480px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    /*SECTION*/
+
+    #Cadastro_colaboradorGestor .gestorPerfil_Secao {
+        gap: 2px;
+    }
+
+    #Cadastro_colaboradorGestor .gestorPerfil_Secao .titulo1 {
+        /* font-size: 28px; */
+        margin-top: 90px;
+
+    }
+
+
+    #Cadastro_colaboradorGestor .gestor_FotoPadrao {
+        height: 75px;
+        width: 71px;
+    }
+
+    #Cadastro_colaboradorGestor .texto_perfil {
+        width: 47%;
+        margin-top: 1px;
+    }
+
+    #Cadastro_colaboradorGestor .texto_perfil p {
+        font-size: 7px;
+
+    }
+
+    #Cadastro_colaboradorGestor .gestorPerfil_texto_imagem {
+        gap: 2px;
+    }
+
+    #Cadastro_colaboradorGestor .centralizar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 380px;
+    }
+
+    #Cadastro_colaboradorGestor .posicao_linha {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        width: 100%;
+    }
+
+    #Cadastro_colaboradorGestor .primeira_linha {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    #Cadastro_colaboradorGestor .segunda_linha {
+        display: flex;
+        gap: 5px;
+        flex-direction: column
+    }
+
+    #Cadastro_colaboradorGestor .terceira_linha {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    #Cadastro_colaboradorGestor .quarta_linha {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    #Cadastro_colaboradorGestor .input4,
+    .input5 {
+        flex: 1;
+    }
+
+    #Cadastro_colaboradorGestor .input8 {
+        width: 100%;
+    }
+
+    #Cadastro_colaboradorGestor .button_salvar {
+        width: 50%;
+
+    }
+
+    #Cadastro_colaboradorGestor .button_salvar button {
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    /*SECTION*/
+
+    #Cadastro_colaboradorGestor .centralizar {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 300px;
+    }
+}

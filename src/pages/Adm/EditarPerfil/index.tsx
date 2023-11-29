@@ -11,7 +11,7 @@ function EditarPerfil() {
         <div className="adminPerfil">
   <div className="adminPerfil_Secao">
     <h3>Editar Perfil</h3>
-    <div className="user_config">
+    <div className=".user_editarperfiladm">
       <img
         className="admin_FotoPadrao"
         src={fotoPadrao}
