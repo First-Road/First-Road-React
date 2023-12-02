@@ -1,99 +1,59 @@
 #cadastroUnidade {
     display: flex;
     height: 100vh;
-    background-color: var(--grayscale-cor-2);
+    background-color: var(--grayscale-cor-4);
 
 }
 
 #cadastroUnidade .adminCadastroUnidade {
     width: 80%;
-    background-color: var(--grayscale-cor-3);
+    background-color: var(--grayscale-cor-4);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#cadastroUnidade .adminCadastroUnidade_Secao {
+#cadastroUnidade .CadastroUnidade_Secao {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 30px;
 }
 
-.adminCadastroUnidade_Secao H1 {
-    font-size: 40px;
-    font-family: var(--font-2);
+.CadastroUnidade_Secao H1 {
+    font-size: 42px;
+    font-family: var(--font-3);
     color: var(--principal-cor-3);
     text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-}
-
-.user_config{
-    height:150px ;
+    font-weight: bold;
+   
 }
 
 
-#cadastroUnidade .adminCadastroUnidade_Secao {
-    background-color: var(--grayscale-cor-3);
+
+
+#cadastroUnidade .CadastroUnidade_Secao {
+    background-color: var(--grayscale-cor-4);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-
 }
 
-#cadastroUnidade .adminPerfil_texto_imagem {
-    display: flex;
-    gap: 50px;
-}
 
-#cadastroUnidade .user_config {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-}
 
 #cadastroUnidade .adminFotoPadraoUnidade {
-    height: 150px;
-    width: 200px;
+    height: 120px;
+    width: 150px;
     fill: var(--principal-cor-3);
-
-}
-
-#cadastroUnidade .admin_engrenagem {
-    position: absolute;
-    right: -10px;
-    bottom: 6px;
-    fill: var(--principal-cor-3);
-    width: 25px;
-    height: 25px;
-
-}
-
-#cadastroUnidade .texto_perfil {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    margin-top: -20px;
-
-}
-
-
-#cadastroUnidade .texto_perfil p {
-    font-size: 10px;
-    font-family: var(--font-2);
-    color: var(--principal-cor-3);
 
 }
 
 #cadastroUnidade .cadastroUnidade_Centralizar {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    width: 580px;
+    width: 60vw;
 
 }
 
@@ -125,7 +85,7 @@
 
 #cadastroUnidade .quarta_linha {
     display: flex;
-    gap: 60px;
+    gap: 10px;
     align-items: center;
 
 }
@@ -134,12 +94,14 @@
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: space-between;
 }
 
 #cadastroUnidade .input {
     display: flex;
     flex-direction: column;
     border-radius: 8px;
+    
 
 
 }
@@ -176,23 +138,23 @@
 #cadastroUnidade .input_caixa {
     border-radius: 8px;
     height: 30px;
-    border: 1px solid var(--principal-cor-3);
-    background-color: var(--grayscale-cor-3);
+    border: 2px solid var(--black-input);
+    background-color: var(--grayscale-cor-4);
 }
 
 #cadastroUnidade .input label {
     text-transform: uppercase;
-    color: var(--principal-cor-3);
+    color: #000000;
     font-size: 12px;
+    font-family: var(--font-3);
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #cadastroUnidade .button_salvar {
-    width: 25%;
+    width: 20%;
     display: flex;
     align-items: center;
-    padding-top: 12px;
-
-
 }
 
 #cadastroUnidade .button_salvar button {
@@ -203,9 +165,9 @@
     height: 30px;
     border-radius: 8px;
     background-color: var(--principal-cor-3);
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 18px;
-    color: var(--grayscale-cor-3);
+    color: var(--grayscale-cor-4);
     border: none;
     box-shadow: 2px 3px 5px #888888;
 
@@ -213,7 +175,10 @@
 
 ::placeholder,
 #cadastroUnidade .input_caixa {
-    padding: 0 15px;
+    padding: 0 14px;
+    font-family: var(--font-3);
+    font-size: 14px;
+    color: var(--grayscale-cor-1);
 }
 
 @media screen and (max-width: 1200px) {
@@ -224,7 +189,7 @@
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        min-height: 100vh;
+        
     }
 
     #cadastroUnidade .adminCadastroUnidade_Secao H1 {
@@ -237,16 +202,6 @@
         width: 160px;
     }
 
-    #cadastroUnidade .texto_perfil {
-        display: flex;
-        flex-direction: column;
-        width: 38%;
-        margin-top: -10px;
-    }
-
-    #cadastroUnidade .texto_perfil p {
-        font-size: 9px;
-    }
 
     #cadastroUnidade .adminPerfil_texto_imagem {
         display: flex;
@@ -266,9 +221,6 @@
 
     }
 
-    #cadastroUnidade .input_caixa,
-
-
 
     #cadastroUnidade .button_salvar button,
     #cadastroUnidade .button_salvar {
@@ -282,12 +234,6 @@
     #cadastroUnidade .adminCadastroUnidade {
         padding: 0 20px;
     }
-
-    #cadastroUnidade .texto_perfil {
-        width: 45%;
-        margin-top: -10px;
-    }
-
 }
 
 
@@ -296,34 +242,18 @@
 
 
     #cadastroUnidade .adminCadastroUnidade_Secao H1 {
-        font-size: 35px;
-        margin-top: 20px;
+        font-size: 30px; 
     }
 
-
+    #cadastroUnidade .segunda_linha :nth-child(2){
+       width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    #cadastroUnidade .adminCadastroUnidade {
-        width: 100%;
-        padding: 0 5px;
-    }
-
-
-    #cadastroUnidade .adminCadastroUnidade_Secao H1 {
-        font-size: 30px;
-        margin-top: 20px;
-    }
-
-    #cadastroUnidade .adminFotoPadraoUnidade {
-        height: 100px;
-        width: 140px;
-    }
-
-    #cadastroUnidade .texto_perfil {
-        width: 55%;
-        margin-top: -10px;
-    }
+    #cadastroUnidade .primeira_linha .segunda_linha,.terceira_linha,.quarta_linha,.quinta_linha{
+        width: 400px;
+     }
 }
 
 @media screen and (max-width: 600px) {
