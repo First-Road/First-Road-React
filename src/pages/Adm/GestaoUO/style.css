@@ -1,7 +1,7 @@
 #gestaoUO {
     display: flex;
     min-height: 100vh;
-    background-color: var(--grayscale-cor-2);
+    background-color: var(--grayscale-cor-3);
 }
 
 
@@ -24,7 +24,7 @@
 
 #gestaoUO .adminGestaoUO_Secao H1 {
     font-size: 40px;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     color: var(--principal-cor-3);
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -101,14 +101,15 @@
 #gestaoUO .input_caixa {
     border-radius: 8px;
     height: 30px;
-    border: 1px solid var(--principal-cor-3);
+    border: 2px solid var(--black-input);
     background-color: var(--grayscale-cor-3);
 }
 
 #gestaoUO .input label {
     text-transform: uppercase;
-    color: var(--principal-cor-3);
-    font-size: 12px;
+    color: var(--principal-cor-1);
+    font-size: 14px;
+    font-family: var(--font-3);
 }
 
 #gestaoUO .icon {
@@ -118,15 +119,9 @@
 }
 
 
-
-
-
 #gestaoUO table {
     background-color: var(--grayscale-cor-3);
     color: var(--principal-cor-3);
-    display: table-cell;
-
-
 }
 
 
@@ -135,27 +130,10 @@
 
 
 #gestaoUO table th {
-    border-bottom: 1px solid;
     text-transform: uppercase;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 12px;
     font-weight: 600;
-    border-color: var(--grayscale-cor-4);
-
-
-
-}
-
-#gestaoUO table td {
-    border: 1px solid var(--grayscale-cor-4);
-    border-collapse: collapse;
-
-
-
-}
-
-#gestaoUO .tr_one {
-    border-bottom: 1px solid var(--grayscale-cor-2);
 }
 
 
@@ -170,18 +148,6 @@
 
 #gestaoUO td {
     padding-left: 4px;
-
-
-
-}
-
-#gestaoUO .td_one {
-     width: 200px;
-}
-
-#gestaoUO .td_two {
-     width: 400px; 
-
 }
 
 #gestaoUO .td_tableimg {

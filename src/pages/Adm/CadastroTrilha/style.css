@@ -1,7 +1,7 @@
 #cadastroTrilha {
     display: flex;
     height: 100%;
-    background-color: var(--grayscale-cor-2);
+    background-color: var(--grayscale-cor-3);
 
 }
 
@@ -28,8 +28,8 @@
 }
 
 #cadastroTrilha .trilhaConteudo H1 {
-    font-size: 28px;
-    font-family: var(--font-2);
+    font-size: 35px;
+    font-family: var(--font-3);
     color: var(--principal-cor-3);
     text-transform: uppercase;
     text-align: center;
@@ -47,14 +47,15 @@
 
 #cadastroTrilha .trilhaInputBtn label {
     color: var(--principal-cor-3);
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 12px;
 }
 
 #cadastroTrilha .trilhaInputBtn select {
-    color: var(--principal-cor-3);
-    font-family: var(--font-2);
+    color: var(--principal-cor-1);
+    font-family: var(--font-3);
     font-size: 12px;
+    background-color: var(--grayscale-cor-3);
 }
 
 
@@ -67,8 +68,9 @@
     height: 30px;
     width: 100%;
     max-width: 550px;
-    border: 1px solid var(--principal-cor-3);
+    border: 2px solid var(--black-input);
     border-radius: 8px;
+    background-color: var(--grayscale-cor-3);
 }
 
 #cadastroTrilha .trilhaTwo {
@@ -95,8 +97,8 @@
     justify-content: center;
     align-items: center;
     background-color: var(--principal-cor-3);
-    color: var(--grayscale-cor-4);
-    font-family: var(--font-2);
+    color: var(--grayscale-cor-3);
+    font-family: var(--font-3);
     font-size: 18px;
     text-transform: capitalize;
     border: none;
@@ -117,23 +119,26 @@
     height: 30px;
     width: 100%;
     max-width: 800px;
-    border: 1px solid var(--principal-cor-3);
+    border: 2px solid var(--black-input);
     border-radius: 8px;
-    color: var(--principal-cor-3);
-    font-family: var(--font-2);
+    color: var(--principal-cor-1);
+    font-family: var(--font-3);
     font-size: 12px;
+    background-color: var(--grayscale-cor-3);
 }
 
 #cadastroTrilha .trilhaTextarea label {
-    color: var(--principal-cor-3);
-    font-family: var(--font-2);
+    color: var(--principal-cor-1);
+    font-family: var(--font-3);
     font-size: 12px;
 }
 
 #cadastroTrilha .trilhaInputBtn select {
-    color: var(--principal-cor-3);
-    font-family: var(--font-2);
+    color: var(--principal-cor-1);
+    font-family: var(--font-3);
     font-size: 12px;
+    border: 2px solid var(--black-input);
+    background-color: var(--grayscale-cor-3);
 }
 
 #cadastroTrilha .trilhaSelect {
@@ -155,8 +160,9 @@
     height: 30px;
     width: 100%;
     max-width: 375px;
-    border: 1px solid var(--principal-cor-3);
+    border: 2px solid var(--black-input);
     border-radius: 8px;
+    background-color: var(--grayscale-cor-3);
 }
 
 #cadastroTrilha .trilhaFour {
@@ -168,12 +174,13 @@
     height: 30px;
     width: 100%;
     max-width: 375px;
-    border: 1px solid var(--principal-cor-3);
+    border: 2px solid var(--black-input);
     border-radius: 8px;
+    background-color: var(--grayscale-cor-3);
 }
 
 #cadastroTrilha .trilhaTable {
-    background-color: var(--grayscale-cor-2);
+    background-color: var(--grayscale-cor-3);
     width: 100%;
     max-width: 800px;
     display: flex;
@@ -182,12 +189,11 @@
 }
 
 #cadastroTrilha table {
-    border: 1px solid var(--grayscale-cor-4);
+    border: 1px solid var(--grayscale-cor-3);
 }
 
 #cadastroTrilha table tr {
-    background-color: var(--grayscale-cor-4);
-    border: 1px solid var(--grayscale-cor-2);
+    background-color: var(--grayscale-cor-3);
     text-align: initial;
 }
 
@@ -220,8 +226,9 @@
     height: 30px;
     width: 100%;
     max-width: 550px;
-    border: 1px solid var(--principal-cor-3);
+    border: 1px solid var(--black-input);
     border-radius: 8px;
+    background-color: var(--grayscale-cor-3);
 }
 
 #cadastroTrilha .trilhaSix {
@@ -248,8 +255,8 @@
     justify-content: center;
     align-items: center;
     background-color: var(--principal-cor-3);
-    color: var(--grayscale-cor-4);
-    font-family: var(--font-2);
+    color: var(--grayscale-cor-3);
+    font-family: var(--font-3);
     font-size: 18px;
     text-transform: capitalize;
     border: none;
@@ -277,16 +284,16 @@
     justify-content: space-between;
     align-items: initial;
     font-size: 12px;
-    font-family: var(--font-2);
-    color: var(--principal-cor-3);
+    font-family: var(--font-3);
+    color: var(--principal-cor-1);
     gap: 40px;
 
 }
 
 #cadastroTrilha .trilhaSelect select {
     font-size: 12px;
-    font-family: var(--font-2);
-    color: var(--principal-cor-3);
+    font-family: var(--font-3);
+    color: var(--principal-cor-1);
 }
 
 #cadastroTrilha .trilhaTable {
@@ -311,14 +318,14 @@
 
 #cadastroTrilha .trilhaFive {
     font-size: 12px;
-    font-family: var(--font-2);
-    color: var(--principal-cor-3);
+    font-family: var(--font-3);
+    color: var(--principal-cor-1);
 }
 
 #cadastroTrilha .trilhaFive select {
     font-size: 12px;
-    font-family: var(--font-2);
-    color: var(--principal-cor-3);
+    font-family: var(--font-3);
+    color: var(--principal-cor-1);
 }
 
  .conteudoTrilha {
@@ -335,8 +342,8 @@
 
 #cadastroTrilha .conteudoTrilha h2 {
     text-transform: uppercase;
-    font-size: 28px;
-    font-family: var(--font-2);
+    font-size: 25px;
+    font-family: var(--font-3);
     color: var(--principal-cor-3);
     text-align: center;
     height: 5px;
@@ -361,14 +368,14 @@
     height: 30px;
     width: 100%;
     max-width: 500px;
-    border: 1px solid var(--principal-cor-3);
+    border: 2px solid var(--black-input);
     border-radius: 8px;
-    background-color: var(--grayscale-cor-4);
+    background-color: var(--grayscale-cor-3);
 }
 
 #cadastroTrilha ::placeholder {
     padding: 0px 15px;
-    color: var(--principal-cor-3);
+    color: var(--principal-cor-1);
 }
 
 
@@ -403,21 +410,21 @@
 }
 
 #cadastroTrilha table {
-    border: 1px solid var(--grayscale-cor-4);
     font-size: 12px;
-    font-family: var(--font-2);
-    color: var(--principal-cor-3);
+    font-family: var(--font-3);
+    color: var(--principal-cor-1);
 
 }
 
 #cadastroTrilha table tr {
-    background-color: var(--grayscale-cor-4);
-    border: 1px solid var(--grayscale-cor-2);
+    background-color: var(--grayscale-cor-3);
     text-align: initial;
 }
 
 #cadastroTrilha .tableBiXX {
     width: 50px;
+    display: flex;
+    gap: 10px;
 }
 
 #cadastroTrilha .icon {

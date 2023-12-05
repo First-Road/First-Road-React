@@ -1,11 +1,12 @@
-#cadastroUnidade {
+#cadastroUnidadeAdm {
     display: flex;
     height: 100vh;
     background-color: var(--grayscale-cor-4);
 
 }
 
-#cadastroUnidade .adminCadastroUnidade {
+
+#cadastroUnidadeAdm .adminCadastroUnidade {
     width: 80%;
     background-color: var(--grayscale-cor-4);
     display: flex;
@@ -13,7 +14,7 @@
     align-items: center;
 }
 
-#cadastroUnidade .CadastroUnidade_Secao {
+#cadastroUnidadeAdm .CadastroUnidade_Secao {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +34,7 @@
 
 
 
-#cadastroUnidade .CadastroUnidade_Secao {
+#cadastroUnidadeAdm .CadastroUnidade_Secao {
     background-color: var(--grayscale-cor-4);
     width: 100%;
     display: flex;
@@ -43,21 +44,21 @@
 
 
 
-#cadastroUnidade .adminFotoPadraoUnidade {
+#cadastroUnidadeAdm .adminFotoPadraoUnidade {
     height: 120px;
     width: 150px;
     fill: var(--principal-cor-3);
 
 }
 
-#cadastroUnidade .cadastroUnidade_Centralizar {
+#cadastroUnidadeAdm .cadastroUnidade_Centralizar {
     display: flex;
     flex-direction: column;
     width: 60vw;
 
 }
 
-#cadastroUnidade .posicao_linha {
+#cadastroUnidadeAdm .posicao_linha {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -65,39 +66,39 @@
 }
 
 
-#cadastroUnidade .primeira_linha {
+#cadastroUnidadeAdm .primeira_linha {
     display: flex;
     gap: 10px;
 
 }
 
-#cadastroUnidade .segunda_linha {
+#cadastroUnidadeAdm .segunda_linha {
     display: flex;
     gap: 10px;
 
 }
 
-#cadastroUnidade .terceira_linha {
+#cadastroUnidadeAdm .terceira_linha {
     display: flex;
     gap: 10px;
 
 }
 
-#cadastroUnidade .quarta_linha {
+#cadastroUnidadeAdm .quarta_linha {
     display: flex;
     gap: 10px;
     align-items: center;
 
 }
 
-#cadastroUnidade .quinta_linha {
+#cadastroUnidadeAdm .quinta_linha {
     display: flex;
     gap: 10px;
     align-items: center;
     justify-content: space-between;
 }
 
-#cadastroUnidade .input {
+#cadastroUnidadeAdm .input {
     display: flex;
     flex-direction: column;
     border-radius: 8px;
@@ -106,43 +107,43 @@
 
 }
 
-#cadastroUnidade .input1 {
+#cadastroUnidadeAdm .input1 {
     flex: 2;
 
 }
 
-#cadastroUnidade .input2 {
+#cadastroUnidadeAdm .input2 {
     flex: 1;
 }
 
-#cadastroUnidade .input3,
-#cadastroUnidade .input4,
-#cadastroUnidade .input5 {
+#cadastroUnidadeAdm .input3,
+#cadastroUnidadeAdm .input4,
+#cadastroUnidadeAdm .input5 {
     flex: 1;
 }
 
-#cadastroUnidade .input6,
-#cadastroUnidade .input7 {
+#cadastroUnidadeAdm .input6,
+#cadastroUnidadeAdm .input7 {
     flex: 1;
 }
 
-#cadastroUnidade .input8,
-#cadastroUnidade .input9 {
+#cadastroUnidadeAdm .input8,
+#cadastroUnidadeAdm .input9 {
     flex: 2;
 }
 
-#cadastroUnidade .input10 {
+#cadastroUnidadeAdm .input10 {
     width: 60%;
 }
 
-#cadastroUnidade .input_caixa {
+#cadastroUnidadeAdm .input_caixa {
     border-radius: 8px;
     height: 30px;
     border: 2px solid var(--black-input);
     background-color: var(--grayscale-cor-4);
 }
 
-#cadastroUnidade .input label {
+#cadastroUnidadeAdm .input label {
     text-transform: uppercase;
     color: #000000;
     font-size: 12px;
@@ -151,13 +152,13 @@
     text-transform: uppercase;
 }
 
-#cadastroUnidade .button_salvar {
+#cadastroUnidadeAdm .button_salvar {
     width: 20%;
     display: flex;
     align-items: center;
 }
 
-#cadastroUnidade .button_salvar button {
+#cadastroUnidadeAdm .button_salvar button {
     width: 100%;
     display: flex;
     align-items: center;
@@ -174,7 +175,7 @@
 }
 
 ::placeholder,
-#cadastroUnidade .input_caixa {
+#cadastroUnidadeAdm .input_caixa {
     padding: 0 14px;
     font-family: var(--font-3);
     font-size: 14px;
@@ -183,7 +184,7 @@
 
 @media screen and (max-width: 1200px) {
 
-    #cadastroUnidade .adminCadastroUnidade {
+    #cadastroUnidadeAdm .adminCadastroUnidade {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -192,18 +193,18 @@
         
     }
 
-    #cadastroUnidade .adminCadastroUnidade_Secao H1 {
+    #cadastroUnidadeAdm .adminCadastroUnidade_Secao H1 {
         font-size: 40px;
         margin-top: 10px;
     }
 
-    #cadastroUnidade .adminFotoPadraoUnidade {
+    #cadastroUnidadeAdm .adminFotoPadraoUnidade {
         height: 120px;
         width: 160px;
     }
 
 
-    #cadastroUnidade .adminPerfil_texto_imagem {
+    #cadastroUnidadeAdm .adminPerfil_texto_imagem {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -211,19 +212,19 @@
         flex-direction: column;
     }
 
-    #cadastroUnidade .cadastroUnidade_Centralizar {
+    #cadastroUnidadeAdm .cadastroUnidade_Centralizar {
         gap: 20px;
 
     }
 
-    #cadastroUnidade .posicao_linha {
+    #cadastroUnidadeAdm .posicao_linha {
         gap: 10px;
 
     }
 
 
-    #cadastroUnidade .button_salvar button,
-    #cadastroUnidade .button_salvar {
+    #cadastroUnidadeAdm .button_salvar button,
+    #cadastroUnidadeAdm .button_salvar {
         height: 25px;
     }
 
@@ -231,7 +232,7 @@
 
 @media screen and (max-width: 1024px) {
 
-    #cadastroUnidade .adminCadastroUnidade {
+    #cadastroUnidadeAdm .adminCadastroUnidade {
         padding: 0 20px;
     }
 }
@@ -241,40 +242,40 @@
 
 
 
-    #cadastroUnidade .adminCadastroUnidade_Secao H1 {
+    #cadastroUnidadeAdm .adminCadastroUnidade_Secao H1 {
         font-size: 30px; 
     }
 
-    #cadastroUnidade .segunda_linha :nth-child(2){
+    #cadastroUnidadeAdm .segunda_linha :nth-child(2){
        width: 100%;
     }
 }
 
 @media screen and (max-width: 768px) {
-    #cadastroUnidade .primeira_linha .segunda_linha,.terceira_linha,.quarta_linha,.quinta_linha{
+    #cadastroUnidadeAdm .primeira_linha .segunda_linha,.terceira_linha,.quarta_linha,.quinta_linha{
         width: 400px;
      }
 }
 
 @media screen and (max-width: 600px) {
 
-    #cadastroUnidade .adminCadastroUnidade_Secao H1 {
+    #cadastroUnidadeAdm .adminCadastroUnidade_Secao H1 {
         font-size: 30px;
         margin-top: 100px;
     }
 
-    #cadastroUnidade .adminFotoPadraoUnidade {
+    #cadastroUnidadeAdm .adminFotoPadraoUnidade {
         height: 80px;
         width: 120px;
     }
 
-    #cadastroUnidade .adminCadastroUnidade_Secao {
+    #cadastroUnidadeAdm .adminCadastroUnidade_Secao {
         gap: 10px;
     }
 
 
 
-    #cadastroUnidade .cadastroUnidade_Centralizar {
+    #cadastroUnidadeAdm .cadastroUnidade_Centralizar {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -282,7 +283,7 @@
 
     }
 
-    #cadastroUnidade .posicao_linha {
+    #cadastroUnidadeAdm .posicao_linha {
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -290,76 +291,76 @@
     }
 
 
-    #cadastroUnidade .primeira_linha {
+    #cadastroUnidadeAdm .primeira_linha {
         display: flex;
         gap: 5px;
         flex-direction: column;
 
     }
 
-    #cadastroUnidade .segunda_linha {
+    #cadastroUnidadeAdm .segunda_linha {
         display: flex;
         gap: 5px;
         flex-direction: column
     }
 
-    #cadastroUnidade .terceira_linha {
+    #cadastroUnidadeAdm .terceira_linha {
         display: flex;
         gap: 5px;
         flex-direction: column
     }
 
-    #cadastroUnidade .quarta_linha {
+    #cadastroUnidadeAdm .quarta_linha {
         display: flex;
         gap: 5px;
         flex-direction: column
     }
 
-    #cadastroUnidade .quinta_linha {
+    #cadastroUnidadeAdm .quinta_linha {
         display: flex;
         gap: 5px;
         flex-direction: column
     }
 
 
-    #cadastroUnidade .input1 {
+    #cadastroUnidadeAdm .input1 {
         flex: 1;
 
     }
 
-    #cadastroUnidade .input2 {
+    #cadastroUnidadeAdm .input2 {
         flex: 1;
     }
 
-    #cadastroUnidade .input3,
-    #cadastroUnidade .input4,
-    #cadastroUnidade .input5 {
+    #cadastroUnidadeAdm .input3,
+    #cadastroUnidadeAdm .input4,
+    #cadastroUnidadeAdm .input5 {
         flex: 1;
     }
 
-    #cadastroUnidade .input6,
-    #cadastroUnidade .input7 {
+    #cadastroUnidadeAdm .input6,
+    #cadastroUnidadeAdm .input7 {
         flex: 1;
     }
 
-    #cadastroUnidade .input8,
-    #cadastroUnidade .input9 {
+    #cadastroUnidadeAdm .input8,
+    #cadastroUnidadeAdm .input9 {
         flex: 1;
     }
 
-    #cadastroUnidade .input10 {
+    #cadastroUnidadeAdm .input10 {
         flex: 1;
     }
 
-    #cadastroUnidade .input8,
-    #cadastroUnidade .input9,
-    #cadastroUnidade .input10{
+    #cadastroUnidadeAdm .input8,
+    #cadastroUnidadeAdm .input9,
+    #cadastroUnidadeAdm .input10{
         width: 100%;
     }
 
-    #cadastroUnidade .input_caixa, 
-    #cadastroUnidade .button_salvar button,
-    #cadastroUnidade .button_salvar {
+    #cadastroUnidadeAdm .input_caixa, 
+    #cadastroUnidadeAdm .button_salvar button,
+    #cadastroUnidadeAdm .button_salvar {
       width: 100%;
     }
 
@@ -367,7 +368,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    #cadastroUnidade .adminCadastroUnidade_Secao H1 {
+    #cadastroUnidadeAdm .adminCadastroUnidade_Secao H1 {
         font-size: 28px;
         margin-top: 100px;
     }
@@ -375,12 +376,12 @@
 }
 
 @media screen and (max-width: 400px) {
-    #cadastroUnidade .adminCadastroUnidade_Secao H1 {
+    #cadastroUnidadeAdm .adminCadastroUnidade_Secao H1 {
         font-size: 25px;
         margin-top: 110px;
     }
 
-    #cadastroUnidade .cadastroUnidade_Centralizar {
+    #cadastroUnidadeAdm .cadastroUnidade_Centralizar {
         display: flex;
         flex-direction: column;
         gap: 10px;

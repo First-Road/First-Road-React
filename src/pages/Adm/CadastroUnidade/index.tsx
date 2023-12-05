@@ -1,11 +1,11 @@
-import './style.css';
+import './cadastroUnidade.css';
 import AsideAdm from '../../../components/AsideAdm';
 
 
 function CadastroUNidade() {
 
     return (
-        <main id='cadastroUnidade'>
+        <main id='cadastroUnidadeAdm'>
             <AsideAdm/>
             <div className="adminCadastroUnidade">
                 <div className="CadastroUnidade_Secao">

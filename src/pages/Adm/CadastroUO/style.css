@@ -1,7 +1,11 @@
 #cadastro_UO {
     display: flex;
     min-height: 100vh;
-    background-color: var(--grayscale-cor-2);
+    background-color: var(--grayscale-cor-3);
+}
+
+tr{
+    border: 0px;
 }
 
 
@@ -14,6 +18,8 @@
     justify-content: center;
     align-items: center;
 }
+
+
 
 #cadastro_UO .adminCadastroUO_Secao {
     display: flex;
@@ -115,7 +121,7 @@
     height: 30px;
     border-radius: 8px;
     background-color: var(--principal-cor-3);
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 18px;
     color: var(--grayscale-cor-3);
     border: none;
@@ -129,7 +135,7 @@
     height: 30px;
     border-radius: 8px;
     background-color: var(--principal-cor-3);
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 18px;
     color: var(--grayscale-cor-3);
     border: none;
@@ -143,7 +149,7 @@
     height: 30px;
     border-radius: 8px;
     background-color: var(--principal-cor-3);
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 18px;
     color: var(--grayscale-cor-3);
     border: none;
@@ -172,14 +178,14 @@
 
 #cadastro_UO .input_caixa {
     border-radius: 8px;
-    height:25px;
-    border: 1px solid var(--principal-cor-3);
+    height:30px;
+    border: 2px solid var(--black-input);
     background-color: var(--grayscale-cor-3);
 }
 
 #cadastro_UO .input label {
     text-transform: uppercase;
-    color: var(--principal-cor-3);
+    color: var(--principal-cor-1);
     font-size: 12px;
 }
 
@@ -196,9 +202,6 @@
 #cadastro_UO table {
     background-color: var(--grayscale-cor-3);
     color: var(--principal-cor-3);
-    display: table-cell;
-
-
 }
 
 
@@ -207,29 +210,16 @@
 
 
 #cadastro_UO table th {
-    border-bottom: 3px solid;
     text-transform: capitalize;
-    font-family: var(--font-2);
+    font-family: var(--font-3);
     font-size: 12px;
     font-weight: 500;
     border-color: var(--grayscale-cor-4);
-
-
-
 }
 
 #cadastro_UO table td {
-    border: 1px solid var(--grayscale-cor-4);
     border-collapse: collapse;
-
-
-
 }
-
-#cadastro_UO .tr_one {
-    border-bottom: 1px solid var(--grayscale-cor-2);
-}
-
 
 #cadastro_UO th {
     text-align: left;
@@ -242,19 +232,10 @@
 
 #cadastro_UO td {
     padding-left: 4px;
-
-
-
 }
 
-#cadastro_UO .td_one {
-     width: 200px;
-}
 
-#cadastro_UO .td_two {
-     width: 400px; 
 
-}
 
 #cadastro_UO .td_tableimg {
     width: 120px;
@@ -264,7 +245,6 @@
 #cadastro_UO .CadastroUOIcons{
     display: flex;
     gap: 10px;
-
 }
 
 #cadastro_UO .icon {
@@ -281,7 +261,6 @@
     #cadastro_UO .adminCadastroUO_Secao H1 {
         font-size: 40px;
         margin-top: 10px;
-
     }
 }
 
