@@ -4,7 +4,19 @@ import fotoPadrao from '../../../assets/icons/fotopadrao_user_aside.svg'
 import AsideAdm from '../../../components/AsideAdm'
 
 
+
+
+
+
 function CadastrarPerfil() {
+
+  
+
+
+
+
+
+  
   return(
     <main id='cadastrarPerfil'>
        <AsideAdm />

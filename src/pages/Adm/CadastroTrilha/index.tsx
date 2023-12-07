@@ -2,6 +2,8 @@ import './style.css'
 import AsideAdm from '../../../components/AsideAdm';
 
 function CadastroTrilha() {
+
+    
     return (
         <main id="cadastroTrilha">
             <AsideAdm />

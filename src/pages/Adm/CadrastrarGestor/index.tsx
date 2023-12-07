@@ -8,14 +8,27 @@ import lapis from "../../../assets/icons/icon_lapis_main.svg";
 import fotopadrao from "../../../assets/icons/fotopadrao_user_aside.svg";
 import React, { useState } from "react";
 import AsideAdm from "../../../components/AsideAdm";
+import api from "../../../utils/api";
 
 function CadastroGestor() {
+
+  const [unidades, setUnidades] = useState<string[]>(
+    [
+        "São Bernardo do Campo",
+        "Resende",
+        "São José dos Pinhais",
+        "Taubaté",
+        "São Carlos"
+    ]
+
+  );
+  const [select, setSelect] = useState<string>("");
   const [foto, setFoto] = useState<any>("");
   const [nome, setNome] = useState<string>("");
   const [nif, setNif] = useState<string>("");
   const [dataNascimento, setDataNascimento] = useState<string>("");
-  const [unidade, setUnidade] = useState<string>("");
-  const [perfil, setPerfil] = useState<string>("Selecione");
+  const [unidade, setUnidade] = useState<string>("Selecione");
+  const [perfil, setPerfil] = useState<string>("Gestor");
   const [cargo, setCargo] = useState<string>("");
   const [email, setEmail] = useState<string>("");
 
@@ -33,15 +46,16 @@ function CadastroGestor() {
     formData.append("Cargo", cargo);
     formData.append("Email", email);
 
-    console.log({
-      nome,
-      nif,
-      dataNascimento,
-      unidade,
-      perfil,
-      cargo,
-      email,
-    });
+    api.post("users", formData)
+    .then((response: any) => {
+        console.log(response);
+        alert("Usuário cadastrado com sucesso!");
+    })
+    .catch((error: any) => {
+        console.log(error);
+        alert("Falha ao cadastrar um novo usuário");
+    })
+
   }
 
   function verificarFoto(event: any) {
@@ -59,7 +73,7 @@ function CadastroGestor() {
             <h1 className="titulo1">Cadastro Gestor</h1>
           </div>
           <div className="user_configgestor ">
-            <img className="gestor_FotoPadrao" src={fotopadrao} alt="" />
+            <img className="gestor_FotoPadrao" src={fotopadrao} alt=""  onChange={verificarFoto} />
           </div>
           <div className="gestorPerfil_texto_imagem">
             <div className="centralizar">
@@ -72,9 +86,8 @@ function CadastroGestor() {
                         className="input_caixa"
                         type="text"
                         placeholder="Digite o nome completo do colaborador"
-                        onChange={(e) => {
-                          setNome(e.target.value);
-                        }}
+                        onChange={(e) => setNome(e.target.value)}
+                        
                         required
                       />
                     </div>
@@ -113,9 +126,9 @@ function CadastroGestor() {
                         name="selecionar"
                         id=""
                         placeholder="Selecione"
-                        onChange={(e) => {
-                          setUnidade(e.target.value);
-                        }}
+                        onChange={(e) => setSelect(e.target.value)}
+                         defaultValue={select}
+                        
                         required
                       >
                         <option selected disabled value="Selecione">Selecione</option>
@@ -149,7 +162,7 @@ function CadastroGestor() {
                   <div className="terceira_linha">
                     <div className="input input6">
                       <label htmlFor="Perfil">Perfil</label>
-                      <select className="select_perfil" name="Perfil" id="">
+                      <select className="select_perfil" name="Perfil" id=""  onChange={(e) => setSelect(e.target.value)} >
                         <option selected  className="Colaborador_selecao" disabled value="Colaborador">Colaborador</option>
                       </select>
                   </div>    
