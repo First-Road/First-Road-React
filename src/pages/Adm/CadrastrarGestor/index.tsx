@@ -27,7 +27,6 @@ function CadastroGestor() {
   const [nome, setNome] = useState<string>("");
   const [nif, setNif] = useState<string>("");
   const [dataNascimento, setDataNascimento] = useState<string>("");
-  const [unidade, setUnidade] = useState<string>("Selecione");
   const [perfil, setPerfil] = useState<string>("Gestor");
   const [cargo, setCargo] = useState<string>("");
   const [email, setEmail] = useState<string>("");
@@ -41,7 +40,7 @@ function CadastroGestor() {
     formData.append("Nome", nome);
     formData.append("Nif", nif);
     formData.append("DataNascimento", dataNascimento);
-    formData.append("Unidade", unidade);
+    formData.append("Unidade", select);
     formData.append("Perfil", perfil);
     formData.append("Cargo", cargo);
     formData.append("Email", email);
@@ -60,7 +59,6 @@ function CadastroGestor() {
 
   function verificarFoto(event: any) {
     console.log(event.target.files[0]);
-    //setFoto atualiza o state foto com o valor da foto
     setFoto(event.target.files[0]);
   }
 
@@ -78,7 +76,7 @@ function CadastroGestor() {
           <div className="gestorPerfil_texto_imagem">
             <div className="centralizar">
               <div className="posicao_linha">
-                <form action="" method="POST" onSubmit={CadastroGestor}>
+                <form action="" method="POST" onSubmit={CadastrarDados}>
                   <div className="primeira_linha">
                     <div className="input input1">
                       <label htmlFor="Nome completo">Nome Completo</label>
@@ -162,7 +160,7 @@ function CadastroGestor() {
                   <div className="terceira_linha">
                     <div className="input input6">
                       <label htmlFor="Perfil">Perfil</label>
-                      <select className="select_perfil" name="Perfil" id=""  onChange={(e) => setSelect(e.target.value)} >
+                      <select className="select_perfil" name="Perfil" id=""  onChange={(e) => setPerfil(e.target.value)} >
                         <option selected  className="Colaborador_selecao" disabled value="Colaborador">Colaborador</option>
                       </select>
                   </div>    
