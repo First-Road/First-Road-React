@@ -1,12 +1,51 @@
 import './style.css'
 
 import AsideAdm from '../../../components/AsideAdm'
+import { useState } from 'react';
 
 
 function GestaoUO() {
+    const [perfis, setPerfis] = useState<string[]>(
+        [
+            "Colaborador",
+            "Gestor",
+            "Administrador Master",
+            
+        ]
+    );
+
+    const [situação, setSituaçao] = useState<string[]>(
+        [
+            "Em Andamento",
+            "Inativo",
+            "Concluido", 
+        ]
+    
+    );
+
+    const [unidades, setUnidades] = useState<string[]>(
+        [
+            "São Bernardo do Campo",
+            "Resende",
+            "São José dos Pinhais",
+            "Taubaté",
+            "São Carlos"
+        ]
+    );
+
+    // const [nome, setNome] = useState<string>("");
+    // const [nif, setNif] = useState<string>("");
+    // const [perfil, setPerfil] = useState<string>("Gestor");
+    // const [unidade, setUnidade] = useState<string>("Selecione");
+    
+
+    
+
+
+
+    
 
     return (
-
         <main id='gestaoUO'>
             <AsideAdm />
             <div className="adminGestaoUO">
@@ -87,6 +126,7 @@ function GestaoUO() {
                                             </div>
                                         </td>
                                     </tr>
+
                                     <tr>
                                         <td className="td_one" data-cell="Departamento">
                                             Administrativo
@@ -129,6 +169,7 @@ function GestaoUO() {
                                             </div>
                                         </td>
                                     </tr>
+                                    
                                     <tr>
                                         <td className="td_one" data-cell="Departamento">
                                             Administrativo

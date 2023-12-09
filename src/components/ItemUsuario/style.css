@@ -1,0 +1,446 @@
+#gestaoUsuario {
+    display: flex;
+    height: 100%;
+    background-color: var(--grayscale-cor-2);
+
+}
+
+
+#gestaoUsuario .adminGestaoUsuario {
+    width: 80%;
+    background-color: var(--grayscale-cor-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#gestaoUsuario .adminGestao_By {
+    background-color: var(--grayscale-cor-3);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+
+#gestaoUsuario .adminGestao_By h1 {
+    font-size: 40px;
+    font-family: var(--font-2);
+    color: var(--principal-cor-3);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+#gestaoUsuario .adminGestao_Ry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+#gestaoUsuario .adminGestao_Ray {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+
+
+#gestaoUsuario .input1 label {
+    font-family: var(--font2);
+    font-size: 12px;
+    color: var(--principal-cor-3);
+}
+
+#gestaoUsuario .input1 select {
+    height: 30px;
+    width: 100%;
+    max-width: 250px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+
+
+#gestaoUsuario .input2 label {
+    font-family: var(--font2);
+    font-size: 12px;
+    color: var(--principal-cor-3);
+}
+
+#gestaoUsuario .input2 select {
+    height: 30px;
+    width: 100%;
+    max-width: 250px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+
+#gestaoUsuario .input3 label {
+    font-family: var(--font2);
+    font-size: 12px;
+    color: var(--principal-cor-3);
+}
+
+#gestaoUsuario .input3 select {
+    height: 30px;
+    width: 100%;
+    max-width: 250px;
+    border-color: var(--principal-cor-3);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+    color: var(--principal-cor-3);
+}
+
+
+
+
+#gestaoUsuario .posicao_linha {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+#gestaoUsuario .primeira_linha {
+    display: flex;
+    gap: 10px;
+
+}
+
+#gestaoUsuario .input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+
+
+}
+
+#gestaoUsuario .input1 {
+    flex: 1;
+
+}
+
+#gestaoUsuario .input2 {
+    flex: 1;
+}
+
+#gestaoUsuario .input3 {
+    flex: 1;
+}
+
+
+#gestaoUsuario .delete_table img,
+#gestaoUsuario .delete_table {
+    height: 50px;
+    width: 50px;
+    margin-left: -6px;
+
+}
+
+#gestaoUsuario table {
+    width: 100%;
+    background-color: var(--grayscale-cor-3);
+    color: var(--principal-cor-3);
+}
+
+
+
+#gestaoUsuario table th {
+    border-bottom: 3px solid red;
+    text-transform: capitalize;
+    font-family: var(--font2);
+    font-size: 20px;
+    font-weight: normal;
+    border-color: var(--grayscale-cor-4);
+
+}
+
+#gestaoUsuario table td {
+    border: 1px solid var(--grayscale-cor-4);
+    border-collapse: collapse;
+
+
+
+}
+
+#gestaoUsuario .btn_cadastrar {
+    width: 200px;
+    padding: 6px 25px;
+    background-color: var(--principal-cor-3);
+    color: var(--grayscale-cor-4);
+    border: none;
+    font-family: var(--font2);
+    font-size: 18px;
+    font-weight: normal;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 8px;
+
+
+}
+
+#gestaoUsuario .tr_one {
+    border-bottom: 1px solid var(--grayscale-cor-2);
+}
+
+
+#gestaoUsuario th {
+    text-align: left;
+    padding-right: 10px;
+    height: 40px;
+
+}
+
+
+
+#gestaoUsuario td {
+    padding-left: 4px;
+
+
+
+}
+
+#gestaoUsuario table tr {
+    height: 45px;
+}
+
+#gestaoUsuario .nif_td {
+    width: 100px;
+}
+
+#gestaoUsuario .perfil_td {
+    width: 120px;
+}
+
+#gestaoUsuario .unidade_td {
+    width: 180px;
+
+}
+
+#gestaoUsuario .td_tableimg {
+    width: 175px;
+}
+
+#gestaoUsuario .tableIcons {
+    display: flex;
+    gap: 10px;
+}
+
+#gestaoUsuario .th_table {
+    align-items: right;
+
+}
+
+#gestaoUsuario .delete_table {
+    align-items: right;
+
+}
+
+#gestaoUsuario .th_tableimg,
+.td_tableimg {
+    width: 2vw;
+}
+
+#gestaoUsuario label,
+select {
+    vertical-align: middle;
+}
+
+#gestaoUsuario .chart_img {
+    height: 28px;
+    width: 28px;
+    fill: #025E73;
+}
+
+#gestaoUsuario .icon {
+    height: 25px;
+    width: 25px;
+    fill: var(--principal-cor-3);
+}
+
+#gestaoUsuario .calender_img {
+    height: 28px;
+    width: 28px;
+    fill: #025E73;
+}
+
+#gestaoUsuario .ban_img {
+    height: 28px;
+    width: 28px;
+    fill: #025E73;
+
+}
+
+@media screen and (max-width:1200px) {
+
+    #gestaoUsuario .adminGestao_By h1 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+
+
+    #gestaoUsuario .adminGestao_Ry {
+
+        width: 80%;
+
+    }
+
+
+    #gestaoUsuario .adminGestao_Ray {
+       width: 100%;
+    }
+
+
+    #gestaoUsuario thead {
+        display: none;
+
+    }
+
+    #gestaoUsuario table {
+        display: block;
+        width: 100%;
+    }
+
+    #corpo-tabela-usuario {
+        display: block;
+    }
+
+    #gestaoUsuario table td {
+        border: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #gestaoUsuario td>div {
+        display: flex;
+        gap: 10px
+    }
+
+    #gestaoUsuario .nif_td,
+    #gestaoUsuario .perfil_td,
+    #gestaoUsuario .unidade_td {
+        width: 100%;
+    }
+
+    #gestaoUsuario table tr {
+        height: auto;
+    }
+
+    #gestaoUsuario tr {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #e1e1e1;
+        border-radius: 8px;
+        margin: 10px 0;
+        height: auto;
+        padding: 10px;
+    }
+
+    #gestaoUsuario td::before {
+        content: attr(data-cell)": ";
+    }
+
+    #gestaoUsuario .td_tableimg,
+    #gestaoUsuario .th_table {
+        width: auto;
+    }
+
+
+
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    body {
+        /* overflow: scroll; */
+        height: 100vh;
+    }
+
+    #sombra {
+        height: 100vh;
+        width: 100vw;
+        background-color: #0000004f;
+        position: fixed;
+        top: 0;
+        right: 110vw;
+        overflow: hidden;
+        transition: .5s;
+        backdrop-filter: blur(10px);
+    }
+
+    #gestaoUsuario .adminGestaoUsuario {
+        width: 100%;
+        background-color: var(--grayscale-cor-3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+    #gestaoUsuario .adminGestao_By h1 {
+        font-size: 28px;
+        margin-top: 2px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #gestaoUsuario .adminGestao_By h1 {
+        font-size: 24px;
+        margin-top: 2px;
+    }
+
+#gestaoUsuario .input1 select,#gestaoUsuario .input2 select, #gestaoUsuario .input3 select {
+    height: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+}
+
+
+@media screen and (max-width: 400px) {
+
+    #gestaoUsuario .adminGestao_By h1 {
+        font-size: 20px;
+        margin-top: 2px;
+    }
+}
