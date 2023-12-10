@@ -27,9 +27,7 @@ function GestaoUsuario() {
         })
         .catch((error: any) => {
             console.log("Error ao realizar um requisição", error);
-        })
-
-        
+        })   
     }
 
     return (
