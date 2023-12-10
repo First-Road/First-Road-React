@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route,} from "react-router-dom";
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
 
 
 
@@ -57,18 +57,18 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <BrowserRouter>
 
       <Routes>
-
+        <Route path='/' element={<Login />} />
         <Route path='/login' element={<Login />} />
         <Route path='/admTermos' element={<Termos />} />
-        <Route path='/resetaSenha' element={<ResetaSenha />} /> 
+        <Route path='/resetaSenha' element={<ResetaSenha />} />
 
 
         <Route path='/gestaoUsuario' element={<GestaoUsuario />} />
-        <Route path='/cadastroUnidade' element={<CadastroUNidade/>} />
+        <Route path='/cadastroUnidade' element={<CadastroUNidade />} />
         <Route path='/gestaoUnidade' element={<GestaoUnidade />} />
-        <Route path='/cadastroUO' element={<CadastroUO/>} />
-        <Route path='/cadastroConteudo' element={<CadastroConteudo/>} />
-        <Route path='/cadastroTrilha' element={<CadastroTrilha/>} />
+        <Route path='/cadastroUO' element={<CadastroUO />} />
+        <Route path='/cadastroConteudo' element={<CadastroConteudo />} />
+        <Route path='/cadastroTrilha' element={<CadastroTrilha />} />
         <Route path='/perfil' element={<PerfilConectado />} />
         <Route path='/editar' element={<EditarPerfil />} />
         <Route path='/cadastrar' element={<CadastrarPerfil />} />
@@ -76,28 +76,28 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/cadastroGestor' element={<CadastrarGestor />} />
 
 
-        <Route path='/CertificadoColaborador'  element={<CertificadoColaborador/>}/>
-        <Route path='/ParabensColaborador'  element={<ParabensColaborador/>}/>
-        <Route path='/SuporteColaborador'  element={<SuporteColaborador/>}/>
-        <Route path='/ConteudoColaborador'  element={<ConteudoColaborador/>}/>
-        <Route path='/TrilhaColaborador'  element={<TrilhaColaborador/>}/>
-        <Route path='/AvatarColaborador'  element={<AvatarColaborador/>}/>
-        <Route path='/PerfilColaborador'  element={<PerfilColaborador/>}/>
-        <Route path='/PesquisaSatisfacaoColaborador'  element={<PesquisaSatisfacaoColaborador/>}/>
-        <Route path='/HomeColaborador'  element={<HomeColaborador/>}/>
+        <Route path='/CertificadoColaborador' element={<CertificadoColaborador />} />
+        <Route path='/ParabensColaborador' element={<ParabensColaborador />} />
+        <Route path='/SuporteColaborador' element={<SuporteColaborador />} />
+        <Route path='/ConteudoColaborador' element={<ConteudoColaborador />} />
+        <Route path='/TrilhaColaborador' element={<TrilhaColaborador />} />
+        <Route path='/AvatarColaborador' element={<AvatarColaborador />} />
+        <Route path='/PerfilColaborador' element={<PerfilColaborador />} />
+        <Route path='/PesquisaSatisfacaoColaborador' element={<PesquisaSatisfacaoColaborador />} />
+        <Route path='/HomeColaborador' element={<HomeColaborador />} />
         <Route path='/VisualizarCertificadosColaborador' element={<VisualizarCertificadosColaborador />} />
-        
-          
-        <Route path='/perfil/gestor' element={<PerfilGestor/>}/>
-        <Route path='/gestao/cadastro' element={<GestaoCadastro/>}/>
-        <Route path='/cadastro/colaborador' element={<CadastroColaborador/>}/>
-        <Route path='/gestao/dashboard' element={<GestaoDashboard/>}/>
-        <Route path='/suporte/gestor' element={<SuporteGestor/>}/>
-        <Route path='/trilha/gestor' element={<TrilhaGestor/>}/>
-        <Route path='/editar/colaborador' element={<EditarColaborador/>}/>
-        <Route path='/dashboard' element={<Dashboard/>}/>
-        
-        
+
+
+        <Route path='/perfil/gestor' element={<PerfilGestor />} />
+        <Route path='/gestao/cadastro' element={<GestaoCadastro />} />
+        <Route path='/cadastro/colaborador' element={<CadastroColaborador />} />
+        <Route path='/gestao/dashboard' element={<GestaoDashboard />} />
+        <Route path='/suporte/gestor' element={<SuporteGestor />} />
+        <Route path='/trilha/gestor' element={<TrilhaGestor />} />
+        <Route path='/editar/colaborador' element={<EditarColaborador />} />
+        <Route path='/dashboard' element={<Dashboard />} />
+
+
       </Routes>
     </BrowserRouter>
 
