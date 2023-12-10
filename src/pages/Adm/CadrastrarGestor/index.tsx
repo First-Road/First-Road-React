@@ -36,16 +36,16 @@ function CadastroGestor() {
 
     const formData = new FormData();
 
-    formData.append("Foto", foto);
-    formData.append("Nome", nome);
-    formData.append("Nif", nif);
-    formData.append("DataNascimento", dataNascimento);
-    formData.append("Unidade", select);
-    formData.append("Perfil", perfil);
-    formData.append("Cargo", cargo);
-    formData.append("Email", email);
+    formData.append("url_imagem", foto);
+    formData.append("nome", nome);
+    formData.append("nif", nif);
+    formData.append("data_nascimento", dataNascimento);
+    formData.append("id_unidade.complemento", select);
+    formData.append("titulo_tipo_usuario", perfil);
+    formData.append("cargo.nome_cargo", cargo);
+    formData.append("email", email);
 
-    api.post("users", formData)
+    api.post("usuarios", formData)
     .then((response: any) => {
         console.log(response);
         alert("Usuário cadastrado com sucesso!");
@@ -76,7 +76,7 @@ function CadastroGestor() {
           <div className="gestorPerfil_texto_imagem">
             <div className="centralizar">
               <div className="posicao_linha">
-                <form action="" method="POST" onSubmit={CadastrarDados}>
+                <form className="form_cadastroGestor" action="" method="POST" onSubmit={CadastrarDados}>
                   <div className="primeira_linha">
                     <div className="input input1">
                       <label htmlFor="Nome completo">Nome Completo</label>
@@ -129,7 +129,7 @@ function CadastroGestor() {
                         
                         required
                       >
-                        <option selected disabled value="Selecione">Selecione</option>
+                        <option value="Selecione">Selecione</option>
                         <option
                           value="São Bernardo do Campo"
                           aria-placeholder="São Bernardo do Campo"

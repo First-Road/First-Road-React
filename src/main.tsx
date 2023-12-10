@@ -31,7 +31,7 @@ import GestaoUsuario from './pages/Adm/GestaoUsuario';
 import SuporteColaborador from './pages/Colaborador/SuporteColaborador';
 import ParabensColaborador from './pages/Colaborador/ParabensColaborador';
 import AvatarColaborador from './pages/Colaborador/AvatarColaborador';
-import PerfilColaborador from './pages/Colaborador/PerfilColaborador/intex';
+import PerfilColaborador from './pages/Colaborador/PerfilColaborador';
 import PesquisaSatisfacaoColaborador from './pages/Colaborador/PequisaSatisfacaoColaborador';
 import HomeColaborador from './pages/Colaborador/HomeColaborador';
 import CertificadoColaborador from './pages/Colaborador/CertificadoColaborador';

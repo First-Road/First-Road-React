@@ -35,7 +35,8 @@
     
     
 }
-h2{
+
+.text_exp{    
     font-size: 30px;
     font-family:var(--font-2);
     color: var(--auxiliar-cor-3);
@@ -43,7 +44,7 @@ h2{
 }
 
 
-textarea {
+.caixa_msg{
     display: flex;
     width: 750px;
     height: 200px;
@@ -51,8 +52,6 @@ textarea {
     align-items: center;
     border-radius: 10px;
     border: var(--principal-cor-1) solid;
-
-
 }
 
 .botao_enviar{
@@ -78,11 +77,11 @@ textarea {
 }
 
 @media screen and (max-width:1000px){
-    h1{
+    .tituloPesquisaSatisfacao{
         font-size: 45px;
     }
 
-    h2{
+    .text_exp{
         font-size: 25px;
     }
 }
@@ -164,124 +163,21 @@ textarea {
 }
 
 @media screen and (max-width:630px){
-    h1{
+    .tituloPesquisaSatisfacao{
         font-size: 25px;
     }
 
-    h2{
+    .text_exp{
         font-size: 15px;
     }
 
-    textarea{
+    .caixa_msg{
         width: 350px;
     }
 }
 
-@media screen and (max-width: 500px) {
-    /* .imagem_volks img{ */
-        /* width: 50px;
-    }
-
-    .posicionamento_elementos2{
-        margin-bottom: 150px;
-       
-    }
-
-   
-    .moldura_config{
-        width: 45px;
-       
-        
-    }
-
-    .config{
-        width: 13px;
-    }
-
-
-    .menu_conteudo img{
-        width: 25px;
-        height: 25px;
-    }
-
-    .menu_conteudo span{
-        font-size: 10px;
-
-    }
-
-    .menu_conteudo a {
-        gap: 3px;
-
-
-    }
-
-    .div_logofirst img{
-        width: 80px;
-    }
-
-    .div_logofirst a .saida{
-        width: 20px;
-    } */
-
-
-
-
-   
-        
-    
-
-
-    
-}
-
 @media screen and (max-width: 400px) {
-
-    /* .imagem_volks img{
-        width: 40px;
-    }
-
-    .posicionamento_elementos2{
-        margin-bottom: 150px;
-       
-    }
-
-   
-    .moldura_config{
-        width: 35px;
-       
-        
-    }
-
-    .config{
-        width: 10px;
-    }
-
-
-    .menu_conteudo img{
-        width: 20px;
-        height: 20px;
-    }
-
-    .menu_conteudo span{
-        font-size: 6px;
-
-    }
-
-    .menu_conteudo a {
-        gap: 0;
-
-
-    }
-
-    .div_logofirst img{
-        width: 60px;
-    }
-
-    .div_logofirst a .saida{
-        width: 20px;
-    } */
-
-    textarea{
+    .caixa_msg{
         width: 280px;
         height: 150px;
     }
@@ -290,7 +186,7 @@ textarea {
         font-size: 20px;
     }
 
-    h2{
+    .text_exp{
         font-size: 12px;
     }
 }

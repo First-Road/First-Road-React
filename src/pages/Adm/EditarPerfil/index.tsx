@@ -30,7 +30,7 @@ function PerfilGestor() {
 
     function buscarUsuarioPorID() {
         //estrutura basica para consumir API
-        api.get("users/" + idUsuario)
+        api.get("usuarios/" + idUsuario)
             .then((response: any) => {
                 console.log(response);
 
@@ -39,8 +39,8 @@ function PerfilGestor() {
                 setNif(response.data.nif)
                 setFoto(response.data.user_img);
                 setEmail(response.data.email);
-                setDataNascimento(response.data.nascimento);
-                setUnidade(response.data.unidade);
+                setDataNascimento(response.data.data_nascimento);
+                setUnidade(response.data.id_unidade.complemento);
                 setPerfil(response.data.perfil);
                 setCargo(response.data.cargo);
 
@@ -65,7 +65,7 @@ function PerfilGestor() {
           <div className="gestorPerfil_texto_imagem">
             <div className="centralizar">
               <div className="posicao_linha">
-                <form action="" method="POST" onSubmit={PerfilGestor}>
+                <form className="form_adm" action="" method="POST" onSubmit={PerfilGestor}>
                   <div className="primeira_linha">
                     <div className="input input1">
                       <label htmlFor="Nome completo">Nome Completo</label>

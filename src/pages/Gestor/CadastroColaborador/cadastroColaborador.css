@@ -85,7 +85,7 @@
     width: 50vw;
 }
 
-form{
+#Cadastro_colaboradorGestor .form_cadastroColaborador{
     display: flex;
     flex-direction: column;
     gap: 30px;

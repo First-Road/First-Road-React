@@ -85,7 +85,7 @@
     width: 50vw;
 }
 
-form{
+#Cadastrar_Gestor .form_cadastroGestor{
     display: flex;
     flex-direction: column;
     gap: 30px;

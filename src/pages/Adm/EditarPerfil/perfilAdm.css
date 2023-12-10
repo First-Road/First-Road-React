@@ -85,7 +85,7 @@
     width: 50vw;
 }
 
-form{
+#perfil_gestor .form_adm{
     display: flex;
     flex-direction: column;
     gap: 30px;

@@ -63,7 +63,7 @@ function EditarColaborador() {
           <div className="gestorPerfil_texto_imagem">
             <div className="centralizar">
               <div className="posicao_linha">
-                <form action="" method="POST" onSubmit={EditarColaborador}>
+                <form className="form_editar" action="" method="POST" onSubmit={EditarColaborador}>
                   <div className="primeira_linha">
                     <div className="input input1">
                       <label htmlFor="Nome completo">Nome Completo</label>

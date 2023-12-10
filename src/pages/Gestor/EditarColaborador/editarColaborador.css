@@ -85,7 +85,7 @@
     width: 50vw;
 }
 
-form{
+#Editar_colaboradorGestor .form_editar{
     display: flex;
     flex-direction: column;
     gap: 30px;

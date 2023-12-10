@@ -1,10 +1,14 @@
 import './log.css'
-import { Link } from 'react-router-dom';
-import LogoColorido from "../../assets/img/Logo_FirstRoad_Vertical_Colorido.png"
+import { Link, useNavigate } from 'react-router-dom';
+
 import React, { useState } from 'react';
 /* import PerfilGestor from '../Gestor/PerfilGestor';
 import PerfilConectado from '../PerfilConectadoStatic';
 import HomeColaborador from '../HomeColaborador'; */
+import belaVista from "../../assets/img/bela-vista-de-uma-estrada-ao-nascer-do-sol-no-inicio-da-manha.jpg";
+import logo from "../../assets/img/Group 39.png";
+import secureLocalStorage from 'react-secure-storage';
+import api from '../../utils/api';
 
 
 
@@ -13,105 +17,90 @@ function Login() {
 
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
-    const [logado, setLogado] = useState(false);
     const [tipoUsuario, setTipoUsuario] = useState('');
 
 
-    const EntradaPerfil = () => {
-        // Valores de email e senha definidos
-        const users = [
-            { email: 'admmaster@vw.com', senha: 'adm123', tipoUsuario: 'administrador' },
-            { email: 'gestor@vw.com', senha: 'gestor123', tipoUsuario: 'gestor' },
-            { email: 'colaborador@vw.com', senha: 'colaborador123', tipoUsuario: 'colaborador' },
-        ];
+    const navigate = useNavigate();
 
-        const usuarioBuscado = users.find((u) => u.email === email && u.senha === senha);
 
-        if (usuarioBuscado) {
-            // Autenticação bem-sucedida
-            setLogado(true);
-            setTipoUsuario(usuarioBuscado.tipoUsuario);
-        } else {
-            // Autenticação falhou
-            alert('Email ou senha incorretos');
-        }
+    function realizarAutenticacao(event: any) {
+        event.preventDefault();
 
-        console.log({
-            email,
-            tipoUsuario,
-                     
-          });
-    };
+        const usuario = {
+            email: email,
+            senha: senha,
+            tipoUsuario: tipoUsuario
+        };
 
-    if (logado) {
-        // Redirecione o usuário com base no tipo de usuário
-        switch (tipoUsuario) {
-            case 'administrador':
-                return <Link to={"../PerfilConectadoStatic/index.tsx"} />;
-            case 'gestor':
-                return <Link to={"../Gestor/PerfilGestor/index.tsx"} />;
-            case 'colaborador':
-                return <Link to={"/HomeColaborador"} />;
-            default:
-                break;
-        }
+        api.post("usuarios", usuario)
+            .then((response: any) => {
+                console.log(response.data);
+                secureLocalStorage.setItem("email", response.data.email);
+                secureLocalStorage.setItem("senha", response.data.senha);
+               const local = secureLocalStorage.setItem("tipoUsuario", response.data.id_tipo_usuario.titulo_tipo_usuario);
 
+            // Redirecione o usuário com base no tipo de usuário
+            
+            
+            //redirecionar ao componente perfil
+                navigate("/perfil/" + response.data.user.id);
+                //recarrega a tela
+                navigate(0);
+
+            })
+            .catch((error: any) => {
+                alert("Erro ao tentar se logar! :(");
+            })
 
     }
+    
+        
+
+
+    
 
     return (
 
-        <main id='loginAdm'>
-
-            <div className="login_login">
-
-                <div className="login_one">
-
-                    <img src={LogoColorido} alt="logo first road colorido" />
+        <><main id='login'>
+            <section className='secao_login'>
+                <div className="form-box">
+                    <div className="logoFirst">
+                        <img className="logo" src={logo} alt="logo FirstRoad" />
+                    </div>
+                    <div className="form-value">
+                        <form className="form_login" action="" onSubmit={realizarAutenticacao}>
+                            <h2 className='titulo_login'>Login</h2>
+                            <div className="inputbox">
+                                <input type="email" placeholder="Email" required onChange= {(e) => {
+                                    setEmail(e.target.value)}} />
+                            </div>
+                            <div className="inputbox">
+                                <input type="password" placeholder="Senha" required />
+                            </div>
+                            <div className="esqueceuSenha">
+                                <label htmlFor="">
+                                    <input type="checkbox" />
+                                    Lembrar senha
+                                </label>
+                            </div>
+                            <div className="form_botao">
+                                <button className='btn_login'>Login</button>
+                                <a className="esquecerSenha" href="#">
+                                    Esqueceu Senha
+                                </a>
+                                <div className="registrar">
+                                    <p>
+                                        Precisa de ajuda? <a href="#">Suporte</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div className="login_two">
-                    <h1>Bem vindo!</h1>
-                </div>
-                <div className="login_tree">
-                    <span>Qual foi a última vez que você fez algo pela primeira vez?</span>
-                    <span>Estamos muito feliz em recebê-lo nesta estrada!</span>
-                    <span>Coloque os cintos e acelere!</span>
-                </div>
-            </div>
-            <div className="login_direcional">
-                <div className="login_comandos">
-                    <h2>Acesse sua conta</h2>
-                    <form onSubmit={EntradaPerfil}>
-                        <div>
-                            <label htmlFor="">E-mail</label>
-                            <input
-                                type="text"
-                                placeholder="exemplo@vwb.com"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
-                            />
+            </section>
 
-                            <label htmlFor="">Senha</label>
-                            <input
-                                type="password"
-                                placeholder="******"
-                                value={senha}
-                                onChange={(e) => setSenha(e.target.value)}
-                            />
-                            <button type="submit">Entrar</button>
-                        </div>
-                        <div className="login_ancora">
-                            <Link to={"/resetaSenha"}>Esqueceu sua senha?</Link>
-                            <Link to={"/perfil"}>AdmMaster</Link>
-                            <Link to={"/dashboard"}>Gestor</Link>
-                            <Link to={"/HomeColaborador"}>Colaborador</Link>
+        </main><script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script><script noModule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script></>
 
-                        </div>
-                       
-                    </form>
-                </div>
-            </div>
-        </main>
     )
 
 }
@@ -119,7 +108,7 @@ function Login() {
 export default Login;
 
 
- {/* <button onClick={PerfilConectado}>AdmMaster</button>
+{/* <button onClick={PerfilConectado}>AdmMaster</button>
                         <button onClick={PerfilGestor}>Gestor</button>
                         <button onClick={HomeColaborador}>Colaborador</button> */}
 

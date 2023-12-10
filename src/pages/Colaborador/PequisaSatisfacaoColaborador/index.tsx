@@ -32,8 +32,8 @@ function PesquisaSatisfacaoColaborador(){
         <img src={GosteiMuito} alt="" />
       </a>
     </div>
-    <h2>Conte para nós como foi sua experiência</h2>
-    <textarea name="feedback" id="" cols={30} rows={10} defaultValue={""} />
+    <h2 className="text_exp">Conte para nós como foi sua experiência</h2>
+    <textarea className="caixa_msg" name="feedback" id="" cols={30} rows={10} defaultValue={""} />
     <div className="botao_enviar">
       <a href="#">Enviar Pesquisa</a>
     </div>

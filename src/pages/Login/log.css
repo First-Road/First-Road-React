@@ -1,366 +1,183 @@
-#loginAdm .login_login{
-    height: 100%;
-    width: 60%;
-    background-image: url(../login/assets/img/pexels-gordon-plant-14744195.jpg);
-    background-repeat: no-repeat;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+#login .secao_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width:100%;
+    background: url(../../assets/img/bela-vista-de-uma-estrada-ao-nascer-do-sol-no-inicio-da-manha.jpg)no-repeat;
+    background-position: center;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    
+
+} 
+
+#login .logo{
+    width: 75px;
+    height: 80px;
+    
     
 }
 
-#loginAdm .login_login h1{
-    font-family: var(--font-1);
-    font-size: 60px;
-    color: var(--principal-cor-1);
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-#loginAdm .login_tree{
-    font-size: 25px;
-    font-family: var(--font-2);
-    color: var(--grayscale-cor-3);
-    display: flex;
-    align-items: center;
+#login .form-box{
     flex-direction: column;
-}
-
-#loginAdm .login_direcional{
-    background-color:  var(--grayscale-cor-3);
-    height: 100%;
-    width: 40%;
+    position: relative;
+    width: 500px;
+    height: 560px;
+    background: transparent;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#loginAdm .login_comandos{
-    height: 500px;
-    max-width: 400px;
-    width: 100%;
-    background-color: var(--grayscale-cor-3);
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    border: 3px solid var(--principal-cor-3);
-}
-
-#loginAdm .login_comandos h2{
-    font-family: var(--font-2);
-    font-size: 40px;
-    color: var(--principal-cor-3);
-
-}
-
-#loginAdm .login_comandos label{
-    font-family: var(--font-2);
-    font-size: 20px;
-    color: var(--principal-cor-3);
-    margin-bottom: 10px;
-
-}
-
-#loginAdm .login_comandos input{
-    height: 40px;
-    width: 100%;
-      min-width: 245px;
-    border: 3px solid var(--principal-cor-3);
+    border: 2px solid rgba(255, 255, 255, 0.218);
     border-radius: 10px;
-    margin-top: 5px;
-   
+    backdrop-filter: blur(15px);
+    
+    gap: 15px;
+    
 }
-#loginAdm .login_comandos a{
-    font-family: var(--font-2);
-    font-size: 20px;
-    color: var(--principal-cor-3);
-    text-decoration: none;
-    margin: 5px;
+
+#login .titulo_login{
+    font-size: 1.7em;
+    color: #fff;
+    text-align: center;
+
+}
+#login .inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+    
+}
+
+#login .inputbox ::placeholder{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
 }
 
 
-#loginAdm .login_comandos button{
-    height: 40px;
-    width: 250px;
-    color: var(--grayscale-cor-4);
-    border-radius: 25px;
+#login .inputbox input:focus ~ label,
+input:valid ~ :label{
+    top:  -5px;
+
+}
+
+
+#login .inputbox input{
+    width: 100%;
+    height:50px;
+    background: transparent;
     border: none;
-    font-family: var(--font-2);
-    font-size: 20px;
-    text-transform: uppercase;
-    background-color: var(--principal-cor-3);
-
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
 }
 
-#loginAdm .tipo_login{
-    display: flex;
-    gap: 30px; 
-    margin-top: 50px;
-    align-items: center;
-    
-
+#login .inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
 }
 
-#loginAdm .tipo_login a{
+#login .esqueceuSenha{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 40px;
-    background-color: var(--principal-cor-3);
-    border-radius: 25px;
-    font-family: var(--font-2);
-    font-size: 15px;
-    text-transform: uppercase;
-    color: var(--grayscale-cor-4);
+    justify-content:center;
+
+}
+#login .esqueceuSenha label input{
+    margin-right: 3px;
+    margin-top: 15px;
+}
+
+#login .esqueceuSenha label a{
+    color: #fff;
     text-decoration: none;
+}
+
+
+#login .esqueceuSenha label a:hover{
+    text-decoration: underline;
+}
+#login .form_botao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+
+#login .btn_login{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#login .btn_login:hover{
+    background-color: rgba(128, 255, 0, 0.448);
+    transition: 0.6s;
+    transform: scale(1.1);
 
 }
 
-@media screen and (max-width: 1200px){
-    #loginAdm .login_login {
-        height: 100%;
-        width: 60%;
-    }
-
-    #loginAdm .login_login h1 {
-        font-size: 50px;
-
-    }
-
-    #loginAdm .login_tree {
-        font-size: 22px;
-    }
-
-    #loginAdm .login_comandos{
-        max-width: 380px;
-        width: 100%;
-    }
-
-    #loginAdm .login_comandos h2{
-        font-size: 36px;
-    }
-
-    #loginAdm .login_comandos label{
-        font-size: 18px;
-    }
-
-    #loginAdm .login_comandos input{
-        height: 40px;
-        width: 100%;
-          min-width: 240px;
-    }
-
-    #loginAdm .login_comandos a {
-        font-size: 18px;
-    }
-    
-    #loginAdm .login_comandos button{
-        height: 35px;
-        width: 240px;
-        font-size: 18px;
-    }
-
+#login .esquecerSenha{
+    margin-top: 10px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    color: #fff;
+    text-decoration: none;
 }
 
-@media screen and (max-width: 1067px){
-    #loginAdm .login_login {
-        height: 100%;
-        /* width: 60%; */
-    }
-
-    #loginAdm .login_login h1 {
-        font-size: 46px;
-
-    }
-
-    #loginAdm .login_tree {
-        font-size: 18px;
-    }
-
-    #loginAdm .login_comandos{
-        max-width: 340px;
-        width: 100%;
-    }
-
-    #loginAdm .login_comandos h2{
-        font-size: 32px;
-    }
-
-    #loginAdm .login_comandos label{
-        font-size: 16px;
-    }
-
-    #loginAdm .login_comandos input{
-        height: 35px;
-        width: 100%;
-          min-width: 235px;
-    }
-
-    #loginAdm .login_comandos a {
-        font-size: 16px;
-    }
-    
-    #loginAdm .login_comandos button{
-        height: 35px;
-        width: 220px;
-        font-size: 18px;
-    }
+#login .esquecerSenha:hover{
+    text-decoration: underline;
 }
 
-@media screen and (max-width: 970px){
-   
-    #loginAdm .login_tree {
-        font-size: 17px;
-    }
+#login .registrar{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
 }
 
-@media screen and (max-width: 900px){
-   
-    #loginAdm .login_login h1 {
-        font-size: 45px;
-
-    }
-
-    #loginAdm .login_tree {
-        font-size: 16px;
-    }
-
-    #loginAdm .login_comandos{
-        max-width: 350px;
-        width: 100%;
-    }
-
-    #loginAdm .login_comandos h2{
-        font-size: 28px;
-    }
-
-    #loginAdm .login_comandos label{
-        font-size: 14px;
-    }
-
-    #loginAdm .login_comandos input{
-        height: 35px;
-        width: 100%;
-        min-width: 230px;
-    }
-
-    #loginAdm .login_comandos a {
-        font-size: 14px;
-    }
-    
-    #loginAdm .login_comandos input {
-        height: 35px;
-        width: 270px;
-    }
+#login .registrar p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
 }
 
-@media screen and (max-width: 899px){
-    #loginAdm .login_login h1 {
-        font-size: 40px;
-
-    }
-    #loginAdm .login_tree {
-        font-size: 15px;
-    }
-    #loginAdm .login_comandos{
-        max-width: 340px;
-        width: 100%
-    }
-   
-    #loginAdm .login_comandos input {
-        height: 35px;
-        width: 100%;
-        min-width: 220px;
-        font-size: 12px;
-    }
-    #loginAdm .login_comandos button{
-        height: 30px;
-        width: 200px;
-        font-size: 16px;
-    }
-
-
+#login .registrar p a:hover{
+    text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
-    #loginAdm {
-        width: 100%;
-        background-size: cover;
-        background-image: url(./assets/img/camron\ gelisia\ \ fashion\ brand\ art\ design\ logo\ 1.png);
-        background-repeat: no-repeat;
-
-    }
-
-    #loginAdm .login_login{
-        background-image: none;
-    }
-
-    #loginAdm .login_direcional{
-        width: 40%;
-        background-color: #f3f3f300;
-        backdrop-filter: blur(1px);
-
-    }
-
-    #loginAdm .login_comandos{
-        height: 500px;
-        max-width: 360px;
-        min-width: 300px;
-        width: 100%;
-        margin-right: 30px;
-        border-radius: 5px;
-    }
-
-    #loginAdm .login_comandos div h2{
-        width: 302px;
-        font-size: 14px;
-        text-align: none;
-    }
-    #loginAdm .login_comandos{
-
-    }
-    #loginAdm img {
-        height: 110px;
-        width: 150px;
-
-    }
-
-    #loginAdm .login_login h1{
-        font-size: 35px;
-    }
-
-
-
-}
-@media screen and (max-width: 767px){
-    #loginAdm  {
-        flex-direction: column;
-    }
-
-    #loginAdm .login_login{
-        height: 300px;
-        min-width: 300px;
-        max-width: 320px;
-    }
-
-    #loginAdm .login_tree{
-        display: none;
-    }
-    #loginAdm .login_comandos{
-        height: 420px;
-        max-width: 320px;
-        min-width: 300px;
-        width: 100%;
-        margin-left: 30px;
-    }
 
 
 
 
-}
+

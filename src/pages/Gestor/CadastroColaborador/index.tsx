@@ -63,7 +63,7 @@ function CadastroColaborador() {
           <div className="gestorPerfil_texto_imagem">
             <div className="centralizar">
               <div className="posicao_linha">
-                <form action="" method="POST" onSubmit={CadastrarColaborador}>
+                <form className="form_cadastroColaborador" action="" method="POST" onSubmit={CadastrarColaborador}>
                   <div className="primeira_linha">
                     <div className="input input1">
                       <label htmlFor="Nome completo">Nome Completo</label>
