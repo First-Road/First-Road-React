@@ -5,9 +5,17 @@
 
 }
 
+.razaoSocial_td{
+    width: 180px;
+}
+
+.unidade_td{
+    width: 180px;
+}
+
 
 #gestaoUnidade .adminGestaoUnidade {
-    width: 80%;
+    width: 100%;
     background-color: var(--grayscale-cor-3);
     display: flex;
     justify-content: center;
@@ -53,10 +61,6 @@
     flex-direction: column;
     gap: 40px;
 
-}
-
-.th_table2{
-    padding-left: 20px;
 }
 
 
@@ -189,12 +193,6 @@
 
 
 
-#gestaoUnidade td {
-    padding-left: 0px;
-
-
-
-}
 
 #gestaoUnidade table tr {
     height: 45px;
@@ -202,10 +200,6 @@
 
 #gestaoUnidade .cnpj_td{
     width: 160px; 
-}
-
-#gestaoUnidade .razaosocial_td {
-    width: 350px;
 }
 
 

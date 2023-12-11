@@ -15,6 +15,13 @@
     align-items: center;
 }
 
+.bloco1{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 #gestaoUO .adminGestaoUO_Secao {
     display: flex;
     justify-content: center;

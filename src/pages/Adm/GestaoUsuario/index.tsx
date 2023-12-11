@@ -10,28 +10,28 @@ import api from '../../../utils/api';
 function GestaoUsuario() {
 
     // Estado para armazenar a lista de usuários
-  const [usuarios, setUsuarios] = useState<any[]>([]);
+    const [usuarios, setUsuarios] = useState<any[]>([]);
 
-  // Efeito para carregar os usuários da API ao montar o componente
-  useEffect(() => {
-    listarUsuarios();
-  }, [])
-    
+    // Efeito para carregar os usuários da API ao montar o componente
+    useEffect(() => {
+        listarUsuarios();
+    }, [])
 
 
-  function listarUsuarios() {
-    api.get("usuarios")
-        .then((response: any) => {
-            setUsuarios(response.data);
-            console.log(response.data)
-        })
-        .catch((error: any) => {
-            console.log("Error ao realizar um requisição", error);
-        })   
+
+    function listarUsuarios() {
+        api.get("usuarios")
+            .then((response: any) => {
+                setUsuarios(response.data);
+                console.log(response.data)
+            })
+            .catch((error: any) => {
+                console.log("Error ao realizar um requisição", error);
+            })
     }
 
     return (
-        
+
         <main id='gestaoUsuario'>
             <AsideAdm />
             <div className="adminGestaoUsuario">
@@ -92,7 +92,7 @@ function GestaoUsuario() {
                                 </thead>
                                 <tbody id="corpo-tabela-usuario">
 
-                                <tr>
+
                                     {
                                         usuarios.map((usuario: any, indice: number) => {
                                             return <tr key={indice}>
@@ -101,12 +101,10 @@ function GestaoUsuario() {
                                                     nif={usuario.nif}
                                                     perfil={usuario.cargo.nome_cargo}
                                                     unidade={usuario.id_unidade.complemento}
-                                                />    
+                                                />
                                             </tr>
                                         })
                                     }
-                               
-                                </tr>
 
                                 </tbody>
                             </table>
