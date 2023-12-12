@@ -17,6 +17,26 @@ function GestaoUsuario() {
         listarUsuarios();
     }, [])
 
+    function deletarCadastro(idUsuario: string) {
+        api.delete(`usuarios/${idUsuario}`)
+          .then((response: any) => {
+            console.log(response);
+            
+            alert("Usuário excluído com sucesso!");
+            // Se necessário, você pode adicionar lógica para atualizar a lista de usuários após a exclusão.
+          })
+          .catch((error: any) => {
+            console.log(error);
+            alert("Falha ao excluir usuário");
+          });
+    }
+
+    function handleExcluirCadastro(idUsuario: string) {
+        if (window.confirm("Tem certeza que deseja excluir este usuário?")) {
+          deletarCadastro(idUsuario);
+        }
+    }
+
 
 
     function listarUsuarios() {
@@ -97,6 +117,7 @@ function GestaoUsuario() {
                                         usuarios.map((usuario: any, indice: number) => {
                                             return <tr key={indice}>
                                                 <ItemUsuario
+                                                    id={usuario.id}
                                                     nome={usuario.nome}
                                                     nif={usuario.nif}
                                                     perfil={usuario.cargo.nome_cargo}
