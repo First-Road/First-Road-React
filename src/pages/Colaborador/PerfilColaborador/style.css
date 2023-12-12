@@ -1,20 +1,19 @@
-
-.secao_perfil{
+.secao_perfil {
     background-color: var(--grayscale-cor-3);
     padding: 60px 30px;
     width: calc(100vw - 20vw);
     height: 100vh;
     background-color: #F3F3F3;
-}    
+}
 
 
-.elementos_texto_imagem{
+.elementos_texto_imagem {
     display: flex;
     gap: 50px;
 
 }
 
-.user_config{
+.user_config {
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -22,32 +21,32 @@
     position: relative;
 }
 
-.foto_padrao{
+.foto_padrao {
     width: 120px;
     height: 120px;
 }
 
-.config1{
+.config1 {
     position: absolute;
     right: -8px;
     bottom: 70px;
 }
 
-.texto_perfil{
+.texto_perfil {
     display: flex;
     flex-direction: column;
     width: 100%;
     gap: 20px;
-    
+
 }
 
-.texto_perfil .titulo_perfiliColaborador{
+.texto_perfil .titulo_perfiliColaborador {
     font-size: 35px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
 }
 
-.texto_perfil p{
+.texto_perfil p {
     font-size: 18px;
     font-family: var(--font-2);
     color: var(--principal-cor-3);
@@ -55,106 +54,109 @@
 
 }
 
-.primeira_linha{
+.primeira_linha {
     display: flex;
     gap: 10px;
-    
+
 }
 
-.centralizar{
+.centralizar {
     display: flex;
     flex-direction: column;
     gap: 40px;
     width: 580px;
 
-    
-    
-     
- 
-    
+
+
+
+
+
 }
 
-.posicao_linha{
+.posicao_linha {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 100%;
 }
 
-.segunda_linha{
+.segunda_linha {
     display: flex;
     gap: 10px;
 
 }
 
-.terceira_linha{
+.terceira_linha {
     display: flex;
     gap: 10px;
-    
+
 }
 
-.quarta_linha{
+.quarta_linha {
     display: flex;
     gap: 60px;
     align-items: center;
 }
 
-.input{
+.input {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
-    
-    
+
+
 }
 
-.input1{
+.input1 {
     flex: 2;
-    
+
 }
 
-.input2{
+.input2 {
     flex: 1;
 }
 
-.input3, .input4, .input5{
+.input3,
+.input4,
+.input5 {
     flex: 1;
 }
 
-.input6, .input7{
+.input6,
+.input7 {
     flex: 1;
 }
 
-.input8{
+.input8 {
     width: 70%;
 }
 
-.data{
+.data {
     font-size: 1px;
 }
 
-.input_caixa{
+.input_caixa {
     border-radius: 10px;
     height: 30px;
-    border: 2px solid var(--principal-cor-3) ;
+    border: 2px solid var(--principal-cor-3);
     background-color: var(--grayscale-cor-3);
 }
 
-.input label{
-    text-transform: uppercase ;
+.input label {
+    text-transform: uppercase;
     color: var(--principal-cor-3);
     font-size: 10px;
 }
 
-.button_salvar {
+.button_salvarColaborador {
     width: 30%;
     display: flex;
     align-items: center;
     padding-top: 12px;
-    
-    
+
+
 }
 
-.button_salvar button{
+.button_salvarColaborador button {
     width: 100%;
     display: flex;
     align-items: center;
@@ -167,15 +169,15 @@
     color: var(--grayscale-cor-3);
     border: none;
     box-shadow: 2px 3px 5px #888888;
-    
+
 }
 
-hr{
+hr {
     display: flex;
     flex-direction: column;
 }
 
-.posicionamento_alterar{
+.posicionamento_alterar {
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -183,49 +185,50 @@ hr{
     align-items: center;
     height: 384px;
     gap: 30px;
-    
+
 }
 
-.senha{
+.senha {
     display: flex;
     flex-direction: column;
     gap: 20px;
-   
+
 }
 
-.senha_antiga{
+.senha_antiga {
     display: flex;
     flex-direction: column;
 }
 
-.senha_nova{
+.senha_nova {
     display: flex;
     flex-direction: column;
-   
+
 }
 
-.texto_senha{
+.texto_senha {
     width: 150px;
     font-family: var(--font-2);
     font-size: 8px;
     color: #EE2333;
 }
 
-.input_senha, .input_senha2{
+.input_senha,
+.input_senha2 {
     width: 150px;
     border-radius: 10px;
     height: 30px;
-    border: 2px solid var(--principal-cor-3) ;
+    border: 2px solid var(--principal-cor-3);
     background-color: var(--grayscale-cor-3);
 }
 
-.senha label{
-    text-transform: uppercase ;
+.senha label {
+    text-transform: uppercase;
     color: var(--principal-cor-3);
     font-size: 10px;
 }
 
-.button_alterar button{
+.button_alterar button {
     width: 120px;
     display: flex;
     align-items: center;
@@ -238,67 +241,67 @@ hr{
     color: var(--grayscale-cor-3);
     border: none;
     box-shadow: 2px 3px 5px #888888;
-   
+
 
 }
 
-.button_alterar{
+.button_alterar {
     display: flex;
     margin-left: 20px;
-    
+
 
 }
 
-.elementos_carrousel{
+.elementos_carrousel {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
     gap: 20px;
     width: 970px;
-   
+
     align-items: center;
-    
-    
+
+
 }
 
-.carrousel_certificado{
+.carrousel_certificado {
     display: flex;
     gap: 15px;
     justify-content: flex-start;
-   
-  
+
+
 }
 
-.certificados img{
+.certificados img {
     width: 200px;
 }
 
-.carrousel_texto{
+.carrousel_texto {
     display: flex;
     flex-direction: column;
     width: 625px;
     gap: 5px;
-    
-  
-   
+
+
+
 }
 
-.carrousel_texto p{
+.carrousel_texto p {
     font-family: var(--font-2);
     font-size: 13px;
     color: var(--principal-cor-3);
 }
 
-.certificados{
+.certificados {
     display: flex;
     gap: 15px;
 }
 
-.flecha_esquerda{
+.flecha_esquerda {
     width: 49px;
 }
 
-button:hover{
+button:hover {
     background-color: var(--principal-cor-4);
     transition: 0.6ms;
     transform: scale(1.1);
@@ -308,65 +311,65 @@ button:hover{
 
 
 
- 
+
 
 @media screen and (max-width:768px) {
-    .imagem_volks img{
+    .imagem_volks img {
         width: 70px;
     }
 
-    .posicao_grupo1{
+    .posicao_grupo1 {
         height: 450px;
     }
 
-   
-    .moldura_config{
+
+    .moldura_config {
         width: 70px;
-       
-        
+
+
     }
 
-    .config{
+    .config {
         width: 20px;
     }
 
 
-    .menu_conteudo span{
+    .menu_conteudo span {
         font-size: 13px;
 
     }
 
-    .menu_barras{
+    .menu_barras {
         display: flex;
-        background-color:  var(--principal-cor-2);
+        background-color: var(--principal-cor-2);
         padding: 7px;
-        border-radius: 0 15px 15px 0 ;
+        border-radius: 0 15px 15px 0;
         position: absolute;
         top: 20px;
         right: -40px;
 
     }
 
-    .menu_barras img{
+    .menu_barras img {
         width: 30px;
         height: 30px;
     }
 
-    aside{
+    aside {
         position: absolute;
         width: 150px;
         z-index: 2;
     }
 
-    .posicionamento_elementos{
+    .posicionamento_elementos {
         width: 100%;
     }
 
-    body{
+    body {
         height: 100vh;
     }
 
-    #sombra{
+    #sombra {
         height: 100vh;
         width: 100vw;
         background-color: #0000004f;
@@ -377,6 +380,6 @@ button:hover{
         transition: .5s;
         backdrop-filter: blur(10px);
         z-index: 2;
-       
+
     }
 }

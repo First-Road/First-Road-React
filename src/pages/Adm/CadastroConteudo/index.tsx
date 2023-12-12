@@ -56,7 +56,7 @@ function CadastroConteudo() {
             </div>
           </div>
           <div className="conteudoCadastro">
-            <h2>Conteúdos Cadastrados</h2>
+            <h2 className='titulo_cadastrados'>Conteúdos Cadastrados</h2>
             <div className="conteudoPesquisa">
               <input className="pesquisa_input" type="text" />
               <svg

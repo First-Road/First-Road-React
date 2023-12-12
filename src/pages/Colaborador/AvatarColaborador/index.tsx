@@ -1,5 +1,11 @@
 import React from 'react'; // Importe o React
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 import Aside from '../../../components/aside'; // Certifique-se de fornecer o caminho correto para o componente Aside
 import './style.css';
 import Fusca from '../../../assets/img/fusca.png';
@@ -18,6 +24,7 @@ function AvatarColaborador() {
             Confira os modelos disponíveis e escolha seu parceiro de viagem!
           </p>
         </div>
+        
         <div className="alinhamento_swiper">
           <div className="swiper mySwiper">
             <div className="swiper-wrapper">

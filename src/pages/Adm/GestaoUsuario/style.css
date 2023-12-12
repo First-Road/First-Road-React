@@ -170,24 +170,17 @@
 
 
 #gestaoUsuario table th {
-    border-bottom: 3px solid red;
+    
     text-transform: capitalize;
     font-family: var(--font2);
     font-size: 20px;
     font-weight: normal;
-    border-color: var(--grayscale-cor-4);
-
-}
-
-#gestaoUsuario table td {
-    border: 1px solid var(--grayscale-cor-4);
-    border-collapse: collapse;
-
 
 
 }
 
-#gestaoUsuario .btn_cadastrar {
+
+/*#gestaoUsuario .btn_cadastrar {
     width: 200px;
     padding: 6px 25px;
     background-color: var(--principal-cor-3);
@@ -202,11 +195,9 @@
     border-radius: 8px;
 
 
-}
+}*/
 
-#gestaoUsuario .tr_one {
-    border-bottom: 1px solid var(--grayscale-cor-2);
-}
+
 
 
 #gestaoUsuario th {

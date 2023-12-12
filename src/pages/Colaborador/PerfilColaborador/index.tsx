@@ -72,7 +72,7 @@ function PerfilColaborador() {
                   <label htmlFor="email">E-mail</label>
                   <input className="input_caixa" type="email" />
                 </div>
-                <div className="button_salvar">
+                <div className="button_salvarColaborador">
                   <button>Salvar</button>
                 </div>
               </div>
